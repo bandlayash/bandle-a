@@ -1,0 +1,327 @@
+# One song per line:  Artist - Title
+# The artist name is what the on/off chips on the start screen use.
+# Add "| 2016" at the end to fix a release year Apple gets wrong.
+# After editing, run:  python3 build_songs.py
+
+Drake - God's Plan
+Drake - Hotline Bling
+Drake - One Dance
+Drake - In My Feelings
+Drake - Nice For What
+Drake - Started From the Bottom
+Drake - Hold On, We're Going Home
+Drake - Passionfruit
+Drake - Nonstop
+Drake - Toosie Slide
+Drake - Rich Flex
+Drake - Jimmy Cooks
+Drake - Best I Ever Had
+Drake - Take Care
+Drake - Headlines
+Drake - Controlla
+Drake - Laugh Now Cry Later
+Drake - Fake Love
+Drake - Money In the Grave
+Drake - Jumpman
+
+The Weeknd - Blinding Lights
+The Weeknd - Starboy
+The Weeknd - Can't Feel My Face
+The Weeknd - The Hills
+The Weeknd - Save Your Tears
+The Weeknd - Die For You
+The Weeknd - I Feel It Coming
+The Weeknd - Earned It
+The Weeknd - Call Out My Name
+The Weeknd - Often
+The Weeknd - In the Night
+The Weeknd - Heartless
+The Weeknd - After Hours
+The Weeknd - Out of Time
+The Weeknd - Sacrifice
+The Weeknd - Take My Breath
+The Weeknd - Reminder
+The Weeknd - Timeless
+The Weeknd - Popular
+The Weeknd - One of the Girls
+
+Taylor Swift - Love Story
+Taylor Swift - You Belong With Me
+Taylor Swift - Shake It Off
+Taylor Swift - Blank Space
+Taylor Swift - Bad Blood
+Taylor Swift - Style
+Taylor Swift - Wildest Dreams
+Taylor Swift - Anti-Hero
+Taylor Swift - Cruel Summer
+Taylor Swift - Lover
+Taylor Swift - cardigan
+Taylor Swift - willow
+Taylor Swift - august
+Taylor Swift - We Are Never Ever Getting Back Together
+Taylor Swift - I Knew You Were Trouble
+Taylor Swift - 22
+Taylor Swift - Look What You Made Me Do
+Taylor Swift - Delicate
+Taylor Swift - ...Ready For It?
+Taylor Swift - Karma
+Taylor Swift - Lavender Haze
+Taylor Swift - Fortnight
+Taylor Swift - The Fate of Ophelia
+
+Rihanna - Umbrella
+Rihanna - We Found Love
+Rihanna - Diamonds
+Rihanna - Work
+Rihanna - Only Girl (In the World)
+Rihanna - Don't Stop the Music
+Rihanna - S&M
+Rihanna - Rude Boy
+Rihanna - Disturbia
+Rihanna - Stay
+Rihanna - Needed Me
+Rihanna - Love On the Brain
+Rihanna - Pon de Replay
+Rihanna - SOS
+Rihanna - Where Have You Been
+Rihanna - Bitch Better Have My Money
+Rihanna - FourFiveSeconds
+Rihanna - Take a Bow
+Rihanna - Kiss It Better
+
+Bruno Mars - Just the Way You Are
+Bruno Mars - Grenade
+Bruno Mars - The Lazy Song
+Bruno Mars - Locked Out of Heaven
+Bruno Mars - When I Was Your Man
+Bruno Mars - Treasure
+Bruno Mars - 24K Magic
+Bruno Mars - That's What I Like
+Bruno Mars - Finesse
+Bruno Mars - Versace on the Floor
+Bruno Mars - Marry You
+Bruno Mars - Talking to the Moon
+Bruno Mars - Count on Me
+Bruno Mars - It Will Rain
+Bruno Mars - Uptown Funk
+Bruno Mars - Leave the Door Open
+Bruno Mars - APT.
+Bruno Mars - Runaway Baby
+Bruno Mars - Smokin Out the Window
+Bruno Mars - Please Me
+
+Lady Gaga - Just Dance
+Lady Gaga - Bad Romance
+Lady Gaga - Telephone
+Lady Gaga - Alejandro
+Lady Gaga - Born This Way
+Lady Gaga - The Edge of Glory
+Lady Gaga - Judas
+Lady Gaga - Applause
+Lady Gaga - Shallow
+Lady Gaga - Million Reasons
+Lady Gaga - Rain On Me
+Lady Gaga - Stupid Love
+Lady Gaga - Always Remember Us This Way
+Lady Gaga - Die With a Smile
+Lady Gaga - Abracadabra
+Lady Gaga - LoveGame
+Lady Gaga - You and I
+Lady Gaga - Bloody Mary
+
+Travis Scott - SICKO MODE
+Travis Scott - goosebumps
+Travis Scott - HIGHEST IN THE ROOM
+Travis Scott - Antidote
+Travis Scott - BUTTERFLY EFFECT
+Travis Scott - STARGAZING
+Travis Scott - FE!N
+Travis Scott - MY EYES
+Travis Scott - I KNOW ?
+Travis Scott - 90210
+Travis Scott - pick up the phone
+Travis Scott - YOSEMITE
+Travis Scott - CAN'T SAY
+Travis Scott - FRANCHISE
+Travis Scott - THE SCOTTS
+Travis Scott - ESCAPE PLAN
+Travis Scott - MELTDOWN
+Travis Scott - TELEKINESIS
+Travis Scott - K-POP
+Travis Scott - STOP TRYING TO BE GOD
+
+Calvin Harris - Feel So Close
+Calvin Harris - Summer
+Calvin Harris - This Is What You Came For
+Calvin Harris - How Deep Is Your Love
+Calvin Harris - One Kiss
+Calvin Harris - Sweet Nothing
+Calvin Harris - Blame
+Calvin Harris - Outside
+Calvin Harris - Promises
+Calvin Harris - Giant
+Calvin Harris - Thinking About You
+Calvin Harris - I Need Your Love
+Calvin Harris - Bounce
+Calvin Harris - Miracle
+Calvin Harris - Desire
+Calvin Harris - Acceptable in the 80s
+Calvin Harris - My Way
+Calvin Harris - Under Control
+
+Maroon 5 - This Love
+Maroon 5 - She Will Be Loved
+Maroon 5 - Sunday Morning
+Maroon 5 - Moves Like Jagger
+Maroon 5 - Payphone
+Maroon 5 - One More Night
+Maroon 5 - Sugar
+Maroon 5 - Maps
+Maroon 5 - Animals
+Maroon 5 - Girls Like You
+Maroon 5 - Memories
+Maroon 5 - Don't Wanna Know
+Maroon 5 - What Lovers Do
+Maroon 5 - Daylight
+Maroon 5 - Love Somebody
+Maroon 5 - Misery
+Maroon 5 - Wake Up Call
+Maroon 5 - Won't Go Home Without You
+
+Metro Boomin - Creepin'
+Metro Boomin - Superhero (Heroes & Villains)
+Metro Boomin - Trance
+Metro Boomin - Too Many Nights
+Metro Boomin - Niagara Falls (Foot or 2)
+Metro Boomin - Type Shit
+Metro Boomin - We Don't Trust You
+Metro Boomin - Young Metro
+Metro Boomin - Cinderella
+Metro Boomin - No Complaints
+Metro Boomin - Space Cadet
+Metro Boomin - Overdue
+Metro Boomin - Annihilate
+Metro Boomin - Am I Dreaming
+Metro Boomin - Calling
+Metro Boomin - Runnin
+Metro Boomin - Mr. Right Now
+Metro Boomin - Glock In My Lap
+Metro Boomin - Ric Flair Drip
+Metro Boomin - Around Me
+
+SZA - Kill Bill
+SZA - Snooze
+SZA - Good Days
+SZA - The Weekend
+SZA - Love Galore
+SZA - All the Stars
+SZA - Nobody Gets Me
+SZA - I Hate U
+SZA - Shirt
+SZA - Broken Clocks
+SZA - Saturn
+SZA - Low
+SZA - Blind
+SZA - Open Arms
+SZA - Drew Barrymore
+SZA - Kiss Me More
+SZA - Garden (Say It Like Dat)
+SZA - 30 For 30
+SZA - BMF
+
+Future - Life Is Good
+Future - Low Life
+Future - March Madness
+Future - WAIT FOR U
+Future - Like That
+Future - Where Ya At
+Future - Stick Talk
+Future - Honest
+Future - Thought It Was a Drought
+Future - Draco
+Future - Selfish
+Future - Used to This
+Future - PUFFIN ON ZOOTIEZ
+Future - 712PM
+Future - Crushed Up
+Future - Solitaires
+Future - Too Comfortable
+
+Juice WRLD - Lucid Dreams
+Juice WRLD - All Girls Are the Same
+Juice WRLD - Robbery
+Juice WRLD - Wishing Well
+Juice WRLD - Come & Go
+Juice WRLD - Bandit
+Juice WRLD - Legends
+Juice WRLD - Lean Wit Me
+Juice WRLD - Righteous
+Juice WRLD - Hate the Other Side
+Juice WRLD - Conversations
+Juice WRLD - Life's a Mess
+Juice WRLD - Smile
+Juice WRLD - Wasted
+Juice WRLD - Black & White
+Juice WRLD - Hear Me Calling
+Juice WRLD - Fast
+Juice WRLD - Empty
+Juice WRLD - Already Dead
+
+Gunna - pushin P
+Gunna - Drip Too Hard
+Gunna - SKYBOX
+Gunna - DOLLAZ ON MY HEAD
+Gunna - WUNNA
+Gunna - too easy
+Gunna - one of wun
+Gunna - HIM ALL ALONG
+Gunna - Baby Birkin
+Gunna - Speed It Up
+Gunna - Never Recover
+Gunna - bread & butter
+Gunna - rodeo dr
+Gunna - Prada Dem
+Gunna - Hot
+
+Don Toliver - No Idea
+Don Toliver - Lemonade | 2020
+Don Toliver - Private Landing
+Don Toliver - Bandit
+Don Toliver - Cardigan
+Don Toliver - What You Need
+Don Toliver - Drugs N Hella Melodies
+Don Toliver - Flocky Flocky
+Don Toliver - You
+Don Toliver - Way Bigger
+Don Toliver - 4 Me
+Don Toliver - Do It Right
+Don Toliver - Leave the Club
+Don Toliver - BROTHER STONE
+Don Toliver - TORE UP
+Don Toliver - ATTITUDE
+Don Toliver - NEW DROP
+Don Toliver - KRYPTONITE
+
+Lil Baby - Yes Indeed
+Lil Baby - Woah
+Lil Baby - Sum 2 Prove
+Lil Baby - The Bigger Picture
+Lil Baby - Emotionally Scarred
+Lil Baby - We Paid
+Lil Baby - Close Friends
+Lil Baby - Pure Cocaine
+Lil Baby - Life Goes On
+Lil Baby - Baby
+Lil Baby - On Me
+Lil Baby - Errbody
+Lil Baby - In A Minute
+Lil Baby - Heyy
+Lil Baby - California Breeze
+Lil Baby - Forever
+Lil Baby - Real As It Gets
+Lil Baby - Low Down
+Lil Baby - Do We Have A Problem?
+Lil Baby - Wants and Needs
+Lil Baby - Girls Want Girls
+Lil Baby - Every Chance I Get
+Lil Baby - Voice of the Heroes

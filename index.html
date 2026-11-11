@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unmix</title>
+<meta name="description" content="Name the song from as few layers as you can: drums first, then bass, instruments and vocals.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23131218'/%3E%3Crect x='6' y='14' width='4' height='10' rx='1' fill='%23f2b441'/%3E%3Crect x='12' y='8' width='4' height='16' rx='1' fill='%23ef6f5e'/%3E%3Crect x='18' y='11' width='4' height='13' rx='1' fill='%234fc3b0'/%3E%3Crect x='24' y='17' width='3' height='7' rx='1' fill='%23a78bfa'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #131218; --panel: #1c1b23; --line: #2c2a36; --text: #f1eee8; --dim: #8f8b9c;
+    --drums: #f2b441; --bass: #ef6f5e; --other: #4fc3b0; --vocals: #a78bfa;
+    --good: #6fd08c; --bad: #ef6f5e;
+    --mono: ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; background: var(--bg); color: var(--text);
+    font: 16px/1.45 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 20px 16px 48px; }
+  header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 20px; }
+  h1 { margin: 0; font-size: 22px; letter-spacing: -0.02em; font-weight: 700; }
+  h1 button { font-weight: inherit; letter-spacing: inherit; padding: 0; }
+  .hud { font: 13px var(--mono); color: var(--dim); display: flex; gap: 16px; }
+  .hud b { color: var(--text); font-weight: 600; }
+  [hidden] { display: none !important; }
+  button { font: inherit; color: inherit; cursor: pointer; border: 0; background: none; }
+  button:disabled { opacity: .4; cursor: default; }
+  button:focus-visible, input:focus-visible { outline: 2px solid var(--other); outline-offset: 2px; }
+  .btn {
+    padding: 11px 16px; border-radius: 10px; background: var(--panel);
+    border: 1px solid var(--line); font-weight: 600; font-size: 14px; white-space: nowrap;
+  }
+  .btn:hover:not(:disabled) { border-color: #45425a; }
+  .btn.primary { background: var(--text); color: var(--bg); border-color: var(--text); }
+  .btn small { font: 12px var(--mono); opacity: .65; margin-left: 6px; font-weight: 400; }
+
+  /* start */
+  .lede { font-size: 18px; margin: 28px 0; max-width: 30em; text-wrap: balance; }
+  .opt h2 { font: 12px var(--mono); color: var(--dim); text-transform: uppercase; letter-spacing: .08em; margin: 20px 0 10px; display: flex; gap: 12px; align-items: baseline; }
+  .opt h2 button { font: inherit; text-transform: none; letter-spacing: 0; text-decoration: underline; text-underline-offset: 3px; padding: 0; }
+  .opt h2 button:first-of-type { margin-left: auto; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); font-size: 14px; color: var(--dim); }
+  .chip small { font: 11px var(--mono); margin-left: 6px; opacity: .6; }
+  .chip[aria-pressed="true"] { background: var(--text); border-color: var(--text); color: var(--bg); }
+  .chip[aria-pressed="false"] { text-decoration: line-through; }
+  .chip[aria-pressed="false"] small { display: none; }
+  .startrow { display: flex; align-items: center; gap: 14px; margin-top: 28px; flex-wrap: wrap; }
+  .status { font: 12px var(--mono); color: var(--dim); }
+
+  /* in-game list of the artists in play; click one to browse their songs */
+  .wrap.wide { max-width: 880px; }
+  #game { display: grid; grid-template-columns: minmax(0, 1fr) 170px; gap: 28px; align-items: start; }
+  #roster h2 { font: 12px var(--mono); color: var(--dim); text-transform: uppercase; letter-spacing: .08em; margin: 0 0 8px; font-weight: 400; }
+  #roster ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+  #roster button { font-size: 14px; color: var(--dim); padding: 3px 0; text-align: left; }
+  #roster button:hover { color: var(--text); }
+  @media (max-width: 700px) {
+    #game { grid-template-columns: minmax(0, 1fr); }
+    #roster ul { flex-direction: row; flex-wrap: wrap; gap: 0 14px; }
+  }
+
+  /* stage */
+  #stage { position: relative; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  .lane { display: flex; align-items: stretch; height: 62px; border-top: 1px solid var(--line); }
+  .lane:first-child { border-top: 0; }
+  .tag {
+    width: 108px; flex: none; text-align: left; padding: 0 12px; font-size: 13px; font-weight: 600;
+    border-right: 1px solid var(--line); display: flex; flex-direction: column; justify-content: center; gap: 1px;
+  }
+  .tag i { font: normal 11px var(--mono); color: var(--dim); }
+  .lane .wave { flex: 1; min-width: 0; position: relative; }
+  .lane canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .lane[data-state="locked"] .tag { color: var(--dim); }
+  .lane[data-state="locked"] .wave {
+    background: repeating-linear-gradient(-45deg, transparent 0 7px, rgba(255,255,255,.025) 7px 14px);
+  }
+  .lane[data-state="on"] .tag { color: var(--c); }
+  .lane[data-state="muted"] .tag { color: var(--dim); text-decoration: line-through; }
+  #scrub { position: absolute; left: 108px; right: 0; top: 0; bottom: 0; cursor: pointer; }
+  #playhead { position: absolute; top: 0; bottom: 0; width: 2px; margin-left: -1px; background: var(--text); left: 0; pointer-events: none; }
+  #busy {
+    position: absolute; inset: 0; background: rgba(28,27,35,.94); display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 12px; text-align: center; padding: 16px;
+  }
+  .bars { display: flex; gap: 4px; align-items: flex-end; height: 26px; }
+  .bars span { width: 5px; border-radius: 2px; animation: bounce 1s ease-in-out infinite; }
+  .bars span:nth-child(1) { background: var(--drums); }
+  .bars span:nth-child(2) { background: var(--bass); animation-delay: .15s; }
+  .bars span:nth-child(3) { background: var(--other); animation-delay: .3s; }
+  .bars span:nth-child(4) { background: var(--vocals); animation-delay: .45s; }
+  @keyframes bounce { 0%, 100% { height: 6px; } 50% { height: 26px; } }
+  @media (prefers-reduced-motion: reduce) { .bars span { animation: none; height: 14px; } }
+
+  .transport { display: flex; align-items: center; gap: 10px; margin: 14px 0; }
+  #playBtn { width: 92px; }
+  .worth { margin-left: auto; text-align: right; font: 12px var(--mono); color: var(--dim); line-height: 1.3; white-space: nowrap; }
+  .worth b { display: block; font-size: 20px; color: var(--text); font-weight: 600; }
+  @media (max-width: 480px) {
+    .btn { padding: 11px 12px; }
+    .btn small { display: none; }
+    #playBtn { width: 72px; }
+  }
+
+  .guessrow { display: flex; gap: 10px; }
+  .field { position: relative; flex: 1; min-width: 0; }
+  #guess {
+    width: 100%; padding: 12px 14px; border-radius: 10px; border: 1px solid var(--line);
+    background: var(--panel); color: var(--text); font: inherit;
+  }
+  #guess::placeholder { color: var(--dim); }
+  #suggest {
+    position: absolute; z-index: 5; left: 0; right: 0; top: calc(100% + 6px); margin: 0; padding: 4px; list-style: none;
+    background: #24222d; border: 1px solid var(--line); border-radius: 10px; max-height: 300px; overflow: auto;
+    box-shadow: 0 12px 32px rgba(0,0,0,.5);
+  }
+  #suggest li { padding: 8px 10px; border-radius: 7px; cursor: pointer; font-size: 14px; }
+  #suggest li span { color: var(--dim); }
+  #suggest li[aria-selected="true"] { background: #34313f; }
+  #wrong { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  #wrong span { font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); color: var(--dim); }
+  #wrong span b { color: var(--bad); font: 12px var(--mono); margin-left: 6px; }
+  #wrong span.close { border-color: var(--drums); color: var(--drums); }
+
+  #reveal { display: flex; gap: 16px; align-items: center; margin-top: 4px; }
+  #reveal img { width: 96px; height: 96px; border-radius: 10px; background: var(--panel); flex: none; object-fit: cover; }
+  #reveal .meta { flex: 1; min-width: 0; }
+  #reveal .verdict { font: 12px var(--mono); text-transform: uppercase; letter-spacing: .08em; }
+  #reveal .verdict.won { color: var(--good); } #reveal .verdict.lost { color: var(--bad); }
+  #reveal h2 { margin: 2px 0 0; font-size: 20px; letter-spacing: -0.01em; }
+  #reveal p { margin: 0; color: var(--dim); font-size: 14px; }
+  #reveal a { color: var(--dim); font-size: 13px; }
+  .after { display: flex; justify-content: flex-end; margin-top: 16px; }
+
+  /* summary */
+  .total { font: 600 56px/1 var(--mono); letter-spacing: -0.03em; margin: 28px 0 4px; }
+  .total small { font-size: 18px; color: var(--dim); font-weight: 400; }
+  .rank { font-size: 18px; margin: 0 0 24px; }
+  #results { list-style: none; margin: 0 0 24px; padding: 0; border-top: 1px solid var(--line); }
+  #results li { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+  #results li span { color: var(--dim); }
+  #results li b { font: 14px var(--mono); font-weight: 600; flex: none; }
+  .error { color: var(--bad); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1><button id="home" title="Back to options">Unmix</button></h1>
+    <div class="hud" id="hud" hidden><span id="hudSong"></span><span><b id="hudScore">0</b> pts</span></div>
+  </header>
+
+  <section id="start">
+    <p class="lede">Name the song from as few layers as you can. Drums first, then bass, instruments and vocals.</p>
+    <div class="opt">
+      <h2>Artists <button id="allBtn">all</button><button id="noneBtn">none</button></h2>
+      <div class="chips" id="artists"></div>
+    </div>
+    <div class="startrow">
+      <button class="btn primary" id="startBtn">Start run</button>
+      <span class="status" id="poolNote"></span>
+    </div>
+    <p class="status" id="engineNote"></p>
+    <p class="status" id="gpuNote" hidden>This browser has no WebGPU, so splitting each song will be slow. A current Chrome, Edge or Safari works best.</p>
+  </section>
+
+  <section id="game" hidden>
+   <div class="board">
+    <div id="stage">
+      <div id="lanes"></div>
+      <div id="scrub"><div id="playhead"></div></div>
+      <div id="busy"><div class="bars"><span></span><span></span><span></span><span></span></div><div class="status" id="busyText"></div></div>
+    </div>
+
+    <div class="transport">
+      <button class="btn primary" id="playBtn">Play</button>
+      <button class="btn" id="addBtn"></button>
+      <div class="worth"><b id="worth">10,000</b>points left</div>
+    </div>
+
+    <div id="guessing">
+      <div class="guessrow">
+        <div class="field">
+          <input id="guess" type="text" placeholder="Song or artist…" autocomplete="off" spellcheck="false" aria-label="Your guess">
+          <ul id="suggest" hidden></ul>
+        </div>
+        <button class="btn" id="skipBtn">Give up</button>
+      </div>
+      <div id="wrong"></div>
+    </div>
+
+    <div id="answer" hidden>
+      <div id="reveal">
+        <img id="art" alt="">
+        <div class="meta">
+          <div class="verdict" id="verdict"></div>
+          <h2 id="ansTitle"></h2>
+          <p id="ansArtist"></p>
+          <a id="ansLink" target="_blank" rel="noopener">Listen on Apple Music ↗</a>
+        </div>
+      </div>
+      <div class="after"><button class="btn primary" id="nextBtn">Next song</button></div>
+    </div>
+   </div>
+   <aside id="roster">
+     <h2>Artists in this run</h2>
+     <ul id="rosterList"></ul>
+   </aside>
+  </section>
+
+  <section id="summary" hidden>
+    <div class="total"><span id="total"></span> <small>/ <span id="totalMax"></span></small></div>
+    <p class="rank" id="rank"></p>
+    <ul id="results"></ul>
+    <div class="startrow">
+      <button class="btn primary" id="againBtn">Play another run</button>
+      <button class="btn" id="optionsBtn">Change options</button>
+      <span class="status" id="bestNote"></span>
+    </div>
+  </section>
+</div>
+
+<script src="songs.js"></script>
+<script type="module">
+const ORT_DIST = 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.22.0/dist/';
+const DEMUCS_URL = 'https://cdn.jsdelivr.net/npm/demucs-web@1.0.2/src/index.js';
+const SONGS = window.SONGS || [];
+const PARTS = [
+  { key: 'drums', label: 'Drums' }, { key: 'bass', label: 'Bass' },
+  { key: 'other', label: 'Instruments' }, { key: 'vocals', label: 'Vocals' },
+];
+const RUN_LENGTH = 5, START_WORTH = 10000, PART_COST = 2000, WRONG_COST = 500;
+const RANKS = [[45000, 'Perfect pitch'], [35000, 'Session pro'], [25000, 'Crate digger'],
+               [15000, 'Radio listener'], [1, 'Needs the lyric sheet'], [0, 'Heard nothing']];
+
+const $ = id => document.getElementById(id);
+const fmt = n => n.toLocaleString('en-US');
+const norm = s => s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9 ]/g, '');
+const store = {
+  get(k, d) { try { return JSON.parse(localStorage.getItem('unmix.' + k)) ?? d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem('unmix.' + k, JSON.stringify(v)); } catch {} },
+};
+
+/* ---------- status line (start screen + loading overlay) ---------- */
+function setStatus(text, isError = false) {
+  for (const el of [$('engineNote'), $('busyText')]) { el.textContent = text; el.classList.toggle('error', isError); }
+}
+
+/* ---------- separation engine: Demucs via onnxruntime-web ---------- */
+let ctx, enginePromise, onSegment = null;
+const audio = () => ctx ??= new AudioContext({ sampleRate: 44100 });
+const engine = () => enginePromise ??= loadEngine().catch(e => { enginePromise = null; throw e; });
+
+async function loadEngine() {
+  setStatus('Loading audio engine…');
+  const [ort, demucs] = await Promise.all([import(ORT_DIST + 'ort.webgpu.min.mjs'), import(DEMUCS_URL)]);
+  ort.env.wasm.wasmPaths = ORT_DIST;
+  const model = await fetchModel(demucs.CONSTANTS.DEFAULT_MODEL_URL);
+  setStatus('Starting separation model…');
+  const proc = new demucs.DemucsProcessor({ ort, onProgress: p => onSegment?.(p) });
+  await proc.loadModel(model);
+  setStatus('Ready.');
+  return proc;
+}
+
+async function fetchModel(url) {
+  let cache = null;
+  try {
+    cache = await caches.open('unmix-model');
+    const hit = await cache.match(url);
+    if (hit) return await hit.arrayBuffer();
+  } catch {}
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`Model download failed (${res.status})`);
+  const total = +res.headers.get('Content-Length') || 180_500_000;
+  const reader = res.body.getReader(), chunks = [];
+  for (let got = 0;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    chunks.push(value); got += value.length;
+    setStatus(`Downloading separation model (one time, ${Math.round(total / 1e6)} MB) · ${Math.min(99, Math.round(got / total * 100))}%`);
+  }
+  const blob = new Blob(chunks);
+  try { await cache?.put(url, new Response(blob)); } catch {}
+  return blob.arrayBuffer();
+}
+
+async function fetchPreview(song) {
+  let res = await fetch(song.preview).catch(() => null);
+  if (!res?.ok) {  // stored link went stale: ask Apple for the current one
+    const info = await (await fetch(`https://itunes.apple.com/lookup?id=${song.id}`)).json();
+    const fresh = info.results?.[0]?.previewUrl;
+    if (!fresh) throw new Error(`No preview for ${song.title}`);
+    res = await fetch(fresh);
+    if (!res.ok) throw new Error(`Preview failed for ${song.title}`);
+  }
+  return res.arrayBuffer();
+}
+
+/* Fetch a song's 30s preview and split it into four AudioBuffers. */
+async function prepare(song, proc) {
+  setStatus('Fetching clip…');
+  const clip = await audio().decodeAudioData(await fetchPreview(song));
+  const L = clip.getChannelData(0), R = clip.numberOfChannels > 1 ? clip.getChannelData(1) : L;
+  setStatus('Separating layers · 0%');
+  onSegment = p => setStatus(`Separating layers · ${Math.min(100, Math.round(p.progress * 100))}%`);
+  const out = await proc.separate(L, R);
+  onSegment = null;
+
+  const rms = a => { let s = 0; for (let i = 0; i < a.length; i += 4) s += a[i] * a[i]; return Math.sqrt(s / (a.length / 4)); };
+  const mixLevel = rms(L);
+  const stems = PARTS.map(({ key }) => {
+    const { left, right } = out[key];
+    const buffer = ctx.createBuffer(2, left.length, 44100);
+    buffer.copyToChannel(left, 0); buffer.copyToChannel(right, 1);
+    const N = 400, step = Math.floor(left.length / N), peaks = new Float32Array(N);
+    for (let b = 0; b < N; b++) {
+      let m = 0;
+      for (let i = b * step, e = i + step; i < e; i += 8) { const v = Math.abs(left[i]); if (v > m) m = v; }
+      peaks[b] = m;
+    }
+    const level = rms(left);
+    return { buffer, peaks, audible: level > 0.002 && level > mixLevel * 0.04 };
+  });
+  if (!stems.some(s => s.audible)) stems.forEach(s => s.audible = true);
+  return { song, stems, duration: clip.duration };
+}
+
+/* ---------- player ---------- */
+const player = { nodes: [], gains: [], playing: false, startedAt: 0, offset: 0, track: null };
+
+function stopAudio() {
+  for (const n of player.nodes) { n.onended = null; try { n.stop(); } catch {} }
+  player.nodes = []; player.gains = []; player.playing = false;
+}
+function position() {
+  if (!player.track) return 0;
+  return player.playing ? Math.min(player.track.duration, player.offset + ctx.currentTime - player.startedAt) : player.offset;
+}
+function play(from = player.offset) {
+  if (!player.track) return;
+  stopAudio();
+  audio().resume();
+  if (from >= player.track.duration - 0.05) from = 0;
+  const when = ctx.currentTime + 0.03;
+  player.track.stems.forEach((stem, i) => {
+    const src = ctx.createBufferSource(), gain = ctx.createGain();
+    src.buffer = stem.buffer; gain.gain.value = audibleNow(i) ? 1 : 0;
+    src.connect(gain).connect(ctx.destination);
+    src.start(when, from);
+    player.nodes.push(src); player.gains.push(gain);
+  });
+  player.nodes[0].onended = () => { player.offset = 0; player.playing = false; renderTransport(); };
+  player.offset = from; player.startedAt = when; player.playing = true;
+  renderTransport(); tick();
+}
+function pause() { player.offset = position(); stopAudio(); renderTransport(); }
+function applyGains() {
+  player.gains.forEach((g, i) => g.gain.setTargetAtTime(audibleNow(i) ? 1 : 0, ctx.currentTime, 0.04));
+}
+function tick() {
+  if (player.track) $('playhead').style.left = (position() / player.track.duration * 100) + '%';
+  if (player.playing) requestAnimationFrame(tick);
+}
+
+/* ---------- game state ---------- */
+let run = null;    // { songs, idx, score, results, prep[] }
+let round = null;  // { track, open[], muted[], paid, wrong[], done }
+const audibleNow = i => !!round && round.open[i] && !round.muted[i];
+const worth = () => Math.max(0, START_WORTH - PART_COST * round.paid - WRONG_COST * round.wrong.length);
+const nextPart = () => round.track.stems.findIndex((s, i) => !round.open[i] && s.audible);
+
+const ARTISTS = [...new Set(SONGS.map(s => s.artist))];
+const off = new Set(store.get('off', []));  // artists switched off on the start screen
+const pool = () => SONGS.filter(s => !off.has(s.artist));
+function draw(count, exclude = []) {
+  const candidates = pool().filter(s => !exclude.includes(s));
+  let recent = store.get('recent', []);
+  let fresh = candidates.filter(s => !recent.includes(s.id));
+  if (fresh.length < count) fresh = candidates;
+  for (let i = fresh.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [fresh[i], fresh[j]] = [fresh[j], fresh[i]]; }
+  return fresh.slice(0, count);
+}
+
+function startRun() {
+  const songs = draw(RUN_LENGTH);
+  if (!songs.length) return;
+  audio().resume();
+  run = { songs, idx: 0, score: 0, results: [] };
+  // Split the songs one after another in the background so later ones are ready when you get there.
+  const mine = run;
+  let chain = Promise.resolve();
+  run.prep = songs.map((_, i) => chain = chain.catch(() => {}).then(() => mine === run ? prepareSlot(mine, i) : null));
+  run.prep.forEach(p => p.catch(() => {}));
+  show('game'); $('hud').hidden = false;
+  renderRoster(); loadSong();
+}
+
+async function prepareSlot(r, i) {
+  const proc = await engine();
+  for (let attempt = 0; ; attempt++) {
+    try { return await prepare(r.songs[i], proc); }
+    catch (err) {
+      console.warn(err);
+      const [swap] = draw(1, r.songs);
+      if (attempt >= 3 || !swap) throw err;
+      r.songs[i] = swap;
+    }
+  }
+}
+
+async function loadSong() {
+  const mine = run;
+  stopAudio(); player.track = null; round = null;
+  $('busy').hidden = false; $('answer').hidden = true; $('guessing').hidden = false;
+  if (run.idx > 0) setStatus('Getting the next song ready…');
+  renderHud(); renderLanes(); renderTransport(); renderWrong();
+  let track;
+  try { track = await run.prep[run.idx]; }
+  catch (err) { if (mine === run) setStatus(`Couldn't load a song: ${err.message}. Check your connection and reload.`, true); return; }
+  if (mine !== run || !track) return;
+  round = { track, open: [false, false, false, false], muted: [false, false, false, false], paid: 0, wrong: [], done: false };
+  openNext(true);
+  player.track = track; player.offset = 0;
+  $('busy').hidden = true;
+  renderLanes(); renderTransport();
+  $('guess').value = ''; $('guess').focus();
+  play(0);
+}
+
+/* Open the next audible part (and any silent ones before it, for free). */
+function openNext(free) {
+  const i = nextPart();
+  for (let j = 0; j <= (i < 0 ? 3 : i); j++) round.open[j] = true;
+  if (!free && i >= 0) round.paid++;
+  if (nextPart() < 0) round.open.fill(true);
+}
+
+function addPart() {
+  if (!round || round.done || nextPart() < 0) return;
+  openNext(false);
+  applyGains(); renderLanes(); renderTransport();
+  if (!player.playing) play(0);
+}
+
+function guess(song) {
+  if (!round || round.done) return;
+  if (song.id === round.track.song.id) return finish(true);
+  if (!round.wrong.includes(song)) round.wrong.push(song);
+  renderWrong(); renderTransport();
+}
+
+function finish(won) {
+  const earned = won ? worth() : 0;
+  round.done = true; round.open.fill(true);
+  run.score += earned;
+  run.results.push({ song: round.track.song, earned, won });
+  store.set('recent', [...store.get('recent', []), round.track.song.id].slice(-Math.floor(SONGS.length * 0.6)));
+
+  const s = round.track.song;
+  $('verdict').textContent = won ? `Got it · +${fmt(earned)}` : 'Gave up · +0';
+  $('verdict').className = 'verdict ' + (won ? 'won' : 'lost');
+  $('ansTitle').textContent = s.title;
+  $('ansArtist').textContent = `${s.credit || s.artist} · ${s.year}`;
+  $('art').src = s.art || '';
+  $('ansLink').href = s.url; $('ansLink').hidden = !s.url;
+  $('nextBtn').textContent = run.idx + 1 < run.songs.length ? 'Next song' : 'See results';
+  $('guessing').hidden = true; $('answer').hidden = false; closeSuggest();
+  applyGains(); renderHud(); renderLanes(); renderTransport();
+  if (!player.playing) play();
+  $('nextBtn').focus();
+}
+
+function next() {
+  stopAudio();
+  run.prep[run.idx] = null;  // let the finished song's audio be freed
+  run.idx++;
+  if (run.idx < run.songs.length) return loadSong();
+  const max = run.songs.length * START_WORTH, best = Math.max(store.get('best', 0), run.score);
+  store.set('best', best);
+  $('total').textContent = fmt(run.score); $('totalMax').textContent = fmt(max);
+  $('rank').textContent = RANKS.find(([min]) => run.score >= min)[1];
+  $('results').replaceChildren(...run.results.map(r => {
+    const li = document.createElement('li'), name = document.createElement('div'), pts = document.createElement('b');
+    name.append(r.song.title + ' ', Object.assign(document.createElement('span'), { textContent: r.song.artist }));
+    pts.textContent = fmt(r.earned);
+    li.append(name, pts); return li;
+  }));
+  $('bestNote').textContent = `Best run: ${fmt(best)}`;
+  player.track = null; round = null; $('hud').hidden = true;
+  show('summary');
+}
+
+/* ---------- rendering ---------- */
+function show(id) {
+  for (const s of ['start', 'game', 'summary']) $(s).hidden = s !== id;
+  document.querySelector('.wrap').classList.toggle('wide', id === 'game');
+}
+function renderRoster() {
+  $('rosterList').replaceChildren(...ARTISTS.filter(a => !off.has(a)).map(name => {
+    const li = document.createElement('li'), b = document.createElement('button');
+    b.textContent = name; b.title = `Show ${name} songs`;
+    b.onclick = () => { $('guess').value = name; $('guess').focus(); updateSuggest(); };
+    li.append(b); return li;
+  }));
+}
+function renderHud() {
+  $('hudSong').textContent = `Song ${Math.min(run.idx + 1, run.songs.length)}/${run.songs.length}`;
+  $('hudScore').textContent = fmt(run.score);
+}
+function renderTransport() {
+  const ready = !!round;
+  $('playBtn').textContent = player.playing ? 'Pause' : 'Play';
+  $('playBtn').disabled = !ready;
+  const i = ready && !round.done ? nextPart() : -1;
+  $('addBtn').hidden = i < 0;
+  if (i >= 0) $('addBtn').innerHTML = `Add ${PARTS[i].label.toLowerCase()} <small>−${fmt(PART_COST)}</small>`;
+  document.querySelector('.worth').hidden = !ready || round.done;
+  if (ready) $('worth').textContent = fmt(worth());
+}
+function renderWrong() {
+  $('wrong').replaceChildren(...(round?.wrong ?? []).map(s => {
+    const el = document.createElement('span');
+    const sameArtist = s.artist === round.track.song.artist;
+    el.textContent = sameArtist ? `${s.title} · right artist` : s.title;
+    if (sameArtist) el.className = 'close';
+    el.append(Object.assign(document.createElement('b'), { textContent: `−${WRONG_COST}` }));
+    return el;
+  }));
+}
+function renderLanes() {
+  const lanes = $('lanes');
+  if (!lanes.children.length) {
+    PARTS.forEach((p, i) => {
+      const lane = document.createElement('div');
+      lane.className = 'lane'; lane.style.setProperty('--c', `var(--${p.key})`);
+      lane.innerHTML = `<button class="tag"></button><div class="wave"><canvas></canvas></div>`;
+      lane.firstChild.onclick = () => toggleMute(i);
+      lanes.append(lane);
+    });
+  }
+  const top = round ? Math.max(...round.track.stems.flatMap(s => [...s.peaks]), 0.01) : 1;
+  PARTS.forEach((p, i) => {
+    const lane = lanes.children[i], stem = round?.track.stems[i];
+    const open = !!round?.open[i];
+    const state = !open ? 'locked' : !stem.audible ? 'silent' : round.muted[i] ? 'muted' : 'on';
+    lane.dataset.state = state;
+    const tag = lane.firstChild;
+    tag.disabled = state === 'locked' || state === 'silent';
+    tag.innerHTML = `${p.label}<i>${{ locked: 'locked', silent: 'silent here', muted: 'muted', on: 'on' }[state]}</i>`;
+    tag.title = tag.disabled ? '' : 'Click to mute / unmute';
+
+    const canvas = lane.querySelector('canvas'), dpr = devicePixelRatio || 1;
+    const w = canvas.clientWidth * dpr, h = canvas.clientHeight * dpr;
+    canvas.width = w; canvas.height = h;
+    const g = canvas.getContext('2d');
+    if (!open || !w) return;
+    g.fillStyle = getComputedStyle(lane).getPropertyValue('--c');
+    g.globalAlpha = state === 'on' ? 1 : 0.25;
+    const bar = 3 * dpr, n = Math.floor(w / bar);
+    for (let x = 0; x < n; x++) {
+      const v = Math.sqrt(stem.peaks[Math.floor(x / n * stem.peaks.length)] / top);
+      const bh = Math.max(dpr, v * h * 0.86);
+      g.fillRect(x * bar, (h - bh) / 2, bar - dpr, bh);
+    }
+  });
+}
+function toggleMute(i) {
+  if (!round?.open[i]) return;
+  round.muted[i] = !round.muted[i];
+  applyGains(); renderLanes();
+}
+
+/* ---------- guess box ---------- */
+let matches = [], cursor = 0;
+function closeSuggest() { $('suggest').hidden = true; matches = []; }
+function updateSuggest() {
+  const words = norm($('guess').value).split(' ').filter(Boolean);
+  if (!words.length) return closeSuggest();
+  matches = SONGS.filter(s => words.every(w => s.hay.includes(w))).slice(0, 40);
+  cursor = 0;
+  $('suggest').hidden = !matches.length;
+  $('suggest').replaceChildren(...matches.map((s, i) => {
+    const li = document.createElement('li');
+    li.setAttribute('aria-selected', i === cursor);
+    li.append(s.title + ' ', Object.assign(document.createElement('span'), { textContent: s.artist }));
+    li.onmousedown = e => { e.preventDefault(); choose(s); };
+    return li;
+  }));
+}
+function choose(song) { $('guess').value = ''; closeSuggest(); guess(song); }
+$('guess').addEventListener('input', updateSuggest);
+$('guess').addEventListener('blur', closeSuggest);
+$('guess').addEventListener('keydown', e => {
+  if (e.key === 'Escape') return closeSuggest();
+  if (!matches.length) return;
+  if (e.key === 'Enter') { e.preventDefault(); return choose(matches[cursor]); }
+  if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+  e.preventDefault();
+  cursor = (cursor + (e.key === 'ArrowDown' ? 1 : -1) + matches.length) % matches.length;
+  [...$('suggest').children].forEach((li, i) => li.setAttribute('aria-selected', i === cursor));
+});
+
+/* ---------- wiring ---------- */
+function renderArtists() {
+  $('artists').replaceChildren(...ARTISTS.map(name => {
+    const b = document.createElement('button');
+    b.className = 'chip'; b.setAttribute('aria-pressed', !off.has(name));
+    b.append(name, Object.assign(document.createElement('small'), { textContent: SONGS.filter(s => s.artist === name).length }));
+    b.onclick = () => { off.has(name) ? off.delete(name) : off.add(name); renderArtists(); };
+    return b;
+  }));
+  store.set('off', [...off]);
+  const n = pool().length;
+  $('poolNote').textContent = n ? `${n} song${n === 1 ? '' : 's'} in the pool` : 'Pick at least one artist';
+  $('startBtn').disabled = !n;
+}
+$('allBtn').onclick = () => { off.clear(); renderArtists(); };
+$('noneBtn').onclick = () => { ARTISTS.forEach(a => off.add(a)); renderArtists(); };
+
+SONGS.forEach(s => s.hay = norm(`${s.title} ${s.credit || s.artist}`));
+renderArtists();
+
+$('startBtn').onclick = $('againBtn').onclick = startRun;
+$('optionsBtn').onclick = $('home').onclick = () => {  // back to the options, abandoning any run in progress
+  stopAudio(); run = round = player.track = null;
+  $('hud').hidden = true; setStatus(''); show('start');
+};
+$('playBtn').onclick = () => player.playing ? pause() : play();
+$('addBtn').onclick = addPart;
+$('skipBtn').onclick = () => round && !round.done && finish(false);
+$('nextBtn').onclick = next;
+$('scrub').onclick = e => {
+  if (!player.track) return;
+  const box = $('scrub').getBoundingClientRect();
+  play((e.clientX - box.left) / box.width * player.track.duration);
+};
+addEventListener('keydown', e => {
+  if (e.code === 'Space' && !/INPUT|BUTTON/.test(e.target.tagName) && round) { e.preventDefault(); player.playing ? pause() : play(); }
+});
+addEventListener('resize', () => round && renderLanes());
+
+$('gpuNote').hidden = !!navigator.gpu;
+if (!SONGS.length) setStatus('songs.js is missing or empty — run: python3 build_songs.py', true);
+else engine().catch(err => setStatus(`Couldn't load the separation model: ${err.message}`, true));  // warm up while you pick options
+</script>
+</body>
+</html>
