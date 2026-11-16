@@ -223,7 +223,7 @@
   </section>
 </div>
 
-<script src="songs.js"></script>
+<script src="songs.js?v=b514b21d"></script>
 <script type="module">
 const ORT_DIST = 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.22.0/dist/';
 const DEMUCS_URL = 'https://cdn.jsdelivr.net/npm/demucs-web@1.0.2/src/index.js';
@@ -375,7 +375,10 @@ const nextPart = () => round.track.stems.findIndex((s, i) => !round.open[i] && s
 
 const ARTISTS = [...new Set(SONGS.map(s => s.artist))];
 const off = new Set(store.get('off', []));  // artists switched off on the start screen
-const pool = () => SONGS.filter(s => !off.has(s.artist));
+// Everyone a song credits, features included, so picking an artist also brings in songs they're featured on.
+const who = s => s.who ??= new Set([s.artist, ...(s.artists || [])].map(norm));
+const has = (s, name) => who(s).has(norm(name));
+const pool = () => SONGS.filter(s => ARTISTS.some(a => !off.has(a) && has(s, a)));
 function draw(count, exclude = []) {
   const candidates = pool().filter(s => !exclude.includes(s));
   let recent = store.get('recent', []);
@@ -524,7 +527,7 @@ function renderTransport() {
 function renderWrong() {
   $('wrong').replaceChildren(...(round?.wrong ?? []).map(s => {
     const el = document.createElement('span');
-    const sameArtist = s.artist === round.track.song.artist;
+    const sameArtist = [...who(s)].some(n => who(round.track.song).has(n));
     el.textContent = sameArtist ? `${s.title} · right artist` : s.title;
     if (sameArtist) el.className = 'close';
     el.append(Object.assign(document.createElement('b'), { textContent: `−${WRONG_COST}` }));
@@ -586,7 +589,7 @@ function updateSuggest() {
   $('suggest').replaceChildren(...matches.map((s, i) => {
     const li = document.createElement('li');
     li.setAttribute('aria-selected', i === cursor);
-    li.append(s.title + ' ', Object.assign(document.createElement('span'), { textContent: s.artist }));
+    li.append(s.title + ' ', Object.assign(document.createElement('span'), { textContent: s.credit || s.artist }));
     li.onmousedown = e => { e.preventDefault(); choose(s); };
     return li;
   }));
@@ -609,7 +612,7 @@ function renderArtists() {
   $('artists').replaceChildren(...ARTISTS.map(name => {
     const b = document.createElement('button');
     b.className = 'chip'; b.setAttribute('aria-pressed', !off.has(name));
-    b.append(name, Object.assign(document.createElement('small'), { textContent: SONGS.filter(s => s.artist === name).length }));
+    b.append(name, Object.assign(document.createElement('small'), { textContent: SONGS.filter(s => has(s, name)).length }));
     b.onclick = () => { off.has(name) ? off.delete(name) : off.add(name); renderArtists(); };
     return b;
   }));
