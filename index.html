@@ -389,7 +389,7 @@ function startRun() {
   const songs = draw(RUN_LENGTH);
   if (!songs.length) return;
   audio().resume();
-  run = { songs, idx: 0, score: 0, results: [] };
+  run = { songs, idx: 0, score: 0, results: [], pool: pool() };  // pool: what the guess box searches
   // Split the songs one after another in the background so later ones are ready when you get there.
   const mine = run;
   let chain = Promise.resolve();
@@ -580,7 +580,7 @@ function closeSuggest() { $('suggest').hidden = true; matches = []; }
 function updateSuggest() {
   const words = norm($('guess').value).split(' ').filter(Boolean);
   if (!words.length) return closeSuggest();
-  matches = SONGS.filter(s => words.every(w => s.hay.includes(w))).slice(0, 40);
+  matches = (run?.pool ?? SONGS).filter(s => words.every(w => s.hay.includes(w))).slice(0, 40);
   cursor = 0;
   $('suggest').hidden = !matches.length;
   $('suggest').replaceChildren(...matches.map((s, i) => {
@@ -621,7 +621,7 @@ function renderArtists() {
 $('allBtn').onclick = () => { off.clear(); renderArtists(); };
 $('noneBtn').onclick = () => { ARTISTS.forEach(a => off.add(a)); renderArtists(); };
 
-SONGS.forEach(s => s.hay = norm(`${s.title} ${s.credit || s.artist}`));
+SONGS.forEach(s => s.hay = norm(`${s.title} ${s.credit || ''} ${s.artist}`));
 renderArtists();
 
 $('startBtn').onclick = $('againBtn').onclick = startRun;
