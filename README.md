@@ -3,7 +3,7 @@
 A song-guessing game that runs entirely in the browser. Each song starts as drums alone; add bass, instruments and vocals one layer at a time and name the track from as few layers as you can.
 
 - A run is 5 songs. Each is worth 10,000 points, minus 2,000 for every layer you add and 500 for every wrong guess. Giving up scores 0.
-- Pick which artists are in play on the start screen. In the game, click a layer's name to mute it, click the waveform to seek, and click an artist in the side list to browse their songs.
+- Pick which artists are in play on the start screen. In the game, click a layer's name to mute it, click or drag on the waveform to seek, press ⏮ to jump back to the start, and click an artist in the side list to browse their songs.
 
 ## How it works
 
