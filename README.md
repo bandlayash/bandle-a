@@ -12,7 +12,7 @@ A song-guessing game that runs entirely in the browser. Each song starts as drum
 
 There is no backend and no audio in this repository.
 
-1. `songs.js` holds each song's title, artist credits, year, genre, artwork link and 30-second preview link from Apple's public [iTunes Search API](https://performance-partners.apple.com/search-api), plus a popularity rank from Deezer's public search that decides what counts as a hit.
+1. `songs.js` holds each song's title, artist credits, year, genre, artwork link and 30-second preview link from Apple's public [iTunes Search API](https://performance-partners.apple.com/search-api), plus a popularity rank from Deezer's public search that decides what counts as a hit. Songs Apple has no preview for come from Deezer instead; their preview links expire, so the page asks Deezer for a fresh one each time.
 2. The page streams that preview from Apple and splits it into drums, bass, instruments and vocals in a background worker (`worker.js`), using the [Demucs](https://github.com/facebookresearch/demucs) model through [demucs-web](https://github.com/timcsy/demucs-web) and [ONNX Runtime Web](https://onnxruntime.ai/). Running it off the main thread keeps the page and the playhead smooth while upcoming songs are prepared.
 3. The model (about 180 MB) is downloaded from Hugging Face on the first visit and cached by the browser.
 
@@ -59,4 +59,4 @@ The script only looks up songs that are not already in `songs.js`, and lists any
 
 ## A note on the music
 
-Song previews and artwork are streamed from Apple and remain the property of their rights holders; this project stores and redistributes none of it. Apple provides previews for promoting its catalogue, so if you host this publicly, check that your use fits Apple's terms and keep the "Listen on Apple Music" link in place.
+Song previews and artwork are streamed from Apple and Deezer and remain the property of their rights holders; this project stores and redistributes none of it. Both provide previews for promoting their catalogues, so if you host this publicly, check that your use fits their terms and keep the "Listen on Apple Music" / "Listen on Deezer" links in place.

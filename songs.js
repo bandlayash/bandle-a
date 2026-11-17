@@ -5145,6 +5145,24 @@ window.SONGS = [
   "hit": true
  },
  {
+  "id": "dz2868707392",
+  "source": "deezer",
+  "dz": 2868707392,
+  "title": "ss",
+  "artist": "Ken Carson",
+  "credit": "Ken Carson",
+  "artists": [
+   "Ken Carson"
+  ],
+  "year": 2024,
+  "genre": "Rap",
+  "rank": 598613,
+  "art": "https://cdn-images.dzcdn.net/images/cover/78da94da4ebbd4c3b19ef52a8b3c5e23/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/2868707392",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/2/5/0/7253ca802d3ad4ed1c256d8ce94cd49e.mp3?hdnea=exp=1794898577~acl=/api/1/1/7/2/5/0/7253ca802d3ad4ed1c256d8ce94cd49e.mp3*~data=user_id=0,application_id=42~hmac=4a8744bcc8e11787b0cd78957d8aa09673aa9d9ba254ec56b0c38b8d42217c8f",
+  "hit": true
+ },
+ {
   "id": 1711246149,
   "title": "Fighting My Demons",
   "artist": "Ken Carson",
@@ -5209,6 +5227,24 @@ window.SONGS = [
   "hit": false
  },
  {
+  "id": "dz3526781451",
+  "source": "deezer",
+  "dz": 3526781451,
+  "title": "Yale",
+  "artist": "Ken Carson",
+  "credit": "Ken Carson",
+  "artists": [
+   "Ken Carson"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "rank": 549576,
+  "art": "https://cdn-images.dzcdn.net/images/cover/1c0d7ab95997d32f951bd0c2d6e1f8c1/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/3526781451",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/6/0/0/4602c50d156120a2d5e1c50a94468edd.mp3?hdnea=exp=1794898582~acl=/api/1/1/4/6/0/0/4602c50d156120a2d5e1c50a94468edd.mp3*~data=user_id=0,application_id=42~hmac=f63c3dcfb798e81d949539dc88c2dd6694dd4eadbe23c08b070990fabceda39a",
+  "hit": true
+ },
+ {
   "id": 1711246706,
   "title": "Succubus",
   "artist": "Ken Carson",
@@ -5241,6 +5277,24 @@ window.SONGS = [
   "hit": true
  },
  {
+  "id": "dz3655512132",
+  "source": "deezer",
+  "dz": 3655512132,
+  "title": "Margiela",
+  "artist": "Ken Carson",
+  "credit": "Ken Carson",
+  "artists": [
+   "Ken Carson"
+  ],
+  "year": 2025,
+  "genre": "Rap",
+  "rank": 342509,
+  "art": "https://cdn-images.dzcdn.net/images/cover/d90cf8fb4c60e7aad625eef8a4aa4d5d/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/3655512132",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/5/1/0/f51aca464905734a59cdd0a579ff3354.mp3?hdnea=exp=1794898587~acl=/api/1/1/f/5/1/0/f51aca464905734a59cdd0a579ff3354.mp3*~data=user_id=0,application_id=42~hmac=297ce52d6e0f427a490d9e56db281e8b765f9ebbff64a40d17987d0c68ddc07e",
+  "hit": false
+ },
+ {
   "id": 1711246532,
   "title": "Hardcore",
   "artist": "Ken Carson",
@@ -5270,6 +5324,24 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/delusional/1775940922?i=1775940925&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/20/af/ae/20afae21-b128-d26e-f391-0edf41a1cf1c/mzaf_8995321699890514442.plus.aac.p.m4a",
   "rank": 274186,
+  "hit": false
+ },
+ {
+  "id": "dz2868707372",
+  "source": "deezer",
+  "dz": 2868707372,
+  "title": "Leather Jacket",
+  "artist": "Ken Carson",
+  "credit": "Ken Carson",
+  "artists": [
+   "Ken Carson"
+  ],
+  "year": 2024,
+  "genre": "Rap",
+  "rank": 340078,
+  "art": "https://cdn-images.dzcdn.net/images/cover/78da94da4ebbd4c3b19ef52a8b3c5e23/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/2868707372",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/b/4/0/6b400578f0e75d690cb5815720c3129c.mp3?hdnea=exp=1794898593~acl=/api/1/1/6/b/4/0/6b400578f0e75d690cb5815720c3129c.mp3*~data=user_id=0,application_id=42~hmac=ac0c24414675978954909e72d078f4b610d4fad01023924827aa6e14b671ad13",
   "hit": false
  },
  {
@@ -5321,6 +5393,26 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/23/9a/fb239a90-d005-c2b5-5aaa-884731410492/mzaf_12907114659000709992.plus.aac.p.m4a",
   "rank": 262502,
   "hit": false
+ },
+ {
+  "id": "dz3320256721",
+  "source": "deezer",
+  "dz": 3320256721,
+  "title": "Off The Meter",
+  "artist": "Ken Carson",
+  "credit": "Ken Carson feat. Playboi Carti & Destroy Lonely",
+  "artists": [
+   "Ken Carson",
+   "Playboi Carti",
+   "Destroy Lonely"
+  ],
+  "year": 2025,
+  "genre": "Rap",
+  "rank": 402731,
+  "art": "https://cdn-images.dzcdn.net/images/cover/c464b8c538ee61a2cf276fa4b3a09261/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/3320256721",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/7/1/0/b7182cc1c3a5c0664840fde55b91cb32.mp3?hdnea=exp=1794898598~acl=/api/1/1/b/7/1/0/b7182cc1c3a5c0664840fde55b91cb32.mp3*~data=user_id=0,application_id=42~hmac=a883a3715ddaf47a86baae07a24447cd0dc8482601721c38854d969b7c3b1491",
+  "hit": true
  },
  {
   "id": 1442846328,
@@ -5533,6 +5625,42 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/good-life-feat-t-pain/1442845779?i=1442846347&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/93/d3/4593d3db-0485-b786-c2c0-064a9ae76329/mzaf_2499398169957145905.plus.aac.p.m4a",
   "rank": 608136,
+  "hit": true
+ },
+ {
+  "id": "dz68350105",
+  "source": "deezer",
+  "dz": 68350105,
+  "title": "Black Skinhead",
+  "artist": "Kanye West",
+  "credit": "Kanye West",
+  "artists": [
+   "Kanye West"
+  ],
+  "year": 2013,
+  "genre": "Rap",
+  "rank": 664153,
+  "art": "https://cdn-images.dzcdn.net/images/cover/5a56530f7906bd9786fa47bd0be421b3/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/68350105",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/9/9/0/89951a25c9ac29e780019df8e8116e49.mp3?hdnea=exp=1794898607~acl=/api/1/1/8/9/9/0/89951a25c9ac29e780019df8e8116e49.mp3*~data=user_id=0,application_id=42~hmac=231044fcb4db10e8ac5fe91e6e679acdb07ba99621f490c296405edc9e550d92",
+  "hit": true
+ },
+ {
+  "id": "dz68350113",
+  "source": "deezer",
+  "dz": 68350113,
+  "title": "Bound 2",
+  "artist": "Kanye West",
+  "credit": "Kanye West",
+  "artists": [
+   "Kanye West"
+  ],
+  "year": 2013,
+  "genre": "Rap",
+  "rank": 777130,
+  "art": "https://cdn-images.dzcdn.net/images/cover/5a56530f7906bd9786fa47bd0be421b3/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/68350113",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/2/4/0/a24bef5135eebe751adc619a929d9c24.mp3?hdnea=exp=1794898612~acl=/api/1/1/a/2/4/0/a24bef5135eebe751adc619a929d9c24.mp3*~data=user_id=0,application_id=42~hmac=346856b92fda4055441649190a94ec21711e1f04decd595eba0976ae3fca144e",
   "hit": true
  },
  {
@@ -6163,6 +6291,24 @@ window.SONGS = [
   "hit": true
  },
  {
+  "id": "dz2775438091",
+  "source": "deezer",
+  "dz": 2775438091,
+  "title": "Euphoria",
+  "artist": "Kendrick Lamar",
+  "credit": "Kendrick Lamar",
+  "artists": [
+   "Kendrick Lamar"
+  ],
+  "year": 2024,
+  "genre": "Rap",
+  "rank": 636291,
+  "art": "https://cdn-images.dzcdn.net/images/cover/3f6cfda899187bae90fb9dd2bc53ea7f/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/2775438091",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/3/2/0/d32b1074ee90037172967df2e17d4873.mp3?hdnea=exp=1794898632~acl=/api/1/1/d/3/2/0/d32b1074ee90037172967df2e17d4873.mp3*~data=user_id=0,application_id=42~hmac=ee4d231dcf82c994ff8ccc80efbd012447f2628959eed117d5f83871892d58c0",
+  "hit": true
+ },
+ {
   "id": 1781316952,
   "title": "tv off",
   "artist": "Kendrick Lamar",
@@ -6362,6 +6508,96 @@ window.SONGS = [
   "hit": true
  },
  {
+  "id": "dz2188209227",
+  "source": "deezer",
+  "dz": 2188209227,
+  "title": "NOSTYLIST",
+  "artist": "Destroy Lonely",
+  "credit": "Destroy Lonely",
+  "artists": [
+   "Destroy Lonely"
+  ],
+  "year": 2022,
+  "genre": "Rap",
+  "rank": 534610,
+  "art": "https://cdn-images.dzcdn.net/images/cover/209d26949458f7b0a672062cece4e4d8/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/2188209227",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/c/5/0/ec5224d4b969721ce08926f5a34af65e.mp3?hdnea=exp=1794898641~acl=/api/1/1/e/c/5/0/ec5224d4b969721ce08926f5a34af65e.mp3*~data=user_id=0,application_id=42~hmac=81c05552c7ce9e192e4b1a54be03e51d264dcfba35dced516351daa780917d79",
+  "hit": true
+ },
+ {
+  "id": "dz2011302427",
+  "source": "deezer",
+  "dz": 2011302427,
+  "title": "VTMNTSCOAT",
+  "artist": "Destroy Lonely",
+  "credit": "Destroy Lonely",
+  "artists": [
+   "Destroy Lonely"
+  ],
+  "year": 2022,
+  "genre": "Rap",
+  "rank": 248292,
+  "art": "https://cdn-images.dzcdn.net/images/cover/8064f490779e2240e276780fd82894b8/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/2011302427",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/b/0/0/8b022e0bfdf16c75e9969a1e93c93b75.mp3?hdnea=exp=1794898646~acl=/api/1/1/8/b/0/0/8b022e0bfdf16c75e9969a1e93c93b75.mp3*~data=user_id=0,application_id=42~hmac=c0e8182793bed9fc971dfca9ad88e88e8720c763a6083ce349eb00e41849ba22",
+  "hit": false
+ },
+ {
+  "id": "dz2188209187",
+  "source": "deezer",
+  "dz": 2188209187,
+  "title": "JETLGGD",
+  "artist": "Destroy Lonely",
+  "credit": "Destroy Lonely",
+  "artists": [
+   "Destroy Lonely"
+  ],
+  "year": 2022,
+  "genre": "Rap",
+  "rank": 211875,
+  "art": "https://cdn-images.dzcdn.net/images/cover/209d26949458f7b0a672062cece4e4d8/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/2188209187",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/4/4/0/0448e442f6bdf9871b85d2b4026a6c72.mp3?hdnea=exp=1794898652~acl=/api/1/1/0/4/4/0/0448e442f6bdf9871b85d2b4026a6c72.mp3*~data=user_id=0,application_id=42~hmac=69bb429def01523bc7c002aff2ee699c80a7fcbd4d88831a40e6946f9d9f36fc",
+  "hit": false
+ },
+ {
+  "id": "dz722822682",
+  "source": "deezer",
+  "dz": 722822682,
+  "title": "Bane",
+  "artist": "Destroy Lonely",
+  "credit": "Destroy Lonely",
+  "artists": [
+   "Destroy Lonely"
+  ],
+  "year": 2019,
+  "genre": "Pop",
+  "rank": 474088,
+  "art": "https://cdn-images.dzcdn.net/images/cover/6d3377c5762f195c3f3c7613a5d205e4/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/722822682",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/d/0/59d9269e311a358ffbee594a6fd0843d.mp3?hdnea=exp=1794898657~acl=/api/1/1/5/9/d/0/59d9269e311a358ffbee594a6fd0843d.mp3*~data=user_id=0,application_id=42~hmac=ed003e8846849efa1dd349cce21c9b1d4fda7d47dec2f6825d9ed3664c66a3e2",
+  "hit": true
+ },
+ {
+  "id": "dz2011302457",
+  "source": "deezer",
+  "dz": 2011302457,
+  "title": "blitz",
+  "artist": "Destroy Lonely",
+  "credit": "Destroy Lonely",
+  "artists": [
+   "Destroy Lonely"
+  ],
+  "year": 2022,
+  "genre": "Rap",
+  "rank": 254994,
+  "art": "https://cdn-images.dzcdn.net/images/cover/8064f490779e2240e276780fd82894b8/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/2011302457",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/9/9/0/09930e125b72a51593ad2865d7513ff1.mp3?hdnea=exp=1794898663~acl=/api/1/1/0/9/9/0/09930e125b72a51593ad2865d7513ff1.mp3*~data=user_id=0,application_id=42~hmac=ba17a77243ca6d56e89d3386e7c55deef803da54f3fb4355788f445c81732abc",
+  "hit": false
+ },
+ {
   "id": 1709052874,
   "title": "how u feel?",
   "artist": "Destroy Lonely",
@@ -6426,6 +6662,24 @@ window.SONGS = [
   "hit": true
  },
  {
+  "id": "dz741757222",
+  "source": "deezer",
+  "dz": 741757222,
+  "title": "Love Me",
+  "artist": "Lil Tecca",
+  "credit": "Lil Tecca",
+  "artists": [
+   "Lil Tecca"
+  ],
+  "year": 2019,
+  "genre": "Rap",
+  "rank": 638910,
+  "art": "https://cdn-images.dzcdn.net/images/cover/d03176529ebfb0f75c2e6f6a70218a31/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/741757222",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/2/f/0/e2f0c5a4975055ad3ad0b81ec30ea04d.mp3?hdnea=exp=1794898693~acl=/api/1/1/e/2/f/0/e2f0c5a4975055ad3ad0b81ec30ea04d.mp3*~data=user_id=0,application_id=42~hmac=8f7f78f3517ac750c0782cb07626d8756c2015692ea42926c43cda171546e521",
+  "hit": true
+ },
+ {
   "id": 1481535795,
   "title": "Did It Again",
   "artist": "Lil Tecca",
@@ -6456,6 +6710,24 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/out-of-love-feat-internet-money/1531780807?i=1531781080&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/20/fb/4120fb52-397c-1f5e-0ad7-92ea784c4178/mzaf_17007193836245833526.plus.aac.p.m4a",
   "rank": 478785,
+  "hit": false
+ },
+ {
+  "id": "dz741757122",
+  "source": "deezer",
+  "dz": 741757122,
+  "title": "Shots",
+  "artist": "Lil Tecca",
+  "credit": "Lil Tecca",
+  "artists": [
+   "Lil Tecca"
+  ],
+  "year": 2019,
+  "genre": "Rap",
+  "rank": 399263,
+  "art": "https://cdn-images.dzcdn.net/images/cover/d03176529ebfb0f75c2e6f6a70218a31/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/741757122",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/0/5/0/805cfa656fcbcfbb8effead0c19eb21c.mp3?hdnea=exp=1794898699~acl=/api/1/1/8/0/5/0/805cfa656fcbcfbb8effead0c19eb21c.mp3*~data=user_id=0,application_id=42~hmac=37428620873a0d3f652741f60ac9102dfd1da7ca97f9ae70ea13eba6d2f21852",
   "hit": false
  },
  {
@@ -6574,6 +6846,60 @@ window.SONGS = [
   "hit": true
  },
  {
+  "id": "dz125536814",
+  "source": "deezer",
+  "dz": 125536814,
+  "title": "Money Longer",
+  "artist": "Lil Uzi Vert",
+  "credit": "Lil Uzi Vert",
+  "artists": [
+   "Lil Uzi Vert"
+  ],
+  "year": 2016,
+  "genre": "Rap",
+  "rank": 533759,
+  "art": "https://cdn-images.dzcdn.net/images/cover/e67037fb4abb754a234bd3f77752450d/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/125536814",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/9/5/0/e95cab95c4c6c530fff6a1f0b8d028db.mp3?hdnea=exp=1794898707~acl=/api/1/1/e/9/5/0/e95cab95c4c6c530fff6a1f0b8d028db.mp3*~data=user_id=0,application_id=42~hmac=f7dcd6db89735fc593d3706bcb461577d217095169dfd8cca0bae3c35d3a718e",
+  "hit": true
+ },
+ {
+  "id": "dz125536818",
+  "source": "deezer",
+  "dz": 125536818,
+  "title": "You Was Right",
+  "artist": "Lil Uzi Vert",
+  "credit": "Lil Uzi Vert",
+  "artists": [
+   "Lil Uzi Vert"
+  ],
+  "year": 2016,
+  "genre": "Rap",
+  "rank": 360886,
+  "art": "https://cdn-images.dzcdn.net/images/cover/e67037fb4abb754a234bd3f77752450d/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/125536818",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/5/e/0/b5e4e40e013ad0af1240eb73cdf43fa1.mp3?hdnea=exp=1794898713~acl=/api/1/1/b/5/e/0/b5e4e40e013ad0af1240eb73cdf43fa1.mp3*~data=user_id=0,application_id=42~hmac=737d10af9c3c00628e136c7a75d8722048a0cb5d7affb474e6b5b3111082ce9e",
+  "hit": false
+ },
+ {
+  "id": "dz129916020",
+  "source": "deezer",
+  "dz": 129916020,
+  "title": "Do What I Want",
+  "artist": "Lil Uzi Vert",
+  "credit": "Lil Uzi Vert",
+  "artists": [
+   "Lil Uzi Vert"
+  ],
+  "year": 2016,
+  "genre": "Rap",
+  "rank": 402305,
+  "art": "https://cdn-images.dzcdn.net/images/cover/757b65eef408035453c1904136991e40/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/129916020",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/a/c/0/8acf82a41c03ba812e97f571602a6d55.mp3?hdnea=exp=1794898718~acl=/api/1/1/8/a/c/0/8acf82a41c03ba812e97f571602a6d55.mp3*~data=user_id=0,application_id=42~hmac=6823f0c8bc0bb87463b73eed1ef8190830ea05f49deaabeca8d71b3267fbaa00",
+  "hit": false
+ },
+ {
   "id": 1313342763,
   "title": "The Way Life Goes",
   "artist": "Lil Uzi Vert",
@@ -6591,6 +6917,60 @@ window.SONGS = [
   "hit": true
  },
  {
+  "id": "dz662969192",
+  "source": "deezer",
+  "dz": 662969192,
+  "title": "Sanguine Paradise",
+  "artist": "Lil Uzi Vert",
+  "credit": "Lil Uzi Vert",
+  "artists": [
+   "Lil Uzi Vert"
+  ],
+  "year": 2019,
+  "genre": "Rap",
+  "rank": 507247,
+  "art": "https://cdn-images.dzcdn.net/images/cover/b01d72df52860aabd759015c4b8612c9/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/662969192",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/8/3/0/e835b56d06699ccb8f097b14aaa5e979.mp3?hdnea=exp=1794898723~acl=/api/1/1/e/8/3/0/e835b56d06699ccb8f097b14aaa5e979.mp3*~data=user_id=0,application_id=42~hmac=2ae23708da9ea40e547ddbc22aaa4572a79011e7f7bc5664154a9cf0c9d61bdc",
+  "hit": true
+ },
+ {
+  "id": "dz892395542",
+  "source": "deezer",
+  "dz": 892395542,
+  "title": "That Way",
+  "artist": "Lil Uzi Vert",
+  "credit": "Lil Uzi Vert",
+  "artists": [
+   "Lil Uzi Vert"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "rank": 376181,
+  "art": "https://cdn-images.dzcdn.net/images/cover/cf1b5062393acbabd34a507ee22e817b/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/892395542",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/d/b/0/7db1c34b742aa529fc93a56a35d60c4b.mp3?hdnea=exp=1794898729~acl=/api/1/1/7/d/b/0/7db1c34b742aa529fc93a56a35d60c4b.mp3*~data=user_id=0,application_id=42~hmac=c954277c89d0917995cf39caf546b54e2a8b912641e61c24b10373d77a7d25c9",
+  "hit": false
+ },
+ {
+  "id": "dz831054332",
+  "source": "deezer",
+  "dz": 831054332,
+  "title": "Futsal Shuffle 2020",
+  "artist": "Lil Uzi Vert",
+  "credit": "Lil Uzi Vert",
+  "artists": [
+   "Lil Uzi Vert"
+  ],
+  "year": 2019,
+  "genre": "Rap",
+  "rank": 497810,
+  "art": "https://cdn-images.dzcdn.net/images/cover/c5d0127e460baf750a174f06b4ed32fb/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/831054332",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/e/e/0/4ee69316061b6065cbe825b0402dd3fc.mp3?hdnea=exp=1794898734~acl=/api/1/1/4/e/e/0/4ee69316061b6065cbe825b0402dd3fc.mp3*~data=user_id=0,application_id=42~hmac=f4cc47644c043f0a24d8d553b22c88bd7392bd141e528fb315d2d6bdcd99aa44",
+  "hit": false
+ },
+ {
   "id": 1650201274,
   "title": "Just Wanna Rock",
   "artist": "Lil Uzi Vert",
@@ -6604,6 +6984,24 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/just-wanna-rock/1650201273?i=1650201274&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/88/0d/fb880d53-897a-3215-08e7-02a921bfa56f/mzaf_14704373119531038328.plus.aac.p.m4a",
   "rank": 725452,
+  "hit": true
+ },
+ {
+  "id": "dz902794742",
+  "source": "deezer",
+  "dz": 902794742,
+  "title": "Myron",
+  "artist": "Lil Uzi Vert",
+  "credit": "Lil Uzi Vert",
+  "artists": [
+   "Lil Uzi Vert"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "rank": 503027,
+  "art": "https://cdn-images.dzcdn.net/images/cover/7a532d945074ced10587b69150598049/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/902794742",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/6/0/d46077af7c57e6dae52660940c001b12.mp3?hdnea=exp=1794898739~acl=/api/1/1/d/4/6/0/d46077af7c57e6dae52660940c001b12.mp3*~data=user_id=0,application_id=42~hmac=5cac518b0eecffa21947ebed983b205ce555a1f55941ee5c8e8189b0ac1ae9cb",
   "hit": true
  },
  {
@@ -6624,6 +7022,24 @@ window.SONGS = [
   "hit": true
  },
  {
+  "id": "dz129916034",
+  "source": "deezer",
+  "dz": 129916034,
+  "title": "Erase Your Social",
+  "artist": "Lil Uzi Vert",
+  "credit": "Lil Uzi Vert",
+  "artists": [
+   "Lil Uzi Vert"
+  ],
+  "year": 2016,
+  "genre": "Rap",
+  "rank": 503271,
+  "art": "https://cdn-images.dzcdn.net/images/cover/757b65eef408035453c1904136991e40/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/129916034",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/c/d/0/acd3cc51cb912defc5fe3e16c295e678.mp3?hdnea=exp=1794898745~acl=/api/1/1/a/c/d/0/acd3cc51cb912defc5fe3e16c295e678.mp3*~data=user_id=0,application_id=42~hmac=608600d575847e2f3e5ad2473151ebe1b382ed974c06fbf968b76c56aec1d10e",
+  "hit": true
+ },
+ {
   "id": 1313343143,
   "title": "20 Min",
   "artist": "Lil Uzi Vert",
@@ -6638,6 +7054,42 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/22/8e/f4228e0b-13ca-cbd4-c9b8-8c3af7021f59/mzaf_9975572739204036254.plus.aac.p.m4a",
   "rank": 765610,
   "hit": true
+ },
+ {
+  "id": "dz898025832",
+  "source": "deezer",
+  "dz": 898025832,
+  "title": "P2",
+  "artist": "Lil Uzi Vert",
+  "credit": "Lil Uzi Vert",
+  "artists": [
+   "Lil Uzi Vert"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "rank": 483872,
+  "art": "https://cdn-images.dzcdn.net/images/cover/1dfc30f6832a56913bedb5430007b64a/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/898025832",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/e/5/0/8e5d18cb14aa74be6a8ee5d853573f9b.mp3?hdnea=exp=1794898750~acl=/api/1/1/8/e/5/0/8e5d18cb14aa74be6a8ee5d853573f9b.mp3*~data=user_id=0,application_id=42~hmac=4b62c7616d45df5e66b782942acf69cded4b6b189ea3c03f595a91f85120e1aa",
+  "hit": false
+ },
+ {
+  "id": "dz115195936",
+  "source": "deezer",
+  "dz": 115195936,
+  "title": "7AM",
+  "artist": "Lil Uzi Vert",
+  "credit": "Lil Uzi Vert",
+  "artists": [
+   "Lil Uzi Vert"
+  ],
+  "year": 2015,
+  "genre": "Rap",
+  "rank": 360092,
+  "art": "https://cdn-images.dzcdn.net/images/cover/66112214a2face187edfc1c078f1d05a/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/115195936",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/5/0/26590ecaca1fd92fcfe431f2c5397ba6.mp3?hdnea=exp=1794898755~acl=/api/1/1/2/6/5/0/26590ecaca1fd92fcfe431f2c5397ba6.mp3*~data=user_id=0,application_id=42~hmac=6f8b635aae75c96c5f5e0c030054d174dd9830bb7180e025f49c52af1d09e7f1",
+  "hit": false
  },
  {
   "id": 1274598324,
@@ -6656,6 +7108,225 @@ window.SONGS = [
   "hit": false
  },
  {
+  "id": "dz347376721",
+  "source": "deezer",
+  "dz": 347376721,
+  "title": "Magnolia",
+  "artist": "Playboi Carti",
+  "credit": "Playboi Carti",
+  "artists": [
+   "Playboi Carti"
+  ],
+  "year": 2017,
+  "genre": "Rap",
+  "rank": 689898,
+  "art": "https://cdn-images.dzcdn.net/images/cover/0ae8e05f734268cbe5aae06f96f2b1f2/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/347376721",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/b/e/0/3be8a1e38a5384d72f1aba576b948fb2.mp3?hdnea=exp=1794898768~acl=/api/1/1/3/b/e/0/3be8a1e38a5384d72f1aba576b948fb2.mp3*~data=user_id=0,application_id=42~hmac=2f1dc1dec881816aafa4dc02076c951bf04d004dbdb4170c896bd64286012dec",
+  "hit": true
+ },
+ {
+  "id": "dz497467102",
+  "source": "deezer",
+  "dz": 497467102,
+  "title": "Shoota",
+  "artist": "Playboi Carti",
+  "credit": "Playboi Carti feat. Lil Uzi Vert",
+  "artists": [
+   "Playboi Carti",
+   "Lil Uzi Vert"
+  ],
+  "year": 2018,
+  "genre": "Rap",
+  "rank": 573168,
+  "art": "https://cdn-images.dzcdn.net/images/cover/f2d66b587ca8d3f0fa222c3501d23564/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/497467102",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/8/7/0/d87245945c273a66b7cfc4564d7f9ac4.mp3?hdnea=exp=1794898774~acl=/api/1/1/d/8/7/0/d87245945c273a66b7cfc4564d7f9ac4.mp3*~data=user_id=0,application_id=42~hmac=85df374595e7786819f560130949c3a3321d5445ae9a5de134a7210e46584f70",
+  "hit": true
+ },
+ {
+  "id": "dz1189531242",
+  "source": "deezer",
+  "dz": 1189531242,
+  "title": "Sky",
+  "artist": "Playboi Carti",
+  "credit": "Playboi Carti",
+  "artists": [
+   "Playboi Carti"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "rank": 729854,
+  "art": "https://cdn-images.dzcdn.net/images/cover/3c5f5f3f5f41ff96f961afd7df7eb4d9/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/1189531242",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/7/b/0/a7baa69c27f747f2aa10297d6060929e.mp3?hdnea=exp=1794898779~acl=/api/1/1/a/7/b/0/a7baa69c27f747f2aa10297d6060929e.mp3*~data=user_id=0,application_id=42~hmac=2b05735ce78bf4f8a27fe7d4f7b4040fa59e0e0139b33c7e653d989c710d926a",
+  "hit": true
+ },
+ {
+  "id": "dz497467052",
+  "source": "deezer",
+  "dz": 497467052,
+  "title": "Long Time",
+  "artist": "Playboi Carti",
+  "credit": "Playboi Carti",
+  "artists": [
+   "Playboi Carti"
+  ],
+  "year": 2018,
+  "genre": "Rap",
+  "rank": 628016,
+  "art": "https://cdn-images.dzcdn.net/images/cover/f2d66b587ca8d3f0fa222c3501d23564/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/497467052",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/b/5/0/4b563074bdc3e34ed8014d123e298ef5.mp3?hdnea=exp=1794898785~acl=/api/1/1/4/b/5/0/4b563074bdc3e34ed8014d123e298ef5.mp3*~data=user_id=0,application_id=42~hmac=99e98f2762fd8c10d1405338c0afd3770e727f340daff847c360468e0c39bffd",
+  "hit": true
+ },
+ {
+  "id": "dz347376741",
+  "source": "deezer",
+  "dz": 347376741,
+  "title": "wokeuplikethis*",
+  "artist": "Playboi Carti",
+  "credit": "Playboi Carti feat. Lil Uzi Vert",
+  "artists": [
+   "Playboi Carti",
+   "Lil Uzi Vert"
+  ],
+  "year": 2017,
+  "genre": "Rap",
+  "rank": 514499,
+  "art": "https://cdn-images.dzcdn.net/images/cover/0ae8e05f734268cbe5aae06f96f2b1f2/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/347376741",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/6/1/0/36109d5fc2d7373c5da9fb353e4bc88f.mp3?hdnea=exp=1794898790~acl=/api/1/1/3/6/1/0/36109d5fc2d7373c5da9fb353e4bc88f.mp3*~data=user_id=0,application_id=42~hmac=23918e4b2cb0903ac287086d1b60cff61c1abd2c96c2aa9761b4b49742310dda",
+  "hit": true
+ },
+ {
+  "id": "dz347376711",
+  "source": "deezer",
+  "dz": 347376711,
+  "title": "Location",
+  "artist": "Playboi Carti",
+  "credit": "Playboi Carti",
+  "artists": [
+   "Playboi Carti"
+  ],
+  "year": 2017,
+  "genre": "Rap",
+  "rank": 668772,
+  "art": "https://cdn-images.dzcdn.net/images/cover/0ae8e05f734268cbe5aae06f96f2b1f2/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/347376711",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/1/6/0/5163a83924eab2fb9cfeac1aab09354c.mp3?hdnea=exp=1794898795~acl=/api/1/1/5/1/6/0/5163a83924eab2fb9cfeac1aab09354c.mp3*~data=user_id=0,application_id=42~hmac=c603b948d35ae1a815ee4a336ccda8329c03d064c2c3b0104ac6caab615a2c95",
+  "hit": true
+ },
+ {
+  "id": "dz497467062",
+  "source": "deezer",
+  "dz": 497467062,
+  "title": "R.I.P.",
+  "artist": "Playboi Carti",
+  "credit": "Playboi Carti",
+  "artists": [
+   "Playboi Carti"
+  ],
+  "year": 2018,
+  "genre": "Rap",
+  "rank": 540063,
+  "art": "https://cdn-images.dzcdn.net/images/cover/f2d66b587ca8d3f0fa222c3501d23564/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/497467062",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/e/d/0/2ed8a088a9466932dc6caa5135b6035c.mp3?hdnea=exp=1794898801~acl=/api/1/1/2/e/d/0/2ed8a088a9466932dc6caa5135b6035c.mp3*~data=user_id=0,application_id=42~hmac=75eb3e0a9aea3e76f1a2a858c377977d9f7eab529c1203c75054fc23188b2389",
+  "hit": true
+ },
+ {
+  "id": "dz1189531082",
+  "source": "deezer",
+  "dz": 1189531082,
+  "title": "Stop Breathing",
+  "artist": "Playboi Carti",
+  "credit": "Playboi Carti",
+  "artists": [
+   "Playboi Carti"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "rank": 511400,
+  "art": "https://cdn-images.dzcdn.net/images/cover/3c5f5f3f5f41ff96f961afd7df7eb4d9/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/1189531082",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/2/0/98285d6c073484b941eee76cde2cda98.mp3?hdnea=exp=1794898806~acl=/api/1/1/9/8/2/0/98285d6c073484b941eee76cde2cda98.mp3*~data=user_id=0,application_id=42~hmac=094a4838bc116c1df924bd83b2c7bf0126e9877a9f93ed52ef4fc9da4001a981",
+  "hit": true
+ },
+ {
+  "id": "dz1189531172",
+  "source": "deezer",
+  "dz": 1189531172,
+  "title": "Vamp Anthem",
+  "artist": "Playboi Carti",
+  "credit": "Playboi Carti",
+  "artists": [
+   "Playboi Carti"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "rank": 594149,
+  "art": "https://cdn-images.dzcdn.net/images/cover/3c5f5f3f5f41ff96f961afd7df7eb4d9/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/1189531172",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/3/3/0/a3326c85d5c3c1eff02c02bf5bb80547.mp3?hdnea=exp=1794898812~acl=/api/1/1/a/3/3/0/a3326c85d5c3c1eff02c02bf5bb80547.mp3*~data=user_id=0,application_id=42~hmac=2de0102dd6e070112eb1c90a184744e7243ec68ce8db8c7e551cab293e2d964c",
+  "hit": true
+ },
+ {
+  "id": "dz1189531062",
+  "source": "deezer",
+  "dz": 1189531062,
+  "title": "Rockstar Made",
+  "artist": "Playboi Carti",
+  "credit": "Playboi Carti",
+  "artists": [
+   "Playboi Carti"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "rank": 499464,
+  "art": "https://cdn-images.dzcdn.net/images/cover/3c5f5f3f5f41ff96f961afd7df7eb4d9/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/1189531062",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/a/1/0/fa19bac9579d9ab86ce4a30bb84fa26e.mp3?hdnea=exp=1794898817~acl=/api/1/1/f/a/1/0/fa19bac9579d9ab86ce4a30bb84fa26e.mp3*~data=user_id=0,application_id=42~hmac=30784f65ccee0c2c7c648151c912a1f0b0378809e8fe1853fbbda3aac11de5ca",
+  "hit": false
+ },
+ {
+  "id": "dz497467142",
+  "source": "deezer",
+  "dz": 497467142,
+  "title": "Fell In Luv",
+  "artist": "Playboi Carti",
+  "credit": "Playboi Carti feat. Bryson Tiller",
+  "artists": [
+   "Playboi Carti",
+   "Bryson Tiller"
+  ],
+  "year": 2018,
+  "genre": "Rap",
+  "rank": 578374,
+  "art": "https://cdn-images.dzcdn.net/images/cover/f2d66b587ca8d3f0fa222c3501d23564/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/497467142",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/3/7/0/237f158fdd80774693747e2ebac808ad.mp3?hdnea=exp=1794898823~acl=/api/1/1/2/3/7/0/237f158fdd80774693747e2ebac808ad.mp3*~data=user_id=0,application_id=42~hmac=c47df3e5c606c45da40a5f98665bc23f34b17172b1f9b517edf3eb81b7505d8f",
+  "hit": true
+ },
+ {
+  "id": "dz3278625201",
+  "source": "deezer",
+  "dz": 3278625201,
+  "title": "EVIL J0RDAN",
+  "artist": "Playboi Carti",
+  "credit": "Playboi Carti",
+  "artists": [
+   "Playboi Carti"
+  ],
+  "year": 2025,
+  "genre": "Rap",
+  "rank": 630165,
+  "art": "https://cdn-images.dzcdn.net/images/cover/8848c366508735e513fed3e2c6f2a6d1/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/3278625201",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/f/4/0/1f4bddaf67b8b9831d2375e420832db2.mp3?hdnea=exp=1794898828~acl=/api/1/1/1/f/4/0/1f4bddaf67b8b9831d2375e420832db2.mp3*~data=user_id=0,application_id=42~hmac=7d622ffc36d0c18f175a829a2b7edd68fceff9bcdb03127ed681074289f7116d",
+  "hit": true
+ },
+ {
   "id": 1768918764,
   "title": "ALL RED",
   "artist": "Playboi Carti",
@@ -6669,6 +7340,42 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/all-red/1768918762?i=1768918764&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/07/b9/e507b9d8-e941-adac-0131-8077d4821e53/mzaf_11482399288140625428.plus.aac.p.m4a",
   "rank": 582664,
+  "hit": true
+ },
+ {
+  "id": "dz1189531142",
+  "source": "deezer",
+  "dz": 1189531142,
+  "title": "New Tank",
+  "artist": "Playboi Carti",
+  "credit": "Playboi Carti",
+  "artists": [
+   "Playboi Carti"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "rank": 466469,
+  "art": "https://cdn-images.dzcdn.net/images/cover/3c5f5f3f5f41ff96f961afd7df7eb4d9/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/1189531142",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/5/8/0/c580c665272c25edef4d290726f688bd.mp3?hdnea=exp=1794898838~acl=/api/1/1/c/5/8/0/c580c665272c25edef4d290726f688bd.mp3*~data=user_id=0,application_id=42~hmac=af93ba19f292168c24c0824ababbdfd7cffa7f31ec323ce01d3d07551f75c854",
+  "hit": false
+ },
+ {
+  "id": "dz1189531252",
+  "source": "deezer",
+  "dz": 1189531252,
+  "title": "Over",
+  "artist": "Playboi Carti",
+  "credit": "Playboi Carti",
+  "artists": [
+   "Playboi Carti"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "rank": 536066,
+  "art": "https://cdn-images.dzcdn.net/images/cover/3c5f5f3f5f41ff96f961afd7df7eb4d9/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/1189531252",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/6/0/136c0daac57ed4ae93c8a77b6d7028cf.mp3?hdnea=exp=1794898844~acl=/api/1/1/1/3/6/0/136c0daac57ed4ae93c8a77b6d7028cf.mp3*~data=user_id=0,application_id=42~hmac=2556d54c7a4f5096d01e151280f4e20ad5ed31888d2df1d5bfe1fdc8036e9d60",
   "hit": true
  },
  {
@@ -6689,6 +7396,60 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/carnival-feat-rich-the-kid-playboi-carti/1762082199?i=1762082207&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/43/8e/56438ef0-615f-a7f2-012f-bfdc64a73c1d/mzaf_5462242079286767709.plus.aac.p.m4a",
   "rank": 729220,
+  "hit": true
+ },
+ {
+  "id": "dz2174176187",
+  "source": "deezer",
+  "dz": 2174176187,
+  "title": "Get Busy",
+  "artist": "Yeat",
+  "credit": "Yeat",
+  "artists": [
+   "Yeat"
+  ],
+  "year": 2021,
+  "genre": "Rap",
+  "rank": 498306,
+  "art": "https://cdn-images.dzcdn.net/images/cover/14e37e05b1acd67c06b0408ef1146a26/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/2174176187",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/d/0/0/4d028343c71e71dbcaeb1b0a751f07ee.mp3?hdnea=exp=1794898853~acl=/api/1/1/4/d/0/0/4d028343c71e71dbcaeb1b0a751f07ee.mp3*~data=user_id=0,application_id=42~hmac=790eb92409b1fd90f5ab1c0f9502d1373223db6696e836c0aeeb933e992bfe8e",
+  "hit": false
+ },
+ {
+  "id": "dz2174176987",
+  "source": "deezer",
+  "dz": 2174176987,
+  "title": "Money So Big",
+  "artist": "Yeat",
+  "credit": "Yeat",
+  "artists": [
+   "Yeat"
+  ],
+  "year": 2021,
+  "genre": "Rap",
+  "rank": 658837,
+  "art": "https://cdn-images.dzcdn.net/images/cover/a6afef6fc32ab5253276b2325ca58233/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/2174176987",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/7/f/0/47fe1323a3d4d1f9172ee077903a1062.mp3?hdnea=exp=1794898858~acl=/api/1/1/4/7/f/0/47fe1323a3d4d1f9172ee077903a1062.mp3*~data=user_id=0,application_id=42~hmac=8f4647303eefb4b9cb22739846ed255dfd8927acd384f77a41b86f73a8b00b11",
+  "hit": true
+ },
+ {
+  "id": "dz2174175367",
+  "source": "deezer",
+  "dz": 2174175367,
+  "title": "Sorry Bout That",
+  "artist": "Yeat",
+  "credit": "Yeat",
+  "artists": [
+   "Yeat"
+  ],
+  "year": 2021,
+  "genre": "Rap",
+  "rank": 562663,
+  "art": "https://cdn-images.dzcdn.net/images/cover/82dca01444eabd6eb19ba25cfa52f034/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/2174175367",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/4/0/ef44397dc0790cb66d01bd95f67cc0b9.mp3?hdnea=exp=1794898864~acl=/api/1/1/e/f/4/0/ef44397dc0790cb66d01bd95f67cc0b9.mp3*~data=user_id=0,application_id=42~hmac=613b02a600e49b532fd1a52a603f0a7e8d5cc0f00c4b086edda34d76e90520ae",
   "hit": true
  },
  {
@@ -7407,6 +8168,24 @@ window.SONGS = [
   "hit": false
  },
  {
+  "id": "dz552753202",
+  "source": "deezer",
+  "dz": 552753202,
+  "title": "Canceled",
+  "artist": "Bryson Tiller",
+  "credit": "Bryson Tiller",
+  "artists": [
+   "Bryson Tiller"
+  ],
+  "year": 2018,
+  "genre": "Rap",
+  "rank": 303325,
+  "art": "https://cdn-images.dzcdn.net/images/cover/a42c57160978318393358bb3628c0278/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/552753202",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/f/2/0/5f2082265cebc853715701e4b8214fae.mp3?hdnea=exp=1794898877~acl=/api/1/1/5/f/2/0/5f2082265cebc853715701e4b8214fae.mp3*~data=user_id=0,application_id=42~hmac=8e420fc161a04e9f98d690094b3958f63ba051bb3119e3367658c89e0c09bf2f",
+  "hit": false
+ },
+ {
   "id": 1533349985,
   "title": "Outta Time",
   "artist": "Bryson Tiller",
@@ -7718,6 +8497,114 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/7e/be/fb7ebebc-b479-8e24-4f75-ad50a5306703/mzaf_3786961774302828169.plus.aac.p.m4a",
   "rank": 255002,
   "hit": false
+ },
+ {
+  "id": "dz1919680227",
+  "source": "deezer",
+  "dz": 1919680227,
+  "title": "Coincidence",
+  "artist": "LUCKI",
+  "credit": "LUCKI",
+  "artists": [
+   "LUCKI"
+  ],
+  "year": 2022,
+  "genre": "Rap",
+  "rank": 162122,
+  "art": "https://cdn-images.dzcdn.net/images/cover/18265bafbedc1e4eda41296d174a2ed4/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/1919680227",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/1/d/0/11deb77f4766dad255b709ab34416d5f.mp3?hdnea=exp=1794898886~acl=/api/1/1/1/1/d/0/11deb77f4766dad255b709ab34416d5f.mp3*~data=user_id=0,application_id=42~hmac=26f7d4d32882142cea912b9db61c0ba59eb7ca9f8f37f3c3e2739a2cfa92af48",
+  "hit": false
+ },
+ {
+  "id": "dz1785255737",
+  "source": "deezer",
+  "dz": 1785255737,
+  "title": "Y Not?",
+  "artist": "LUCKI",
+  "credit": "LUCKI",
+  "artists": [
+   "LUCKI"
+  ],
+  "year": 2022,
+  "genre": "Rap",
+  "rank": 246221,
+  "art": "https://cdn-images.dzcdn.net/images/cover/7fcec7fadd0b0e79c253c099e559e81e/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/1785255737",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/c/4/0/7c4eb543ed98834cc9aa05c5bcc5df00.mp3?hdnea=exp=1794898891~acl=/api/1/1/7/c/4/0/7c4eb543ed98834cc9aa05c5bcc5df00.mp3*~data=user_id=0,application_id=42~hmac=e8bb604b87c9dac543aa15c5da3ef7c57dc073c1f1dd98e96a8c893bc7548568",
+  "hit": true
+ },
+ {
+  "id": "dz1653450062",
+  "source": "deezer",
+  "dz": 1653450062,
+  "title": "Super Urus",
+  "artist": "LUCKI",
+  "credit": "LUCKI",
+  "artists": [
+   "LUCKI"
+  ],
+  "year": 2022,
+  "genre": "Rap",
+  "rank": 345813,
+  "art": "https://cdn-images.dzcdn.net/images/cover/7b7c9c9e86c59f4bf5e0661ae4049c34/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/1653450062",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/f/1/0/9f13299467eda6728a79a752865af920.mp3?hdnea=exp=1794898896~acl=/api/1/1/9/f/1/0/9f13299467eda6728a79a752865af920.mp3*~data=user_id=0,application_id=42~hmac=30233600ad71f5d1c0075ad6a5009fe8f61e913942a70200f0a930318999fc1d",
+  "hit": true
+ },
+ {
+  "id": "dz1919680207",
+  "source": "deezer",
+  "dz": 1919680207,
+  "title": "Geeked N Blessed",
+  "artist": "LUCKI",
+  "credit": "LUCKI",
+  "artists": [
+   "LUCKI"
+  ],
+  "year": 2022,
+  "genre": "Rap",
+  "rank": 212846,
+  "art": "https://cdn-images.dzcdn.net/images/cover/18265bafbedc1e4eda41296d174a2ed4/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/1919680207",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/6/2/0/e626b4e084f8e59482c3df75ec7e3587.mp3?hdnea=exp=1794898902~acl=/api/1/1/e/6/2/0/e626b4e084f8e59482c3df75ec7e3587.mp3*~data=user_id=0,application_id=42~hmac=6eaa968932854541ba040eb2476ee306fdd4219db3c621e86e61a0be4c27a433",
+  "hit": false
+ },
+ {
+  "id": "dz926631952",
+  "source": "deezer",
+  "dz": 926631952,
+  "title": "Faith",
+  "artist": "LUCKI",
+  "credit": "LUCKI",
+  "artists": [
+   "LUCKI"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "rank": 150119,
+  "art": "https://cdn-images.dzcdn.net/images/cover/1308e2fcc8cda33fcde7051e8f39a2db/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/926631952",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/3/0/b6390cf3d1dc260c3c0f74f2e24d109e.mp3?hdnea=exp=1794898907~acl=/api/1/1/b/6/3/0/b6390cf3d1dc260c3c0f74f2e24d109e.mp3*~data=user_id=0,application_id=42~hmac=42d32059744690bc60c25f0e943cc845b3391124b24a617c1bafcf34c96c5602",
+  "hit": false
+ },
+ {
+  "id": "dz2248666917",
+  "source": "deezer",
+  "dz": 2248666917,
+  "title": "Leave Her",
+  "artist": "LUCKI",
+  "credit": "LUCKI",
+  "artists": [
+   "LUCKI"
+  ],
+  "year": 2023,
+  "genre": "Rap",
+  "rank": 420164,
+  "art": "https://cdn-images.dzcdn.net/images/cover/5ec884e68da49f1d55786eb22fe33360/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/2248666917",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/c/3/0/1c3e6e5c0b0de1ddf0446323bee8c4ba.mp3?hdnea=exp=1794898917~acl=/api/1/1/1/c/3/0/1c3e6e5c0b0de1ddf0446323bee8c4ba.mp3*~data=user_id=0,application_id=42~hmac=a630150575a745a80a086782d4a70f5b777e0070de05f66e638d5bbfc526d2cb",
+  "hit": true
  },
  {
   "id": 1696244996,
@@ -8085,6 +8972,43 @@ window.SONGS = [
   "hit": true
  },
  {
+  "id": "dz2114001497",
+  "source": "deezer",
+  "dz": 2114001497,
+  "title": "Pound Town",
+  "artist": "Sexyy Red",
+  "credit": "Sexyy Red feat. Tay Keith",
+  "artists": [
+   "Sexyy Red",
+   "Tay Keith"
+  ],
+  "year": 2023,
+  "genre": "Rap",
+  "rank": 644044,
+  "art": "https://cdn-images.dzcdn.net/images/cover/a0e8759657599213e01760d1d827c836/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/2114001497",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/1/d/0/c1d2e2c7eef2aae4a5f9e8454488bc78.mp3?hdnea=exp=1794898942~acl=/api/1/1/c/1/d/0/c1d2e2c7eef2aae4a5f9e8454488bc78.mp3*~data=user_id=0,application_id=42~hmac=fbf405e7ab6aa513cdb170fddb93c07e17869c8a3b1e485705e4d7cefaa9ead2",
+  "hit": true
+ },
+ {
+  "id": "dz2312700875",
+  "source": "deezer",
+  "dz": 2312700875,
+  "title": "SkeeYee",
+  "artist": "Sexyy Red",
+  "credit": "Sexyy Red",
+  "artists": [
+   "Sexyy Red"
+  ],
+  "year": 2023,
+  "genre": "Rap",
+  "rank": 470667,
+  "art": "https://cdn-images.dzcdn.net/images/cover/7a0c3b2279938641c09754dc40fbecdb/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/2312700875",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/a/d/0/badcc65f7348815b211f3364392bf0a0.mp3?hdnea=exp=1794898947~acl=/api/1/1/b/a/d/0/badcc65f7348815b211f3364392bf0a0.mp3*~data=user_id=0,application_id=42~hmac=9572e4cb92f7c32c6d1abe24c09116fb4290f0382909b00b0f9e29b4dd957b8d",
+  "hit": true
+ },
+ {
   "id": 1749058812,
   "title": "Get It Sexyy",
   "artist": "Sexyy Red",
@@ -8119,6 +9043,24 @@ window.SONGS = [
   "hit": true
  },
  {
+  "id": "dz2467835265",
+  "source": "deezer",
+  "dz": 2467835265,
+  "title": "Shake Yo Dreads",
+  "artist": "Sexyy Red",
+  "credit": "Sexyy Red",
+  "artists": [
+   "Sexyy Red"
+  ],
+  "year": 2023,
+  "genre": "Rap",
+  "rank": 339250,
+  "art": "https://cdn-images.dzcdn.net/images/cover/f7e271dc52e2fca305b5ea82ddf6e80e/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/2467835265",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/7/1/0/871e5890d69a957783462549b4e568a5.mp3?hdnea=exp=1794898957~acl=/api/1/1/8/7/1/0/871e5890d69a957783462549b4e568a5.mp3*~data=user_id=0,application_id=42~hmac=1deceac4dbc5e052e6d31e441ef9feeb7fcee42bc0dac484c132d85e32c251b7",
+  "hit": false
+ },
+ {
   "id": 1749059606,
   "title": "U My Everything",
   "artist": "Sexyy Red",
@@ -8134,6 +9076,43 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/d5/5d/e4d55d3f-f876-a52d-e9e2-8b81bafd6784/mzaf_3077401788152037547.plus.aac.p.m4a",
   "rank": 455388,
   "hit": false
+ },
+ {
+  "id": "dz2312700955",
+  "source": "deezer",
+  "dz": 2312700955,
+  "title": "Born By The River",
+  "artist": "Sexyy Red",
+  "credit": "Sexyy Red feat. Sukihana",
+  "artists": [
+   "Sexyy Red",
+   "Sukihana"
+  ],
+  "year": 2023,
+  "genre": "Rap",
+  "rank": 156811,
+  "art": "https://cdn-images.dzcdn.net/images/cover/7a0c3b2279938641c09754dc40fbecdb/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/2312700955",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/3/2/0/e320cd088d9e4ee5a2b2fe96852ce6a1.mp3?hdnea=exp=1794898966~acl=/api/1/1/e/3/2/0/e320cd088d9e4ee5a2b2fe96852ce6a1.mp3*~data=user_id=0,application_id=42~hmac=63f454fd85a2bda085d814b2151a3affad5b7ed46a8fb64809ac459c3a4fdcfd",
+  "hit": false
+ },
+ {
+  "id": "dz2312700905",
+  "source": "deezer",
+  "dz": 2312700905,
+  "title": "Looking For The Hoes",
+  "artist": "Sexyy Red",
+  "credit": "Sexyy Red",
+  "artists": [
+   "Sexyy Red"
+  ],
+  "year": 2023,
+  "genre": "Rap",
+  "rank": 553303,
+  "art": "https://cdn-images.dzcdn.net/images/cover/7a0c3b2279938641c09754dc40fbecdb/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/2312700905",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/e/e/0/cee5eaa091d060fb2e24dbff759c6b3c.mp3?hdnea=exp=1794898972~acl=/api/1/1/c/e/e/0/cee5eaa091d060fb2e24dbff759c6b3c.mp3*~data=user_id=0,application_id=42~hmac=3f9e0b62e9b69b4cb0f08cccbd932f42af5930cb0395c273466284bd133c0ed7",
+  "hit": true
  },
  {
   "id": 1368105797,
@@ -8452,6 +9431,24 @@ window.SONGS = [
   "hit": false
  },
  {
+  "id": "dz606887352",
+  "source": "deezer",
+  "dz": 606887352,
+  "title": "Big Ole Freak",
+  "artist": "Megan Thee Stallion",
+  "credit": "Megan Thee Stallion",
+  "artists": [
+   "Megan Thee Stallion"
+  ],
+  "year": 2018,
+  "genre": "Rap",
+  "rank": 545333,
+  "art": "https://cdn-images.dzcdn.net/images/cover/1fb9852538256c7ee38cb2643961c646/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/606887352",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/f/4/0/4f4909aa8dff7b13d0e6b6c8e95c237d.mp3?hdnea=exp=1794899000~acl=/api/1/1/4/f/4/0/4f4909aa8dff7b13d0e6b6c8e95c237d.mp3*~data=user_id=0,application_id=42~hmac=e0542151743c3857784f591b8298f5d235ad2b9783377242e76e72bc02456e2e",
+  "hit": true
+ },
+ {
   "id": 1501739783,
   "title": "Captain Hook",
   "artist": "Megan Thee Stallion",
@@ -8481,7 +9478,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/girls-in-the-hood/1520469838?i=1520470091&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e5/20/10/e520109f-4021-c8fd-1f19-bd7d42b96f73/mzaf_17717371845804003378.plus.aac.p.m4a",
   "rank": 499679,
-  "hit": true
+  "hit": false
  },
  {
   "id": 1534158925,
@@ -9288,6 +10285,24 @@ window.SONGS = [
   "hit": false
  },
  {
+  "id": "dz72569034",
+  "source": "deezer",
+  "dz": 72569034,
+  "title": "Work Bitch",
+  "artist": "Britney Spears",
+  "credit": "Britney Spears",
+  "artists": [
+   "Britney Spears"
+  ],
+  "year": 2013,
+  "genre": "Pop",
+  "rank": 794602,
+  "art": "https://cdn-images.dzcdn.net/images/cover/d1a4a86f6841de681aa8fd329656c4fc/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/72569034",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/8/5/0/585ea0b6137e5ecd1b4d1272f2eb1032.mp3?hdnea=exp=1794899016~acl=/api/1/1/5/8/5/0/585ea0b6137e5ecd1b4d1272f2eb1032.mp3*~data=user_id=0,application_id=42~hmac=bf292c0c8e16fb476c321c0424522014a30f53901eb35986743d444fc984b3b3",
+  "hit": true
+ },
+ {
   "id": 521738945,
   "title": "Radar",
   "artist": "Britney Spears",
@@ -9513,6 +10528,28 @@ window.SONGS = [
   ]
  },
  {
+  "id": "dz1148131032",
+  "source": "deezer",
+  "dz": 1148131032,
+  "title": "Bottoms Up",
+  "artist": "Trey Songz",
+  "credit": "Trey Songz feat. Nicki Minaj",
+  "artists": [
+   "Trey Songz",
+   "Nicki Minaj"
+  ],
+  "year": 2010,
+  "genre": "R&B",
+  "rank": 511715,
+  "art": "https://cdn-images.dzcdn.net/images/cover/724c1bf242fdffc08f4e671f0a292c47/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/1148131032",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/f/6/0/af6f62fd3db70ed2b852dc590cf06e19.mp3?hdnea=exp=1794899025~acl=/api/1/1/a/f/6/0/af6f62fd3db70ed2b852dc590cf06e19.mp3*~data=user_id=0,application_id=42~hmac=efd38897950587a0b4f3ec62faaea79fd91d9362dabe2aacf038ca987ef96bfd",
+  "hit": true,
+  "tags": [
+   "freak"
+  ]
+ },
+ {
   "id": 264607314,
   "title": "Can't Help But Wait",
   "artist": "Trey Songz",
@@ -9721,6 +10758,29 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/wet-the-bed-feat-ludacris/422045097?i=422045131&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/f0/28/18f028aa-211a-6cb2-9f9f-ea61edbc330b/mzaf_4809523194825631421.plus.aac.p.m4a",
   "rank": 481484,
+  "hit": false,
+  "tags": [
+   "freak"
+  ]
+ },
+ {
+  "id": "dz648152282",
+  "source": "deezer",
+  "dz": 648152282,
+  "title": "Loyal",
+  "artist": "Chris Brown",
+  "credit": "Chris Brown feat. Lil Wayne & Tyga",
+  "artists": [
+   "Chris Brown",
+   "Lil Wayne",
+   "Tyga"
+  ],
+  "year": 2014,
+  "genre": "R&B",
+  "rank": 755351,
+  "art": "https://cdn-images.dzcdn.net/images/cover/3fa9c43f6d2ba567ad5a6129d4544e84/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/648152282",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/0/a/0/20ae918ae942c3b3380cfe036ce6f3f9.mp3?hdnea=exp=1794899034~acl=/api/1/1/2/0/a/0/20ae918ae942c3b3380cfe036ce6f3f9.mp3*~data=user_id=0,application_id=42~hmac=fa7400e9a34b2b151f77361e5c3b4624a53de145b1cfd93b5c32515ad53bd950",
   "hit": true,
   "tags": [
    "freak"
@@ -10189,6 +11249,28 @@ window.SONGS = [
   ]
  },
  {
+  "id": "dz613420582",
+  "source": "deezer",
+  "dz": 613420582,
+  "title": "Nights Like This",
+  "artist": "Kehlani",
+  "credit": "Kehlani feat. Ty Dolla $ign",
+  "artists": [
+   "Kehlani",
+   "Ty Dolla $ign"
+  ],
+  "year": 2019,
+  "genre": "R&B",
+  "rank": 592901,
+  "art": "https://cdn-images.dzcdn.net/images/cover/38f53c7ad2ef060d90f500a597e0f2f5/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/613420582",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/f/5/0/6f5210c33870481e3990427d1e985f88.mp3?hdnea=exp=1794899050~acl=/api/1/1/6/f/5/0/6f5210c33870481e3990427d1e985f88.mp3*~data=user_id=0,application_id=42~hmac=673e1fa981f04e48de316b26e8e7621faeeef49f184471d5a43e314cf0cf3ba2",
+  "hit": true,
+  "tags": [
+   "freak"
+  ]
+ },
+ {
   "id": 1631016230,
   "title": "Dead Man Walking",
   "artist": "Brent Faiyaz",
@@ -10263,6 +11345,28 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/or-nah-feat-wiz-khalifa-dj-mustard/784311759?i=784313979&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/dd/8f/52dd8f53-08bb-e102-2fc2-b0bbca166594/mzaf_9533722014699199503.plus.aac.p.m4a",
   "rank": 860616,
+  "hit": true,
+  "tags": [
+   "freak"
+  ]
+ },
+ {
+  "id": "dz925892",
+  "source": "deezer",
+  "dz": 925892,
+  "title": "Shawty Is Da Shit",
+  "artist": "The-Dream",
+  "credit": "The-Dream feat. Fabolous",
+  "artists": [
+   "The-Dream",
+   "Fabolous"
+  ],
+  "year": 2007,
+  "genre": "R&B",
+  "rank": 444719,
+  "art": "https://cdn-images.dzcdn.net/images/cover/5fbfd0de39c2bd4fb6b49afa2b25c2aa/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/925892",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/d/c/0/9dcdf9cd6e693ad66d8d91dde0cae9a6.mp3?hdnea=exp=1794899059~acl=/api/1/1/9/d/c/0/9dcdf9cd6e693ad66d8d91dde0cae9a6.mp3*~data=user_id=0,application_id=42~hmac=a106ae8bd2398f7039d9ca1e078c020861913245a8ec7b9a94cc1f846e9ccb60",
   "hit": true,
   "tags": [
    "freak"
@@ -10500,6 +11604,48 @@ window.SONGS = [
   ]
  },
  {
+  "id": "dz1461093002",
+  "source": "deezer",
+  "dz": 1461093002,
+  "title": "Rolling Stone",
+  "artist": "The Weeknd",
+  "credit": "The Weeknd",
+  "artists": [
+   "The Weeknd"
+  ],
+  "year": 2021,
+  "genre": "R&B",
+  "rank": 315015,
+  "art": "https://cdn-images.dzcdn.net/images/cover/ef5abb0ea84232ad1bfd99f6eca0a100/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/1461093002",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/9/3/0/89384f17baadb142b9d3db0186fef24d.mp3?hdnea=exp=1794898552~acl=/api/1/1/8/9/3/0/89384f17baadb142b9d3db0186fef24d.mp3*~data=user_id=0,application_id=42~hmac=7d06c0b6b5dae8496663ca054f64819ad3cd5fd0e13477f07c95dd81d8591406",
+  "hit": false,
+  "tags": [
+   "akul"
+  ]
+ },
+ {
+  "id": "dz1278960512",
+  "source": "deezer",
+  "dz": 1278960512,
+  "title": "Loft Music",
+  "artist": "The Weeknd",
+  "credit": "The Weeknd",
+  "artists": [
+   "The Weeknd"
+  ],
+  "year": 2021,
+  "genre": "R&B",
+  "rank": 443910,
+  "art": "https://cdn-images.dzcdn.net/images/cover/912594cc88625ecbeeb6fce8ee178a74/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/1278960512",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/9/e/0/89e8dea166da6d17dabce0707e5ff308.mp3?hdnea=exp=1794898557~acl=/api/1/1/8/9/e/0/89e8dea166da6d17dabce0707e5ff308.mp3*~data=user_id=0,application_id=42~hmac=60e6d50421eca3fd43c27f8901cf4cb551448eb72d83c87ba68db9f671676cf5",
+  "hit": false,
+  "tags": [
+   "akul"
+  ]
+ },
+ {
   "id": 1714908981,
   "title": "What You Need",
   "artist": "The Weeknd",
@@ -10519,6 +11665,27 @@ window.SONGS = [
   ]
  },
  {
+  "id": "dz1278960492",
+  "source": "deezer",
+  "dz": 1278960492,
+  "title": "The Party & The After Party",
+  "artist": "The Weeknd",
+  "credit": "The Weeknd",
+  "artists": [
+   "The Weeknd"
+  ],
+  "year": 2021,
+  "genre": "R&B",
+  "rank": 762956,
+  "art": "https://cdn-images.dzcdn.net/images/cover/912594cc88625ecbeeb6fce8ee178a74/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/1278960492",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/4/0/2841bc65298c8f01ed07feaa2812efa9.mp3?hdnea=exp=1794898562~acl=/api/1/1/2/8/4/0/2841bc65298c8f01ed07feaa2812efa9.mp3*~data=user_id=0,application_id=42~hmac=9e9202d66db1b275fa265ca2e38f9df3de8da0e121c0ba76144e9c70fda752ca",
+  "hit": true,
+  "tags": [
+   "akul"
+  ]
+ },
+ {
   "id": 1714909005,
   "title": "Thursday",
   "artist": "The Weeknd",
@@ -10532,6 +11699,28 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/thursday/1714908584?i=1714909005&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/71/c5/5671c513-6656-80c1-ce70-273a46324b7b/mzaf_4134154684420010349.plus.aac.p.m4a",
   "rank": 363618,
+  "hit": false,
+  "tags": [
+   "akul"
+  ]
+ },
+ {
+  "id": "dz1461092962",
+  "source": "deezer",
+  "dz": 1461092962,
+  "title": "The Zone",
+  "artist": "The Weeknd",
+  "credit": "The Weeknd feat. Drake",
+  "artists": [
+   "The Weeknd",
+   "Drake"
+  ],
+  "year": 2021,
+  "genre": "R&B",
+  "rank": 407240,
+  "art": "https://cdn-images.dzcdn.net/images/cover/ef5abb0ea84232ad1bfd99f6eca0a100/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/1461092962",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/f/f/0/0ff8b2bb9ccdc719e67ea614f59cc0a2.mp3?hdnea=exp=1794898568~acl=/api/1/1/0/f/f/0/0ff8b2bb9ccdc719e67ea614f59cc0a2.mp3*~data=user_id=0,application_id=42~hmac=fb3755f0311e8e4b8a4c779bfbc2fc328ca4c49b20bb722edf52f69918c6db11",
   "hit": false,
   "tags": [
    "akul"

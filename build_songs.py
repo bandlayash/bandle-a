@@ -3,7 +3,9 @@
 
 Looks the songs up in Apple's public iTunes Search API (one request per artist,
 plus one per song it couldn't find that way) and keeps each track's id, year,
-genre, artwork and 30-second preview URL. A popularity rank from Deezer's public
+genre, artwork and 30-second preview URL. Songs Apple has no preview for are
+looked up on Deezer instead (marked "source": "deezer"); their preview links
+expire, so the page fetches a fresh one at play time. A popularity rank from Deezer's public
 search decides which songs count as hits. Songs already in songs.js are kept, so
 re-running after adding a few lines is quick.
 
@@ -28,7 +30,7 @@ HIT_RANK = 500_000
 # Apple's genre names, folded into the genre chips on the start screen.
 GENRES = [("hip-hop", "Rap"), ("rap", "Rap"), ("r&b", "R&B"), ("soul", "R&B"), ("funk", "R&B"),
           ("dance", "House/EDM"), ("electronic", "House/EDM"), ("house", "House/EDM"),
-          ("techno", "House/EDM"), ("rock", "Rock"), ("alternative", "Rock"), ("metal", "Rock"),
+          ("techno", "House/EDM"), ("electro", "House/EDM"), ("rock", "Rock"), ("alternative", "Rock"), ("metal", "Rock"),
           ("punk", "Rock"), ("pop", "Pop"), ("latin", "Pop"), ("country", "Pop")]
 
 
@@ -90,7 +92,7 @@ def credited(want_a, artist_name, track_name):
 
 def refresh_credits(found):
     """Fill in credits and genre for songs saved before those fields existed."""
-    stale = [s for s in found.values() if "artists" not in s or "genre" not in s]
+    stale = [s for s in found.values() if s.get("source") != "deezer" and ("artists" not in s or "genre" not in s)]
     for i in range(0, len(stale), 150):
         batch = stale[i:i + 150]
         url = "https://itunes.apple.com/lookup?country=US&id=" + ",".join(str(s["id"]) for s in batch)
@@ -122,11 +124,52 @@ def deezer_rank(song):
 
 
 def refresh_ranks(found):
-    for song in [s for s in found.values() if not s.get("rank")]:  # also retry ones not found last time
+    for song in [s for s in found.values() if not s.get("rank") and s.get("source") != "deezer"]:  # retry misses too
         rank = deezer_rank(song)
         if rank is not None:
             song["rank"] = rank
         time.sleep(0.4)  # Deezer allows 50 requests per 5 seconds; stay well under it
+
+
+def deezer_get(path, **params):
+    url = f"https://api.deezer.com/{path}" + ("?" + urllib.parse.urlencode(params) if params else "")
+    out = subprocess.run(["curl", "-s", "-m", "20", url], capture_output=True, text=True).stdout
+    time.sleep(0.4)  # Deezer allows 50 requests per 5 seconds; stay well under it
+    try:
+        data = json.loads(out)
+    except ValueError:
+        return {}
+    return {} if "error" in data else data
+
+
+def deezer_find(artist, title):
+    """Fallback for songs Apple has no preview for: the most popular matching Deezer recording."""
+    want_a, want_t = norm(artist), norm(core(title))
+    results = deezer_get("search", q=f"{artist} {core(title)}", limit=25).get("data", [])
+    hits = [r for r in results
+            if r.get("preview") and norm(core(r.get("title", ""))) in (want_t, norm(title))
+            and credited(want_a, r.get("artist", {}).get("name", ""), r.get("title", ""))
+            and not (BAD.search(r.get("title", "")) and not BAD.search(title))]
+    if not hits:
+        return None
+    best = max(hits, key=lambda r: r.get("rank", 0))
+    track = deezer_get(f"track/{best['id']}") or best
+    names = [c["name"] for c in track.get("contributors", [])] or [best["artist"]["name"]]
+    main = best["artist"]["name"]
+    album = track.get("album", best.get("album", {}))
+    album_info = deezer_get(f"album/{album['id']}") if album.get("id") else {}
+    genres = album_info.get("genres", {}).get("data", [])
+    date = track.get("release_date") or album_info.get("release_date") or ""
+    if not date[:4].isdigit() or date[:4] == "0000":
+        return None  # no usable release year
+    return {"id": f"dz{best['id']}", "source": "deezer", "dz": best["id"], "title": title, "artist": artist,
+            "credit": main + (" feat. " + " & ".join(n for n in names if norm(n) != norm(main)) if len(names) > 1 else ""),
+            "artists": performers(", ".join(names), best.get("title", "")),
+            "year": int(date[:4]) if date[:4].isdigit() else 0,
+            "genre": genre_of(genres[0]["name"] if genres else ""),
+            "rank": best.get("rank", 0),
+            "art": album.get("cover_big") or album.get("cover_medium", ""),
+            "url": track.get("link", ""), "preview": best["preview"]}
 
 
 def pick(results, artist, title):
@@ -217,7 +260,8 @@ def main():
             continue
         catalogue = search(term=artist, attribute="artistTerm", limit=200)
         for key in todo:
-            song = pick(catalogue, *key) or pick(search(term=f"{artist} {core(key[1])}", limit=25), *key)
+            song = (pick(catalogue, *key) or pick(search(term=f"{artist} {core(key[1])}", limit=25), *key)
+                    or deezer_find(*key))
             if song:
                 found[key] = song
         got = sum(k in found for k in todo)

@@ -414,7 +414,7 @@
 </div>
 <canvas id="confetti" aria-hidden="true"></canvas>
 
-<script src="songs.js?v=c2892842"></script>
+<script src="songs.js?v=055946bb"></script>
 <script type="module">
 const SONGS = window.SONGS || [];
 const PARTS = [
@@ -486,7 +486,26 @@ function separate(left, right, progress) {
   });
 }
 
+// Deezer's API has no CORS headers, but it supports JSONP. Its preview links expire after ~15 minutes,
+// so songs sourced from Deezer get a fresh link each time they're played.
+function deezerTrack(id) {
+  return new Promise((resolve, reject) => {
+    const cb = '__deezer' + Math.random().toString(36).slice(2), tag = document.createElement('script');
+    const done = () => { delete window[cb]; tag.remove(); clearTimeout(timer); };
+    const timer = setTimeout(() => { done(); reject(new Error('Deezer did not respond')); }, 10000);
+    window[cb] = data => { done(); data?.preview ? resolve(data) : reject(new Error(data?.error?.message || 'No Deezer preview')); };
+    tag.onerror = () => { done(); reject(new Error('Deezer lookup failed')); };
+    tag.src = `https://api.deezer.com/track/${encodeURIComponent(id)}?output=jsonp&callback=${cb}`;
+    document.head.append(tag);
+  });
+}
+
 async function fetchPreview(song) {
+  if (song.source === 'deezer') {
+    const res = await fetch((await deezerTrack(song.dz)).preview);
+    if (!res.ok) throw new Error(`Preview failed for ${song.title}`);
+    return res.arrayBuffer();
+  }
   let res = await fetch(song.preview).catch(() => null);
   if (!res?.ok) {  // stored link went stale: ask Apple for the current one
     const info = await (await fetch(`https://itunes.apple.com/lookup?id=${song.id}`)).json();
@@ -741,6 +760,7 @@ function finish(won) {
   $('ansArtist').textContent = `${s.credit || s.artist} · ${s.year}`;
   $('art').src = s.art || ''; $('art').alt = s.art ? `Cover of ${s.title}` : '';
   $('ansLink').href = s.url; $('ansLink').hidden = !s.url;
+  $('ansLink').textContent = s.source === 'deezer' ? 'Listen on Deezer ↗' : 'Listen on Apple Music ↗';
   $('nextBtn').textContent = run.idx + 1 < run.songs.length ? 'Next song' : 'See results';
   $('guessing').hidden = true; $('answer').hidden = false; closeSuggest();
   applyGains(); renderHud(); renderLanes(); renderTransport();
