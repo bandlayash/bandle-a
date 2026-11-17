@@ -1,201 +1,357 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Unmix</title>
+<title>Bandla(e)</title>
 <meta name="description" content="Name the song from as few layers as you can: drums first, then bass, instruments and vocals.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23131218'/%3E%3Crect x='6' y='14' width='4' height='10' rx='1' fill='%23f2b441'/%3E%3Crect x='12' y='8' width='4' height='16' rx='1' fill='%23ef6f5e'/%3E%3Crect x='18' y='11' width='4' height='13' rx='1' fill='%234fc3b0'/%3E%3Crect x='24' y='17' width='3' height='7' rx='1' fill='%23a78bfa'/%3E%3C/svg%3E">
+<script>
+  // Apply the saved look before first paint so the page doesn't flash the wrong colours.
+  try {
+    const get = k => JSON.parse(localStorage.getItem('unmix.' + k));
+    document.documentElement.dataset.theme = get('theme') || 'dark';
+    document.documentElement.dataset.mode = get('akul') && get('akulUnlocked') ? 'akul' : get('freak') ? 'freak' : '';
+  } catch {}
+</script>
 <style>
   :root {
-    --bg: #131218; --panel: #1c1b23; --line: #2c2a36; --text: #f1eee8; --dim: #8f8b9c;
+    --mono: ui-monospace, "SF Mono", Menlo, monospace;
+    --tagw: 8.5rem;    /* width of the layer-name column; the seek area starts right after it */
+    --lane: 5.25rem;   /* height of each layer row */
+    font-size: 112.5%;  /* everything is sized in rem, so this one value scales the whole UI */
+  }
+  /* ---- colour schemes ---- */
+  :root, [data-theme="dark"] {
+    --bg: #131218; --bgimg: none; --panel: #1c1b23; --line: #2c2a36; --hover: #45425a; --text: #f1eee8; --dim: #8f8b9c;
+    --pop: #24222d; --sel: #34313f; --veil: rgba(28,27,35,.94);
+    --primary: #f1eee8; --onprimary: #131218; --accent: #4fc3b0;
     --drums: #f2b441; --bass: #ef6f5e; --other: #4fc3b0; --vocals: #a78bfa;
     --good: #6fd08c; --bad: #ef6f5e;
-    --mono: ui-monospace, "SF Mono", Menlo, monospace;
-    --tagw: 136px;   /* width of the layer-name column; the seek area starts right after it */
-    --lane: 84px;    /* height of each layer row */
   }
+  [data-theme="light"] {
+    --bg: #f5f2ec; --panel: #ffffff; --line: #e1ddd4; --hover: #bdb7aa; --text: #1b1a20; --dim: #6c6875;
+    --pop: #ffffff; --sel: #efebe3; --veil: rgba(255,255,255,.94);
+    --primary: #1b1a20; --onprimary: #ffffff; --accent: #0f8f7b;
+    --drums: #d18800; --bass: #d4473a; --other: #12917d; --vocals: #7754e0;
+    --good: #23894a; --bad: #c8382c;
+  }
+  [data-theme="mono"] {
+    --bg: #101010; --panel: #1a1a1a; --line: #2e2e2e; --hover: #555; --text: #f2f2f2; --dim: #8c8c8c;
+    --pop: #222; --sel: #333; --veil: rgba(26,26,26,.94);
+    --primary: #f2f2f2; --onprimary: #101010; --accent: #f2f2f2;
+    --drums: #f2f2f2; --bass: #c4c4c4; --other: #9a9a9a; --vocals: #dedede;
+    --good: #f2f2f2; --bad: #9a9a9a;
+  }
+  [data-theme="vivid"] {
+    --bg: #160a2c; --bgimg: radial-gradient(1200px 700px at 10% -10%, #3a1170 0, transparent 60%), radial-gradient(900px 600px at 110% 10%, #0b4f6c 0, transparent 60%), radial-gradient(900px 700px at 50% 120%, #6b0f4f 0, transparent 60%);
+    --panel: rgba(32,16,62,.82); --line: #3d2468; --hover: #6b46b0; --text: #fff8ff; --dim: #b9a3dc;
+    --pop: #2a1550; --sel: #3d2070; --veil: rgba(32,16,62,.95);
+    --primary: #ffe14d; --onprimary: #1d0b38; --accent: #2de2e6;
+    --drums: #ffe14d; --bass: #ff4fa3; --other: #2de2e6; --vocals: #b4ff39;
+    --good: #b4ff39; --bad: #ff4fa3;
+  }
+  /* Freak and Akul modes override whichever scheme is picked */
+  [data-mode="freak"], [data-mode="akul"] {
+    --bg: #120306; --bgimg: radial-gradient(1000px 600px at 50% -20%, #4a0612 0, transparent 70%);
+    --panel: #1f060b; --line: #42101a; --hover: #8a1a2d; --text: #ffe9ec; --dim: #c47d88;
+    --pop: #2a0910; --sel: #451019; --veil: rgba(31,6,11,.95);
+    --primary: #ff2e4d; --onprimary: #fff; --accent: #ff2e4d;
+    --drums: #ff2e4d; --bass: #ff7088; --other: #c9184a; --vocals: #ffa3b5;
+    --good: #ff7088; --bad: #ff2e4d;
+  }
+  [data-mode="akul"] {
+    --bg: #070000; --bgimg: radial-gradient(1000px 650px at 50% -25%, #6a0000 0, transparent 70%);
+    --primary: #e50914; --accent: #e50914; --drums: #e50914; --vocals: #ffd1d6;
+  }
+
   * { box-sizing: border-box; }
   body {
-    margin: 0; min-height: 100vh; background: var(--bg); color: var(--text);
-    font: 18px/1.45 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
-    -webkit-font-smoothing: antialiased;
+    margin: 0; min-height: 100vh; background: var(--bgimg), var(--bg); background-attachment: fixed; color: var(--text);
+    font: 1rem/1.45 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased; transition: background-color .3s, color .3s;
   }
-  .wrap { max-width: 780px; margin: 0 auto; padding: 28px 20px 56px; }
-  header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 24px; }
-  h1 { margin: 0; font-size: 28px; letter-spacing: -0.02em; font-weight: 700; }
-  h1 button { font-weight: inherit; letter-spacing: inherit; padding: 0; }
-  .hud { font: 15px var(--mono); color: var(--dim); display: flex; gap: 18px; }
+  .wrap { max-width: 49rem; margin: 0 auto; padding: 1.75rem 1.25rem 3.5rem; }
+  .wrap.wide { max-width: 66rem; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1.5rem; }
+  .brand { display: flex; align-items: center; gap: .75rem; min-width: 0; }
+  h1 { margin: 0; font-size: 1.75rem; letter-spacing: -0.02em; font-weight: 700; }
+  .iconbtn { width: 2.5rem; height: 2.5rem; border-radius: .75rem; display: grid; place-items: center; color: var(--dim); border: 1px solid var(--line); background: var(--panel); flex: none; }
+  .iconbtn:hover { color: var(--text); border-color: var(--hover); }
+  .iconbtn svg { width: 1.25rem; height: 1.25rem; }
+  .modetag { font: .75rem var(--mono); text-transform: uppercase; letter-spacing: .1em; color: var(--accent); border: 1px solid var(--accent); border-radius: 999px; padding: .2rem .6rem; white-space: nowrap; }
+  .hud { font: .9375rem var(--mono); color: var(--dim); display: flex; gap: 1.125rem; flex-wrap: wrap; justify-content: flex-end; }
   .hud b { color: var(--text); font-weight: 600; }
   [hidden] { display: none !important; }
   button { font: inherit; color: inherit; cursor: pointer; border: 0; background: none; }
   button:disabled { opacity: .4; cursor: default; }
-  button:focus-visible, input:focus-visible { outline: 2px solid var(--other); outline-offset: 2px; }
+  button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .btn {
-    padding: 14px 20px; border-radius: 12px; background: var(--panel);
-    border: 1px solid var(--line); font-weight: 600; font-size: 16px; white-space: nowrap;
+    padding: .875rem 1.25rem; border-radius: .75rem; background: var(--panel);
+    border: 1px solid var(--line); font-weight: 600; font-size: 1rem; white-space: nowrap;
   }
-  .btn:hover:not(:disabled) { border-color: #45425a; }
-  .btn.primary { background: var(--text); color: var(--bg); border-color: var(--text); }
-  .btn small { font: 13px var(--mono); opacity: .65; margin-left: 6px; font-weight: 400; }
+  .btn:hover:not(:disabled) { border-color: var(--hover); }
+  .btn.primary { background: var(--primary); color: var(--onprimary); border-color: var(--primary); }
+  .btn small { font: .8125rem var(--mono); opacity: .65; margin-left: .375rem; font-weight: 400; }
+  .status { font: .875rem var(--mono); color: var(--dim); }
+  .error { color: var(--bad); }
 
-  /* start */
-  .lede { font-size: 21px; margin: 32px 0; max-width: 30em; text-wrap: balance; }
-  .opt h2 { font: 13px var(--mono); color: var(--dim); text-transform: uppercase; letter-spacing: .08em; margin: 24px 0 12px; display: flex; gap: 14px; align-items: baseline; }
+  /* ---- password gate ---- */
+  #gate { position: fixed; inset: 0; display: grid; place-items: center; padding: 1rem; background: var(--bgimg), var(--bg); z-index: 40; }
+  .gatebox { width: min(22rem, 100%); display: grid; gap: .875rem; }
+  .gatebox p { margin: 0; color: var(--dim); }
+  .gatebox input, #secretCode {
+    width: 100%; padding: .875rem 1rem; border-radius: .75rem; border: 1px solid var(--line);
+    background: var(--panel); color: var(--text); font: inherit;
+  }
+
+  /* ---- start screen ---- */
+  .lede { font-size: 1.3125rem; margin: 1.5rem 0 2rem; max-width: 30em; text-wrap: balance; }
+  .opt { margin-top: 1.5rem; }
+  .opt h2 { font: .8125rem var(--mono); color: var(--dim); text-transform: uppercase; letter-spacing: .08em; margin: 0 0 .75rem; display: flex; gap: .875rem; align-items: baseline; font-weight: 400; }
   .opt h2 button { font: inherit; text-transform: none; letter-spacing: 0; text-decoration: underline; text-underline-offset: 3px; padding: 0; }
-  .opt h2 button:first-of-type { margin-left: auto; }
-  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
-  .chip { padding: 8px 15px; border-radius: 999px; border: 1px solid var(--line); font-size: 16px; color: var(--dim); }
-  .chip small { font: 12px var(--mono); margin-left: 7px; opacity: .6; }
+  .opt h2 .push { margin-left: auto; }
+  .chips { display: flex; flex-wrap: wrap; gap: .5rem; }
+  .chip { padding: .5rem .9375rem; border-radius: 999px; border: 1px solid var(--line); font-size: 1rem; color: var(--dim); }
+  .chip small { font: .75rem var(--mono); margin-left: .4375rem; opacity: .6; }
   .chip[aria-pressed="true"] { background: var(--text); border-color: var(--text); color: var(--bg); }
   .chip[aria-pressed="false"] { text-decoration: line-through; }
   .chip[aria-pressed="false"] small { display: none; }
-  .startrow { display: flex; align-items: center; gap: 16px; margin-top: 32px; flex-wrap: wrap; }
-  .status { font: 14px var(--mono); color: var(--dim); }
+  .chip.freak { border-color: #ff2e4d; color: #ff5c75; text-decoration: none; }
+  .chip.freak[aria-pressed="true"] { background: #ff2e4d; border-color: #ff2e4d; color: #fff; }
+  .chip.freak[aria-pressed="false"] small { display: inline; }
+  .startrow { display: flex; align-items: center; gap: 1rem; margin-top: 2rem; flex-wrap: wrap; }
+  .best { color: var(--text); }
 
-  /* in-game list of the artists in play; click one to browse their songs */
-  .wrap.wide { max-width: 1060px; }
-  #game { display: grid; grid-template-columns: minmax(0, 1fr) 210px; gap: 36px; align-items: start; }
-  #roster h2 { font: 13px var(--mono); color: var(--dim); text-transform: uppercase; letter-spacing: .08em; margin: 0 0 10px; font-weight: 400; }
-  #roster ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
-  #roster button { font-size: 16px; color: var(--dim); padding: 4px 0; text-align: left; }
+  .switch { display: inline-flex; align-items: center; gap: .75rem; cursor: pointer; font-weight: 600; }
+  .switch input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+  .switch .track { width: 2.75rem; height: 1.5rem; border-radius: 999px; background: var(--line); position: relative; transition: background .2s; flex: none; }
+  .switch .track::after { content: ""; position: absolute; top: 3px; left: 3px; width: calc(1.5rem - 6px); height: calc(1.5rem - 6px); border-radius: 50%; background: var(--dim); transition: transform .2s, background .2s; }
+  .switch input:checked + .track { background: var(--accent); }
+  .switch input:checked + .track::after { transform: translateX(1.25rem); background: var(--onprimary); }
+  .switch input:focus-visible + .track { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .hint { margin: .5rem 0 0; }
+
+  /* two-handled year slider: two range inputs stacked, only their thumbs take the pointer */
+  .range { position: relative; height: 2rem; max-width: 30rem; }
+  .range .rail, .range .fill { position: absolute; top: 50%; height: .375rem; margin-top: -.1875rem; border-radius: 999px; }
+  .range .rail { left: 0; right: 0; background: var(--line); }
+  .range .fill { background: var(--accent); }
+  .range input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; background: none; pointer-events: none; -webkit-appearance: none; appearance: none; }
+  .range input::-webkit-slider-thumb { -webkit-appearance: none; pointer-events: auto; width: 1.375rem; height: 1.375rem; border-radius: 50%; background: var(--text); border: 3px solid var(--bg); cursor: grab; }
+  .range input::-moz-range-thumb { pointer-events: auto; width: 1.125rem; height: 1.125rem; border-radius: 50%; background: var(--text); border: 3px solid var(--bg); cursor: grab; }
+  .range input::-webkit-slider-runnable-track { background: none; }
+  .range input::-moz-range-track { background: none; }
+  .yearlabel { color: var(--text); text-transform: none; letter-spacing: 0; }
+
+  .seg { display: inline-flex; border: 1px solid var(--line); border-radius: .75rem; padding: .25rem; gap: .25rem; background: var(--panel); flex-wrap: wrap; }
+  .seg button { padding: .5rem .875rem; border-radius: .5rem; color: var(--dim); font-weight: 600; font-size: .9375rem; display: inline-flex; align-items: center; gap: .5rem; }
+  .seg button[aria-pressed="true"] { background: var(--sel); color: var(--text); }
+  .seg .dots { display: inline-flex; gap: 2px; }
+  .seg .dots i { width: .5rem; height: .5rem; border-radius: 50%; display: block; }
+
+  .secret { margin-top: 3rem; display: flex; flex-direction: column; align-items: flex-end; gap: .75rem; }
+  .secretbtn { color: var(--line); font-size: 1.5rem; line-height: 1; padding: .25rem .5rem; border-radius: .5rem; }
+  .secretbtn:hover { color: var(--dim); }
+  #secretPanel { display: grid; gap: .75rem; justify-items: end; width: min(24rem, 100%); }
+  #secretForm { display: flex; gap: .5rem; width: 100%; }
+
+  /* ---- in-game list of the artists in play; click one to browse their songs ---- */
+  #game { display: grid; grid-template-columns: minmax(0, 1fr) 13rem; gap: 2.25rem; align-items: start; }
+  #roster h2 { font: .8125rem var(--mono); color: var(--dim); text-transform: uppercase; letter-spacing: .08em; margin: 0 0 .625rem; font-weight: 400; }
+  #roster ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; max-height: 34rem; overflow: auto; }
+  #roster button { font-size: 1rem; color: var(--dim); padding: .25rem 0; text-align: left; }
   #roster button:hover { color: var(--text); }
-  @media (max-width: 760px) {
+  @media (max-width: 860px) {
     #game { grid-template-columns: minmax(0, 1fr); }
-    #roster ul { flex-direction: row; flex-wrap: wrap; gap: 0 16px; }
+    #roster ul { flex-direction: row; flex-wrap: wrap; gap: 0 1rem; max-height: none; }
   }
 
-  /* stage */
-  #stage { position: relative; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+  /* ---- stage ---- */
+  #stage { position: relative; background: var(--panel); border: 1px solid var(--line); border-radius: 1rem; overflow: hidden; }
   .lane { display: flex; align-items: stretch; height: var(--lane); border-top: 1px solid var(--line); }
   .lane:first-child { border-top: 0; }
   .tag {
-    width: var(--tagw); flex: none; text-align: left; padding: 0 16px; font-size: 16px; font-weight: 600;
+    width: var(--tagw); flex: none; text-align: left; padding: 0 1rem; font-size: 1rem; font-weight: 600;
     border-right: 1px solid var(--line); display: flex; flex-direction: column; justify-content: center; gap: 2px;
   }
-  .tag i { font: normal 13px var(--mono); color: var(--dim); }
+  .tag i { font: normal .8125rem var(--mono); color: var(--dim); }
   .lane .wave { flex: 1; min-width: 0; position: relative; }
   .lane canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
   .lane[data-state="locked"] .tag { color: var(--dim); }
-  .lane[data-state="locked"] .wave {
-    background: repeating-linear-gradient(-45deg, transparent 0 8px, rgba(255,255,255,.025) 8px 16px);
-  }
+  .lane[data-state="locked"] .wave { background: repeating-linear-gradient(-45deg, transparent 0 .5rem, rgba(128,128,128,.06) .5rem 1rem); }
   .lane[data-state="on"] .tag { color: var(--c); }
   .lane[data-state="muted"] .tag { color: var(--dim); text-decoration: line-through; }
   #scrub { position: absolute; left: var(--tagw); right: 0; top: 0; bottom: 0; cursor: pointer; touch-action: none; }
   #scrub.dragging { cursor: grabbing; }
-  #playhead { position: absolute; top: 0; bottom: 0; width: 2px; margin-left: -1px; background: var(--text); left: 0; pointer-events: none; }
+  #playhead { position: absolute; top: 0; bottom: 0; left: 0; width: 2px; margin-left: -1px; background: var(--text); pointer-events: none; will-change: transform; }
   #playhead::before {  /* grab handle */
-    content: ""; position: absolute; top: 4px; left: 50%; width: 14px; height: 14px; margin-left: -7px;
-    border-radius: 50%; background: var(--text); box-shadow: 0 0 0 3px var(--panel);
-    transition: transform .12s;
+    content: ""; position: absolute; top: .25rem; left: 50%; width: .875rem; height: .875rem; margin-left: -.4375rem;
+    border-radius: 50%; background: var(--text); box-shadow: 0 0 0 3px var(--panel); transition: transform .12s;
   }
   #scrub:hover #playhead::before, #scrub.dragging #playhead::before { transform: scale(1.25); }
   #busy {
-    position: absolute; inset: 0; background: rgba(28,27,35,.94); display: flex; flex-direction: column;
-    align-items: center; justify-content: center; gap: 14px; text-align: center; padding: 16px;
+    position: absolute; inset: 0; background: var(--veil); display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: .875rem; text-align: center; padding: 1rem;
   }
-  .bars { display: flex; gap: 5px; align-items: flex-end; height: 32px; }
-  .bars span { width: 6px; border-radius: 2px; animation: bounce 1s ease-in-out infinite; }
+  .bars { display: flex; gap: .3125rem; align-items: flex-end; height: 2rem; }
+  .bars span { width: .375rem; border-radius: 2px; animation: bounce 1s ease-in-out infinite; }
   .bars span:nth-child(1) { background: var(--drums); }
   .bars span:nth-child(2) { background: var(--bass); animation-delay: .15s; }
   .bars span:nth-child(3) { background: var(--other); animation-delay: .3s; }
   .bars span:nth-child(4) { background: var(--vocals); animation-delay: .45s; }
-  @keyframes bounce { 0%, 100% { height: 8px; } 50% { height: 32px; } }
-  @media (prefers-reduced-motion: reduce) { .bars span { animation: none; height: 18px; } }
+  @keyframes bounce { 0%, 100% { height: .5rem; } 50% { height: 2rem; } }
+  @media (prefers-reduced-motion: reduce) { .bars span { animation: none; height: 1.125rem; } }
 
-  .transport { display: flex; align-items: center; gap: 12px; margin: 18px 0; }
-  .btn.icon { width: 56px; height: 52px; padding: 0; display: grid; place-items: center; flex: none; }
-  .btn.icon svg { display: block; width: 22px; height: 22px; }
-  .worth { margin-left: auto; text-align: right; font: 14px var(--mono); color: var(--dim); line-height: 1.3; white-space: nowrap; }
-  .worth b { display: block; font-size: 26px; color: var(--text); font-weight: 600; }
+  .transport { display: flex; align-items: center; gap: .75rem; margin: 1.125rem 0; }
+  .btn.icon { width: 3.5rem; height: 3.25rem; padding: 0; display: grid; place-items: center; flex: none; }
+  .btn.icon svg { display: block; width: 1.375rem; height: 1.375rem; }
+  .worth { margin-left: auto; text-align: right; font: .875rem var(--mono); color: var(--dim); line-height: 1.3; white-space: nowrap; }
+  .worth b { display: block; font-size: 1.625rem; color: var(--text); font-weight: 600; }
 
-  .guessrow { display: flex; gap: 12px; }
+  .guessrow { display: flex; gap: .75rem; }
   .field { position: relative; flex: 1; min-width: 0; }
   #guess {
-    width: 100%; padding: 15px 18px; border-radius: 12px; border: 1px solid var(--line);
+    width: 100%; padding: .9375rem 1.125rem; border-radius: .75rem; border: 1px solid var(--line);
     background: var(--panel); color: var(--text); font: inherit;
   }
-  #guess::placeholder { color: var(--dim); }
+  #guess::placeholder, #secretCode::placeholder, .gatebox input::placeholder { color: var(--dim); }
   #suggest {
-    position: absolute; z-index: 5; left: 0; right: 0; top: calc(100% + 6px); margin: 0; padding: 5px; list-style: none;
-    background: #24222d; border: 1px solid var(--line); border-radius: 12px; max-height: 380px; overflow: auto;
-    box-shadow: 0 12px 32px rgba(0,0,0,.5);
+    position: absolute; z-index: 5; left: 0; right: 0; top: calc(100% + .375rem); margin: 0; padding: .3125rem; list-style: none;
+    background: var(--pop); border: 1px solid var(--line); border-radius: .75rem; max-height: 24rem; overflow: auto;
+    box-shadow: 0 .75rem 2rem rgba(0,0,0,.4);
   }
-  #suggest li { padding: 10px 12px; border-radius: 8px; cursor: pointer; font-size: 17px; }
+  #suggest li { padding: .4375rem .625rem; border-radius: .5rem; cursor: pointer; font-size: 1.0625rem; display: flex; align-items: center; gap: .75rem; }
   #suggest li span { color: var(--dim); }
-  #suggest li[aria-selected="true"] { background: #34313f; }
-  #wrong { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
-  #wrong span { font-size: 15px; padding: 5px 12px; border-radius: 999px; border: 1px solid var(--line); color: var(--dim); }
-  #wrong span b { color: var(--bad); font: 13px var(--mono); margin-left: 6px; }
+  #suggest li[aria-selected="true"] { background: var(--sel); }
+  .thumb { width: 2.5rem; height: 2.5rem; border-radius: .375rem; object-fit: cover; flex: none; background: var(--line); }
+  .songtext { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  #wrong { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .875rem; }
+  #wrong span { font-size: .9375rem; padding: .3125rem .75rem; border-radius: 999px; border: 1px solid var(--line); color: var(--dim); }
+  #wrong span b { color: var(--bad); font: .8125rem var(--mono); margin-left: .375rem; }
   #wrong span.close { border-color: var(--drums); color: var(--drums); }
 
-  #reveal { display: flex; gap: 20px; align-items: center; margin-top: 4px; }
-  #reveal img { width: 120px; height: 120px; border-radius: 12px; background: var(--panel); flex: none; object-fit: cover; }
+  #reveal { display: flex; gap: 1.25rem; align-items: center; margin-top: .25rem; }
+  #reveal img { width: 7.5rem; height: 7.5rem; border-radius: .75rem; background: var(--line); flex: none; object-fit: cover; box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.35); }
   #reveal .meta { flex: 1; min-width: 0; }
-  #reveal .verdict { font: 14px var(--mono); text-transform: uppercase; letter-spacing: .08em; }
+  #reveal .verdict { font: .875rem var(--mono); text-transform: uppercase; letter-spacing: .08em; }
   #reveal .verdict.won { color: var(--good); } #reveal .verdict.lost { color: var(--bad); }
-  #reveal h2 { margin: 2px 0 2px; font-size: 26px; letter-spacing: -0.01em; }
-  #reveal p { margin: 0 0 2px; color: var(--dim); font-size: 17px; }
-  #reveal a { color: var(--dim); font-size: 15px; }
-  .after { display: flex; justify-content: flex-end; margin-top: 18px; }
+  #reveal h2 { margin: .125rem 0; font-size: 1.625rem; letter-spacing: -0.01em; }
+  #reveal p { margin: 0 0 .125rem; color: var(--dim); font-size: 1.0625rem; }
+  #reveal a { color: var(--dim); font-size: .9375rem; }
+  .after { display: flex; justify-content: flex-end; margin-top: 1.125rem; }
 
-  /* summary */
-  .total { font: 600 68px/1 var(--mono); letter-spacing: -0.03em; margin: 32px 0 6px; }
-  .total small { font-size: 22px; color: var(--dim); font-weight: 400; }
-  .rank { font-size: 22px; margin: 0 0 28px; }
-  #results { list-style: none; margin: 0 0 28px; padding: 0; border-top: 1px solid var(--line); }
-  #results li { display: flex; justify-content: space-between; gap: 14px; padding: 13px 0; border-bottom: 1px solid var(--line); font-size: 17px; }
+  /* ---- summary ---- */
+  .total { font: 600 4.25rem/1 var(--mono); letter-spacing: -0.03em; margin: 2rem 0 .375rem; }
+  .total small { font-size: 1.375rem; color: var(--dim); font-weight: 400; }
+  .rank { font-size: 1.375rem; margin: 0 0 1.75rem; }
+  .newbest { font: .8125rem var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--onprimary); background: var(--primary); border-radius: 999px; padding: .25rem .625rem; margin-left: .625rem; vertical-align: middle; }
+  #results { list-style: none; margin: 0 0 1.75rem; padding: 0; border-top: 1px solid var(--line); }
+  #results li { display: flex; align-items: center; gap: .875rem; padding: .625rem 0; border-bottom: 1px solid var(--line); font-size: 1.0625rem; }
+  #results li .songtext { flex: 1; }
   #results li span { color: var(--dim); }
-  #results li b { font: 17px var(--mono); font-weight: 600; flex: none; }
-  .error { color: var(--bad); }
+  #results li b { font: 1.0625rem var(--mono); font-weight: 600; flex: none; }
+
+  #confetti { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 30; }
 
   /* phones: a step smaller so everything still fits a 375px screen */
   @media (max-width: 480px) {
-    :root { --tagw: 112px; --lane: 72px; }
-    body { font-size: 16px; }
-    .wrap { padding: 20px 16px 48px; }
-    h1 { font-size: 24px; }
-    .hud { font-size: 13px; gap: 14px; }
-    .lede { font-size: 18px; margin: 24px 0; }
-    .tag { padding: 0 12px; font-size: 15px; }
-    .tag i { font-size: 12px; }
-    .btn { padding: 12px 13px; font-size: 15px; }
+    :root { font-size: 100%; --tagw: 7rem; --lane: 4.5rem; }
+    .wrap { padding: 1.25rem 1rem 3rem; }
+    h1 { font-size: 1.375rem; }
+    .iconbtn { width: 2.25rem; height: 2.25rem; }
+    .hud { font-size: .8125rem; gap: .75rem; }
+    .lede { font-size: 1.125rem; }
+    .tag { padding: 0 .75rem; font-size: .9375rem; }
+    .tag i { font-size: .75rem; }
+    .btn { padding: .75rem .8125rem; font-size: .9375rem; }
     .btn small { display: none; }
-    .btn.icon { width: 48px; height: 46px; }
-    .btn.icon svg { width: 19px; height: 19px; }
-    .transport { gap: 9px; }
-    .worth { font-size: 12px; }
-    .worth b { font-size: 21px; }
-    .chip { font-size: 15px; padding: 7px 13px; }
-    #guess { padding: 13px 14px; }
-    #suggest li { font-size: 16px; }
-    #reveal img { width: 96px; height: 96px; }
-    #reveal h2 { font-size: 21px; }
-    #reveal p { font-size: 15px; }
-    .total { font-size: 56px; }
+    .btn.icon { width: 3rem; height: 2.875rem; }
+    .btn.icon svg { width: 1.1875rem; height: 1.1875rem; }
+    .transport { gap: .5625rem; }
+    .worth { font-size: .75rem; }
+    .worth b { font-size: 1.3125rem; }
+    .chip { font-size: .9375rem; padding: .4375rem .8125rem; }
+    #guess { padding: .8125rem .875rem; }
+    #suggest li { font-size: 1rem; }
+    #reveal img { width: 6rem; height: 6rem; }
+    #reveal h2 { font-size: 1.3125rem; }
+    #reveal p { font-size: .9375rem; }
+    .total { font-size: 3.5rem; }
+    .seg button { padding: .5rem .625rem; }
   }
 </style>
 </head>
 <body>
-<div class="wrap">
+<div id="gate" hidden>
+  <form class="gatebox" id="gateForm">
+    <h1>Bandla(e)</h1>
+    <p>Enter the password to play.</p>
+    <input id="gatePw" type="password" autocomplete="current-password" placeholder="Password" aria-label="Password">
+    <button class="btn primary" type="submit">Enter</button>
+    <p class="status error" id="gateErr" hidden></p>
+  </form>
+</div>
+
+<div class="wrap" id="app" hidden>
   <header>
-    <h1><button id="home" title="Back to options">Unmix</button></h1>
-    <div class="hud" id="hud" hidden><span id="hudSong"></span><span><b id="hudScore">0</b> pts</span></div>
+    <div class="brand">
+      <button class="iconbtn" id="homeBtn" title="Home" aria-label="Home">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" d="M4 10.5 12 4l8 6.5V19a1 1 0 0 1-1 1h-4.5v-5.5h-5V20H5a1 1 0 0 1-1-1z"/></svg>
+      </button>
+      <h1>Bandla(e)</h1>
+      <span class="modetag" id="modeTag" hidden></span>
+    </div>
+    <div class="hud" id="hud" hidden><span id="hudSong"></span><span><b id="hudScore">0</b> pts</span><span id="hudBest"></span></div>
   </header>
 
   <section id="start">
-    <p class="lede">Name the song from as few layers as you can. Drums first, then bass, instruments and vocals.</p>
-    <div class="opt">
-      <h2>Artists <button id="allBtn">all</button><button id="noneBtn">none</button></h2>
+    <p class="lede" id="lede"></p>
+
+    <div class="opt" id="genreOpt">
+      <h2>Genres <button class="push" id="genreAll">all</button><button id="genreNone">none</button></h2>
+      <div class="chips" id="genres"></div>
+    </div>
+    <div class="opt" id="artistOpt">
+      <h2>Artists <button class="push" id="allBtn">all</button><button id="noneBtn">none</button></h2>
       <div class="chips" id="artists"></div>
     </div>
+    <div class="opt">
+      <h2>Release years <span class="yearlabel" id="yearLabel"></span></h2>
+      <div class="range">
+        <div class="rail"></div><div class="fill" id="yearFill"></div>
+        <input type="range" id="yearFrom" aria-label="Earliest release year">
+        <input type="range" id="yearTo" aria-label="Latest release year">
+      </div>
+    </div>
+    <div class="opt" id="hitsOpt">
+      <label class="switch"><input type="checkbox" id="hitsOnly"><span class="track"></span>Hits only</label>
+      <p class="status hint">Leaves out deeper cuts, using each song's popularity on Deezer.</p>
+    </div>
+    <div class="opt">
+      <h2>Look</h2>
+      <div class="seg" id="themes"></div>
+    </div>
+
     <div class="startrow">
       <button class="btn primary" id="startBtn">Start run</button>
       <span class="status" id="poolNote"></span>
+      <span class="status best" id="startBest"></span>
     </div>
     <p class="status" id="engineNote"></p>
     <p class="status" id="gpuNote" hidden>This browser has no WebGPU, so splitting each song will be slow. A current Chrome, Edge or Safari works best.</p>
+
+    <div class="secret">
+      <button class="secretbtn" id="secretBtn" title="Secret options" aria-label="Secret options" aria-expanded="false">⋯</button>
+      <div id="secretPanel" hidden>
+        <form id="secretForm">
+          <input id="secretCode" type="text" placeholder="Secret code" autocomplete="off" spellcheck="false" aria-label="Secret code">
+          <button class="btn" type="submit">Enter</button>
+        </form>
+        <p class="status" id="secretMsg" hidden></p>
+        <label class="switch" id="akulSwitch" hidden><input type="checkbox" id="akulOn"><span class="track"></span>Akul mode</label>
+      </div>
+    </div>
   </section>
 
   <section id="game" hidden>
@@ -208,7 +364,7 @@
 
     <div class="transport">
       <button class="btn icon" id="restartBtn" title="Back to start" aria-label="Back to start">
-        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M5 5h2.5v14H5zM19.5 5.2v13.6L9 12z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 5h2.5v14H5zM19.5 5.2v13.6L9 12z"/></svg>
       </button>
       <button class="btn primary icon" id="playBtn" aria-label="Play"></button>
       <button class="btn" id="addBtn"></button>
@@ -247,79 +403,87 @@
 
   <section id="summary" hidden>
     <div class="total"><span id="total"></span> <small>/ <span id="totalMax"></span></small></div>
-    <p class="rank" id="rank"></p>
+    <p class="rank"><span id="rank"></span><span class="newbest" id="newBest" hidden>New best</span></p>
     <ul id="results"></ul>
     <div class="startrow">
       <button class="btn primary" id="againBtn">Play another run</button>
       <button class="btn" id="optionsBtn">Change options</button>
-      <span class="status" id="bestNote"></span>
+      <span class="status best" id="bestNote"></span>
     </div>
   </section>
 </div>
+<canvas id="confetti" aria-hidden="true"></canvas>
 
-<script src="songs.js?v=b514b21d"></script>
+<script src="songs.js?v=c2892842"></script>
 <script type="module">
-const ORT_DIST = 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.22.0/dist/';
-const DEMUCS_URL = 'https://cdn.jsdelivr.net/npm/demucs-web@1.0.2/src/index.js';
 const SONGS = window.SONGS || [];
 const PARTS = [
   { key: 'drums', label: 'Drums' }, { key: 'bass', label: 'Bass' },
   { key: 'other', label: 'Instruments' }, { key: 'vocals', label: 'Vocals' },
 ];
 const RUN_LENGTH = 5, START_WORTH = 10000, PART_COST = 2000, WRONG_COST = 500;
-const RANKS = [[45000, 'Perfect pitch'], [35000, 'Session pro'], [25000, 'Crate digger'],
-               [15000, 'Radio listener'], [1, 'Needs the lyric sheet'], [0, 'Heard nothing']];
+const RANKS = {
+  normal: [[45000, 'Perfect pitch'], [35000, 'Session pro'], [25000, 'Crate digger'], [15000, 'Radio listener'], [1, 'Needs the lyric sheet'], [0, 'Heard nothing']],
+  freak: [[45000, 'Certified freak'], [35000, 'Freak of the week'], [25000, 'Late-night texter'], [15000, 'Shy but curious'], [1, 'Lights stay on'], [0, 'Abstinent']],
+  akul: [[45000, 'This says a lot about society'], [35000, 'XO for life'], [25000, 'House of Balloons regular'], [15000, 'Kiss Land tourist'], [1, 'Starboy in training'], [0, 'Has never heard of Abel']],
+};
+const LEDES = {
+  normal: 'Name the song from as few layers as you can. Drums first, then bass, instruments and vocals.',
+  freak: 'Freak mode. Bedroom R&B only: slow jams, grown-folks lyrics, lights down low. Name it before the singer starts begging.',
+  akul: 'Akul mode. Nothing but The Weeknd at his freakiest. This says a lot about society.',
+};
+const THEMES = [['dark', 'Dark'], ['light', 'Light'], ['mono', 'Mono'], ['vivid', 'Vivid']];
+const GENRE_ORDER = ['Rap', 'R&B', 'Pop', 'House/EDM', 'Rock'];
+// SHA-256 of the site password and of the secret phrase (normalised), so neither appears in the page.
+const GATE_HASH = 'f0815a2e66a651a39518680e4dc7ce3fd988cb7860ccea7c04f368b53def337c';
+const AKUL_HASH = '61bcf2e2a22d5bf162be071c3aaca6a39c148555a22a91af6350056fbe2a7c6d';
 
 const $ = id => document.getElementById(id);
+const el = (tag, props = {}, ...kids) => { const e = Object.assign(document.createElement(tag), props); e.append(...kids); return e; };
 const fmt = n => n.toLocaleString('en-US');
 const norm = s => s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9 ]/g, '');
 const store = {
   get(k, d) { try { return JSON.parse(localStorage.getItem('unmix.' + k)) ?? d; } catch { return d; } },
   set(k, v) { try { localStorage.setItem('unmix.' + k, JSON.stringify(v)); } catch {} },
 };
+async function sha256(text) {
+  const bytes = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+  return [...new Uint8Array(bytes)].map(b => b.toString(16).padStart(2, '0')).join('');
+}
 
 /* ---------- status line (start screen + loading overlay) ---------- */
 function setStatus(text, isError = false) {
-  for (const el of [$('engineNote'), $('busyText')]) { el.textContent = text; el.classList.toggle('error', isError); }
+  for (const e of [$('engineNote'), $('busyText')]) { e.textContent = text; e.classList.toggle('error', isError); }
 }
 
-/* ---------- separation engine: Demucs via onnxruntime-web ---------- */
-let ctx, enginePromise, onSegment = null;
+/* ---------- separation engine: runs in worker.js so the page never stalls ---------- */
+let ctx, worker, engineReady, jobId = 0;
+const jobs = new Map();
 const audio = () => ctx ??= new AudioContext({ sampleRate: 44100 });
-const engine = () => enginePromise ??= loadEngine().catch(e => { enginePromise = null; throw e; });
 
-async function loadEngine() {
-  setStatus('Loading audio engine…');
-  const [ort, demucs] = await Promise.all([import(ORT_DIST + 'ort.webgpu.min.mjs'), import(DEMUCS_URL)]);
-  ort.env.wasm.wasmPaths = ORT_DIST;
-  const model = await fetchModel(demucs.CONSTANTS.DEFAULT_MODEL_URL);
-  setStatus('Starting separation model…');
-  const proc = new demucs.DemucsProcessor({ ort, onProgress: p => onSegment?.(p) });
-  await proc.loadModel(model);
-  setStatus('Ready.');
-  return proc;
+function engine() {
+  return engineReady ??= new Promise((resolve, reject) => {
+    worker = new Worker('worker.js?v=2', { type: 'module' });
+    worker.onmessage = ({ data: m }) => {
+      const job = jobs.get(m.id);
+      if (m.type === 'status') setStatus(m.text);
+      else if (m.type === 'ready') { setStatus('Ready.'); resolve(); }
+      else if (m.type === 'fatal') reject(new Error(m.message));
+      else if (m.type === 'progress') job?.progress(m.p);
+      else if (m.type === 'done') { jobs.delete(m.id); job?.resolve(m); }
+      else if (m.type === 'error') { jobs.delete(m.id); job?.reject(new Error(m.message)); }
+    };
+    worker.onerror = e => reject(new Error(e.message || 'The audio engine failed to start'));
+    worker.postMessage({ type: 'load' });
+  }).catch(err => { engineReady = null; worker?.terminate(); worker = null; throw err; });
 }
 
-async function fetchModel(url) {
-  let cache = null;
-  try {
-    cache = await caches.open('unmix-model');
-    const hit = await cache.match(url);
-    if (hit) return await hit.arrayBuffer();
-  } catch {}
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Model download failed (${res.status})`);
-  const total = +res.headers.get('Content-Length') || 180_500_000;
-  const reader = res.body.getReader(), chunks = [];
-  for (let got = 0;;) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    chunks.push(value); got += value.length;
-    setStatus(`Downloading separation model (one time, ${Math.round(total / 1e6)} MB) · ${Math.min(99, Math.round(got / total * 100))}%`);
-  }
-  const blob = new Blob(chunks);
-  try { await cache?.put(url, new Response(blob)); } catch {}
-  return blob.arrayBuffer();
+function separate(left, right, progress) {
+  const id = ++jobId;
+  return new Promise((resolve, reject) => {
+    jobs.set(id, { resolve, reject, progress });
+    worker.postMessage({ type: 'separate', id, left, right }, [left.buffer, right.buffer]);
+  });
 }
 
 async function fetchPreview(song) {
@@ -335,34 +499,21 @@ async function fetchPreview(song) {
 }
 
 /* Fetch a song's 30s preview and split it into four AudioBuffers. */
-async function prepare(song, proc) {
+async function prepare(song) {
+  await engine();
   setStatus('Fetching clip…');
   const clip = await audio().decodeAudioData(await fetchPreview(song));
-  const L = clip.getChannelData(0), R = clip.numberOfChannels > 1 ? clip.getChannelData(1) : L;
+  const left = clip.getChannelData(0).slice();
+  const right = (clip.numberOfChannels > 1 ? clip.getChannelData(1) : clip.getChannelData(0)).slice();
   setStatus('Separating layers · 0%');
-  onSegment = p => setStatus(`Separating layers · ${Math.min(100, Math.round(p.progress * 100))}%`);
-  const out = await proc.separate(L, R);
-  onSegment = null;
-
-  const rms = a => { let s = 0; for (let i = 0; i < a.length; i += 4) s += a[i] * a[i]; return Math.sqrt(s / (a.length / 4)); };
-  const mixLevel = rms(L);
-  const stems = PARTS.map(({ key }) => {
-    const { left, right } = out[key];
-    const buffer = ctx.createBuffer(2, left.length, 44100);
-    buffer.copyToChannel(left, 0); buffer.copyToChannel(right, 1);
-    // Loudest sample in each of N equal time slices, across the whole clip and both channels.
-    const N = 800, peaks = new Float32Array(N);
-    for (let b = 0; b < N; b++) {
-      let m = 0;
-      for (let i = Math.floor(b * left.length / N), e = Math.floor((b + 1) * left.length / N); i < e; i += 4) {
-        const v = Math.max(Math.abs(left[i]), Math.abs(right[i])); if (v > m) m = v;
-      }
-      peaks[b] = m;
-    }
-    const level = rms(left);
-    return { buffer, peaks, audible: level > 0.002 && level > mixLevel * 0.04 };
+  const out = await separate(left, right, p => setStatus(`Separating layers · ${Math.min(100, Math.round(p * 100))}%`));
+  const stems = out.stems.map(s => {
+    const buffer = ctx.createBuffer(2, s.left.length, 44100);
+    buffer.copyToChannel(s.left, 0); buffer.copyToChannel(s.right, 1);
+    return { buffer, peaks: s.peaks, audible: s.level > 0.002 && s.level > out.mixLevel * 0.04 };
   });
   if (!stems.some(s => s.audible)) stems.forEach(s => s.audible = true);
+  if (song.art) new Image().src = song.art;  // warm the cover so it's there the moment the answer shows
   return { song, stems, duration: clip.duration };
 }
 
@@ -373,13 +524,18 @@ function stopAudio() {
   for (const n of player.nodes) { n.onended = null; try { n.stop(); } catch {} }
   player.nodes = []; player.gains = []; player.playing = false;
 }
-// Where in the clip the listener is right now. Subtracts the output delay (large on Bluetooth),
-// so the cursor follows what you hear rather than what has been handed to the sound card.
+// The audio-clock time that is coming out of the speakers right now. getOutputTimestamp pairs the
+// audio clock with the page clock, so this moves smoothly every frame and already allows for output
+// delay (large on Bluetooth). Older browsers fall back to currentTime minus the reported latency.
+function heardTime() {
+  const ts = ctx.getOutputTimestamp?.();
+  if (ts && ts.performanceTime > 0) return ts.contextTime + (performance.now() - ts.performanceTime) / 1000;
+  return ctx.currentTime - (ctx.outputLatency || ctx.baseLatency || 0);
+}
 function position() {
   if (!player.track) return 0;
   if (!player.playing) return player.offset;
-  const heard = ctx.currentTime - player.startedAt - (ctx.outputLatency || ctx.baseLatency || 0);
-  return Math.min(player.track.duration, player.offset + Math.max(0, heard));
+  return Math.min(player.track.duration, player.offset + Math.max(0, heardTime() - player.startedAt));
 }
 function play(from = player.offset) {
   if (!player.track) return;
@@ -402,16 +558,22 @@ function pause() { player.offset = position(); stopAudio(); renderTransport(); }
 function applyGains() {
   player.gains.forEach((g, i) => g.gain.setTargetAtTime(audibleNow(i) ? 1 : 0, ctx.currentTime, 0.04));
 }
+let scrubWidth = 0, drag = false, ticking = false;
+new ResizeObserver(([e]) => { scrubWidth = e.contentRect.width; drawHead(); }).observe($('scrub'));
 function drawHead(t = position()) {
-  $('playhead').style.left = (player.track ? t / player.track.duration * 100 : 0) + '%';
+  const f = player.track ? t / player.track.duration : 0;
+  $('playhead').style.transform = `translateX(${f * scrubWidth}px)`;  // transform: no layout work per frame
 }
 function tick() {
-  if (!drag) drawHead();
-  if (player.playing) requestAnimationFrame(tick);
+  if (ticking) return;
+  ticking = true;
+  requestAnimationFrame(function frame() {
+    if (!drag) drawHead();
+    if (player.playing) requestAnimationFrame(frame); else ticking = false;
+  });
 }
 
 /* Click or drag anywhere on the waveforms to move the cursor; playback resumes from where you let go. */
-let drag = false;
 function scrubTime(e) {
   const box = $('scrub').getBoundingClientRect();
   return Math.min(1, Math.max(0, (e.clientX - box.left) / box.width)) * player.track.duration;
@@ -436,46 +598,85 @@ $('scrub').addEventListener('pointercancel', () => {
   play(player.offset);
 });
 
+/* ---------- song pool: modes and filters ---------- */
+const tagged = (s, t) => !!s.tags?.includes(t);
+// Everyone a song credits, features included, so picking an artist also brings in songs they're featured on.
+const who = s => s.who ??= new Set([s.artist, ...(s.artists || [])].map(norm));
+const has = (s, name) => who(s).has(norm(name));
+// Artists get a chip if they have at least one song outside the special (#freak / #akul) lists.
+const ARTISTS = [...new Set(SONGS.filter(s => !s.tags?.length).map(s => s.artist))];
+const MAIN = SONGS.filter(s => ARTISTS.some(a => has(s, a)));
+const GENRES = GENRE_ORDER.filter(g => MAIN.some(s => (s.genre || 'Pop') === g));
+const YEAR_MIN = Math.min(...SONGS.map(s => s.year)), YEAR_MAX = Math.max(...SONGS.map(s => s.year));
+
+const prefs = {
+  off: new Set(store.get('off', [])),             // artists switched off
+  genresOff: new Set(store.get('genresOff', [])), // genres switched off
+  years: store.get('years', [YEAR_MIN, YEAR_MAX]),
+  hits: store.get('hits', true),
+  freak: store.get('freak', false),
+  akul: store.get('akul', false),
+  akulUnlocked: store.get('akulUnlocked', false),
+  theme: store.get('theme', 'dark'),
+};
+prefs.years = [Math.max(YEAR_MIN, prefs.years[0]), Math.min(YEAR_MAX, prefs.years[1])];
+function savePrefs() {
+  store.set('off', [...prefs.off]); store.set('genresOff', [...prefs.genresOff]); store.set('years', prefs.years);
+  store.set('hits', prefs.hits); store.set('freak', prefs.freak); store.set('akul', prefs.akul); store.set('theme', prefs.theme);
+}
+const mode = () => prefs.akul && prefs.akulUnlocked ? 'akul' : prefs.freak ? 'freak' : 'normal';
+const inYears = s => s.year >= prefs.years[0] && s.year <= prefs.years[1];
+const passes = (s, { genre = true } = {}) =>
+  inYears(s) && (!prefs.hits || s.hit !== false) && (!genre || !prefs.genresOff.has(s.genre || 'Pop'));
+function pool(m = mode()) {
+  if (m === 'akul') return SONGS.filter(s => tagged(s, 'akul') && inYears(s));
+  if (m === 'freak') return SONGS.filter(s => tagged(s, 'freak') && inYears(s));
+  return MAIN.filter(s => passes(s) && ARTISTS.some(a => !prefs.off.has(a) && has(s, a)));
+}
+
+/* No repeats: every song you hear is remembered in this browser (localStorage), and runs only draw
+   songs you haven't heard. Once a pool is used up it starts a fresh cycle, oldest-heard first. */
+const heard = () => store.get('heard', []);
+function markHeard(id) { store.set('heard', [...heard().filter(x => x !== id), id].slice(-5000)); }
+function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function draw(count, exclude = []) {
+  const candidates = pool().filter(s => !exclude.includes(s));
+  const order = new Map(heard().map((id, i) => [id, i]));
+  const fresh = shuffle(candidates.filter(s => !order.has(s.id)));
+  if (fresh.length >= count) return fresh.slice(0, count);
+  const old = candidates.filter(s => order.has(s.id)).sort((a, b) => order.get(a.id) - order.get(b.id));
+  return [...fresh, ...old].slice(0, count);
+}
+const unheardCount = list => { const h = new Set(heard()); return list.filter(s => !h.has(s.id)).length; };
+
+const bestKey = m => 'best.' + m;
+if (store.get('best', null) != null && store.get(bestKey('normal'), null) == null) store.set(bestKey('normal'), store.get('best', 0));
+const bestFor = m => store.get(bestKey(m), 0);
+
 /* ---------- game state ---------- */
-let run = null;    // { songs, idx, score, results, prep[] }
+let run = null;    // { mode, songs, idx, score, results, pool, prep[] }
 let round = null;  // { track, open[], muted[], paid, wrong[], done }
 const audibleNow = i => !!round && round.open[i] && !round.muted[i];
 const worth = () => Math.max(0, START_WORTH - PART_COST * round.paid - WRONG_COST * round.wrong.length);
 const nextPart = () => round.track.stems.findIndex((s, i) => !round.open[i] && s.audible);
 
-const ARTISTS = [...new Set(SONGS.map(s => s.artist))];
-const off = new Set(store.get('off', []));  // artists switched off on the start screen
-// Everyone a song credits, features included, so picking an artist also brings in songs they're featured on.
-const who = s => s.who ??= new Set([s.artist, ...(s.artists || [])].map(norm));
-const has = (s, name) => who(s).has(norm(name));
-const pool = () => SONGS.filter(s => ARTISTS.some(a => !off.has(a) && has(s, a)));
-function draw(count, exclude = []) {
-  const candidates = pool().filter(s => !exclude.includes(s));
-  let recent = store.get('recent', []);
-  let fresh = candidates.filter(s => !recent.includes(s.id));
-  if (fresh.length < count) fresh = candidates;
-  for (let i = fresh.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [fresh[i], fresh[j]] = [fresh[j], fresh[i]]; }
-  return fresh.slice(0, count);
-}
-
 function startRun() {
   const songs = draw(RUN_LENGTH);
   if (!songs.length) return;
   audio().resume();
-  run = { songs, idx: 0, score: 0, results: [], pool: pool() };  // pool: what the guess box searches
+  run = { mode: mode(), songs, idx: 0, score: 0, results: [], pool: pool() };  // pool: what the guess box searches
   // Split the songs one after another in the background so later ones are ready when you get there.
   const mine = run;
   let chain = Promise.resolve();
   run.prep = songs.map((_, i) => chain = chain.catch(() => {}).then(() => mine === run ? prepareSlot(mine, i) : null));
   run.prep.forEach(p => p.catch(() => {}));
-  show('game'); $('hud').hidden = false;
+  show('game'); $('hud').hidden = false; applyLook();
   renderRoster(); loadSong();
 }
 
 async function prepareSlot(r, i) {
-  const proc = await engine();
   for (let attempt = 0; ; attempt++) {
-    try { return await prepare(r.songs[i], proc); }
+    try { return await prepare(r.songs[i]); }
     catch (err) {
       console.warn(err);
       const [swap] = draw(1, r.songs);
@@ -490,11 +691,12 @@ async function loadSong() {
   stopAudio(); player.track = null; round = null;
   $('busy').hidden = false; $('answer').hidden = true; $('guessing').hidden = false;
   if (run.idx > 0) setStatus('Getting the next song ready…');
-  renderHud(); renderLanes(); renderTransport(); renderWrong();
+  renderHud(); renderLanes(); renderTransport(); renderWrong(); drawHead();
   let track;
   try { track = await run.prep[run.idx]; }
   catch (err) { if (mine === run) setStatus(`Couldn't load a song: ${err.message}. Check your connection and reload.`, true); return; }
   if (mine !== run || !track) return;
+  markHeard(track.song.id);
   round = { track, open: [false, false, false, false], muted: [false, false, false, false], paid: 0, wrong: [], done: false };
   openNext(true);
   player.track = track; player.offset = 0;
@@ -531,19 +733,19 @@ function finish(won) {
   round.done = true; round.open.fill(true);
   run.score += earned;
   run.results.push({ song: round.track.song, earned, won });
-  store.set('recent', [...store.get('recent', []), round.track.song.id].slice(-Math.floor(SONGS.length * 0.6)));
 
   const s = round.track.song;
   $('verdict').textContent = won ? `Got it · +${fmt(earned)}` : 'Gave up · +0';
   $('verdict').className = 'verdict ' + (won ? 'won' : 'lost');
   $('ansTitle').textContent = s.title;
   $('ansArtist').textContent = `${s.credit || s.artist} · ${s.year}`;
-  $('art').src = s.art || '';
+  $('art').src = s.art || ''; $('art').alt = s.art ? `Cover of ${s.title}` : '';
   $('ansLink').href = s.url; $('ansLink').hidden = !s.url;
   $('nextBtn').textContent = run.idx + 1 < run.songs.length ? 'Next song' : 'See results';
   $('guessing').hidden = true; $('answer').hidden = false; closeSuggest();
   applyGains(); renderHud(); renderLanes(); renderTransport();
   if (!player.playing) play();
+  if (won) confetti();
   $('nextBtn').focus();
 }
 
@@ -552,43 +754,87 @@ function next() {
   run.prep[run.idx] = null;  // let the finished song's audio be freed
   run.idx++;
   if (run.idx < run.songs.length) return loadSong();
-  const max = run.songs.length * START_WORTH, best = Math.max(store.get('best', 0), run.score);
-  store.set('best', best);
+  const max = run.songs.length * START_WORTH, prev = bestFor(run.mode), best = Math.max(prev, run.score);
+  store.set(bestKey(run.mode), best);
   $('total').textContent = fmt(run.score); $('totalMax').textContent = fmt(max);
-  $('rank').textContent = RANKS.find(([min]) => run.score >= min)[1];
-  $('results').replaceChildren(...run.results.map(r => {
-    const li = document.createElement('li'), name = document.createElement('div'), pts = document.createElement('b');
-    name.append(r.song.title + ' ', Object.assign(document.createElement('span'), { textContent: r.song.artist }));
-    pts.textContent = fmt(r.earned);
-    li.append(name, pts); return li;
-  }));
-  $('bestNote').textContent = `Best run: ${fmt(best)}`;
+  $('rank').textContent = RANKS[run.mode].find(([min]) => run.score >= min)[1];
+  $('newBest').hidden = !(run.score > prev && run.score > 0);
+  $('results').replaceChildren(...run.results.map(r => el('li', {},
+    cover(r.song),
+    el('div', { className: 'songtext' }, r.song.title + ' ', el('span', { textContent: r.song.credit || r.song.artist })),
+    el('b', { textContent: fmt(r.earned) }))));
+  $('bestNote').textContent = `Best: ${fmt(best)}`;
   player.track = null; round = null; $('hud').hidden = true;
   show('summary');
+}
+
+function goHome() {  // back to the start screen, abandoning any run in progress
+  stopAudio(); run = round = player.track = null;
+  $('hud').hidden = true; setStatus(''); show('start'); renderStart();
+}
+
+/* ---------- confetti for a correct guess ---------- */
+function confetti() {
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const canvas = $('confetti'), g = canvas.getContext('2d'), dpr = devicePixelRatio || 1;
+  canvas.width = innerWidth * dpr; canvas.height = innerHeight * dpr;
+  const css = getComputedStyle(document.documentElement);
+  const colors = ['--drums', '--bass', '--other', '--vocals', '--text'].map(v => css.getPropertyValue(v).trim());
+  const box = $('stage').getBoundingClientRect();
+  const bits = Array.from({ length: 170 }, (_, i) => ({
+    x: (box.left + box.width * (0.15 + Math.random() * 0.7)) * dpr, y: (box.top + box.height * 0.55) * dpr,
+    vx: (Math.random() - 0.5) * 22 * dpr, vy: -(8 + Math.random() * 17) * dpr,
+    w: (6 + Math.random() * 6) * dpr, h: (3 + Math.random() * 4) * dpr,
+    a: Math.random() * Math.PI, va: (Math.random() - 0.5) * 0.35, color: colors[i % colors.length],
+  }));
+  const t0 = performance.now();
+  requestAnimationFrame(function frame(t) {
+    const age = (t - t0) / 1000;
+    g.clearRect(0, 0, canvas.width, canvas.height);
+    g.globalAlpha = Math.max(0, Math.min(1, 3.2 - age));
+    for (const b of bits) {
+      b.vy += 0.55 * dpr; b.vx *= 0.985; b.x += b.vx; b.y += b.vy; b.a += b.va;
+      g.save(); g.translate(b.x, b.y); g.rotate(b.a); g.fillStyle = b.color;
+      g.fillRect(-b.w / 2, -b.h / 2, b.w, b.h); g.restore();
+    }
+    if (age < 3.2) requestAnimationFrame(frame); else g.clearRect(0, 0, canvas.width, canvas.height);
+  });
 }
 
 /* ---------- rendering ---------- */
 function show(id) {
   for (const s of ['start', 'game', 'summary']) $(s).hidden = s !== id;
-  document.querySelector('.wrap').classList.toggle('wide', id === 'game');
+  $('app').classList.toggle('wide', id === 'game');
+}
+function applyLook() {
+  const m = run?.mode ?? mode();
+  document.documentElement.dataset.theme = prefs.theme;
+  document.documentElement.dataset.mode = m === 'normal' ? '' : m;
+  $('modeTag').hidden = m === 'normal';
+  $('modeTag').textContent = m === 'akul' ? 'Akul mode' : 'Freak mode';
+  if (round) renderLanes();
+}
+function cover(song) {
+  return el('img', { className: 'thumb', src: song.art || '', alt: '', loading: 'lazy', decoding: 'async' });
 }
 function renderRoster() {
-  $('rosterList').replaceChildren(...ARTISTS.filter(a => !off.has(a)).map(name => {
-    const li = document.createElement('li'), b = document.createElement('button');
-    b.textContent = name; b.title = `Show ${name} songs`;
-    b.onclick = () => { $('guess').value = name; $('guess').focus(); updateSuggest(); };
-    li.append(b); return li;
-  }));
+  const names = [...new Set(run.pool.map(s => s.artist))];
+  $('rosterList').replaceChildren(...names.map(name => el('li', {}, el('button', {
+    textContent: name, title: `Show ${name} songs`,
+    onclick: () => { $('guess').value = name; $('guess').focus(); updateSuggest(); },
+  }))));
 }
 function renderHud() {
   $('hudSong').textContent = `Song ${Math.min(run.idx + 1, run.songs.length)}/${run.songs.length}`;
   $('hudScore').textContent = fmt(run.score);
+  const best = bestFor(run.mode);
+  $('hudBest').textContent = best ? `Best ${fmt(best)}` : '';
 }
 function renderTransport() {
   const ready = !!round;
   $('playBtn').innerHTML = player.playing
-    ? '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M6 4.5h4v15H6zM14 4.5h4v15h-4z"/></svg>'
-    : '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M7.5 4.5v15L19.5 12z"/></svg>';
+    ? '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6 4.5h4v15H6zM14 4.5h4v15h-4z"/></svg>'
+    : '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7.5 4.5v15L19.5 12z"/></svg>';
   $('playBtn').setAttribute('aria-label', player.playing ? 'Pause' : 'Play');
   $('playBtn').title = player.playing ? 'Pause (space)' : 'Play (space)';
   $('playBtn').disabled = $('restartBtn').disabled = !ready;
@@ -600,20 +846,17 @@ function renderTransport() {
 }
 function renderWrong() {
   $('wrong').replaceChildren(...(round?.wrong ?? []).map(s => {
-    const el = document.createElement('span');
     const sameArtist = [...who(s)].some(n => who(round.track.song).has(n));
-    el.textContent = sameArtist ? `${s.title} · right artist` : s.title;
-    if (sameArtist) el.className = 'close';
-    el.append(Object.assign(document.createElement('b'), { textContent: `−${WRONG_COST}` }));
-    return el;
+    return el('span', { className: sameArtist ? 'close' : '' },
+      sameArtist ? `${s.title} · right artist` : s.title, el('b', { textContent: `−${WRONG_COST}` }));
   }));
 }
 function renderLanes() {
   const lanes = $('lanes');
   if (!lanes.children.length) {
     PARTS.forEach((p, i) => {
-      const lane = document.createElement('div');
-      lane.className = 'lane'; lane.style.setProperty('--c', `var(--${p.key})`);
+      const lane = el('div', { className: 'lane' });
+      lane.style.setProperty('--c', `var(--${p.key})`);
       lane.innerHTML = `<button class="tag"></button><div class="wave"><canvas></canvas></div>`;
       lane.firstChild.onclick = () => toggleMute(i);
       lanes.append(lane);
@@ -663,9 +906,8 @@ function updateSuggest() {
   cursor = 0;
   $('suggest').hidden = !matches.length;
   $('suggest').replaceChildren(...matches.map((s, i) => {
-    const li = document.createElement('li');
+    const li = el('li', {}, cover(s), el('div', { className: 'songtext' }, s.title + ' ', el('span', { textContent: s.credit || s.artist })));
     li.setAttribute('aria-selected', i === cursor);
-    li.append(s.title + ' ', Object.assign(document.createElement('span'), { textContent: s.credit || s.artist }));
     li.onmousedown = e => { e.preventDefault(); choose(s); };
     return li;
   }));
@@ -681,33 +923,96 @@ $('guess').addEventListener('keydown', e => {
   e.preventDefault();
   cursor = (cursor + (e.key === 'ArrowDown' ? 1 : -1) + matches.length) % matches.length;
   [...$('suggest').children].forEach((li, i) => li.setAttribute('aria-selected', i === cursor));
+  $('suggest').children[cursor]?.scrollIntoView({ block: 'nearest' });
 });
 
-/* ---------- wiring ---------- */
-function renderArtists() {
-  $('artists').replaceChildren(...ARTISTS.map(name => {
-    const b = document.createElement('button');
-    b.className = 'chip'; b.setAttribute('aria-pressed', !off.has(name));
-    b.append(name, Object.assign(document.createElement('small'), { textContent: SONGS.filter(s => has(s, name)).length }));
-    b.onclick = () => { off.has(name) ? off.delete(name) : off.add(name); renderArtists(); };
+/* ---------- start screen ---------- */
+function chip(label, count, pressed, onclick, extra = '') {
+  const b = el('button', { className: 'chip ' + extra, onclick }, label);
+  if (count != null) b.append(el('small', { textContent: count }));
+  b.setAttribute('aria-pressed', pressed);
+  return b;
+}
+function renderStart() {
+  const m = mode(), special = m !== 'normal';
+  savePrefs(); applyLook();
+  $('lede').textContent = LEDES[m];
+  $('artistOpt').hidden = $('hitsOpt').hidden = special;
+  $('genreOpt').hidden = m === 'akul';
+  $('genreAll').hidden = $('genreNone').hidden = special;
+
+  // Counts show how many songs each chip covers, given the other filters.
+  const byArtists = s => ARTISTS.some(a => !prefs.off.has(a) && has(s, a));
+  $('genres').replaceChildren(
+    ...GENRES.map(gname => chip(gname, special ? null : MAIN.filter(s => (s.genre || 'Pop') === gname && passes(s, { genre: false }) && byArtists(s)).length,
+      !special && !prefs.genresOff.has(gname), () => {
+        if (prefs.freak) { prefs.freak = false; prefs.genresOff.clear(); }
+        else prefs.genresOff.has(gname) ? prefs.genresOff.delete(gname) : prefs.genresOff.add(gname);
+        renderStart();
+      })),
+    chip('Freak', SONGS.filter(s => tagged(s, 'freak') && inYears(s)).length, prefs.freak,
+      () => { prefs.freak = !prefs.freak; renderStart(); }, 'freak'));
+  $('artists').replaceChildren(...ARTISTS.map(name => chip(name, MAIN.filter(s => has(s, name) && passes(s)).length,
+    !prefs.off.has(name), () => { prefs.off.has(name) ? prefs.off.delete(name) : prefs.off.add(name); renderStart(); })));
+
+  $('yearFrom').value = prefs.years[0]; $('yearTo').value = prefs.years[1];
+  $('yearLabel').textContent = prefs.years[0] === prefs.years[1] ? String(prefs.years[0]) : `${prefs.years[0]} – ${prefs.years[1]}`;
+  const pct = y => (y - YEAR_MIN) / Math.max(1, YEAR_MAX - YEAR_MIN) * 100;
+  $('yearFill').style.left = pct(prefs.years[0]) + '%';
+  $('yearFill').style.right = (100 - pct(prefs.years[1])) + '%';
+  $('hitsOnly').checked = prefs.hits;
+
+  $('themes').replaceChildren(...THEMES.map(([key, label]) => {
+    const b = el('button', { onclick: () => { prefs.theme = key; renderStart(); } },
+      el('span', { className: 'dots' }, ...PARTS.map(() => el('i'))), label);
+    b.dataset.theme = key; b.setAttribute('aria-pressed', prefs.theme === key);
+    b.querySelectorAll('.dots i').forEach((dot, i) => dot.style.background = `var(--${PARTS[i].key})`);
     return b;
   }));
-  store.set('off', [...off]);
-  const n = pool().length;
-  $('poolNote').textContent = n ? `${n} song${n === 1 ? '' : 's'} in the pool` : 'Pick at least one artist';
+
+  const list = pool(), n = list.length, unheard = unheardCount(list);
+  $('poolNote').textContent = !n ? 'No songs match these filters'
+    : `${n} song${n === 1 ? '' : 's'} in the pool` + (unheard < n ? ` · ${unheard} not heard yet` : '');
   $('startBtn').disabled = !n;
+  const best = bestFor(m);
+  $('startBest').textContent = best ? `Best${special ? ' in this mode' : ''}: ${fmt(best)}` : '';
+  $('akulSwitch').hidden = !prefs.akulUnlocked;
+  $('akulOn').checked = prefs.akul;
 }
-$('allBtn').onclick = () => { off.clear(); renderArtists(); };
-$('noneBtn').onclick = () => { ARTISTS.forEach(a => off.add(a)); renderArtists(); };
 
-SONGS.forEach(s => s.hay = norm(`${s.title} ${s.credit || ''} ${s.artist}`));
-renderArtists();
-
-$('startBtn').onclick = $('againBtn').onclick = startRun;
-$('optionsBtn').onclick = $('home').onclick = () => {  // back to the options, abandoning any run in progress
-  stopAudio(); run = round = player.track = null;
-  $('hud').hidden = true; setStatus(''); show('start');
+$('genreAll').onclick = () => { prefs.genresOff.clear(); renderStart(); };
+$('genreNone').onclick = () => { GENRES.forEach(gname => prefs.genresOff.add(gname)); renderStart(); };
+$('allBtn').onclick = () => { prefs.off.clear(); renderStart(); };
+$('noneBtn').onclick = () => { ARTISTS.forEach(a => prefs.off.add(a)); renderStart(); };
+for (const [id, i] of [['yearFrom', 0], ['yearTo', 1]]) {
+  Object.assign($(id), { min: YEAR_MIN, max: YEAR_MAX, step: 1 });
+  $(id).addEventListener('input', () => {
+    const y = +$(id).value;
+    prefs.years[i] = i === 0 ? Math.min(y, prefs.years[1]) : Math.max(y, prefs.years[0]);
+    renderStart();
+  });
+}
+$('hitsOnly').onchange = () => { prefs.hits = $('hitsOnly').checked; renderStart(); };
+$('secretBtn').onclick = () => {
+  const open = $('secretPanel').hidden;
+  $('secretPanel').hidden = !open; $('secretBtn').setAttribute('aria-expanded', open);
+  if (open) $('secretCode').focus();
 };
+$('secretForm').onsubmit = async e => {
+  e.preventDefault();
+  const phrase = norm($('secretCode').value).replace(/\s+/g, ' ').trim();
+  const ok = !!phrase && !!crypto.subtle && await sha256(phrase) === AKUL_HASH;
+  $('secretMsg').hidden = false;
+  $('secretMsg').textContent = ok ? 'Akul mode unlocked.' : 'Nothing happens.';
+  if (ok) { prefs.akulUnlocked = prefs.akul = true; store.set('akulUnlocked', true); $('secretCode').value = ''; }
+  renderStart();
+};
+$('akulOn').onchange = () => { prefs.akul = $('akulOn').checked; renderStart(); };
+
+/* ---------- wiring ---------- */
+SONGS.forEach(s => s.hay = norm(`${s.title} ${s.credit || ''} ${s.artist}`));
+$('startBtn').onclick = $('againBtn').onclick = startRun;
+$('optionsBtn').onclick = $('homeBtn').onclick = goHome;
 $('playBtn').onclick = () => player.playing ? pause() : play();
 $('addBtn').onclick = addPart;
 $('skipBtn').onclick = () => round && !round.done && finish(false);
@@ -718,9 +1023,23 @@ addEventListener('keydown', e => {
 });
 addEventListener('resize', () => round && renderLanes());
 
-$('gpuNote').hidden = !!navigator.gpu;
-if (!SONGS.length) setStatus('songs.js is missing or empty — run: python3 build_songs.py', true);
-else engine().catch(err => setStatus(`Couldn't load the separation model: ${err.message}`, true));  // warm up while you pick options
+/* ---------- password gate, then start ---------- */
+function boot() {
+  $('gate').hidden = true; $('app').hidden = false;
+  renderStart();
+  $('gpuNote').hidden = !!navigator.gpu;
+  if (!SONGS.length) setStatus('songs.js is missing or empty — run: python3 build_songs.py', true);
+  else engine().catch(err => setStatus(`Couldn't load the separation model: ${err.message}`, true));  // warm up while you pick options
+}
+$('gateForm').onsubmit = async e => {
+  e.preventDefault();
+  if (!crypto.subtle) { $('gateErr').hidden = false; $('gateErr').textContent = 'Open this page over https to sign in.'; return; }
+  const hash = await sha256($('gatePw').value.trim().toLowerCase());
+  if (hash !== GATE_HASH) { $('gateErr').hidden = false; $('gateErr').textContent = 'Wrong password.'; $('gatePw').select(); return; }
+  store.set('gate', hash); boot();
+};
+if (store.get('gate', '') === GATE_HASH) boot();
+else { $('gate').hidden = false; $('gatePw').focus(); }
 </script>
 </body>
 </html>

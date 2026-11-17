@@ -1,6 +1,8 @@
 # One song per line:  Artist - Title
 # The artist name is what the on/off chips on the start screen use.
 # Add "| 2016" at the end to fix a release year Apple gets wrong.
+# Tags put a song in a special mode: #freak (Freak genre), #akul (secret Akul mode).
+# An artist whose songs are all tagged gets no chip; they only appear in those modes.
 # After editing, run:  python3 build_songs.py
 
 Drake - God's Plan
@@ -325,3 +327,458 @@ Lil Baby - Wants and Needs
 Lil Baby - Girls Want Girls
 Lil Baby - Every Chance I Get
 Lil Baby - Voice of the Heroes
+
+Ken Carson - Jennifer's Body
+Ken Carson - Overseas
+Ken Carson - ss
+Ken Carson - Fighting My Demons
+Ken Carson - i need u
+Ken Carson - Freestyle 2
+Ken Carson - Lose It
+Ken Carson - Yale
+Ken Carson - Succubus
+Ken Carson - Rock N Roll
+Ken Carson - Margiela
+Ken Carson - Hardcore
+Ken Carson - Delusional
+Ken Carson - Leather Jacket
+Ken Carson - Paranoid
+Ken Carson - Money Spread
+Ken Carson - MDMA
+Ken Carson - Off The Meter
+
+Kanye West - Stronger
+Kanye West - Gold Digger
+Kanye West - Heartless
+Kanye West - Power
+Kanye West - All of the Lights
+Kanye West - Flashing Lights
+Kanye West - Runaway
+Kanye West - Can't Tell Me Nothing
+Kanye West - Touch the Sky
+Kanye West - Jesus Walks
+Kanye West - Through the Wire
+Kanye West - Homecoming
+Kanye West - Good Life
+Kanye West - Black Skinhead
+Kanye West - Bound 2
+Kanye West - Mercy
+Kanye West - Famous
+Kanye West - Father Stretch My Hands, Pt. 1
+Kanye West - Ultralight Beam
+Kanye West - Fade
+Kanye West - I Wonder
+Kanye West - Champion
+Kanye West - Hurricane
+Kanye West - Praise God
+Kanye West - Monster
+Kanye West - Love Lockdown
+Kanye West - Off the Grid
+
+Kid Cudi - Day 'n' Nite
+Kid Cudi - Pursuit of Happiness
+Kid Cudi - Soundtrack 2 My Life
+Kid Cudi - Up Up & Away
+Kid Cudi - Mr. Rager
+Kid Cudi - Erase Me
+Kid Cudi - Memories
+Kid Cudi - Frequency
+Kid Cudi - Kids See Ghosts
+Kid Cudi - Reborn
+Kid Cudi - Tequila Shots
+Kid Cudi - She Knows This
+Kid Cudi - Show Out
+Kid Cudi - Solo Dolo
+Kid Cudi - Make Her Say
+Kid Cudi - Marijuana
+
+Kendrick Lamar - HUMBLE.
+Kendrick Lamar - DNA.
+Kendrick Lamar - LOYALTY.
+Kendrick Lamar - Swimming Pools (Drank)
+Kendrick Lamar - Money Trees
+Kendrick Lamar - Bitch, Don't Kill My Vibe
+Kendrick Lamar - Poetic Justice
+Kendrick Lamar - King Kunta
+Kendrick Lamar - Alright
+Kendrick Lamar - LOVE.
+Kendrick Lamar - N95
+Kendrick Lamar - Not Like Us
+Kendrick Lamar - Euphoria
+Kendrick Lamar - tv off
+Kendrick Lamar - squabble up
+Kendrick Lamar - luther
+Kendrick Lamar - Count Me Out
+Kendrick Lamar - Die Hard
+Kendrick Lamar - Rich Spirit
+Kendrick Lamar - United In Grief
+Kendrick Lamar - m.A.A.d city
+Kendrick Lamar - Backseat Freestyle
+Kendrick Lamar - These Walls
+Kendrick Lamar - i
+
+Destroy Lonely - if looks could kill
+Destroy Lonely - NOSTYLIST
+Destroy Lonely - VTMNTSCOAT
+Destroy Lonely - JETLGGD
+Destroy Lonely - Bane
+Destroy Lonely - blitz
+Destroy Lonely - how u feel?
+Destroy Lonely - Turn Up Ya Nose
+Destroy Lonely - Again
+Destroy Lonely - Lean With Me
+Destroy Lonely - Love Me Dead
+Destroy Lonely - 2hard4u
+
+Lil Tecca - Ransom
+Lil Tecca - Dark Thoughts
+Lil Tecca - 500lbs
+Lil Tecca - Love Me
+Lil Tecca - Did It Again
+Lil Tecca - Out of Love
+Lil Tecca - Shots
+Lil Tecca - Never Left
+Lil Tecca - Repeat It
+Lil Tecca - Down With Me
+Lil Tecca - Owa Owa
+Lil Tecca - When You Down
+Lil Tecca - Taste
+
+Lil Uzi Vert - XO Tour Llif3
+Lil Uzi Vert - Money Longer
+Lil Uzi Vert - You Was Right
+Lil Uzi Vert - Do What I Want
+Lil Uzi Vert - The Way Life Goes
+Lil Uzi Vert - Sanguine Paradise
+Lil Uzi Vert - That Way
+Lil Uzi Vert - Futsal Shuffle 2020
+Lil Uzi Vert - Just Wanna Rock
+Lil Uzi Vert - Myron
+Lil Uzi Vert - Neon Guts
+Lil Uzi Vert - Erase Your Social
+Lil Uzi Vert - 20 Min
+Lil Uzi Vert - P2
+Lil Uzi Vert - 7AM
+Lil Uzi Vert - Watch This
+Lil Uzi Vert - Sauce It Up
+
+Playboi Carti - Magnolia
+Playboi Carti - Shoota
+Playboi Carti - Sky
+Playboi Carti - Long Time
+Playboi Carti - wokeuplikethis*
+Playboi Carti - Location
+Playboi Carti - R.I.P.
+Playboi Carti - Stop Breathing
+Playboi Carti - Vamp Anthem
+Playboi Carti - Rockstar Made
+Playboi Carti - Fell In Luv
+Playboi Carti - EVIL J0RDAN
+Playboi Carti - ALL RED
+Playboi Carti - H00DBYAIR
+Playboi Carti - New Tank
+Playboi Carti - Over
+Playboi Carti - Carnival
+
+Yeat - Get Busy
+Yeat - Money So Big
+Yeat - Sorry Bout That
+Yeat - Rich Minion
+Yeat - Talk
+Yeat - Out the Way
+Yeat - Up off X
+Yeat - Breathe
+Yeat - IDGAF
+Yeat - Bigger Then Everything
+Yeat - Poppin
+Yeat - Psycho CEO
+Yeat - If We Being Real
+Yeat - Shmunk
+Yeat - Already Rich
+Yeat - Flawless
+
+Nicki Minaj - Super Bass
+Nicki Minaj - Starships
+Nicki Minaj - Anaconda
+Nicki Minaj - Moment 4 Life
+Nicki Minaj - Pound the Alarm
+Nicki Minaj - Chun-Li
+Nicki Minaj - Super Freaky Girl
+Nicki Minaj - Bang Bang
+Nicki Minaj - Truffle Butter
+Nicki Minaj - Only
+Nicki Minaj - Feeling Myself
+Nicki Minaj - Your Love
+Nicki Minaj - Roman's Revenge
+Nicki Minaj - Beez in the Trap
+Nicki Minaj - Barbie Dreams
+Nicki Minaj - Red Ruby Da Sleeze
+Nicki Minaj - Last Time I Saw You
+Nicki Minaj - FTCU
+Nicki Minaj - Barbie World
+
+Bryson Tiller - Don't
+Bryson Tiller - Exchange
+Bryson Tiller - Sorry Not Sorry
+Bryson Tiller - Right My Wrongs
+Bryson Tiller - Somethin Tells Me
+Bryson Tiller - Rambo
+Bryson Tiller - Let Em' Know
+Bryson Tiller - Ten Nights
+Bryson Tiller - Whatever She Wants
+Bryson Tiller - Always Forever
+Bryson Tiller - Run Me Dry
+Bryson Tiller - Self-Made
+Bryson Tiller - Canceled
+Bryson Tiller - Outta Time
+Bryson Tiller - Inhale
+
+DJ Khaled - All I Do Is Win
+DJ Khaled - I'm the One
+DJ Khaled - Wild Thoughts
+DJ Khaled - No Brainer
+DJ Khaled - Popstar
+DJ Khaled - Greece
+DJ Khaled - Top Off
+DJ Khaled - Staying Alive
+DJ Khaled - For Free
+DJ Khaled - I'm On One
+DJ Khaled - Take It To The Head
+DJ Khaled - Hold You Down
+DJ Khaled - Shining
+DJ Khaled - Holy Mountain
+DJ Khaled - Higher
+
+LUCKI - Coincidence
+LUCKI - Y Not?
+LUCKI - Super Urus
+LUCKI - Geeked N Blessed
+LUCKI - Faith
+LUCKI - 4 Da Gang
+LUCKI - Leave Her
+LUCKI - Randy Savage
+LUCKI - Stars
+LUCKI - Belly
+LUCKI - No Bap
+LUCKI - Already Rich
+
+David Guetta - Titanium
+David Guetta - Without You
+David Guetta - When Love Takes Over
+David Guetta - Sexy Bitch
+David Guetta - Play Hard
+David Guetta - Turn Me On
+David Guetta - Hey Mama
+David Guetta - Bang My Head
+David Guetta - Lovers on the Sun
+David Guetta - Dangerous
+David Guetta - 2U
+David Guetta - Let's Love
+David Guetta - I'm Good (Blue)
+David Guetta - Baby Don't Hurt Me
+David Guetta - Gettin' Over You
+David Guetta - Where Them Girls At
+David Guetta - Club Can't Handle Me
+David Guetta - Little Bad Girl
+David Guetta - Who's That Chick?
+David Guetta - Memories
+
+Sexyy Red - Pound Town
+Sexyy Red - SkeeYee
+Sexyy Red - Get It Sexyy
+Sexyy Red - Rich Baby Daddy
+Sexyy Red - Hellcats & Trackhawks
+Sexyy Red - Shake Yo Dreads
+Sexyy Red - U My Everything
+Sexyy Red - Bow My Head
+Sexyy Red - Born By The River
+Sexyy Red - Looking For The Hoes
+Sexyy Red - Free Me
+
+Cardi B - Bodak Yellow
+Cardi B - I Like It
+Cardi B - WAP
+Cardi B - Money
+Cardi B - Up
+Cardi B - Be Careful
+Cardi B - Bartier Cardi
+Cardi B - Drip
+Cardi B - Press
+Cardi B - Bongos
+Cardi B - Enough (Miami)
+Cardi B - Hot Shit
+Cardi B - Taki Taki
+Cardi B - Thru Your Phone
+Cardi B - Ring
+Cardi B - Clout
+Cardi B - Wanna Be
+
+Megan Thee Stallion - Savage
+Megan Thee Stallion - Body
+Megan Thee Stallion - Hot Girl Summer
+Megan Thee Stallion - Thot Shit
+Megan Thee Stallion - Cash Shit
+Megan Thee Stallion - Big Ole Freak
+Megan Thee Stallion - Captain Hook
+Megan Thee Stallion - Girls in the Hood
+Megan Thee Stallion - Don't Stop
+Megan Thee Stallion - Plan B
+Megan Thee Stallion - HISS
+Megan Thee Stallion - Mamushi
+Megan Thee Stallion - Her
+Megan Thee Stallion - Sweetest Pie
+Megan Thee Stallion - Cry Baby
+Megan Thee Stallion - Boa
+Megan Thee Stallion - Realer
+
+Fetty Wap - Trap Queen
+Fetty Wap - 679
+Fetty Wap - My Way
+Fetty Wap - Again
+Fetty Wap - RGF Island
+Fetty Wap - Jimmy Choo
+Fetty Wap - Wake Up
+Fetty Wap - Couple Bands
+Fetty Wap - Trap Luv
+
+Pitbull - Give Me Everything
+Pitbull - Timber
+Pitbull - Fireball
+Pitbull - Hotel Room Service
+Pitbull - I Know You Want Me (Calle Ocho)
+Pitbull - International Love
+Pitbull - Rain Over Me
+Pitbull - Time of Our Lives
+Pitbull - Don't Stop the Party
+Pitbull - Feel This Moment
+Pitbull - Hey Baby (Drop It to the Floor)
+Pitbull - Back in Time
+Pitbull - Krazy
+Pitbull - On the Floor
+Pitbull - Down
+
+Britney Spears - ...Baby One More Time
+Britney Spears - Oops!...I Did It Again
+Britney Spears - Toxic
+Britney Spears - Womanizer
+Britney Spears - Circus
+Britney Spears - Gimme More
+Britney Spears - Piece of Me
+Britney Spears - I'm a Slave 4 U
+Britney Spears - Stronger
+Britney Spears - Lucky
+Britney Spears - Sometimes
+Britney Spears - Everytime
+Britney Spears - If U Seek Amy
+Britney Spears - 3
+Britney Spears - Till the World Ends
+Britney Spears - Hold It Against Me
+Britney Spears - Scream & Shout
+Britney Spears - Work Bitch
+Britney Spears - Radar
+Britney Spears - Hold Me Closer
+
+# --- Freak: R&B made for the bedroom (Freak genre / Freak mode)
+Ginuwine - Pony #freak
+Ginuwine - In Those Jeans #freak
+Ginuwine - So Anxious #freak
+Ginuwine - Differences #freak
+Jeremih - Birthday Sex #freak
+Jeremih - Oui #freak
+Jeremih - Down On Me #freak
+Jeremih - Don't Tell 'Em #freak
+Trey Songz - Neighbors Know My Name #freak
+Trey Songz - Na Na #freak
+Trey Songz - Bottoms Up #freak
+Trey Songz - Can't Help But Wait #freak
+Usher - Nice & Slow #freak
+Usher - Love in This Club #freak
+Usher - Lil Freak #freak
+Usher - Bad Girl #freak
+Usher - Yeah! #freak
+Usher - Trading Places #freak
+Chris Brown - Back to Sleep #freak
+Chris Brown - Under the Influence #freak
+Chris Brown - Take You Down #freak
+Chris Brown - Wet the Bed #freak
+Chris Brown - Loyal #freak
+Miguel - Adorn #freak
+Miguel - Sure Thing #freak
+Miguel - How Many Drinks? #freak
+Miguel - Do You... #freak
+Marvin Gaye - Sexual Healing #freak
+Marvin Gaye - Let's Get It On #freak
+Silk - Freak Me #freak
+Jodeci - Freek'n You #freak
+Next - Too Close #freak
+Janet Jackson - Any Time, Any Place #freak
+D'Angelo - Untitled (How Does It Feel) #freak
+Beyoncé - Partition #freak
+Beyoncé - Drunk in Love #freak
+Beyoncé - Rocket #freak
+Beyoncé - Naughty Girl #freak
+Rihanna - Skin #freak
+Rihanna - Birthday Cake #freak
+Rihanna - Rude Boy #freak
+Rihanna - S&M #freak
+Rihanna - Kiss It Better #freak
+Rihanna - Needed Me #freak
+Ciara - Body Party #freak
+Ciara - Ride #freak
+Bryson Tiller - Exchange #freak
+Bryson Tiller - Don't #freak
+Bryson Tiller - Sorry Not Sorry #freak
+Tinashe - 2 On #freak
+Summer Walker - Girls Need Love #freak
+Summer Walker - Body #freak
+Jhené Aiko - Sativa #freak
+Jhené Aiko - Post to Be #freak
+6LACK - Pretty Little Fears #freak
+Kehlani - Nights Like This #freak
+Brent Faiyaz - Dead Man Walking #freak
+PARTYNEXTDOOR - Come and See Me #freak
+Nicki Minaj - Super Freaky Girl #freak
+SZA - The Weekend #freak
+The Weeknd - Often #freak
+The Weeknd - Earned It #freak
+The Weeknd - The Hills #freak
+The Weeknd - Wicked Games #freak
+Ty Dolla $ign - Or Nah #freak
+The-Dream - Shawty Is Da Shit #freak
+Akon - Smack That #freak
+Pretty Ricky - Grind With Me #freak
+
+# --- Akul mode (secret): The Weeknd at his freakiest
+The Weeknd - Often #akul
+The Weeknd - Earned It #akul
+The Weeknd - The Hills #akul
+The Weeknd - Wicked Games #akul
+The Weeknd - High For This #akul
+The Weeknd - Glass Table Girls #akul
+The Weeknd - The Morning #akul
+The Weeknd - Kiss Land #akul
+The Weeknd - Love in the Sky #akul
+The Weeknd - Professional #akul
+The Weeknd - Pretty #akul
+The Weeknd - Love Me Harder #akul
+The Weeknd - Party Monster #akul
+The Weeknd - Six Feet Under #akul
+The Weeknd - Rockin' #akul
+The Weeknd - Rolling Stone #akul
+The Weeknd - Loft Music #akul
+The Weeknd - What You Need #akul
+The Weeknd - The Party & The After Party #akul
+The Weeknd - Thursday #akul
+The Weeknd - The Zone #akul
+The Weeknd - D.D. #akul
+The Weeknd - Crew Love #akul
+The Weeknd - Love to Lay #akul
+The Weeknd - Escape From LA #akul
+The Weeknd - Take My Breath #akul
+The Weeknd - Is There Someone Else? #akul
+The Weeknd - Shameless #akul
+The Weeknd - Acquainted #akul
+The Weeknd - Tell Your Friends #akul
+The Weeknd - Sacrifice #akul
+The Weeknd - Die For You #akul
+The Weeknd - I Feel It Coming #akul

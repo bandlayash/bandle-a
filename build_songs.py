@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Turn songs.txt ("Artist - Title" per line, optional "| year") into songs.js.
+"""Turn songs.txt ("Artist - Title" per line, optional "| year" and "#tags") into songs.js.
 
 Looks the songs up in Apple's public iTunes Search API (one request per artist,
 plus one per song it couldn't find that way) and keeps each track's id, year,
-artwork and 30-second preview URL. Songs already in songs.js are kept, so
+genre, artwork and 30-second preview URL. A popularity rank from Deezer's public
+search decides which songs count as hits. Songs already in songs.js are kept, so
 re-running after adding a few lines is quick.
 
     python3 build_songs.py
@@ -17,6 +18,23 @@ DELAY = 3.2  # Apple allows roughly 20 searches a minute
 BAD = re.compile(r"karaoke|tribute|\blive\b|remix|re-?recorded|instrumental|cover|"
                  r"made famous|acoustic|demo|\bedit\b|mix\)|version\)|sped up|slowed|a cappella",
                  re.I)
+
+
+# A song counts as a hit if its Deezer rank (0 to 1,000,000) is at least HIT_RANK, or it is in the more
+# popular half of its artist's songs (Deezer's audience skews European, so a flat cutoff alone would
+# drop most of some US rappers' biggest songs). Songs Deezer can't find count as hits.
+HIT_RANK = 500_000
+
+# Apple's genre names, folded into the genre chips on the start screen.
+GENRES = [("hip-hop", "Rap"), ("rap", "Rap"), ("r&b", "R&B"), ("soul", "R&B"), ("funk", "R&B"),
+          ("dance", "House/EDM"), ("electronic", "House/EDM"), ("house", "House/EDM"),
+          ("techno", "House/EDM"), ("rock", "Rock"), ("alternative", "Rock"), ("metal", "Rock"),
+          ("punk", "Rock"), ("pop", "Pop"), ("latin", "Pop"), ("country", "Pop")]
+
+
+def genre_of(apple_genre):
+    low = (apple_genre or "").lower()
+    return next((label for key, label in GENRES if key in low), "Pop")
 
 
 def norm(s):
@@ -71,8 +89,8 @@ def credited(want_a, artist_name, track_name):
 
 
 def refresh_credits(found):
-    """Fill in full credits for songs saved before credits included features."""
-    stale = [s for s in found.values() if "artists" not in s]
+    """Fill in credits and genre for songs saved before those fields existed."""
+    stale = [s for s in found.values() if "artists" not in s or "genre" not in s]
     for i in range(0, len(stale), 150):
         batch = stale[i:i + 150]
         url = "https://itunes.apple.com/lookup?country=US&id=" + ",".join(str(s["id"]) for s in batch)
@@ -83,7 +101,32 @@ def refresh_credits(found):
             if r:
                 s["credit"] = credit_line(r["artistName"], r["trackName"])
                 s["artists"] = performers(r["artistName"], r["trackName"])
+                s["genre"] = genre_of(r.get("primaryGenreName"))
         time.sleep(DELAY)
+
+
+def deezer_rank(song):
+    """Deezer's popularity rank for this recording (0 if not found)."""
+    url = "https://api.deezer.com/search?" + urllib.parse.urlencode(
+        {"q": f"{song['artist']} {core(song['title'])}", "limit": 25})
+    out = subprocess.run(["curl", "-s", "-m", "20", url], capture_output=True, text=True).stdout
+    try:
+        results = json.loads(out).get("data", [])
+    except ValueError:
+        return None
+    who = {norm(a) for a in song.get("artists", [song["artist"]])} | {norm(song["artist"])}
+    want = norm(core(song["title"]))
+    ranks = [r.get("rank", 0) for r in results
+             if norm(core(r.get("title", ""))) == want and norm(r.get("artist", {}).get("name", "")) in who]
+    return max(ranks, default=0)
+
+
+def refresh_ranks(found):
+    for song in [s for s in found.values() if not s.get("rank")]:  # also retry ones not found last time
+        rank = deezer_rank(song)
+        if rank is not None:
+            song["rank"] = rank
+        time.sleep(0.4)  # Deezer allows 50 requests per 5 seconds; stay well under it
 
 
 def pick(results, artist, title):
@@ -111,19 +154,25 @@ def pick(results, artist, title):
             "credit": credit_line(best["artistName"], best["trackName"]),
             "artists": performers(best["artistName"], best["trackName"]),
             "year": int(best["releaseDate"][:4]),
+            "genre": genre_of(best.get("primaryGenreName")),
             "art": best.get("artworkUrl100", "").replace("100x100", "300x300"),
             "url": best.get("trackViewUrl", ""), "preview": best["previewUrl"]}
 
 
 def main():
-    wanted, years = [], {}
+    wanted, years, tags = [], {}, {}
     for line in SRC.read_text(encoding="utf-8").splitlines():
         line = line.strip()
         if line and not line.startswith("#") and " - " in line:
+            line_tags = re.findall(r"\s#(\w+)", line)
+            line = re.sub(r"\s#\w+", "", line)
             line, _, year = line.partition("|")
             artist, title = line.split(" - ", 1)
             key = (artist.strip(), title.strip())
-            wanted.append(key)
+            if key not in tags:
+                wanted.append(key)
+                tags[key] = set()
+            tags[key].update(line_tags)
             if year.strip():
                 years[key] = int(year)
 
@@ -133,13 +182,30 @@ def main():
         if m:
             found = {(s["artist"], s["title"]): s for s in json.loads(m.group(1))}
 
+    def is_hit(song, ranks_by_artist):
+        rank = song.get("rank", 0)
+        if not rank:
+            return True
+        ranks = ranks_by_artist[song["artist"]]
+        return rank >= HIT_RANK or rank >= ranks[len(ranks) // 2]  # ranks sorted high to low
+
     def save():
+        ranks_by_artist = {}
+        for s in found.values():
+            if s.get("rank"):
+                ranks_by_artist.setdefault(s["artist"], []).append(s["rank"])
+        for r in ranks_by_artist.values():
+            r.sort(reverse=True)
         songs, seen = [], set()
         for key in wanted:
             song = found.get(key)
             if song and song["id"] not in seen:
                 seen.add(song["id"])
-                songs.append({**song, "year": years.get(key, song["year"])})
+                out = {**song, "year": years.get(key, song["year"]), "hit": is_hit(song, ranks_by_artist)}
+                out.pop("tags", None)
+                if tags[key]:
+                    out["tags"] = sorted(tags[key])
+                songs.append(out)
         OUT.write_text("window.SONGS = " + json.dumps(songs, ensure_ascii=False, indent=1)
                        + ";\n", encoding="utf-8")
         return len(songs)
@@ -157,6 +223,8 @@ def main():
         got = sum(k in found for k in todo)
         print(f"{artist}: {got}/{len(todo)} new", flush=True)
         save()
+    refresh_credits(found)
+    refresh_ranks(found)
 
     print(f"\n{save()} songs written to songs.js")
     # Point index.html at this exact version so browsers don't keep a stale cached copy.
