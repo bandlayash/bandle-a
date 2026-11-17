@@ -185,6 +185,10 @@
   .chip.freak[aria-pressed="false"] small { display: inline; }
   .startrow { display: flex; align-items: center; gap: 1rem; margin-top: 2rem; flex-wrap: wrap; }
   .best { color: var(--text); }
+  .heardline { margin: .875rem 0 0; }
+  .linkbtn { font: inherit; color: var(--dim); text-decoration: underline; text-underline-offset: 3px; padding: 0; }
+  .linkbtn:hover { color: var(--text); }
+  .linkbtn.armed { color: var(--bad); }
 
   .switch { display: inline-flex; align-items: center; gap: .75rem; cursor: pointer; font-weight: 600; }
   .switch input { position: absolute; opacity: 0; width: 1px; height: 1px; }
@@ -413,6 +417,7 @@
       <span class="status" id="poolNote"></span>
       <span class="status best" id="startBest"></span>
     </div>
+    <p class="status heardline" id="heardLine" hidden><span id="heardNote"></span> <button class="linkbtn" id="resetHeard"></button></p>
     <p class="status" id="engineNote"></p>
     <p class="status" id="gpuNote" hidden>This browser has no WebGPU, so splitting each song will be slow. A current Chrome, Edge or Safari works best.</p>
 
@@ -493,7 +498,7 @@
 </div>
 <canvas id="confetti" aria-hidden="true"></canvas>
 
-<script src="songs.js?v=be9988a4"></script>
+<script src="songs.js?v=7b542a59"></script>
 <script type="module">
 const SONGS = window.SONGS || [];
 const PARTS = [
@@ -1095,6 +1100,11 @@ function renderStart() {
   $('poolNote').textContent = !n ? 'No songs match these filters'
     : `${n} song${n === 1 ? '' : 's'} in the pool` + (unheard < n ? ` · ${unheard} not heard yet` : '');
   $('startBtn').disabled = !n;
+  const heardCount = heard().length;
+  $('heardLine').hidden = !heardCount;
+  $('heardNote').textContent = `You've heard ${heardCount} song${heardCount === 1 ? '' : 's'} on this browser.`;
+  $('resetHeard').textContent = resetArmed ? 'Click again to forget them all' : 'Reset heard songs';
+  $('resetHeard').classList.toggle('armed', resetArmed);
   const best = bestFor(m);
   $('startBest').textContent = best ? `Best${special ? ' in this mode' : ''}: ${fmt(best)}` : '';
   $('akulSwitch').hidden = !prefs.akulUnlocked;
@@ -1120,6 +1130,14 @@ for (const [id, i] of [['yearFrom', 0], ['yearTo', 1]]) {
   });
 }
 $('hitsOnly').onchange = () => { prefs.hits = $('hitsOnly').checked; renderStart(); };
+// Two clicks to reset, so one stray click can't wipe the history; the first click expires after 4 seconds.
+let resetArmed = false, resetTimer;
+$('resetHeard').onclick = () => {
+  clearTimeout(resetTimer);
+  if (resetArmed) { store.set('heard', []); resetArmed = false; }
+  else { resetArmed = true; resetTimer = setTimeout(() => { resetArmed = false; renderStart(); }, 4000); }
+  renderStart();
+};
 $('secretBtn').onclick = () => {
   const open = $('secretPanel').hidden;
   $('secretPanel').hidden = !open; $('secretBtn').setAttribute('aria-expanded', open);

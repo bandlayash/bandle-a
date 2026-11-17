@@ -22,10 +22,11 @@ BAD = re.compile(r"karaoke|tribute|\blive\b|remix|re-?recorded|instrumental|cove
                  re.I)
 
 
-# A song counts as a hit if its Deezer rank (0 to 1,000,000) is at least HIT_RANK, or it is in the more
-# popular half of its artist's songs (Deezer's audience skews European, so a flat cutoff alone would
+# A song counts as a hit if its Deezer rank (0 to 1,000,000) is at least HIT_RANK, or it is in the top
+# HIT_SHARE of its artist's songs by rank (Deezer's audience skews European, so a flat cutoff alone would
 # drop most of some US rappers' biggest songs). Songs Deezer can't find count as hits.
-HIT_RANK = 500_000
+HIT_RANK = 650_000
+HIT_SHARE = 0.34
 
 # Apple's genre names, folded into the genre chips on the start screen.
 GENRES = [("hip-hop", "Rap"), ("rap", "Rap"), ("r&b", "R&B"), ("soul", "R&B"), ("funk", "R&B"),
@@ -299,8 +300,8 @@ def main():
         rank = song.get("rank", 0)
         if not rank:
             return True
-        ranks = ranks_by_artist[song["artist"]]
-        return rank >= HIT_RANK or rank >= ranks[len(ranks) // 2]  # ranks sorted high to low
+        ranks = ranks_by_artist[song["artist"]]  # sorted high to low
+        return rank >= HIT_RANK or rank >= ranks[max(1, round(len(ranks) * HIT_SHARE)) - 1]
 
     def save():
         ranks_by_artist = {}

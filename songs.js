@@ -187,7 +187,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 641666,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -309,7 +309,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 557732,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -345,7 +345,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 614274,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -784,7 +784,7 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 647048,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit"
  },
  {
@@ -835,7 +835,7 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 602810,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit"
  },
  {
@@ -988,7 +988,7 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 633274,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit"
  },
  {
@@ -2350,7 +2350,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 621236,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -2386,7 +2386,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 581436,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -2404,7 +2404,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 644415,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -2442,7 +2442,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 628629,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -2459,7 +2459,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 556708,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -2744,7 +2744,7 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 636183,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit"
  },
  {
@@ -2867,7 +2867,7 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 574587,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -3186,7 +3186,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 627808,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -3224,7 +3224,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 554750,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -3243,7 +3243,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 595050,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -3281,7 +3281,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 525829,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -3317,7 +3317,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 646314,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -3535,7 +3535,7 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 590379,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit",
   "tags": [
    "freak"
@@ -3556,7 +3556,7 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 646280,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -3608,7 +3608,7 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 564958,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -3625,7 +3625,7 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 581095,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -3642,7 +3642,7 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 566418,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -3693,7 +3693,7 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 597454,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -3728,7 +3728,7 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 614022,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -3781,7 +3781,7 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 628507,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -3798,7 +3798,7 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 563151,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -3993,7 +3993,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 500808,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4080,7 +4080,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 500290,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4097,7 +4097,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 522347,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4201,7 +4201,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 571231,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4218,7 +4218,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 597965,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4235,7 +4235,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 592701,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4252,7 +4252,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 568375,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4271,7 +4271,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 528210,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4288,7 +4288,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 554169,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4306,7 +4306,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 525449,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4342,7 +4342,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 553609,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4359,7 +4359,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 518718,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4393,7 +4393,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 516257,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4410,7 +4410,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 521217,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4446,7 +4446,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 550549,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4568,7 +4568,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 534739,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4673,7 +4673,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 513678,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4781,7 +4781,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 616766,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit"
  },
  {
@@ -4798,7 +4798,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 541547,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4816,7 +4816,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 594795,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4834,7 +4834,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 525400,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4869,7 +4869,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 544824,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -4941,7 +4941,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 517974,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -5011,7 +5011,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 622919,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit"
  },
  {
@@ -5046,7 +5046,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 521838,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -5063,7 +5063,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 509385,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -5168,7 +5168,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 504025,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -5325,7 +5325,7 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 509366,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -5433,7 +5433,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/jennifers-body/1710472300?i=1710472302&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/da/5d/64da5dc5-f75d-9eae-686a-cdc8cdf0c31e/mzaf_16330966661997878938.plus.aac.p.m4a",
   "rank": 419210,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -5503,7 +5503,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/i-need-u/1669821144?i=1669821154&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e9/bc/1a/e9bc1aae-f451-150b-ab3b-fb286deb41f9/mzaf_17804931154297035169.plus.aac.p.m4a",
   "rank": 389827,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -5680,7 +5680,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/paranoid-feat-destroy-lonely/1710472300?i=1710472553&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/67/09/7a6709e9-9a3e-8b75-d052-878ae7038ba3/mzaf_18310809278645193199.plus.aac.p.m4a",
   "rank": 407384,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -5737,7 +5737,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/3320256721",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/7/1/0/b7182cc1c3a5c0664840fde55b91cb32.mp3?hdnea=exp=1794900268~acl=/api/1/1/b/7/1/0/b7182cc1c3a5c0664840fde55b91cb32.mp3*~data=user_id=0,application_id=42~hmac=ea11b9650c4fc75c58566fef81a297d9afab1c5e762850f056aeb94c8304f4f2",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": 1451902446,
@@ -5909,7 +5909,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/jesus-walks/1412872568?i=1412873446&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/09/d2/1209d2c4-10c1-b5ae-eb87-42a32757b549/mzaf_8671556785213044204.plus.aac.p.m4a",
   "rank": 576470,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -5962,7 +5962,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/good-life-feat-t-pain/1451901307?i=1451902834&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/ef/55/a6ef5595-411f-374b-c33c-6a41e4b6ff5b/mzaf_4468959157339868415.plus.aac.p.m4a",
   "rank": 608136,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -6071,7 +6071,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/ultralight-beam/1443063578?i=1443063579&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/88/cf/b188cf11-b3c8-e18c-ac3a-e39524102213/mzaf_9157860879279096004.plus.aac.p.m4a",
   "rank": 556896,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -6088,7 +6088,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/fade/1443063578?i=1443063995&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2d/a2/98/2da29828-071c-d0e8-b2dc-0b0e62e2d86c/mzaf_5304076854900930301.plus.aac.p.m4a",
   "rank": 567315,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -6122,7 +6122,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/champion/1451901307?i=1451902183&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d3/6c/8a/d36c8ac1-4d31-0f3c-1967-196caf9956a0/mzaf_5327961132204748256.plus.aac.p.m4a",
   "rank": 573102,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -6177,7 +6177,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/monster-feat-ja%C3%BF-z-rick-ross-nicki-minaj-bon-iver/1440742903?i=1440742912&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/c0/27/2fc027b2-c164-31e3-1fb6-a3bdc3eab28d/mzaf_12641286821236808173.plus.aac.p.m4a",
   "rank": 648216,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -6194,7 +6194,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/love-lockdown/1441410287?i=1441410404&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/41/a0/cd41a029-144c-ef10-b945-5c29b0966552/mzaf_16533792012921979472.plus.aac.p.m4a",
   "rank": 589241,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit"
  },
  {
@@ -6211,7 +6211,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/off-the-grid/1587795158?i=1587795282&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/79/a7/6f/79a76f84-ba71-6255-184e-04f0917d4250/mzaf_18070411789131224445.plus.aac.p.m4a",
   "rank": 540376,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit"
  },
  {
@@ -6316,7 +6316,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/erase-me-feat-kanye-west/1452877009?i=1452877315&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/e9/11/b9e911ff-8ccf-2e14-b37d-78094623462c/mzaf_14127578071117813527.plus.aac.p.m4a",
   "rank": 614701,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -6368,7 +6368,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/tequila-shots/1543635399?i=1543635672&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/54/e5/f554e5ff-2cbb-06a8-58ab-dc0da265c0b3/mzaf_12770272827023803020.plus.aac.p.m4a",
   "rank": 551286,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -6404,7 +6404,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/show-out/1543635399?i=1543635694&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c9/e3/24/c9e32494-656d-b4b5-9ec2-f51efcf34855/mzaf_10768746204311523602.plus.aac.p.m4a",
   "rank": 546910,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -6457,7 +6457,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/marijuana/1452877009?i=1452877308&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/c7/bd/f5c7bd12-ee2d-3a77-eef8-1aab0d10e4be/mzaf_5451156398548839560.plus.aac.p.m4a",
   "rank": 513804,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -6648,7 +6648,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/n95/1626195790?i=1626195811&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/ba/83/f2ba8321-eb5e-28c8-877e-ffb993b56506/mzaf_7836717119851453834.plus.aac.p.m4a",
   "rank": 636266,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -6685,7 +6685,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/2775438091",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/3/2/0/d32b1074ee90037172967df2e17d4873.mp3?hdnea=exp=1794900274~acl=/api/1/1/d/3/2/0/d32b1074ee90037172967df2e17d4873.mp3*~data=user_id=0,application_id=42~hmac=b87accc649f5d6239f2b75c6b837392b9d7fe89aee7f26021e39c02ea5284579",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": 1781270540,
@@ -6772,7 +6772,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/die-hard/1626195790?i=1626196087&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/2d/32/5f2d32b7-d08a-d035-163e-4da3a48c8126/mzaf_11320957732497306333.plus.aac.p.m4a",
   "rank": 622637,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -6789,7 +6789,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/rich-spirit/1626195790?i=1626196099&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2e/21/66/2e2166e4-de1a-7434-32f2-ffb30225e955/mzaf_4273720212082500852.plus.aac.p.m4a",
   "rank": 598655,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -6861,7 +6861,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/these-walls-feat-bilal-anna-wise-thundercat/1440828886?i=1440829150&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/b6/7f/b0b67f89-4c45-0f82-0e72-5145e34eeb56/mzaf_8837364790887235248.plus.aac.p.m4a",
   "rank": 523281,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -6878,7 +6878,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/i/1440828886?i=1440829895&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/44/6e/49446e15-e113-3997-0384-abcd1dbc2ad7/mzaf_15669762394594936880.plus.aac.p.m4a",
   "rank": 593750,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -6972,7 +6972,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/722822682",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/d/0/59d9269e311a358ffbee594a6fd0843d.mp3?hdnea=exp=1794900282~acl=/api/1/1/5/9/d/0/59d9269e311a358ffbee594a6fd0843d.mp3*~data=user_id=0,application_id=42~hmac=de709f75c7ccb6e9236b3fd796949a7ed4e26b1b22076c5de9e0c3babe3c5a0a",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": "dz2011302457",
@@ -7007,7 +7007,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/how-u-feel/1684644634?i=1684644635&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/74/d4/6d/74d46d7b-4dcd-0816-3f8e-6f488346b879/mzaf_3250297084752562053.plus.aac.p.m4a",
   "rank": 427231,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -7094,7 +7094,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/did-it-again/1481535238?i=1481535252&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/78/e4/ee/78e4eef6-9d5f-26c3-a094-85d768f4c77f/mzaf_16222848304560167422.plus.aac.p.m4a",
   "rank": 512646,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -7166,7 +7166,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/repeat-it/1582496839?i=1582496855&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/66/5c/44665cb8-cc98-5c92-54e6-20bbc47b1120/mzaf_5063434751263099974.plus.aac.p.m4a",
   "rank": 532997,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -7183,7 +7183,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/down-with-me/1724100693?i=1724100694&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/d5/0a/91d50add-5edc-89ce-87b5-ebd4115b5617/mzaf_5684208142063162588.plus.aac.p.m4a",
   "rank": 544685,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -7200,7 +7200,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/owa-owa/1817013284?i=1817013285&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/28/c2/d328c281-653c-d55c-62ea-4cc274c0d354/mzaf_15567333346890929594.plus.aac.p.m4a",
   "rank": 581598,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -7348,7 +7348,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/662969192",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/8/3/0/e835b56d06699ccb8f097b14aaa5e979.mp3?hdnea=exp=1794900296~acl=/api/1/1/e/8/3/0/e835b56d06699ccb8f097b14aaa5e979.mp3*~data=user_id=0,application_id=42~hmac=c5d219393f82139a52f6b1b00438de6add990a5c0918741dc7eb9b958d41e070",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": "dz892395542",
@@ -7422,7 +7422,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/902794742",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/6/0/d46077af7c57e6dae52660940c001b12.mp3?hdnea=exp=1794900302~acl=/api/1/1/d/4/6/0/d46077af7c57e6dae52660940c001b12.mp3*~data=user_id=0,application_id=42~hmac=f104c7332b08221800424cd70b64579e95c844fffc2588f94236bdadb1e22cf1",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": 1274152818,
@@ -7439,7 +7439,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/neon-guts-feat-pharrell-williams/1274150514?i=1274152818&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/59/71/de597176-10f2-cb31-484a-971efd3b4719/mzaf_12255994456171185161.plus.aac.p.m4a",
   "rank": 516734,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -7459,7 +7459,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/129916034",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/c/d/0/acd3cc51cb912defc5fe3e16c295e678.mp3?hdnea=exp=1794900304~acl=/api/1/1/a/c/d/0/acd3cc51cb912defc5fe3e16c295e678.mp3*~data=user_id=0,application_id=42~hmac=79434b8d5fcb90afebc9372094c34b01cc97b8ce1673e03e9e8ab8e2069bab28",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": 1313366296,
@@ -7570,7 +7570,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/497467102",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/8/7/0/d87245945c273a66b7cfc4564d7f9ac4.mp3?hdnea=exp=1794900312~acl=/api/1/1/d/8/7/0/d87245945c273a66b7cfc4564d7f9ac4.mp3*~data=user_id=0,application_id=42~hmac=c67ceebe03fddfdfc7073a41aadeb0f7695b0a3ead110763d9a8e0bf000d1042",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": "dz1189531242",
@@ -7608,7 +7608,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/497467052",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/b/5/0/4b563074bdc3e34ed8014d123e298ef5.mp3?hdnea=exp=1794900317~acl=/api/1/1/4/b/5/0/4b563074bdc3e34ed8014d123e298ef5.mp3*~data=user_id=0,application_id=42~hmac=8c7ab037e65621fa339969a4a7f693b03f1023364302afe85fbbf6069501bdb5",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": "dz347376741",
@@ -7628,7 +7628,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/347376741",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/6/1/0/36109d5fc2d7373c5da9fb353e4bc88f.mp3?hdnea=exp=1794900319~acl=/api/1/1/3/6/1/0/36109d5fc2d7373c5da9fb353e4bc88f.mp3*~data=user_id=0,application_id=42~hmac=1051249a9a7e7eb7c032c427de6972c99782c375d2a785e0de3e5cf4bc94b248",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": "dz347376711",
@@ -7666,7 +7666,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/497467062",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/e/d/0/2ed8a088a9466932dc6caa5135b6035c.mp3?hdnea=exp=1794900323~acl=/api/1/1/2/e/d/0/2ed8a088a9466932dc6caa5135b6035c.mp3*~data=user_id=0,application_id=42~hmac=bf8ac1a52f16ee9001966909fd8d6c7572ae5ae31351d7378233ff0b6fc545aa",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": "dz1189531082",
@@ -7685,7 +7685,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/1189531082",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/2/0/98285d6c073484b941eee76cde2cda98.mp3?hdnea=exp=1794900325~acl=/api/1/1/9/8/2/0/98285d6c073484b941eee76cde2cda98.mp3*~data=user_id=0,application_id=42~hmac=475ff2f6f8e62fef165a14b1f97ef945453a6a96154c41dbdad2841f56444fce",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": "dz1189531172",
@@ -7704,7 +7704,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/1189531172",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/3/3/0/a3326c85d5c3c1eff02c02bf5bb80547.mp3?hdnea=exp=1794900327~acl=/api/1/1/a/3/3/0/a3326c85d5c3c1eff02c02bf5bb80547.mp3*~data=user_id=0,application_id=42~hmac=6f5a2d9f54407935afe8eb0306be481007220925e17b04d6d2cf637690d22f44",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": "dz1189531062",
@@ -7743,7 +7743,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/497467142",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/3/7/0/237f158fdd80774693747e2ebac808ad.mp3?hdnea=exp=1794900331~acl=/api/1/1/2/3/7/0/237f158fdd80774693747e2ebac808ad.mp3*~data=user_id=0,application_id=42~hmac=b4ec7c78cc9a201910c87f1a1b4c25fc3d69c66897e16fc4c2ff5a60821f842e",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": "dz3278625201",
@@ -7778,7 +7778,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/all-red/1768194749?i=1768194761&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/37/eb/7d37eb07-e2c3-904a-1663-ca86c3f919b0/mzaf_14844435952919492213.plus.aac.p.m4a",
   "rank": 582664,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -7817,7 +7817,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/1189531252",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/6/0/136c0daac57ed4ae93c8a77b6d7028cf.mp3?hdnea=exp=1794900337~acl=/api/1/1/1/3/6/0/136c0daac57ed4ae93c8a77b6d7028cf.mp3*~data=user_id=0,application_id=42~hmac=785e97d53ea42fa2494b85eb19f2d014e14c3e61b96463eb60f9b6fcfa913d9b",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": 1762082207,
@@ -7895,7 +7895,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/2174175367",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/4/0/ef44397dc0790cb66d01bd95f67cc0b9.mp3?hdnea=exp=1794900343~acl=/api/1/1/e/f/4/0/ef44397dc0790cb66d01bd95f67cc0b9.mp3*~data=user_id=0,application_id=42~hmac=5d150596a4abafdab63390a7550bbf76dc945faa993d36ad20738e293b42849c",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": 1629795063,
@@ -7928,7 +7928,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/talk/1642621828?i=1642621833&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/73/91/487391d0-288c-f252-3355-98dd94c03681/mzaf_6130292377870564752.plus.aac.p.m4a",
   "rank": 566254,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -7979,7 +7979,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/breathe/1731044406?i=1731044409&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/53/86/5553866b-f1d4-4ffb-6574-d87e042d41d8/mzaf_5460501351972597060.plus.aac.p.m4a",
   "rank": 570625,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -8100,7 +8100,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/already-rich/1686202017?i=1686202022&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/be/40/c4be40aa-4b8a-1216-8a36-23793e24cca9/mzaf_7638725881945198560.plus.aac.p.m4a",
   "rank": 549028,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -8220,7 +8220,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/chun-li/1398449449?i=1398449677&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c3/9c/f7/c39cf736-8290-c5ce-2128-2e930a48585d/mzaf_15481709310388022135.plus.aac.p.m4a",
   "rank": 602394,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -8237,7 +8237,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/super-freaky-girl/1638814204?i=1638814465&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/b6/7b/e3b67bfd-d41e-170a-888c-ef33946aff18/mzaf_2381501906795618480.plus.aac.p.m4a",
   "rank": 640254,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit",
   "tags": [
    "freak"
@@ -8278,7 +8278,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/truffle-butter-feat-drake-lil-wayne/1440851747?i=1440852169&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/e5/8d/36e58d5e-0c5f-457b-2c01-0ed313aff5e0/mzaf_16145394503938388320.plus.aac.p.m4a",
   "rank": 532402,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -8298,7 +8298,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/only-feat-drake-lil-wayne-chris-brown/1440851747?i=1440851763&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/41/6d/5f/416d5f60-58f5-4f7f-21f3-74a2238c78e8/mzaf_12523471739705772332.plus.aac.p.m4a",
   "rank": 561424,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -8316,7 +8316,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/feeling-myself-feat-beyonc%C3%A9/1440851747?i=1440851762&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/6f/5e/b76f5efe-5560-7e3e-fde5-ecb0da5da161/mzaf_4967579529884190804.plus.aac.p.m4a",
   "rank": 580371,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -8333,7 +8333,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/your-love/1539773868?i=1539774198&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/5a/e4/e65ae429-47fb-7031-667b-4e0d85d9227d/mzaf_13842020748624362266.plus.aac.p.m4a",
   "rank": 531337,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -8456,7 +8456,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/barbie-world-with-aqua/1689238301?i=1689239206&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/5d/13/195d1394-c91a-27cd-63a2-c783361eb975/mzaf_11304170247462285205.plus.aac.p.m4a",
   "rank": 561408,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit"
  },
  {
@@ -8513,7 +8513,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/sorry-not-sorry/1031354875?i=1031355368&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/28/4f/a4284f81-55a2-ec02-e29d-25c5814f5452/mzaf_13295423088429187482.plus.aac.p.m4a",
   "rank": 487164,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit",
   "tags": [
    "freak"
@@ -8601,7 +8601,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/whatever-she-wants/1729856932?i=1729856953&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/1a/b7/931ab7a1-39da-ebe9-e901-7a56a1591f19/mzaf_339843858845879497.plus.aac.p.m4a",
   "rank": 585283,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -8689,7 +8689,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/outta-time-feat-drake/1533349969?i=1533349985&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/76/64/40/76644092-ec23-447c-bd7a-9540853de3cf/mzaf_4143369741300061985.plus.aac.p.m4a",
   "rank": 500035,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit"
  },
  {
@@ -8787,7 +8787,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/no-brainer-feat-justin-bieber-chance-the-rapper-quavo/1418046529?i=1418046822&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/6a/e5/a46ae559-3bd5-8d5a-a05b-d58126e08a9b/mzaf_1901181970748706025.plus.aac.p.m4a",
   "rank": 589330,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -8862,7 +8862,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/staying-alive-feat-drake-lil-baby/1638180124?i=1638180125&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/65/ae/8565ae38-1d29-7012-fece-ecadc0164916/mzaf_13208804942760750729.plus.aac.p.m4a",
   "rank": 552682,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -8942,7 +8942,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/hold-you-down-feat-chris-brown-august-alsina-future-jeremih/1047325117?i=1047325137&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/6c/0d/096c0d99-fcb5-c4f0-2f64-d15ad99bdd85/mzaf_10776425821777706974.plus.aac.p.m4a",
   "rank": 493244,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -9040,7 +9040,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/1785255737",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/c/4/0/7c4eb543ed98834cc9aa05c5bcc5df00.mp3?hdnea=exp=1794900349~acl=/api/1/1/7/c/4/0/7c4eb543ed98834cc9aa05c5bcc5df00.mp3*~data=user_id=0,application_id=42~hmac=4625df809b257d1e7291cdab27c52857485269fe4ab64b3b7f11691505ab9ba0",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": "dz1653450062",
@@ -9059,7 +9059,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/1653450062",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/f/1/0/9f13299467eda6728a79a752865af920.mp3?hdnea=exp=1794900351~acl=/api/1/1/9/f/1/0/9f13299467eda6728a79a752865af920.mp3*~data=user_id=0,application_id=42~hmac=8406c8eea3c794c3b9aebf56271b2ae61f786ea09a22b30f1c7044618a3504bf",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": "dz1919680207",
@@ -9541,7 +9541,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/2312700875",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/a/d/0/badcc65f7348815b211f3364392bf0a0.mp3?hdnea=exp=1794900361~acl=/api/1/1/b/a/d/0/badcc65f7348815b211f3364392bf0a0.mp3*~data=user_id=0,application_id=42~hmac=c830e62938f7d3d2c9c2691588226168d0076eef6df51d57dee14f6142ac7e05",
   "explicitness": "explicit",
-  "hit": true
+  "hit": false
  },
  {
   "id": 1736033446,
@@ -9557,7 +9557,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/get-it-sexyy/1736033445?i=1736033446&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/29/0d/0d290db3-5df5-6f49-bdf2-ffca495a361d/mzaf_2620048902299571090.plus.aac.p.m4a",
   "rank": 552767,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -9757,7 +9757,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/be-careful/1368156323?i=1368156579&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/30/01/9c/30019cef-61e2-5c68-61f3-1937329b060d/mzaf_6650783372646879729.plus.aac.p.m4a",
   "rank": 537393,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -9810,7 +9810,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/press/1466094106?i=1466094169&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/13/e6/b113e6ad-e674-37d7-8e12-69693778af57/mzaf_6422417904245331273.plus.aac.p.m4a",
   "rank": 543091,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -9899,7 +9899,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/ring-feat-kehlani/1368156323?i=1368157215&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/81/9d/12/819d12a3-3c47-0fb8-27a0-02f5dce197d3/mzaf_3247630996982570950.plus.aac.p.m4a",
   "rank": 548736,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -10092,7 +10092,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/hiss/1727623649?i=1727623658&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dc/4b/79/dc4b7971-765b-2813-2f7a-d5726ccc241d/mzaf_6865284737312205590.plus.aac.p.m4a",
   "rank": 519910,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -10127,7 +10127,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/her/1639430350?i=1639431051&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/b4/79/b2b47913-a178-c064-157a-0aae8e64a2a9/mzaf_5065461277494123451.plus.aac.p.m4a",
   "rank": 521072,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -10163,7 +10163,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/cry-baby-feat-dababy/1540031620?i=1540031623&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/a8/3a/e6a83ac0-56cd-c623-ebb8-d969af02862c/mzaf_10150182183965665164.plus.aac.p.m4a",
   "rank": 537957,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -10214,7 +10214,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/trap-queen/1039458694?i=1039459590&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/29/fc/0f29fc80-1bff-bb23-a1d8-d8b03915f629/mzaf_4678247671581372877.plus.aac.p.m4a",
   "rank": 303538,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -10318,7 +10318,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/wake-up/1104422974?i=1104423116&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/ba/5c/77ba5c18-8e06-5c3c-6b98-2c6718fa60ad/mzaf_14248708526561116966.plus.aac.p.m4a",
   "rank": 203407,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -10514,7 +10514,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/dont-stop-the-party-feat-tjr/737053237?i=737053271&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/a9/c3/68a9c3e7-6763-bfde-e278-560869ae02b8/mzaf_18078357235331277646.plus.aac.p.m4a",
   "rank": 595848,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit"
  },
  {
@@ -10841,7 +10841,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/3/686778973?i=686780582&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2e/d6/f9/2ed6f970-36a1-e654-cd32-13b0866d9b5c/mzaf_10450822493185699988.plus.aac.p.m4a",
   "rank": 645052,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit"
  },
  {
@@ -10875,7 +10875,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/hold-it-against-me/581774791?i=581775110&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/18/3a/0e183a24-d63f-e55b-cae3-6a042712b64a/mzaf_11885892613929243898.plus.aac.p.m4a",
   "rank": 535051,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit"
  },
  {
@@ -10929,7 +10929,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/radar/521738882?i=521738945&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/54/a9/87/54a9877e-50e9-28e2-1544-5e8b96253dbe/mzaf_17970610672264455896.plus.aac.p.m4a",
   "rank": 633005,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit"
  },
  {
@@ -10984,7 +10984,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/in-those-jeans/251192028?i=251192191&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c7/6b/fc/c76bfcdb-c09d-0e45-a0d7-73b6247fe58b/mzaf_14598637795635819020.plus.aac.p.m4a",
   "rank": 169437,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit",
   "tags": [
    "freak"
@@ -11024,7 +11024,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/differences/204952382?i=204952431&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/fa/06/a5fa06d4-f2aa-087f-95f7-6ae7f5575e5e/mzaf_17730847906921419308.plus.aac.p.m4a",
   "rank": 579514,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit",
   "tags": [
    "freak"
@@ -11064,7 +11064,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/oui/1440859822?i=1440859985&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/f2/df/eaf2df4b-edba-718f-f2fe-d683f6f5e43d/mzaf_1329616471525204682.plus.aac.p.m4a",
   "rank": 621546,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit",
   "tags": [
    "freak"
@@ -11170,7 +11170,7 @@ window.SONGS = [
   "url": "https://www.deezer.com/track/1148131032",
   "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/f/6/0/af6f62fd3db70ed2b852dc590cf06e19.mp3?hdnea=exp=1794900374~acl=/api/1/1/a/f/6/0/af6f62fd3db70ed2b852dc590cf06e19.mp3*~data=user_id=0,application_id=42~hmac=146f788b05c5a16d1c2977b3305689bfc072576d5539264dcd9f3843d6d4c6ae",
   "explicitness": "explicit",
-  "hit": true,
+  "hit": false,
   "tags": [
    "freak"
   ]
@@ -11189,7 +11189,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/cant-help-but-wait/264607091?i=264607314&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/84/87/658487c3-82c7-73ea-71b9-ffc5157afbed/mzaf_17312926339392132228.plus.aac.p.m4a",
   "rank": 568892,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit",
   "tags": [
    "freak"
@@ -11209,7 +11209,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/nice-slow/278845426?i=278845479&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/3b/e1/333be1d2-40c4-f5bf-8479-a5840caea07d/mzaf_6373493292385768191.plus.aac.p.m4a",
   "rank": 525663,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit",
   "tags": [
    "freak"
@@ -11271,7 +11271,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/bad-girl/386153476?i=386153692&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d4/c0/d6/d4c0d6cd-13f4-8fdd-589a-b2f9d6f0a41c/mzaf_1388578226846562095.plus.aac.p.m4a",
   "rank": 568259,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit",
   "tags": [
    "freak"
@@ -11333,7 +11333,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/back-to-sleep/1059869479?i=1059869490&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/ea/ad/caeaad24-0cf8-4e06-1284-90bc2e04fc6c/mzaf_6766812652207207327.plus.aac.p.m4a",
   "rank": 538991,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit",
   "tags": [
    "freak"
@@ -11538,7 +11538,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/lets-get-it-on/1701654441?i=1701654443&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/10/36/77/103677db-b70e-505f-eefd-cfb20ae130d2/mzaf_3849021925576978930.plus.aac.p.m4a",
   "rank": 522078,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit",
   "tags": [
    "freak"
@@ -11658,7 +11658,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/partition/780330041?i=780330377&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/27/35/36273587-011e-dc57-4569-79844f5a4f06/mzaf_4120699149615164096.plus.aac.p.m4a",
   "rank": 497040,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit",
   "tags": [
    "freak"
@@ -11699,7 +11699,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/rocket/780330041?i=780330396&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/b6/d5/85b6d559-1fe2-fe77-5525-14dea9baa2e0/mzaf_1066630876495096281.plus.aac.p.m4a",
   "rank": 526003,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit",
   "tags": [
    "freak"
@@ -11739,7 +11739,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/skin/1440895867?i=1440896203&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/f3/30/04f330dd-020c-d353-77db-4cbc3df9f596/mzaf_9092830422261166631.plus.aac.p.m4a",
   "rank": 602360,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit",
   "tags": [
    "freak"
@@ -11779,7 +11779,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/body-party/632895294?i=632895522&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c5/a3/3e/c5a33ebd-72bf-0dda-128a-6b2714efc927/mzaf_16498597934121845231.plus.aac.p.m4a",
   "rank": 194102,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit",
   "tags": [
    "freak"
@@ -11840,7 +11840,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/body/1481606156?i=1481606158&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/b3/24/0ab32463-e7b9-135c-267f-3f4725e6410b/mzaf_17710797820950066481.plus.aac.p.m4a",
   "rank": 606449,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit",
   "tags": [
    "freak"
@@ -11883,7 +11883,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/post-to-be-feat-chris-brown-jhene-aiko/942089565?i=942089571&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3f/25/ef/3f25eff0-0d1a-6501-3feb-37d71d76ef46/mzaf_610832411844021518.plus.aac.p.m4a",
   "rank": 588057,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit",
   "tags": [
    "freak"
@@ -11988,7 +11988,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/wicked-games/1550875218?i=1550875424&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/0d/84/a60d8435-cbf9-bf4a-7f63-1974fe3a8b09/mzaf_8033376888673646338.plus.aac.p.m4a",
   "rank": 570620,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit",
   "tags": [
    "akul",
@@ -12096,7 +12096,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/high-for-this/1714908584?i=1714908977&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d8/aa/e7/d8aae726-31d9-3274-1980-641be2548b70/mzaf_9886385114410573383.plus.aac.p.m4a",
   "rank": 537804,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit",
   "tags": [
    "akul"
@@ -12257,7 +12257,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/six-feet-under/1440871397?i=1440871956&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b2/bd/48/b2bd482c-43de-a5e6-a1f5-2e5f2b0e4d1c/mzaf_15011301983250310437.plus.aac.p.m4a",
   "rank": 583202,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit",
   "tags": [
    "akul"
@@ -12277,7 +12277,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/rockin/1440871397?i=1440871708&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/09/59/fa/0959fa03-bc61-95c8-e71e-6ea28a25453d/mzaf_15173908030441539904.plus.aac.p.m4a",
   "rank": 586179,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit",
   "tags": [
    "akul"
@@ -12341,7 +12341,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/what-you-need/1714908584?i=1714908981&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/f4/c0/b7f4c09c-d20c-d3a7-3a35-0acd3cc0ce1b/mzaf_1248819328861407392.plus.aac.p.m4a",
   "rank": 530677,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit",
   "tags": [
    "akul"
@@ -12447,7 +12447,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/crew-love-feat-the-weeknd/1440642493?i=1440642735&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/09/05/da0905d2-247b-c1e3-8b0a-b7af09ab7225/mzaf_69827375955436217.plus.aac.p.m4a",
   "rank": 559411,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit",
   "tags": [
    "akul"
@@ -12467,7 +12467,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/love-to-lay/1440871397?i=1440872014&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/68/b9/f268b907-4249-6641-2b60-d60c102e85da/mzaf_16702151399735554065.plus.aac.p.m4a",
   "rank": 514731,
-  "hit": true,
+  "hit": false,
   "explicitness": "notExplicit",
   "tags": [
    "akul"
@@ -12487,7 +12487,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/escape-from-la/1499378108?i=1499378596&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4f/7d/36/4f7d366b-7f95-ebfd-738f-e7dddc5b1f14/mzaf_17278497472148154607.plus.aac.p.m4a",
   "rank": 566920,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit",
   "tags": [
    "akul"
@@ -12527,7 +12527,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/shameless/1440826239?i=1440826575&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/32/7c/f0327c03-7685-a336-c081-e8fcaa30de72/mzaf_18159076972086249003.plus.aac.p.m4a",
   "rank": 610003,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit",
   "tags": [
    "akul"
@@ -12567,7 +12567,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/tell-your-friends/1440826239?i=1440826376&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/6c/8d/b66c8d6f-aa54-31f9-b60e-c25d122a18c4/mzaf_12339288779527824632.plus.aac.p.m4a",
   "rank": 565349,
-  "hit": true,
+  "hit": false,
   "explicitness": "explicit",
   "tags": [
    "akul"
