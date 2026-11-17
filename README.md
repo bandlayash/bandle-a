@@ -1,4 +1,4 @@
-# Bandla(e)
+# Bandle(a)
 
 A song-guessing game that runs entirely in the browser. Each song starts as drums alone; add bass, instruments and vocals one layer at a time and name the track from as few layers as you can.
 
