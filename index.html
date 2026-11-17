@@ -592,7 +592,7 @@
 <canvas id="confetti" aria-hidden="true"></canvas>
 <div id="tip" role="tooltip" hidden></div>
 
-<script src="songs.js?v=7b542a59"></script>
+<script src="songs.js?v=8af95b66"></script>
 <script type="module">
 const SONGS = window.SONGS || [];
 const PARTS = [
@@ -801,6 +801,9 @@ const tagged = (s, t) => !!s.tags?.includes(t);
 // Everyone a song credits, features included, so picking an artist also brings in songs they're featured on.
 const who = s => s.who ??= new Set([s.artist, ...(s.artists || [])].map(norm));
 const has = (s, name) => who(s).has(norm(name));
+// Same recording or not, a single and its album version are the same song: same title, a shared artist.
+const titleKey = s => s.titleKey ??= norm(s.title.replace(/\s*[([].*?[)\]]/g, '').replace(/\s+-\s+.*$/, '')).replace(/\s+/g, '');
+const sameSong = (a, b) => a.id === b.id || (titleKey(a) === titleKey(b) && [...who(a)].some(n => who(b).has(n)));
 // Artists get a chip if they have at least one song outside the special (#freak / #akul) lists.
 const ARTISTS = [...new Set(SONGS.filter(s => !s.tags?.length).map(s => s.artist))]
   .sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' }));
@@ -923,7 +926,7 @@ function addPart() {
 
 function guess(song) {
   if (!round || round.done) return;
-  if (song.id === round.track.song.id) return finish(true);
+  if (sameSong(song, round.track.song)) return finish(true);
   if (!round.wrong.includes(song)) round.wrong.push(song);
   renderWrong(); renderTransport();
 }
