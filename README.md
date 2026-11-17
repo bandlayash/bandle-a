@@ -3,8 +3,9 @@
 A song-guessing game that runs entirely in the browser. Each song starts as drums alone; add bass, instruments and vocals one layer at a time and name the track from as few layers as you can.
 
 - A run is 5 songs. Each is worth 10,000 points, minus 2,000 for every layer you add and 500 for every wrong guess. Giving up scores 0.
-- On the start screen, filter by genre, artist, release years and "hits only", and pick a colour scheme (dark, light, mono or vivid). The Freak genre switches to a red bedroom-R&B mode, and a secret code in the ⋯ menu unlocks Akul mode.
-- In the game, click a layer's name to mute it, click or drag on the waveform to seek, press ⏮ to jump back to the start, and click an artist in the side list to browse their songs. A correct guess gets confetti.
+- On the start screen, filter by genre, artist (searchable, A–Z), release years and "hits only", and pick a colour scheme (Dark, Mono, Vivid, Ocean, Sunset, Forest, Midnight or the animated Faraz). The 👅 genre chip switches to a red bedroom-R&B Freak mode, and a secret code in the ⋯ menu unlocks Akul mode.
+- In the game, type your guess in the panel left of the waveforms (results show each song's release year), click a layer's name to mute it, click or drag on the waveform to seek, press ⏮ to jump back to the start, and click an artist in the side list to browse their songs. A correct guess gets confetti (emoji confetti in Freak and Akul modes). Revealed songs link to Apple Music or Deezer, and to a Spotify search for the track.
+- Songs use the explicit (uncensored) recording wherever one exists.
 - Songs don't repeat: the browser remembers what you've heard and only deals unheard songs until a pool is used up. Best scores are kept per mode.
 - The site asks for a password first. This is a light lock only: GitHub Pages serves every file publicly, so anyone reading the code can get past it. Only a SHA-256 hash of the password is in the page.
 

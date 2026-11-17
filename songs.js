@@ -1,19 +1,20 @@
 window.SONGS = [
  {
-  "id": 1406109863,
+  "id": 1418213269,
   "title": "God's Plan",
   "artist": "Drake",
   "credit": "Drake",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/6d/8f/bb6d8f67-6d04-10b5-dd62-eb5809ac54fc/00602567879152.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/gods-plan/1406109769?i=1406109863&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c6/4a/be/c64abe74-adb4-cff5-005d-0fab3d72a806/mzaf_10276154697254415719.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1f/37/43/1f374304-2e04-2be3-53ea-41dd6f0b6fb8/00602567892410.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/gods-plan/1418213110?i=1418213269&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ec/de/77/ecde7774-eb39-2e47-06e4-dbd911be7b75/mzaf_5914483064715703001.plus.aac.p.m4a",
   "artists": [
    "Drake"
   ],
   "genre": "Rap",
   "rank": 937522,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1440843974,
@@ -29,7 +30,8 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 897048,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440841384,
@@ -47,55 +49,59 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 956192,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1406109901,
+  "id": 1418213402,
   "title": "In My Feelings",
   "artist": "Drake",
   "credit": "Drake",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/6d/8f/bb6d8f67-6d04-10b5-dd62-eb5809ac54fc/00602567879152.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/in-my-feelings/1406109769?i=1406109901&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/df/e8/e2/dfe8e281-f90d-a00e-141e-aab9f5b0b0b1/mzaf_8379698669799841165.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1f/37/43/1f374304-2e04-2be3-53ea-41dd6f0b6fb8/00602567892410.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/in-my-feelings/1418213110?i=1418213402&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6c/59/2f/6c592f9b-99af-485a-461f-f379a98fd110/mzaf_4057620018861205477.plus.aac.p.m4a",
   "artists": [
    "Drake"
   ],
   "genre": "Rap",
   "rank": 732784,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1406109896,
+  "id": 1418213383,
   "title": "Nice For What",
   "artist": "Drake",
   "credit": "Drake",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/6d/8f/bb6d8f67-6d04-10b5-dd62-eb5809ac54fc/00602567879152.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/nice-for-what/1406109769?i=1406109896&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b5/df/23/b5df2301-6d1b-bd29-7521-745cc346fb13/mzaf_15429939059485588664.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1f/37/43/1f374304-2e04-2be3-53ea-41dd6f0b6fb8/00602567892410.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/nice-for-what/1418213110?i=1418213383&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/76/b3/bb76b3f3-13ef-8591-6093-6a420cd6905e/mzaf_7765125451109658407.plus.aac.p.m4a",
   "artists": [
    "Drake"
   ],
   "genre": "Rap",
   "rank": 728660,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440820222,
+  "id": 1440829611,
   "title": "Started From the Bottom",
   "artist": "Drake",
   "credit": "Drake",
   "year": 2013,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/60/e8/d1/60e8d144-2b8e-cbdc-9ff8-beaf9f4868b1/00602537542345.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/started-from-the-bottom/1440819797?i=1440820222&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/10/bc/5410bc20-e1a0-5adf-873b-8b772548439d/mzaf_9460213785314537854.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/61/f3/5161f3c4-2292-f035-eb68-6f95bbc9edd6/00602537542338.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/started-from-the-bottom/1440829462?i=1440829611&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b9/33/99/b933998a-83c6-03ba-1212-e29658118b78/mzaf_4847627138004511195.plus.aac.p.m4a",
   "artists": [
    "Drake"
   ],
   "genre": "Rap",
   "rank": 677669,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1440829630,
@@ -112,221 +118,235 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 844239,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1440892167,
+  "id": 1440891494,
   "title": "Passionfruit",
   "artist": "Drake",
   "credit": "Drake",
   "year": 2017,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/9d/b8/189db80b-bfa8-89d1-1514-5fcb7e5cf8f4/00602557611526.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/passionfruit/1440891750?i=1440892167&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/b7/73/3db773ac-bade-82c1-c570-4a699945d1f6/mzaf_13103071700695768982.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/71/97/d0/7197d021-de0f-9548-3f31-40b8294d3242/17UMGIM85032.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/passionfruit/1440890708?i=1440891494&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/62/24/f06224ca-00bf-ef86-9082-e28730082843/mzaf_9989569029464982878.plus.aac.p.m4a",
   "artists": [
    "Drake"
   ],
   "genre": "Rap",
   "rank": 843145,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1406109777,
+  "id": 1418213266,
   "title": "Nonstop",
   "artist": "Drake",
   "credit": "Drake",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/6d/8f/bb6d8f67-6d04-10b5-dd62-eb5809ac54fc/00602567879152.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/nonstop/1406109769?i=1406109777&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e9/de/72/e9de72f8-5ddf-4dc7-314b-b075f84c089a/mzaf_1959293355792944364.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1f/37/43/1f374304-2e04-2be3-53ea-41dd6f0b6fb8/00602567892410.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/nonstop/1418213110?i=1418213266&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/1f/18/281f18cc-5c03-3e7e-4454-cd89783d4164/mzaf_17499593388749003553.plus.aac.p.m4a",
   "artists": [
    "Drake"
   ],
   "genre": "Rap",
   "rank": 719263,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1511049970,
+  "id": 1505943432,
   "title": "Toosie Slide",
   "artist": "Drake",
   "credit": "Drake",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/00/70/0b/00700b6f-2b06-c986-c7ec-445d95b28e74/20UMGIM34467.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/toosie-slide/1511049637?i=1511049970&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/53/dc/f553dcad-d5ed-f9cd-5b8a-223821f4437c/mzaf_10558365578108480351.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/12/f8/7712f8c6-4fb9-e8ef-fd3c-f46877bfbfa4/20UMGIM25453.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/toosie-slide/1505943426?i=1505943432&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/38/26/123826ad-b6d8-b9d2-effd-78af1f5b5c9b/mzaf_2519002002001797457.plus.aac.p.m4a",
   "artists": [
    "Drake"
   ],
   "genre": "Rap",
   "rank": 782506,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1653012565,
+  "id": 1652999417,
   "title": "Rich Flex",
   "artist": "Drake",
   "credit": "Drake & 21 Savage",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e1/6e/6a/e16e6a89-3e6d-1936-1a9c-b51680bcd4c1/22UM1IM29132.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/rich-flex/1653012564?i=1653012565&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/85/19/5d851900-855b-2ddd-7579-d2261f312201/mzaf_8425567731498196475.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c7/00/3f/c7003f83-3a43-1201-4aec-41be71ba64c5/22UM1IM29131.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/rich-flex/1652998965?i=1652999417&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/9c/53/669c53a6-14e2-6ffa-4c6a-410e8a8ecec9/mzaf_13540301130010907146.plus.aac.p.m4a",
   "artists": [
    "Drake",
    "21 Savage"
   ],
   "genre": "Rap",
   "rank": 641666,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1630221907,
+  "id": 1630231297,
   "title": "Jimmy Cooks",
   "artist": "Drake",
   "credit": "Drake feat. 21 Savage",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/31/ab/6d31abaf-7a07-05f1-13ad-72ec520b6bfb/22UMGIM67374.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/jimmy-cooks-feat-21-savage/1630221591?i=1630221907&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/72/99/d37299a2-3cb8-5ab0-558e-5d798969f2dc/mzaf_438731218888905285.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/84/2c/b4/842cb419-243c-b3f4-4da9-b6b980996062/22UMGIM67371.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/jimmy-cooks-feat-21-savage/1630230040?i=1630231297&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/a8/51/5fa851df-ed7d-30f5-3914-3ad816e4fe39/mzaf_17292481549578259763.plus.aac.p.m4a",
   "artists": [
    "Drake",
    "21 Savage"
   ],
   "genre": "House/EDM",
   "rank": 720516,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1453336216,
+  "id": 1452017954,
   "title": "Best I Ever Had",
   "artist": "Drake",
   "credit": "Drake",
   "year": 2009,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/50/7f/3b/507f3b71-c606-5a59-06ee-22be3e1e6ca5/00602577542602.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/best-i-ever-had/1453336206?i=1453336216&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/46/a1/a7/46a1a74a-bc24-91e6-7fca-334718928181/mzaf_16387926407277270668.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/b0/35/7eb0353b-8f25-32dd-5f5e-71d9ed700247/00602577524004.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/best-i-ever-had/1452017773?i=1452017954&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/00/dd/f3/00ddf3d1-073d-dfbe-b7d5-b41280fc9d07/mzaf_10364873687170057621.plus.aac.p.m4a",
   "artists": [
    "Drake"
   ],
   "genre": "Rap",
   "rank": 652920,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440746117,
+  "id": 1440642738,
   "title": "Take Care",
   "artist": "Drake",
   "credit": "Drake feat. Rihanna",
   "year": 2011,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d2/53/62/d2536245-b94c-b3fd-7168-9512f655f6d4/00602527899091.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/take-care-feat-rihanna/1440745498?i=1440746117&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/19/97/5a199741-98ae-7aac-9d2a-21a312ec7129/mzaf_7987474604318601481.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/74/fb/d3/74fbd365-bd52-23b4-604b-7f164407b0a9/00602527899107.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/take-care-feat-rihanna/1440642493?i=1440642738&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/59/07/ba590790-2905-f5a0-d551-9c1923755c9c/mzaf_13429978949767021353.plus.aac.p.m4a",
   "artists": [
    "Drake",
    "Rihanna"
   ],
   "genre": "Rap",
   "rank": 750024,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440745890,
+  "id": 1440642731,
   "title": "Headlines",
   "artist": "Drake",
   "credit": "Drake",
   "year": 2011,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d2/53/62/d2536245-b94c-b3fd-7168-9512f655f6d4/00602527899091.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/headlines/1440745498?i=1440745890&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/e4/dc/c0e4dc7c-6cfc-4609-5128-a819087bf8cc/mzaf_1788047019579219846.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/74/fb/d3/74fbd365-bd52-23b4-604b-7f164407b0a9/00602527899107.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/headlines/1440642493?i=1440642731&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/6e/02/956e02ab-976a-fb92-457f-1d7dd08526b9/mzaf_12128800255456045158.plus.aac.p.m4a",
   "artists": [
    "Drake"
   ],
   "genre": "Rap",
   "rank": 827995,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440843441,
+  "id": 1440841382,
   "title": "Controlla",
   "artist": "Drake",
   "credit": "Drake",
   "year": 2016,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/f5/87/95f587f7-21c3-d5f9-d81a-4350f9caa020/16UMGIM27643.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/controlla/1440842556?i=1440843441&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/74/e8/e1/74e8e1a6-8727-10c1-635f-7fdb1fd6b299/mzaf_15372399470688006783.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/0d/8b/f20d8bff-a927-ae98-6784-20a1f51cb23e/16UMGIM27642.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/controlla/1440841363?i=1440841382&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bf/67/ea/bf67ead6-7026-fd3a-b7cf-67e6d4e5e3de/mzaf_12089091343536179116.plus.aac.p.m4a",
   "artists": [
    "Drake"
   ],
   "genre": "Rap",
   "rank": 650610,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1527579780,
+  "id": 1527584879,
   "title": "Laugh Now Cry Later",
   "artist": "Drake",
   "credit": "Drake feat. Lil Durk",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/46/05/c9/4605c970-fb01-689f-893f-5c35209d00ed/20UMGIM71042.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/laugh-now-cry-later-feat-lil-durk/1527579776?i=1527579780&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/02/9b/f7029bd5-5e2a-c6b5-57d3-b63a1120f227/mzaf_9982180398549200905.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ba/bd/b2/babdb2e9-1fe4-ecaf-034a-d24870fa1811/20UMGIM71041.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/laugh-now-cry-later-feat-lil-durk/1527584873?i=1527584879&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/63/9f/4a639fe8-aa67-0fce-0abe-5435a535fce2/mzaf_3540916071811527416.plus.aac.p.m4a",
   "artists": [
    "Drake",
    "Lil Durk"
   ],
   "genre": "Rap",
   "rank": 760169,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440893093,
+  "id": 1440892226,
   "title": "Fake Love",
   "artist": "Drake",
   "credit": "Drake",
   "year": 2016,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/9d/b8/189db80b-bfa8-89d1-1514-5fcb7e5cf8f4/00602557611526.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/fake-love/1440891750?i=1440893093&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/aa/d9/d2/aad9d2d8-9737-097d-d951-b7f29b316e1e/mzaf_13986957680891944931.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/71/97/d0/7197d021-de0f-9548-3f31-40b8294d3242/17UMGIM85032.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/fake-love/1440890708?i=1440892226&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/67/c1/3867c1d4-90e2-4820-a520-032072f960c3/mzaf_14362166948615997270.plus.aac.p.m4a",
   "artists": [
    "Drake"
   ],
   "genre": "Rap",
   "rank": 557732,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1468619639,
+  "id": 1468618077,
   "title": "Money In the Grave",
   "artist": "Drake",
   "credit": "Drake feat. Rick Ross",
   "year": 2019,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/ed/ec/95edecd9-ae39-f81c-5c96-9f20957104ec/19UMGIM54645.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/money-in-the-grave-feat-rick-ross/1468619637?i=1468619639&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/f5/04/07f50450-075d-8bd2-6a1e-78e03e0b31d1/mzaf_10966572582739386326.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5b/31/bf/5b31bf6d-0a7f-ad73-426f-72948846bef2/19UMGIM54644.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/money-in-the-grave-feat-rick-ross/1468617896?i=1468618077&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/6f/14/f46f1484-d4fc-fd11-5de6-50c6cbe8f1d1/mzaf_6036980944069893228.plus.aac.p.m4a",
   "artists": [
    "Drake",
    "Rick Ross"
   ],
   "genre": "Rap",
   "rank": 707355,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440848846,
+  "id": 1440843184,
   "title": "Jumpman",
   "artist": "Drake",
   "credit": "Drake & Future",
   "year": 2015,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d3/74/1d/d3741d09-5c9a-461b-aba3-fa345d306d5a/00602547616678.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/jumpman/1440848548?i=1440848846&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/f1/31/93f131ce-feb5-dbef-ad21-b4c5fd99846f/mzaf_8501334934618208471.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/4b/9c/db/4b9cdb40-effb-141c-aa20-9ebeabb1b97f/00602547616661.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/jumpman/1440842320?i=1440843184&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b0/af/9b/b0af9bb4-f302-7b91-a00d-475fc51251bf/mzaf_8052959454726813145.plus.aac.p.m4a",
   "artists": [
    "Drake",
    "Future"
   ],
   "genre": "Rap",
   "rank": 614274,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1499378607,
@@ -342,24 +362,26 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 984833,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1440870375,
+  "id": 1440871420,
   "title": "Starboy",
   "artist": "The Weeknd",
   "credit": "The Weeknd feat. Daft Punk",
   "year": 2016,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b5/92/bb/b592bb72-52e3-e756-9b26-9f56d08f47ab/16UMGIM67864.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/starboy-feat-daft-punk/1440870373?i=1440870375&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/11/71/d6/1171d6ad-3c96-e027-2af6-58028426588c/mzaf_15137631797407745471.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/starboy-feat-daft-punk/1440871397?i=1440871420&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8d/1e/a1/8d1ea1da-faff-463e-291e-22648a76b1b6/mzaf_9649528915640930914.plus.aac.p.m4a",
   "artists": [
    "The Weeknd",
    "Daft Punk"
   ],
   "genre": "R&B",
   "rank": 975897,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1440826389,
@@ -375,43 +397,46 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 848671,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1440858495,
+  "id": 1440826383,
   "title": "The Hills",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
   "year": 2015,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/05/1e/30051e57-a63a-3acc-4b30-42568293f5f7/15UMGIM36514.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/the-hills/1440858094?i=1440858495&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/70/c8/0b70c898-ec23-3131-5d17-aa7417045013/mzaf_3059117378996578649.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/cd/1a/40cd1a65-7948-eb96-74c6-1c4b3497456c/15UMGIM36513.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/the-hills/1440826239?i=1440826383&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5e/c0/57/5ec057de-f005-6235-49e0-685995c9e016/mzaf_12436354896756929883.plus.aac.p.m4a",
   "artists": [
    "The Weeknd"
   ],
   "genre": "R&B",
   "rank": 925884,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "akul",
    "freak"
   ]
  },
  {
-  "id": 1499386369,
+  "id": 1499378613,
   "title": "Save Your Tears",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/save-your-tears/1499385848?i=1499386369&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/09/0d/dc/090ddcdb-d1f2-7dea-4c85-6b9c6f98e4e5/mzaf_10081960992656977424.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6f/bc/e6/6fbce6c4-c38c-72d8-4fd0-66cfff32f679/20UMGIM12176.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/save-your-tears/1499378108?i=1499378613&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/14/4c/93/144c934b-0cf0-6862-7209-a881b7224294/mzaf_11580342643921855366.plus.aac.p.m4a",
   "artists": [
    "The Weeknd"
   ],
   "genre": "R&B",
   "rank": 955918,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1440872304,
@@ -428,6 +453,7 @@ window.SONGS = [
   "genre": "R&B",
   "rank": 918224,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "akul"
   ]
@@ -448,6 +474,7 @@ window.SONGS = [
   "genre": "R&B",
   "rank": 941816,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "akul"
   ]
@@ -467,6 +494,7 @@ window.SONGS = [
   "genre": "Pop",
   "rank": 865300,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "akul",
    "freak"
@@ -486,59 +514,63 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 920362,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1440858494,
+  "id": 1440826380,
   "title": "Often",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
   "year": 2014,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/05/1e/30051e57-a63a-3acc-4b30-42568293f5f7/15UMGIM36514.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/often/1440858094?i=1440858494&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/86/ef/7b/86ef7b65-1697-bf86-90d2-7d4da15972ce/mzaf_11995524161420522844.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/cd/1a/40cd1a65-7948-eb96-74c6-1c4b3497456c/15UMGIM36513.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/often/1440826239?i=1440826380&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/86/74/96/867496b7-6a58-20e2-10ec-c3392632232b/mzaf_4605202725979000134.plus.aac.p.m4a",
   "artists": [
    "The Weeknd"
   ],
   "genre": "R&B",
   "rank": 837748,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "akul",
    "freak"
   ]
  },
  {
-  "id": 1440858507,
+  "id": 1440826580,
   "title": "In the Night",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
   "year": 2015,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/05/1e/30051e57-a63a-3acc-4b30-42568293f5f7/15UMGIM36514.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/in-the-night/1440858094?i=1440858507&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/57/bc/a557bc3b-092f-a502-870b-3244f32223b0/mzaf_13046306169593544979.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/cd/1a/40cd1a65-7948-eb96-74c6-1c4b3497456c/15UMGIM36513.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/in-the-night/1440826239?i=1440826580&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/6e/37/df6e37e9-7ee4-0bb3-76ac-7e86f563b8d5/mzaf_9812619205883125540.plus.aac.p.m4a",
   "artists": [
    "The Weeknd"
   ],
   "genre": "R&B",
   "rank": 705841,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1499386253,
+  "id": 1499378597,
   "title": "Heartless",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
   "year": 2019,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/heartless/1499385848?i=1499386253&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/14/79/701479a4-bdb2-f415-ff6a-b3233d26f733/mzaf_13658083032622956283.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6f/bc/e6/6fbce6c4-c38c-72d8-4fd0-66cfff32f679/20UMGIM12176.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/heartless/1499378108?i=1499378597&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/71/61/f8/7161f81f-f3b5-1a5a-1de3-186d7c84347b/mzaf_7357412783772919585.plus.aac.p.m4a",
   "artists": [
    "The Weeknd"
   ],
   "genre": "R&B",
   "rank": 771398,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1499378615,
@@ -554,7 +586,8 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 876706,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1603171870,
@@ -570,23 +603,25 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 683563,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1603164243,
+  "id": 1603171533,
   "title": "Sacrifice",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/92/14/e3/9214e352-3322-3708-4903-cf5059c4985f/21UM1IM58861.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/sacrifice/1603164027?i=1603164243&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/5d/58/035d5871-4865-383a-4a61-8873795b137d/mzaf_16338674155851617905.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2f/22/a9/2f22a9a6-5af1-5846-a44e-ba016724ed69/21UM1IM58860.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/sacrifice/1603171516?i=1603171533&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3c/b0/c2/3cb0c297-74db-128a-7e8b-51d0b4878380/mzaf_5140696590097780982.plus.aac.p.m4a",
   "artists": [
    "The Weeknd"
   ],
   "genre": "R&B",
   "rank": 757859,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "akul"
   ]
@@ -606,52 +641,55 @@ window.SONGS = [
   "genre": "R&B",
   "rank": 802396,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "akul"
   ]
  },
  {
-  "id": 1440870378,
+  "id": 1440871703,
   "title": "Reminder",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
   "year": 2016,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b5/92/bb/b592bb72-52e3-e756-9b26-9f56d08f47ab/16UMGIM67864.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/reminder/1440870373?i=1440870378&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3c/ed/2b/3ced2b18-e2a1-bee5-fba5-5615e35d94d9/mzaf_6009855337406075459.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/reminder/1440871397?i=1440871703&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/b7/6c/2ab76cc6-8e8b-0f5d-a195-999e2d2c1161/mzaf_7752147891075556157.plus.aac.p.m4a",
   "artists": [
    "The Weeknd"
   ],
   "genre": "R&B",
   "rank": 793602,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1770393194,
+  "id": 1770380890,
   "title": "Timeless",
   "artist": "The Weeknd",
   "credit": "The Weeknd & Playboi Carti",
   "year": 2024,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/af/04/83/af048357-131d-1ca3-fe8a-d7ef3dda68ec/24UM1IM04062.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/timeless/1770393193?i=1770393194&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/d4/f0/9ad4f06c-bf08-255f-8498-8e3d1d17e743/mzaf_7983135672228712033.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/77/cb/4077cbd1-b6a0-d8df-b9d3-e9a339dbc0ea/24UM1IM04061.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/timeless/1770380869?i=1770380890&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/db/c6/93/dbc693bf-4fc0-bd9a-ce1a-e12275b55cbf/mzaf_4944585302837006457.plus.aac.p.m4a",
   "artists": [
    "The Weeknd",
    "Playboi Carti"
   ],
   "genre": "R&B",
   "rank": 922639,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1691921506,
+  "id": 1691920672,
   "title": "Popular",
   "artist": "The Weeknd",
   "credit": "The Weeknd & Madonna feat. Playboi Carti",
   "year": 2023,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b8/5f/1a/b85f1add-8ef0-9d13-42f4-3303710fa238/23UMGIM66788.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/popular-feat-playboi-carti-music-from-the-hbo/1691921192?i=1691921506&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/39/8a/2e/398a2ec2-1b5e-1808-77f2-0a8976b1c448/mzaf_9444766139330891891.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f9/40/ce/f940ce64-ef5e-9ed0-5171-45d790b8b999/23UMGIM66787.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/popular-feat-playboi-carti-music-from-the-hbo/1691920669?i=1691920672&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7b/a5/1d/7ba51dd5-4168-5e64-50c3-249bc2a61b11/mzaf_6762624222743714621.plus.aac.p.m4a",
   "artists": [
    "The Weeknd",
    "Madonna",
@@ -659,7 +697,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 885546,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1693891139,
@@ -677,7 +716,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 945818,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1452859410,
@@ -693,7 +733,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 687554,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1452859427,
@@ -709,7 +750,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 736982,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440936016,
@@ -725,7 +767,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 696539,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440935808,
@@ -741,7 +784,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 647048,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440936028,
@@ -757,7 +801,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 701909,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440935812,
@@ -773,7 +818,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 662411,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440936036,
@@ -789,7 +835,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 602810,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1649434293,
@@ -805,7 +852,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 806376,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1468058171,
@@ -821,7 +869,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 907898,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1468058173,
@@ -837,7 +886,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 732599,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1524801580,
@@ -853,7 +903,8 @@ window.SONGS = [
   ],
   "genre": "Rock",
   "rank": 817566,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1544268298,
@@ -869,7 +920,8 @@ window.SONGS = [
   ],
   "genre": "Rock",
   "rank": 670872,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1524801944,
@@ -885,7 +937,8 @@ window.SONGS = [
   ],
   "genre": "Rock",
   "rank": 740231,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440935564,
@@ -901,7 +954,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 656354,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440935349,
@@ -917,7 +971,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 764632,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440935562,
@@ -933,7 +988,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 633274,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440934255,
@@ -949,7 +1005,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 788726,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440934254,
@@ -965,7 +1022,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 717369,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440934248,
@@ -981,39 +1039,42 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 743351,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1649435543,
+  "id": 1650841738,
   "title": "Karma",
   "artist": "Taylor Swift",
   "credit": "Taylor Swift",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/67/b5/01/67b501d5-362e-797e-7dbd-942b9e273084/22UM1IM24801.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/karma/1649434996?i=1649435543&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/37/bf/5f37bff2-2413-d187-c153-7ffb2a93d022/mzaf_18258475033098661061.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/13/5c/59135ccc-8425-415c-7f89-8aeada60088e/22UM1IM22440.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/karma/1650841512?i=1650841738&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/b5/21/cbb52156-fbe0-fa68-5728-fcd1cb0832cc/mzaf_11353075206298436565.plus.aac.p.m4a",
   "artists": [
    "Taylor Swift"
   ],
   "genre": "Pop",
   "rank": 653030,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1649435004,
+  "id": 1650841513,
   "title": "Lavender Haze",
   "artist": "Taylor Swift",
   "credit": "Taylor Swift",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/67/b5/01/67b501d5-362e-797e-7dbd-942b9e273084/22UM1IM24801.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/lavender-haze/1649434996?i=1649435004&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/3d/a6/e83da665-dc67-5d12-1bcb-92b2cbff0eb2/mzaf_8022777830254348609.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/13/5c/59135ccc-8425-415c-7f89-8aeada60088e/22UM1IM22440.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/lavender-haze/1650841512?i=1650841513&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a9/14/36/a91436d3-2f9b-7953-c6e2-705d2802570d/mzaf_11159633409289561031.plus.aac.p.m4a",
   "artists": [
    "Taylor Swift"
   ],
   "genre": "Pop",
   "rank": 712746,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1742057775,
@@ -1030,7 +1091,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 760966,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1838810951,
@@ -1046,7 +1108,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 999852,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1441154437,
@@ -1063,7 +1126,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 958984,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440758945,
@@ -1080,7 +1144,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 983931,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1444321282,
@@ -1096,24 +1161,26 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 955912,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1440924927,
+  "id": 1440934019,
   "title": "Work",
   "artist": "Rihanna",
   "credit": "Rihanna feat. Drake",
   "year": 2016,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9c/da/90/9cda90c9-df1a-078b-319c-bdf2801e8d1f/16UMGIM03373.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/work-feat-drake/1440924615?i=1440924927&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b8/de/8e/b8de8e33-7ff1-9138-1d39-e3896f2cbeea/mzaf_8152061522966058173.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/11/e9/60/11e9600c-7f3a-424b-1643-97c69f7e8067/16UMGIM03373.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/work-feat-drake/1440933869?i=1440934019&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/f3/b9/7df3b9f1-a1e5-6306-dfac-9b6228eae585/mzaf_1837788315103931548.plus.aac.p.m4a",
   "artists": [
    "Rihanna",
    "Drake"
   ],
   "genre": "Pop",
   "rank": 848062,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1440896009,
@@ -1129,7 +1196,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 965751,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1441154439,
@@ -1145,7 +1213,8 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 987446,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1444900365,
@@ -1162,6 +1231,7 @@ window.SONGS = [
   "genre": "House/EDM",
   "rank": 949369,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -1181,6 +1251,7 @@ window.SONGS = [
   "genre": "Pop",
   "rank": 855223,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -1199,7 +1270,8 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 953739,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1417177313,
@@ -1216,42 +1288,45 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 119704,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1440925067,
+  "id": 1440934096,
   "title": "Needed Me",
   "artist": "Rihanna",
   "credit": "Rihanna",
   "year": 2016,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9c/da/90/9cda90c9-df1a-078b-319c-bdf2801e8d1f/16UMGIM03373.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/needed-me/1440924615?i=1440925067&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/61/08/5c/61085c53-7361-21cc-34c2-a896ff8d5c00/mzaf_10173375893470393194.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/11/e9/60/11e9600c-7f3a-424b-1643-97c69f7e8067/16UMGIM03373.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/needed-me/1440933869?i=1440934096&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2a/b6/92/2ab692d8-6e8b-286e-9c94-c52946ccbdf5/mzaf_9961243796798031400.plus.aac.p.m4a",
   "artists": [
    "Rihanna"
   ],
   "genre": "Pop",
   "rank": 819945,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 1440925284,
+  "id": 1440934115,
   "title": "Love On the Brain",
   "artist": "Rihanna",
   "credit": "Rihanna",
   "year": 2016,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9c/da/90/9cda90c9-df1a-078b-319c-bdf2801e8d1f/16UMGIM03373.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/love-on-the-brain/1440924615?i=1440925284&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/d3/3e/09d33e17-2511-26cd-66df-929eb5b7b61e/mzaf_7759943791600950757.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/11/e9/60/11e9600c-7f3a-424b-1643-97c69f7e8067/16UMGIM03373.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/love-on-the-brain/1440933869?i=1440934115&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/18/6b/85/186b8520-3891-8286-c4bb-63af64d2081d/mzaf_12932465860167229679.plus.aac.p.m4a",
   "artists": [
    "Rihanna"
   ],
   "genre": "Pop",
   "rank": 940401,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1440867324,
@@ -1267,7 +1342,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 850875,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440866685,
@@ -1283,7 +1359,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 161655,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1443061990,
@@ -1299,23 +1376,25 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 935123,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 985890936,
+  "id": 1445136075,
   "title": "Bitch Better Have My Money",
   "artist": "Rihanna",
   "credit": "Rihanna",
   "year": 2015,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/76/d5/19/76d519f9-e79a-1b78-570a-01b737ad5bdb/00851365006066.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/bitch-better-have-my-money/985890722?i=985890936&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/a0/75/7aa07504-307e-2b3e-7bae-75d1d030b7e2/mzaf_1710867897134789447.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/a8/79/f1a879f1-3822-cc4c-23c1-abfeb810a6b8/00851365006042.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/bitch-better-have-my-money/1445136072?i=1445136075&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/1a/95/451a95ee-919b-0bb4-360d-ad734970a542/mzaf_7852793035303682943.plus.aac.p.m4a",
   "artists": [
    "Rihanna"
   ],
   "genre": "Pop",
   "rank": 849873,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1445170918,
@@ -1333,7 +1412,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 837121,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1441154580,
@@ -1349,23 +1429,25 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 789557,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1440924789,
+  "id": 1440934015,
   "title": "Kiss It Better",
   "artist": "Rihanna",
   "credit": "Rihanna",
   "year": 2016,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9c/da/90/9cda90c9-df1a-078b-319c-bdf2801e8d1f/16UMGIM03373.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/kiss-it-better/1440924615?i=1440924789&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/69/d3/5b69d385-79dd-2fe6-5998-4700297d6625/mzaf_13526520324281644522.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/11/e9/60/11e9600c-7f3a-424b-1643-97c69f7e8067/16UMGIM03373.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/kiss-it-better/1440933869?i=1440934015&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/d3/92/1dd39245-ec61-4b4a-732a-bcdc895669d7/mzaf_3828306985220739670.plus.aac.p.m4a",
   "artists": [
    "Rihanna"
   ],
   "genre": "Pop",
   "rank": 863679,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
@@ -1384,7 +1466,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 393618,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 576655094,
@@ -1400,7 +1483,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 772417,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 576655098,
@@ -1416,7 +1500,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 234503,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 573962551,
@@ -1432,7 +1517,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 963294,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 573962555,
@@ -1448,23 +1534,25 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 949124,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 581806439,
+  "id": 573962553,
   "title": "Treasure",
   "artist": "Bruno Mars",
   "credit": "Bruno Mars",
   "year": 2012,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/15/63/53/156353b8-d45b-a17d-f553-2d125aeb3cb3/075679957474.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/treasure/581806371?i=581806439&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/d8/99/d5d899c9-f5a9-f5d9-f1c9-58b6245cccd6/mzaf_1563222331233911717.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/a4/7c/e0a47c6f-005a-9f9f-ce29-8e858e2bcfcb/075679957283.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/treasure/573962245?i=573962553&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/25/c9/8c/25c98ca9-157a-ab3b-7301-d2403cfa7cc9/mzaf_2487737730550920982.plus.aac.p.m4a",
   "artists": [
    "Bruno Mars"
   ],
   "genre": "Pop",
   "rank": 889830,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1161504024,
@@ -1480,7 +1568,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 897807,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1161504043,
@@ -1496,7 +1585,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 878756,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1161504065,
@@ -1512,7 +1602,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 705034,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1161504045,
@@ -1528,7 +1619,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 716364,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 576655099,
@@ -1544,7 +1636,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 576655100,
@@ -1560,7 +1653,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 576655102,
@@ -1576,7 +1670,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 467980717,
@@ -1592,7 +1687,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 943946671,
@@ -1609,7 +1705,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 951385,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1612867242,
@@ -1627,7 +1724,8 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 870716,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1773452221,
@@ -1644,7 +1742,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 992741,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 576655097,
@@ -1660,7 +1759,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1612867429,
@@ -1678,24 +1778,26 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 691284,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1453056793,
+  "id": 1453056904,
   "title": "Please Me",
   "artist": "Bruno Mars",
   "credit": "Cardi B & Bruno Mars",
   "year": 2019,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/81/f8/1b/81f81b47-6068-3fdb-29ae-ae032c519ef7/075679852168.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/please-me/1453056792?i=1453056793&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/38/1d/56381d1c-e3e0-631e-baf6-c2b45c646f1c/mzaf_18272091278319378003.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d2/4e/ee/d24eeee7-bc09-9e9a-b5aa-0ecf39d47bb9/075679853653.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/please-me/1453056901?i=1453056904&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/47/f4/0c47f44f-c1a4-c84a-e09a-48618e54ce56/mzaf_3774408962038703133.plus.aac.p.m4a",
   "artists": [
    "Cardi B",
    "Bruno Mars"
   ],
   "genre": "Rap",
   "rank": 750983,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1440818653,
@@ -1712,7 +1814,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 195871,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1476095084,
@@ -1728,7 +1831,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 935033,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1476727675,
@@ -1745,7 +1849,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 123947,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1476727671,
@@ -1761,7 +1866,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 201721,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440857424,
@@ -1777,7 +1883,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 96570,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440858186,
@@ -1793,7 +1900,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 262479,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440857433,
@@ -1809,7 +1917,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 134195,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1451768063,
@@ -1825,7 +1934,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 833387,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1434371887,
@@ -1842,7 +1952,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 968235,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440893897,
@@ -1858,7 +1969,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 801554,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1500952424,
@@ -1875,7 +1987,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 770370,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1500952423,
@@ -1891,7 +2004,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 651030,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1434372043,
@@ -1907,7 +2021,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 950944,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1762656732,
@@ -1924,7 +2039,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 997757,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1792667005,
@@ -1940,7 +2056,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 926391,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440818656,
@@ -1956,7 +2073,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440858175,
@@ -1972,7 +2090,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 228467,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440857734,
@@ -1988,71 +2107,76 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 197296,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1421658123,
+  "id": 1421242781,
   "title": "SICKO MODE",
   "artist": "Travis Scott",
   "credit": "Travis Scott",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/49/8f/e7498f65-df8f-bead-d6e3-2a8d4d642a79/886447235317.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/sicko-mode/1421658111?i=1421658123&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/91/a1/d391a141-256f-726f-9da1-8aa4e42b3236/mzaf_17761183103753218003.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/30/66/90/306690d4-2a29-402e-e406-6b319ce7731a/886447227169.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/sicko-mode/1421241217?i=1421242781&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d6/2f/01/d62f0112-0864-40e3-473d-0918d82dde3f/mzaf_9628524103484106734.plus.aac.p.m4a",
   "artists": [
    "Travis Scott"
   ],
   "genre": "Rap",
   "rank": 853787,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1151481750,
+  "id": 1150135924,
   "title": "goosebumps",
   "artist": "Travis Scott",
   "credit": "Travis Scott",
   "year": 2016,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/e5/27/b8e527c8-aaf4-c7b7-5562-c479458ed7d9/886446092645.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/goosebumps/1151481435?i=1151481750&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f0/60/39/f060399b-690f-2e55-7013-5530cd616d95/mzaf_6001308391779304655.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/50/f7/a3/50f7a39d-3bd5-28e9-0264-532f08b5b810/886446074726.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/goosebumps/1150135681?i=1150135924&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ad/02/74/ad02745f-7fbe-7e2c-ac32-632dc4dedac3/mzaf_15768763593759835970.plus.aac.p.m4a",
   "artists": [
    "Travis Scott"
   ],
   "genre": "Rap",
   "rank": 911034,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1482217453,
+  "id": 1481874619,
   "title": "HIGHEST IN THE ROOM",
   "artist": "Travis Scott",
   "credit": "Travis Scott",
   "year": 2019,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d2/2d/6b/d22d6b0f-68dd-0eeb-92b4-9b6f4a43e85f/886448047452.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/highest-in-the-room/1482217452?i=1482217453&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/e0/66/f5e066f4-3b33-e5a0-6328-ca1ae6742f83/mzaf_5397637265841153345.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/30/5f/c4/305fc4b4-155d-8e67-7c7a-8eb35032fbcb/886448042792.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/highest-in-the-room/1481874613?i=1481874619&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b8/d7/81/b8d78130-ab22-c295-d3a4-d020826e611c/mzaf_1312813084904992049.plus.aac.p.m4a",
   "artists": [
    "Travis Scott"
   ],
   "genre": "Rap",
   "rank": 858803,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1456179771,
+  "id": 1456177234,
   "title": "Antidote",
   "artist": "Travis Scott",
   "credit": "Travis Scott",
   "year": 2015,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/fb/f1/6dfbf17d-4032-f585-35ad-f3f9b6859cd9/886445460421.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/antidote/1456179762?i=1456179771&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/58/43/875843d7-4725-12ab-26c8-f909a7dc5188/mzaf_6375379465114836886.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/87/78/7187786f-70af-fd36-fc7f-a4ba61b65d98/886445454987.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/antidote/1456176981?i=1456177234&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/3f/1a/803f1a88-71ad-f263-03e1-0fe3a6b90438/mzaf_14430645632362065684.plus.aac.p.m4a",
   "artists": [
    "Travis Scott"
   ],
   "genre": "Rap",
   "rank": 699992,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1421658665,
@@ -2068,106 +2192,113 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 798154,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1421658117,
+  "id": 1421242380,
   "title": "STARGAZING",
   "artist": "Travis Scott",
   "credit": "Travis Scott",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/49/8f/e7498f65-df8f-bead-d6e3-2a8d4d642a79/886447235317.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/stargazing/1421658111?i=1421658117&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/17/72/2817720a-aa3a-56d4-e4ad-0c6d380bfe77/mzaf_5929447614154956053.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/30/66/90/306690d4-2a29-402e-e406-6b319ce7731a/886447227169.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/stargazing/1421241217?i=1421242380&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/a3/6f/80a36f60-f026-2954-4620-725816528f39/mzaf_14366219948706406616.plus.aac.p.m4a",
   "artists": [
    "Travis Scott"
   ],
   "genre": "Rap",
   "rank": 67423,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1708274783,
+  "id": 1699712651,
   "title": "FE!N",
   "artist": "Travis Scott",
   "credit": "Travis Scott feat. Playboi Carti",
   "year": 2023,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/4f/94/7d4f9468-56e1-3a2d-7186-c8088170ef58/196871341899.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/fe-n-feat-playboi-carti/1708274558?i=1708274783&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/61/9a/ce619acc-40f8-5bf0-c6d8-5649dacc5d3c/mzaf_9048266760750013994.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/09/7d/b0/097db06f-8403-3cf7-7510-139e570ca66b/196871341882.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/fe-n-feat-playboi-carti/1699712635?i=1699712651&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/a8/09/3ba809b6-0e6b-7913-4eab-4183c9ee3495/mzaf_4419831661503814046.plus.aac.p.m4a",
   "artists": [
    "Travis Scott",
    "Playboi Carti"
   ],
   "genre": "Rap",
   "rank": 881809,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1708274776,
+  "id": 1699712644,
   "title": "MY EYES",
   "artist": "Travis Scott",
   "credit": "Travis Scott",
   "year": 2023,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/4f/94/7d4f9468-56e1-3a2d-7186-c8088170ef58/196871341899.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/my-eyes/1708274558?i=1708274776&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/15/bb/8715bb0e-c6c6-a88c-c25a-088b539e2187/mzaf_3269170174302157070.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/09/7d/b0/097db06f-8403-3cf7-7510-139e570ca66b/196871341882.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/my-eyes/1699712635?i=1699712644&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/5d/d8/085dd8b4-8f4e-c1cd-dc28-174276391c89/mzaf_9721563425278163706.plus.aac.p.m4a",
   "artists": [
    "Travis Scott"
   ],
   "genre": "Rap",
   "rank": 795762,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1708274785,
+  "id": 1699712653,
   "title": "I KNOW ?",
   "artist": "Travis Scott",
   "credit": "Travis Scott",
   "year": 2023,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/4f/94/7d4f9468-56e1-3a2d-7186-c8088170ef58/196871341899.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/i-know/1708274558?i=1708274785&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/3b/e0/d33be054-39b3-ead8-1448-80a417ffd91c/mzaf_4205329156642207021.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/09/7d/b0/097db06f-8403-3cf7-7510-139e570ca66b/196871341882.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/i-know/1699712635?i=1699712653&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9d/48/6a/9d486a08-b88c-7c9d-a0e3-c0e837969b41/mzaf_16726206942857415848.plus.aac.p.m4a",
   "artists": [
    "Travis Scott"
   ],
   "genre": "Rap",
   "rank": 726371,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1456179767,
+  "id": 1456177229,
   "title": "90210",
   "artist": "Travis Scott",
   "credit": "Travis Scott feat. Kacy Hill",
   "year": 2015,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/fb/f1/6dfbf17d-4032-f585-35ad-f3f9b6859cd9/886445460421.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/90210-feat-kacy-hill/1456179762?i=1456179767&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/86/24/22862454-3c82-2944-b812-abf44bfb2c7d/mzaf_3589282494721155792.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/87/78/7187786f-70af-fd36-fc7f-a4ba61b65d98/886445454987.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/90210-feat-kacy-hill/1456176981?i=1456177229&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/86/42/f286429d-6bd1-c0ac-1686-d19669e590c9/mzaf_10108390987100359957.plus.aac.p.m4a",
   "artists": [
    "Travis Scott",
    "Kacy Hill"
   ],
   "genre": "Rap",
   "rank": 729544,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1151481753,
+  "id": 1150135947,
   "title": "pick up the phone",
   "artist": "Travis Scott",
   "credit": "Young Thug & Travis Scott",
   "year": 2016,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/e5/27/b8e527c8-aaf4-c7b7-5562-c479458ed7d9/886446092645.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/pick-up-the-phone/1151481435?i=1151481753&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/57/82/9e/57829eeb-602b-6572-0212-04f96694b706/mzaf_838415077415712784.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/50/f7/a3/50f7a39d-3bd5-28e9-0264-532f08b5b810/886446074726.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/pick-up-the-phone-feat-quavo/1150135681?i=1150135947&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/e5/8a/08e58afe-4d1b-b7bf-94e8-3c3b3d0c65db/mzaf_7099223190326373282.plus.aac.p.m4a",
   "artists": [
    "Young Thug",
    "Travis Scott"
   ],
   "genre": "Rap",
   "rank": 743475,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1421243212,
@@ -2183,33 +2314,35 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 138639,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1421658659,
+  "id": 1421243220,
   "title": "CAN'T SAY",
   "artist": "Travis Scott",
   "credit": "Travis Scott",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/49/8f/e7498f65-df8f-bead-d6e3-2a8d4d642a79/886447235317.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/cant-say/1421658111?i=1421658659&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8a/0c/fe/8a0cfe57-ff8e-8a69-27ca-ee6c6e7b2039/mzaf_18376452624637116749.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/30/66/90/306690d4-2a29-402e-e406-6b319ce7731a/886447227169.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/cant-say/1421241217?i=1421243220&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/00/f9/1b/00f91b85-136d-8edb-f933-4f9c59b85ef3/mzaf_12222878040756828717.plus.aac.p.m4a",
   "artists": [
    "Travis Scott"
   ],
   "genre": "Rap",
   "rank": 676559,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1533186580,
+  "id": 1532784716,
   "title": "FRANCHISE",
   "artist": "Travis Scott",
   "credit": "Travis Scott feat. Young Thug & M.I.A.",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d9/c2/ac/d9c2ac88-d16b-e968-c3b0-d518c9d18e83/886448660330.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/franchise-feat-young-thug-m-i-a/1533186578?i=1533186580&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a9/1b/15/a91b155f-ac1b-d2d5-522d-3a8d234af332/mzaf_3795451418658868839.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2c/4b/29/2c4b29b8-9b6b-e5d6-0905-e05a2b9feaed/886448660323.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/franchise-feat-young-thug-m-i-a/1532784708?i=1532784716&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/4b/10/7a4b1005-07c3-7c81-605c-f4d80be48e83/mzaf_15365764488566782805.plus.aac.p.m4a",
   "artists": [
    "Travis Scott",
    "Young Thug",
@@ -2217,17 +2350,18 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 621236,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1509789615,
+  "id": 1509730429,
   "title": "THE SCOTTS",
   "artist": "Travis Scott",
   "credit": "THE SCOTTS, Travis Scott & Kid Cudi",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/05/54/44/05544410-9588-3d78-6986-c951a30ae414/886448429968.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/the-scotts/1509789614?i=1509789615&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/2b/81/d52b81f5-7d4e-7dd6-a753-c2d2117dd5ce/mzaf_1149351768590173214.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/a9/f6/e0a9f68b-c5fe-faa4-6ad2-0c12e22bc66c/886448429944.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/the-scotts/1509730426?i=1509730429&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8d/a7/df/8da7dfae-a303-0053-2164-d90c5f189f78/mzaf_14003723044532999630.plus.aac.p.m4a",
   "artists": [
    "THE SCOTTS",
    "Travis Scott",
@@ -2235,50 +2369,53 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 735127,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1593721528,
+  "id": 1593721782,
   "title": "ESCAPE PLAN",
   "artist": "Travis Scott",
   "credit": "Travis Scott",
   "year": 2021,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/90/3a/2e/903a2edd-9c41-45b4-c56f-1a6ae9f4aa27/886449367986.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/escape-plan/1593721512?i=1593721528&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/93/10/7d/93107dd8-c9ab-1c05-d849-93d326b3d95e/mzaf_7747037293000683786.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/7f/ad/637fadd7-38ab-221c-766a-76c576c5666a/886449367979.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/escape-plan/1593721751?i=1593721782&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/30/b4/5f30b499-2165-b9b3-cc84-d084d3cb7cba/mzaf_9870238685770305206.plus.aac.p.m4a",
   "artists": [
    "Travis Scott"
   ],
   "genre": "Rap",
   "rank": 581436,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1708274779,
+  "id": 1699712649,
   "title": "MELTDOWN",
   "artist": "Travis Scott",
   "credit": "Travis Scott feat. Drake",
   "year": 2023,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/4f/94/7d4f9468-56e1-3a2d-7186-c8088170ef58/196871341899.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/meltdown-feat-drake/1708274558?i=1708274779&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/ff/4b/9dff4b52-180e-4454-b7d7-b8306c975068/mzaf_17871127236495364696.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/09/7d/b0/097db06f-8403-3cf7-7510-139e570ca66b/196871341882.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/meltdown-feat-drake/1699712635?i=1699712649&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/71/e4/4071e419-dd6b-d201-b423-6fe1b7524bc7/mzaf_8905420541275094034.plus.aac.p.m4a",
   "artists": [
    "Travis Scott",
    "Drake"
   ],
   "genre": "Rap",
   "rank": 644415,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1708274801,
+  "id": 1699712664,
   "title": "TELEKINESIS",
   "artist": "Travis Scott",
   "credit": "Travis Scott feat. SZA & Future",
   "year": 2023,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/4f/94/7d4f9468-56e1-3a2d-7186-c8088170ef58/196871341899.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/telekinesis-feat-sza-future/1708274558?i=1708274801&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/74/38/9f743809-a740-d388-ab4e-2d529cdf1816/mzaf_10282848371758525405.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/09/7d/b0/097db06f-8403-3cf7-7510-139e570ca66b/196871341882.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/telekinesis-feat-sza-future/1699712635?i=1699712664&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/03/20/8b/03208b89-14de-2ada-fda9-dfd99253492c/mzaf_16600375683589703510.plus.aac.p.m4a",
   "artists": [
    "Travis Scott",
    "SZA",
@@ -2286,17 +2423,18 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 809482,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1698529041,
+  "id": 1698529515,
   "title": "K-POP",
   "artist": "Travis Scott",
   "credit": "Travis Scott, Bad Bunny & The Weeknd",
   "year": 2023,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/42/62/49/426249e9-a964-8276-f285-226df5b52c1b/196871325431.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/k-pop/1698529038?i=1698529041&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/78/30/a7/7830a76c-2c91-3b79-41c4-72938c74bd39/mzaf_16232800187817917401.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1b/6e/23/1b6e23a2-5c18-2379-70df-52abb55db146/196871325424.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/k-pop/1698529514?i=1698529515&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/57/eb/ec57eb90-b249-5187-c17d-34c3416645c4/mzaf_1863007014340801244.plus.aac.p.m4a",
   "artists": [
    "Travis Scott",
    "Bad Bunny",
@@ -2304,23 +2442,25 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 628629,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1421658127,
+  "id": 1421242791,
   "title": "STOP TRYING TO BE GOD",
   "artist": "Travis Scott",
   "credit": "Travis Scott",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/49/8f/e7498f65-df8f-bead-d6e3-2a8d4d642a79/886447235317.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/stop-trying-to-be-god/1421658111?i=1421658127&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/fb/05/1bfb05bf-835b-7e05-2bfb-a7c94531a1d5/mzaf_6763068358992875468.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/30/66/90/306690d4-2a29-402e-e406-6b319ce7731a/886447227169.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/stop-trying-to-be-god/1421241217?i=1421242791&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/98/53/8c985349-7d49-62d4-4b79-2b4624b3b2f9/mzaf_1504320505533883591.plus.aac.p.m4a",
   "artists": [
    "Travis Scott"
   ],
   "genre": "Rap",
   "rank": 556708,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 598318605,
@@ -2336,7 +2476,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 433010,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 922876189,
@@ -2352,7 +2493,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 901999,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1108212668,
@@ -2369,7 +2511,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 938929,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1001677305,
@@ -2386,7 +2529,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 881841,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1364709436,
@@ -2403,7 +2547,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 887462,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1713469232,
@@ -2420,7 +2565,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 769624,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 922876184,
@@ -2437,7 +2583,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 813626,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 922876187,
@@ -2454,7 +2601,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 898666,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1424362622,
@@ -2471,7 +2619,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 888286,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1447498494,
@@ -2488,7 +2637,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 804392,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1713469237,
@@ -2505,7 +2655,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 248113,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1713469230,
@@ -2522,7 +2673,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 271219,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 598317507,
@@ -2539,7 +2691,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 171044,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1673798699,
@@ -2556,7 +2709,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 776815,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1696083506,
@@ -2573,7 +2727,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 725304,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 256277985,
@@ -2589,7 +2744,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 636183,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1153704956,
@@ -2605,7 +2761,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 868922,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 922876183,
@@ -2623,7 +2780,8 @@ window.SONGS = [
   ],
   "genre": "House/EDM",
   "rank": 770069,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440851719,
@@ -2639,7 +2797,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 870649,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440851722,
@@ -2655,7 +2814,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 889272,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440851735,
@@ -2671,7 +2831,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 743061,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440859510,
@@ -2688,24 +2849,26 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 304703,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1422675690,
+  "id": 1440808312,
   "title": "Payphone",
   "artist": "Maroon 5",
   "credit": "Maroon 5 feat. Wiz Khalifa",
   "year": 2012,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/8c/76/c78c76fe-7df5-f37d-8246-4ce337ba0d94/12UMGIM26179.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/payphone-feat-wiz-khalifa/1422675688?i=1422675690&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/64/ef/ec64efe0-aa33-f8da-cf08-cff5a34f169f/mzaf_10418581457151079363.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1b/5b/95/1b5b95d1-b7f2-f2e9-acb2-22f558017056/12UMGIM26178.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/payphone-feat-wiz-khalifa/1440808308?i=1440808312&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/de/d8/c3ded82b-903e-e8ce-1118-1ed93413defe/mzaf_15639077110489862256.plus.aac.p.m4a",
   "artists": [
    "Maroon 5",
    "Wiz Khalifa"
   ],
   "genre": "Pop",
   "rank": 574587,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1440808310,
@@ -2721,23 +2884,25 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 155873,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1440855562,
+  "id": 1422652341,
   "title": "Sugar",
   "artist": "Maroon 5",
   "credit": "Maroon 5",
   "year": 2014,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b7/25/76/b72576f1-072e-3da2-60d5-2724a9bccf4a/14UMGIM31673.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/sugar/1440855456?i=1440855562&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/3f/68/1b3f68e0-3c42-f367-cd0f-e46c746e0668/mzaf_15052021441666328650.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/20/32/ac203235-b03b-0e60-e03d-1ea1ee53aceb/14UMGIM31675.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/sugar/1422651829?i=1422652341&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/57/46/fd57467c-3fec-2bdd-db1e-1584af2b3bd8/mzaf_2794915289106820731.plus.aac.p.m4a",
   "artists": [
    "Maroon 5"
   ],
   "genre": "Pop",
   "rank": 820349,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1440842752,
@@ -2753,7 +2918,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 862946,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440855552,
@@ -2769,24 +2935,26 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 919036,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1381582728,
+  "id": 1381589780,
   "title": "Girls Like You",
   "artist": "Maroon 5",
   "credit": "Maroon 5 feat. Cardi B",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1a/7e/42/1a7e428a-4449-b613-46c3-5fa75d83047a/00602567702023.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/girls-like-you-feat-cardi-b/1381582726?i=1381582728&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/85/c7/4285c7f6-02a9-afc8-42f1-21d9536e29ed/mzaf_13157378581042915357.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/78/65/da/7865da2b-2786-2e5d-935a-887021d327ef/18UMGIM26510.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/girls-like-you-feat-cardi-b/1381588297?i=1381589780&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/63/7b/2d/637b2d9d-9054-20af-3a66-608bfbe3304c/mzaf_12538846901463150820.plus.aac.p.m4a",
   "artists": [
    "Maroon 5",
    "Cardi B"
   ],
   "genre": "Pop",
   "rank": 845497,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1571176664,
@@ -2802,7 +2970,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 878180,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1396141925,
@@ -2819,7 +2988,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 352003,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1396141904,
@@ -2836,7 +3006,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 372454,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440808313,
@@ -2852,7 +3023,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440808321,
@@ -2868,7 +3040,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440855977,
@@ -2884,7 +3057,8 @@ window.SONGS = [
   ],
   "genre": "Pop",
   "rank": 25451,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440850460,
@@ -2900,7 +3074,8 @@ window.SONGS = [
   ],
   "genre": "Rock",
   "rank": 124124,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440850461,
@@ -2916,17 +3091,18 @@ window.SONGS = [
   ],
   "genre": "Rock",
   "rank": 341532,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1657584259,
+  "id": 1657271974,
   "title": "Creepin'",
   "artist": "Metro Boomin",
   "credit": "Metro Boomin, The Weeknd & 21 Savage",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/82/f7/2b/82f72ba4-524c-fc9d-cb8c-5a96d2ddf536/22UM1IM35267.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/creepin/1657583857?i=1657584259&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/47/ba/83/47ba83bd-ff6a-d4b2-f126-545a170f0775/mzaf_2932236241939206370.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/09/72/3b/09723b88-9b18-e466-7ae0-05a17688bb52/22UM1IM35114.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/creepin/1657271960?i=1657271974&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/df/71/e0df71aa-e7fa-4ab6-63fc-d315d3f7022b/mzaf_12854275510437327301.plus.aac.p.m4a",
   "artists": [
    "Metro Boomin",
    "The Weeknd",
@@ -2934,17 +3110,18 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 930536,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1657583932,
+  "id": 1657271965,
   "title": "Superhero (Heroes & Villains)",
   "artist": "Metro Boomin",
   "credit": "Metro Boomin, Future & Chris Brown",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/82/f7/2b/82f72ba4-524c-fc9d-cb8c-5a96d2ddf536/22UM1IM35267.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/superhero-heroes-villains/1657583857?i=1657583932&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/ae/6a/f9ae6a68-7565-dc7b-185e-a0ce43a9311e/mzaf_12054312603935333621.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/09/72/3b/09723b88-9b18-e466-7ae0-05a17688bb52/22UM1IM35114.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/superhero-heroes-villains/1657271960?i=1657271965&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fa/ae/6c/faae6c70-597a-2a5a-89dd-25075c232802/mzaf_4695994160062654247.plus.aac.p.m4a",
   "artists": [
    "Metro Boomin",
    "Future",
@@ -2952,17 +3129,18 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 739924,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1657584149,
+  "id": 1657271969,
   "title": "Trance",
   "artist": "Metro Boomin",
   "credit": "Metro Boomin, Travis Scott & Young Thug",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/82/f7/2b/82f72ba4-524c-fc9d-cb8c-5a96d2ddf536/22UM1IM35267.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/trance/1657583857?i=1657584149&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/86/66/ad/8666ad4c-7104-f8e2-6676-88fdd4cfece4/mzaf_11991779518497567802.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/09/72/3b/09723b88-9b18-e466-7ae0-05a17688bb52/22UM1IM35114.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/trance/1657271960?i=1657271969&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d5/e8/5f/d5e85fc5-6440-8785-f9ea-63b4a88f7e3e/mzaf_17980626356309784771.plus.aac.p.m4a",
   "artists": [
    "Metro Boomin",
    "Travis Scott",
@@ -2970,17 +3148,18 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 826905,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1657583940,
+  "id": 1657271966,
   "title": "Too Many Nights",
   "artist": "Metro Boomin",
   "credit": "Metro Boomin & Future feat. Don Toliver",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/82/f7/2b/82f72ba4-524c-fc9d-cb8c-5a96d2ddf536/22UM1IM35267.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/too-many-nights-feat-don-toliver/1657583857?i=1657583940&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a4/8f/47/a48f4783-6e35-ec36-5185-b898a37f24a8/mzaf_6931141737300173730.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/09/72/3b/09723b88-9b18-e466-7ae0-05a17688bb52/22UM1IM35114.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/too-many-nights-feat-don-toliver/1657271960?i=1657271966&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/60/62/706062bb-6131-03bd-68c7-6e31ef522d3c/mzaf_13680503678735310036.plus.aac.p.m4a",
   "artists": [
    "Metro Boomin",
    "Future",
@@ -2988,17 +3167,18 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 806786,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1657584260,
+  "id": 1657271975,
   "title": "Niagara Falls (Foot or 2)",
   "artist": "Metro Boomin",
   "credit": "Metro Boomin, Travis Scott & 21 Savage",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/82/f7/2b/82f72ba4-524c-fc9d-cb8c-5a96d2ddf536/22UM1IM35267.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/niagara-falls-foot-or-2/1657583857?i=1657584260&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/6e/d6/536ed696-ea9b-1ee7-4c18-b8851697cbe2/mzaf_10216533499211826680.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/09/72/3b/09723b88-9b18-e466-7ae0-05a17688bb52/22UM1IM35114.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/niagara-falls-foot-or-2/1657271960?i=1657271975&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4c/36/e5/4c36e57a-9417-7e07-897c-cdb7e54338e1/mzaf_8379499206705765783.plus.aac.p.m4a",
   "artists": [
    "Metro Boomin",
    "Travis Scott",
@@ -3006,17 +3186,18 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 627808,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1737320968,
+  "id": 1737150156,
   "title": "Type Shit",
   "artist": "Metro Boomin",
   "credit": "Future, Metro Boomin, Travis Scott & Playboi Carti",
   "year": 2024,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/b6/46/feb64670-4fe7-bbc0-1101-c5f11bfb6905/196871937399.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/type-shit/1737320962?i=1737320968&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/59/f9/9559f979-ed9a-02aa-d30c-eb953d473c17/mzaf_16087004087878821634.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/9f/7b/4e9f7b71-28ad-a8dc-9b34-da532feb82f6/196871937382.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/type-shit/1737149923?i=1737150156&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/1f/23/191f23d6-403c-f9f9-6e7b-86dc8cfe2338/mzaf_7082402487210429358.plus.aac.p.m4a",
   "artists": [
    "Future",
    "Metro Boomin",
@@ -3025,34 +3206,36 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 716470,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1737320964,
+  "id": 1737150142,
   "title": "We Don't Trust You",
   "artist": "Metro Boomin",
   "credit": "Future & Metro Boomin",
   "year": 2024,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/b6/46/feb64670-4fe7-bbc0-1101-c5f11bfb6905/196871937399.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/we-dont-trust-you/1737320962?i=1737320964&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9b/c9/d2/9bc9d201-01ff-d0e7-1778-c3d6b3ab58b5/mzaf_5026389842844615133.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/9f/7b/4e9f7b71-28ad-a8dc-9b34-da532feb82f6/196871937382.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/we-dont-trust-you/1737149923?i=1737150142&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/a9/a4/f5a9a4f2-ba92-f1db-75fe-51aa3957266c/mzaf_1113315199343212192.plus.aac.p.m4a",
   "artists": [
    "Future",
    "Metro Boomin"
   ],
   "genre": "Rap",
   "rank": 554750,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1737320966,
+  "id": 1737150149,
   "title": "Young Metro",
   "artist": "Metro Boomin",
   "credit": "Future, Metro Boomin & The Weeknd",
   "year": 2024,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/b6/46/feb64670-4fe7-bbc0-1101-c5f11bfb6905/196871937399.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/young-metro/1737320962?i=1737320966&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/f7/a2/b1f7a228-d99c-7307-a0ce-b8923feca435/mzaf_9762229975917757455.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/9f/7b/4e9f7b71-28ad-a8dc-9b34-da532feb82f6/196871937382.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/young-metro/1737149923?i=1737150149&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/c8/dd/bec8ddb8-8073-dd45-8ed4-a3f92ca85bdb/mzaf_3620593874269474689.plus.aac.p.m4a",
   "artists": [
    "Future",
    "Metro Boomin",
@@ -3060,17 +3243,18 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 595050,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1737320983,
+  "id": 1737150446,
   "title": "Cinderella",
   "artist": "Metro Boomin",
   "credit": "Future, Metro Boomin & Travis Scott",
   "year": 2024,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/b6/46/feb64670-4fe7-bbc0-1101-c5f11bfb6905/196871937399.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/cinderella/1737320962?i=1737320983&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/18/a0/9918a01d-2008-b1e8-2ba5-85792c198aaa/mzaf_4895288577312897576.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/9f/7b/4e9f7b71-28ad-a8dc-9b34-da532feb82f6/196871937382.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/cinderella/1737149923?i=1737150446&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/52/d6/c052d634-30e9-1d3c-b16a-faba26967ddf/mzaf_5446614777736132207.plus.aac.p.m4a",
   "artists": [
    "Future",
    "Metro Boomin",
@@ -3078,17 +3262,18 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 667155,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1441385476,
+  "id": 1441065767,
   "title": "No Complaints",
   "artist": "Metro Boomin",
   "credit": "Metro Boomin feat. Offset & Drake",
   "year": 2017,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b1/e3/27/b1e3271b-b8cb-7d80-99e5-0ddd9d6e632e/00602577303210.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/no-complaints-feat-offset-drake-bonus/1441385303?i=1441385476&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/d5/b1/c2d5b1a6-df70-01c5-9370-5940a5fcf2dd/mzaf_17834732342703961039.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cd/87/e5/cd87e5ea-f001-04e6-4248-22f4cfbedb23/18UMGIM75545.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/no-complaints-feat-offset-drake-bonus/1441065529?i=1441065767&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/94/69/45946993-9101-496f-8583-b6bb99314cd8/mzaf_14002260261324526590.plus.aac.p.m4a",
   "artists": [
    "Metro Boomin",
    "Offset",
@@ -3096,41 +3281,44 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 525829,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1441385311,
+  "id": 1441065647,
   "title": "Space Cadet",
   "artist": "Metro Boomin",
   "credit": "Metro Boomin feat. Gunna",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b1/e3/27/b1e3271b-b8cb-7d80-99e5-0ddd9d6e632e/00602577303210.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/space-cadet-feat-gunna/1441385303?i=1441385311&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/03/45/4d/03454d71-68ad-3c94-6139-f6512953cccc/mzaf_12865822532172320621.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cd/87/e5/cd87e5ea-f001-04e6-4248-22f4cfbedb23/18UMGIM75545.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/space-cadet-feat-gunna/1441065529?i=1441065647&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/74/40/f27440bd-a1f4-0a9d-e57e-62340e8608f5/mzaf_13477685245614769328.plus.aac.p.m4a",
   "artists": [
    "Metro Boomin",
    "Gunna"
   ],
   "genre": "Rap",
   "rank": 730222,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1441385307,
+  "id": 1441065546,
   "title": "Overdue",
   "artist": "Metro Boomin",
   "credit": "Metro Boomin feat. Travis Scott",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b1/e3/27/b1e3271b-b8cb-7d80-99e5-0ddd9d6e632e/00602577303210.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/overdue-feat-travis-scott/1441385303?i=1441385307&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/85/6e/0b856e6a-f102-2c63-f83a-f89951c35fac/mzaf_14550923957063787961.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cd/87/e5/cd87e5ea-f001-04e6-4248-22f4cfbedb23/18UMGIM75545.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/overdue-feat-travis-scott/1441065529?i=1441065546&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/58/82/f5/5882f5da-4ac8-be33-1312-0b962b13065c/mzaf_564556528893580909.plus.aac.p.m4a",
   "artists": [
    "Metro Boomin",
    "Travis Scott"
   ],
   "genre": "Rap",
   "rank": 646314,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1690685343,
@@ -3149,7 +3337,8 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 664452,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1690685353,
@@ -3167,7 +3356,8 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 800722,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1690685617,
@@ -3186,34 +3376,36 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 665447,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1534264266,
+  "id": 1534209962,
   "title": "Runnin",
   "artist": "Metro Boomin",
   "credit": "21 Savage & Metro Boomin",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/53/ed/40/53ed4078-7d2a-076e-f9b9-ffb29e776c42/886448747703.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/runnin/1534263780?i=1534264266&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/97/b6/dc/97b6dc1e-af09-a2e3-3592-fce74d30cec3/mzaf_8213761409472722913.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/03/3d/e5/033de513-4e28-5d06-e42b-4f2d5ba65dce/886448747697.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/runnin/1534209957?i=1534209962&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/49/8c/88/498c88a0-3fad-5dec-3e3b-984c6a019390/mzaf_9347641677364907908.plus.aac.p.m4a",
   "artists": [
    "21 Savage",
    "Metro Boomin"
   ],
   "genre": "Rap",
   "rank": 658623,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1534264268,
+  "id": 1534209964,
   "title": "Mr. Right Now",
   "artist": "Metro Boomin",
   "credit": "21 Savage & Metro Boomin feat. Drake",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/53/ed/40/53ed4078-7d2a-076e-f9b9-ffb29e776c42/886448747703.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/mr-right-now-feat-drake/1534263780?i=1534264268&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9b/b1/b4/9bb1b4a4-cf65-dde2-9aa0-558b583e58f1/mzaf_1590137840028632553.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/03/3d/e5/033de513-4e28-5d06-e42b-4f2d5ba65dce/886448747697.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/mr-right-now-feat-drake/1534209957?i=1534209964&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8a/34/84/8a34845d-f71f-1731-3d3b-9de01e944192/mzaf_218844920920083321.plus.aac.p.m4a",
   "artists": [
    "21 Savage",
    "Metro Boomin",
@@ -3221,58 +3413,62 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 465670,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1534264267,
+  "id": 1534209963,
   "title": "Glock In My Lap",
   "artist": "Metro Boomin",
   "credit": "21 Savage & Metro Boomin",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/53/ed/40/53ed4078-7d2a-076e-f9b9-ffb29e776c42/886448747703.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/glock-in-my-lap/1534263780?i=1534264267&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/02/af/f202af8f-e04b-1533-ded6-79f7ca060fe6/mzaf_9040108288751511795.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/03/3d/e5/033de513-4e28-5d06-e42b-4f2d5ba65dce/886448747697.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/glock-in-my-lap/1534209957?i=1534209963&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/38/ac/7738acd1-f1e4-b035-3f1d-9b7c6aafe7c6/mzaf_3485609906632670910.plus.aac.p.m4a",
   "artists": [
    "21 Savage",
    "Metro Boomin"
   ],
   "genre": "Rap",
   "rank": 675796,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1310807838,
+  "id": 1303426039,
   "title": "Ric Flair Drip",
   "artist": "Metro Boomin",
   "credit": "Offset & Metro Boomin",
   "year": 2017,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7d/11/01/7d110130-c1b3-b99a-8459-9f6a3666ed3c/886446838533.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/ric-flair-drip/1310806859?i=1310807838&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/ed/19/c4ed194e-08f2-01f9-1733-a52869053ee1/mzaf_867991296654303507.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/24/25/f6/2425f66c-acda-ef4f-5682-ad543e088507/886446838526.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/ric-flair-drip/1303426031?i=1303426039&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/43/60/b843605f-4132-c257-467c-6a301afbbf1e/mzaf_9275656695826789798.plus.aac.p.m4a",
   "artists": [
    "Offset",
    "Metro Boomin"
   ],
   "genre": "Rap",
   "rank": 742480,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1657584156,
+  "id": 1657271971,
   "title": "Around Me",
   "artist": "Metro Boomin",
   "credit": "Metro Boomin feat. Don Toliver",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/82/f7/2b/82f72ba4-524c-fc9d-cb8c-5a96d2ddf536/22UM1IM35267.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/around-me-feat-don-toliver/1657583857?i=1657584156&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/f8/2a/d3f82acb-ccd3-b6f0-9563-a9385a35e58d/mzaf_16854532331679946998.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/09/72/3b/09723b88-9b18-e466-7ae0-05a17688bb52/22UM1IM35114.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/around-me-feat-don-toliver/1657271960?i=1657271971&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/31/ae/d031ae50-3708-1b41-7ebc-457eac56ed0d/mzaf_2866529640935196247.plus.aac.p.m4a",
   "artists": [
    "Metro Boomin",
    "Don Toliver"
   ],
   "genre": "Rap",
   "rank": 744572,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1657869393,
@@ -3288,156 +3484,166 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 803201,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1658650499,
+  "id": 1657869492,
   "title": "Snooze",
   "artist": "SZA",
   "credit": "SZA",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/62/93/13/6293132e-20ff-67ab-3d1f-96bb6797a6ba/196589564955.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/snooze/1658650093?i=1658650499&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/9b/ca/b39bca57-2627-1aec-77af-cbf551205394/mzaf_4430383240210492712.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/3b/a9/bd3ba9fb-9609-144f-bcfe-ead67b5f6ab3/196589564931.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/snooze/1657869377?i=1657869492&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/a7/8e/5ca78e4e-245f-5021-858c-45a8057eb296/mzaf_4277583948632043282.plus.aac.p.m4a",
   "artists": [
    "SZA"
   ],
   "genre": "R&B",
   "rank": 845535,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1546390013,
+  "id": 1546390051,
   "title": "Good Days",
   "artist": "SZA",
   "credit": "SZA",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0e/5c/6e/0e5c6e76-928a-bb8c-ec7d-b323f6079f67/886449007394.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/good-days/1546390012?i=1546390013&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8f/04/a0/8f04a043-2291-6ff3-bad8-21e11452d64b/mzaf_2746590017873968561.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ef/09/cf/ef09cf1f-a057-6039-00d3-7b5d14c7eba1/886449006717.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/good-days/1546390050?i=1546390051&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/99/ac/4599ac97-8bf6-87df-a99f-c48b01e46a0a/mzaf_17564279299822541670.plus.aac.p.m4a",
   "artists": [
    "SZA"
   ],
   "genre": "R&B",
   "rank": 733843,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1239977718,
+  "id": 1239976607,
   "title": "The Weekend",
   "artist": "SZA",
   "credit": "SZA",
   "year": 2017,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a2/bc/ad/a2bcad46-b389-4be1-8bac-5a0959b0b8e4/886446548449.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/the-weekend/1239977075?i=1239977718&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e2/1c/9b/e21c9bed-7445-ec77-41e1-9337324322e2/mzaf_7026983697526197206.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/28/8f/20288f6f-fbf2-fb0f-6732-e7d334e1ff50/886446548432.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/the-weekend/1239976329?i=1239976607&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/53/48/02/5348028c-1135-fd01-a296-f3012246ead7/mzaf_9187641030733019701.plus.aac.p.m4a",
   "artists": [
    "SZA"
   ],
   "genre": "R&B",
   "rank": 590379,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 1239977713,
+  "id": 1239976603,
   "title": "Love Galore",
   "artist": "SZA",
   "credit": "SZA feat. Travis Scott",
   "year": 2017,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a2/bc/ad/a2bcad46-b389-4be1-8bac-5a0959b0b8e4/886446548449.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/love-galore-feat-travis-scott/1239977075?i=1239977713&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/93/0e/80930e81-73a0-f495-5ce7-46013e73ab6b/mzaf_10823851631334035424.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/28/8f/20288f6f-fbf2-fb0f-6732-e7d334e1ff50/886446548432.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/love-galore-feat-travis-scott/1239976329?i=1239976603&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/32/90/9432904b-e73b-7766-951f-cbc1e5811f6e/mzaf_4546725919246364301.plus.aac.p.m4a",
   "artists": [
    "SZA",
    "Travis Scott"
   ],
   "genre": "R&B",
   "rank": 646280,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440903307,
+  "id": 1440906939,
   "title": "All the Stars",
   "artist": "SZA",
   "credit": "Kendrick Lamar, SZA",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4d/16/55/4d165549-3d11-86dc-fcbf-be7fe0bcadfb/18UMGIM00002.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/all-the-stars/1440903005?i=1440903307&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/8b/2c/ea8b2cf4-95f2-b0b3-ffc5-10f4611bf98f/mzaf_6758805407695014001.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0f/7c/f9/0f7cf9a6-651f-53ae-e374-6be14630bfae/18UMGIM00001.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/all-the-stars/1440906927?i=1440906939&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/ff/91/a4ff913f-8378-1b3a-aa9d-fd540ac61fb8/mzaf_16272451002902333394.plus.aac.p.m4a",
   "artists": [
    "Kendrick Lamar",
    "SZA"
   ],
   "genre": "Rap",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1658650791,
+  "id": 1657869532,
   "title": "Nobody Gets Me",
   "artist": "SZA",
   "credit": "SZA",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/62/93/13/6293132e-20ff-67ab-3d1f-96bb6797a6ba/196589564955.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/nobody-gets-me/1658650093?i=1658650791&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/97/6a/42/976a424b-72c9-cc0c-200f-8604c996b25b/mzaf_13218782517530680491.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/3b/a9/bd3ba9fb-9609-144f-bcfe-ead67b5f6ab3/196589564931.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/nobody-gets-me/1657869377?i=1657869532&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bb/5e/be/bb5ebe0d-f1c6-013e-c6b0-8ba044ccdb01/mzaf_5761918638251263194.plus.aac.p.m4a",
   "artists": [
    "SZA"
   ],
   "genre": "R&B",
   "rank": 684194,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1658650801,
+  "id": 1598221453,
   "title": "I Hate U",
   "artist": "SZA",
   "credit": "SZA",
   "year": 2021,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/62/93/13/6293132e-20ff-67ab-3d1f-96bb6797a6ba/196589564955.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/i-hate-u/1658650093?i=1658650801&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ff/84/4b/ff844bd0-5060-5f4e-0dc5-b36973fe1d63/mzaf_12323232995792824915.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f6/4f/19/f64f19b7-3ab4-ad2d-5a67-ca196d278b44/886449787043.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/i-hate-u/1598221271?i=1598221453&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/bb/d9/ecbbd902-d835-7916-eb89-444bac3715db/mzaf_11793521184805711651.plus.aac.p.m4a",
   "artists": [
    "SZA"
   ],
   "genre": "R&B",
   "rank": 564958,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1658650799,
+  "id": 1657869537,
   "title": "Shirt",
   "artist": "SZA",
   "credit": "SZA",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/62/93/13/6293132e-20ff-67ab-3d1f-96bb6797a6ba/196589564955.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/shirt/1658650093?i=1658650799&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ae/0b/85/ae0b8569-b253-6e24-1199-99d10861a70e/mzaf_1176280108024711588.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/3b/a9/bd3ba9fb-9609-144f-bcfe-ead67b5f6ab3/196589564931.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/shirt/1657869377?i=1657869537&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fa/0e/58/fa0e58c1-869c-ea42-915b-364f6877c05d/mzaf_14804819265088015767.plus.aac.p.m4a",
   "artists": [
    "SZA"
   ],
   "genre": "R&B",
   "rank": 581095,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1239977721,
+  "id": 1239976610,
   "title": "Broken Clocks",
   "artist": "SZA",
   "credit": "SZA",
   "year": 2017,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a2/bc/ad/a2bcad46-b389-4be1-8bac-5a0959b0b8e4/886446548449.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/broken-clocks/1239977075?i=1239977721&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/06/8e/41/068e4113-639e-d3f0-dfd3-efe4de309022/mzaf_13933063054300365168.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/28/8f/20288f6f-fbf2-fb0f-6732-e7d334e1ff50/886446548432.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/broken-clocks/1239976329?i=1239976610&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/95/e4/74/95e4741e-afa4-8c59-1c30-5500fc226182/mzaf_14882213716650032265.plus.aac.p.m4a",
   "artists": [
    "SZA"
   ],
   "genre": "R&B",
   "rank": 566418,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1732348414,
@@ -3453,39 +3659,42 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 706724,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1658650491,
+  "id": 1657869395,
   "title": "Low",
   "artist": "SZA",
   "credit": "SZA",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/62/93/13/6293132e-20ff-67ab-3d1f-96bb6797a6ba/196589564955.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/low/1658650093?i=1658650491&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/14/09/69/14096983-ec61-1893-5644-080036ed6815/mzaf_12938912563146293529.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/3b/a9/bd3ba9fb-9609-144f-bcfe-ead67b5f6ab3/196589564931.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/low/1657869377?i=1657869395&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/17/b3/b8/17b3b8c6-d4ff-c5be-f8f5-99dc1f6e49f2/mzaf_5339584725843423915.plus.aac.p.m4a",
   "artists": [
    "SZA"
   ],
   "genre": "R&B",
   "rank": 658611,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1658650496,
+  "id": 1657869466,
   "title": "Blind",
   "artist": "SZA",
   "credit": "SZA",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/62/93/13/6293132e-20ff-67ab-3d1f-96bb6797a6ba/196589564955.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/blind/1658650093?i=1658650496&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/7c/6f/3b7c6f4a-bfa1-a931-6b56-1b5f6f297eee/mzaf_9136730141372247947.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/3b/a9/bd3ba9fb-9609-144f-bcfe-ead67b5f6ab3/196589564931.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/blind/1657869377?i=1657869466&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/cd/b3/86cdb389-4c20-933b-ed84-640c00cd3813/mzaf_12215773865145910870.plus.aac.p.m4a",
   "artists": [
    "SZA"
   ],
   "genre": "R&B",
   "rank": 597454,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1657869546,
@@ -3502,149 +3711,158 @@ window.SONGS = [
   ],
   "genre": "R&B",
   "rank": 725473,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1239977716,
+  "id": 1239976605,
   "title": "Drew Barrymore",
   "artist": "SZA",
   "credit": "SZA",
   "year": 2017,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a2/bc/ad/a2bcad46-b389-4be1-8bac-5a0959b0b8e4/886446548449.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/drew-barrymore/1239977075?i=1239977716&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/b0/66/42b066d0-aef4-ec1a-ae75-83cfa233a276/mzaf_4439507477783250049.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/28/8f/20288f6f-fbf2-fb0f-6732-e7d334e1ff50/886446548432.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/drew-barrymore/1239976329?i=1239976605&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ff/96/bd/ff96bdc8-e073-b036-6469-871136d66448/mzaf_3018380837586567064.plus.aac.p.m4a",
   "artists": [
    "SZA"
   ],
   "genre": "R&B",
   "rank": 614022,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1577637152,
+  "id": 1571169440,
   "title": "Kiss Me More",
   "artist": "SZA",
   "credit": "Doja Cat feat. SZA",
   "year": 2021,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/14/f3/28/14f32832-b9d9-1ba1-e20a-18c2ff8b6a80/886449410873.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/kiss-me-more-feat-sza/1577636685?i=1577637152&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/db/9e/c3db9eb5-fed3-eae6-4bcd-baa949cb623d/mzaf_17138382012543023880.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b5/a4/a8/b5a4a8a0-2a94-52bb-6e43-c47429a07ddf/886449138852.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/kiss-me-more-feat-sza/1571168930?i=1571169440&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d2/df/08/d2df08f6-b9e0-5a17-906e-8fac9683fcab/mzaf_17659516654697496540.plus.aac.p.m4a",
   "artists": [
    "Doja Cat",
    "SZA"
   ],
   "genre": "Pop",
   "rank": 827816,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1239977720,
+  "id": 1239976609,
   "title": "Garden (Say It Like Dat)",
   "artist": "SZA",
   "credit": "SZA",
   "year": 2017,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a2/bc/ad/a2bcad46-b389-4be1-8bac-5a0959b0b8e4/886446548449.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/garden-say-it-like-dat/1239977075?i=1239977720&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/96/9a/61/969a6188-6355-214b-ea18-20858824f58d/mzaf_18255829790918954286.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/28/8f/20288f6f-fbf2-fb0f-6732-e7d334e1ff50/886446548432.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/garden-say-it-like-dat/1239976329?i=1239976609&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/69/31/b369318b-a1a3-8d22-ca16-180d878246c4/mzaf_16250400752565073284.plus.aac.p.m4a",
   "artists": [
    "SZA"
   ],
   "genre": "R&B",
   "rank": 494008,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1796270267,
+  "id": 1786643047,
   "title": "30 For 30",
   "artist": "SZA",
   "credit": "SZA feat. Kendrick Lamar",
   "year": 2025,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/fa/17/50fa1760-8a36-5cef-93bf-aab5b5257b18/196871766913.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/30-for-30-with-kendrick-lamar/1796270264?i=1796270267&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/c4/93/3dc4933b-0606-71f7-77c4-cffb45133d93/mzaf_10877822582411390422.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/bd/88/97bd8804-7d3e-e6c8-0532-ff22877b931c/196871766890.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/30-for-30-with-kendrick-lamar/1786643044?i=1786643047&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/29/1c/94291c66-5795-b643-5e32-990d1a2b532b/mzaf_15969080754804720090.plus.aac.p.m4a",
   "artists": [
    "SZA",
    "Kendrick Lamar"
   ],
   "genre": "R&B",
   "rank": 628507,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1796270481,
+  "id": 1786643049,
   "title": "BMF",
   "artist": "SZA",
   "credit": "SZA",
   "year": 2025,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/fa/17/50fa1760-8a36-5cef-93bf-aab5b5257b18/196871766913.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/bmf/1796270264?i=1796270481&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6f/ba/b3/6fbab380-a34d-53e7-04c2-112b02dbbfd0/mzaf_1144385901106275258.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/bd/88/97bd8804-7d3e-e6c8-0532-ff22877b931c/196871766890.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/bmf/1786643044?i=1786643049&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e9/9d/ec/e99dec06-d195-6b0a-6cfc-5e04a907a672/mzaf_15081015568070583552.plus.aac.p.m4a",
   "artists": [
    "SZA"
   ],
   "genre": "R&B",
   "rank": 563151,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1494388436,
+  "id": 1493865024,
   "title": "Life Is Good",
   "artist": "Future",
   "credit": "Future feat. Drake",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/25/41/4e/25414e8c-0201-866a-2e0c-1315ff649f6a/886448218852.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/life-is-good-feat-drake/1494388435?i=1494388436&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/86/b3/0c86b3b1-b71d-6f67-15c9-31037f737a2b/mzaf_7149161367178471800.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/56/17/2c/56172c37-dc56-6651-1e70-59dc6d2e6e3f/886448218845.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/life-is-good-feat-drake/1493864494?i=1493865024&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/98/3b/50983b15-6c28-9eec-eb69-7379a7ff0911/mzaf_11618289533403196157.plus.aac.p.m4a",
   "artists": [
    "Future",
    "Drake"
   ],
   "genre": "Rap",
   "rank": 775000,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1081197290,
+  "id": 1081197914,
   "title": "Low Life",
   "artist": "Future",
   "credit": "Future feat. The Weeknd",
   "year": 2016,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/35/39/ef/3539eff9-49dc-db4d-7e82-22244f17c5f4/886445733785.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/low-life-feat-the-weeknd/1081197061?i=1081197290&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d1/81/cd/d181cd62-dd0a-502c-40e2-c9d01c5f1486/mzaf_13694903938571323497.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/4b/be/c4/4bbec403-54c1-7db9-e2fb-f5568fdad60a/886445729603.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/low-life-feat-the-weeknd/1081197363?i=1081197914&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/6c/38/e16c3889-cac4-433d-d6cd-f5cb6220c4a5/mzaf_4889601996817601198.plus.aac.p.m4a",
   "artists": [
    "Future",
    "The Weeknd"
   ],
   "genre": "Rap",
   "rank": 784200,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1034561335,
+  "id": 1506297772,
   "title": "March Madness",
   "artist": "Future",
   "credit": "Future",
   "year": 2015,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b0/ca/34/b0ca349f-d3ce-3734-a97f-31578f0b214e/886445475784.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/march-madness/1034561334?i=1034561335&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/1f/14/5c1f1470-473d-fe73-672b-bcfa98fe08e0/mzaf_11991804174129562316.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f4/5c/bc/f45cbc87-8e29-b069-39d8-71db2fc0d1e3/886448381211.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/march-madness/1506297314?i=1506297772&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/03/82/5c0382f4-b213-09d7-e3c6-e334c9d0c94f/mzaf_4690595544095466665.plus.aac.p.m4a",
   "artists": [
    "Future"
   ],
   "genre": "Rap",
   "rank": 533855,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1621611495,
+  "id": 1621119447,
   "title": "WAIT FOR U",
   "artist": "Future",
   "credit": "Future feat. Drake & Tems",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c8/4c/fa/c84cfa03-1916-89f1-5362-03425fbe2ff9/196589073709.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/wait-for-u-feat-drake-tems/1621610722?i=1621611495&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/c7/b7/45c7b762-45b3-c597-aa82-7f028c5efe00/mzaf_12117055212901229792.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/65/f2/06/65f2067b-a8ea-239c-c219-8e0f0282dcea/196589073693.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/wait-for-u-feat-drake-tems/1621119097?i=1621119447&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/77/67/90/77679025-8a80-42a2-bbcd-335dd083295b/mzaf_11646896799515737302.plus.aac.p.m4a",
   "artists": [
    "Future",
    "Drake",
@@ -3652,17 +3870,18 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 747139,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1737320971,
+  "id": 1737150439,
   "title": "Like That",
   "artist": "Future",
   "credit": "Future, Metro Boomin & Kendrick Lamar",
   "year": 2024,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/b6/46/feb64670-4fe7-bbc0-1101-c5f11bfb6905/196871937399.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/like-that/1737320962?i=1737320971&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f3/a1/62/f3a16204-9799-d6a6-1aa4-96ee3502471c/mzaf_13967808582282742708.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/9f/7b/4e9f7b71-28ad-a8dc-9b34-da532feb82f6/196871937382.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/like-that/1737149923?i=1737150439&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0d/43/77/0d43774e-5ceb-5ef0-d6ef-413aafedfda9/mzaf_3430860277257077664.plus.aac.p.m4a",
   "artists": [
    "Future",
    "Metro Boomin",
@@ -3670,359 +3889,381 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 718595,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1017125757,
+  "id": 1017055088,
   "title": "Where Ya At",
   "artist": "Future",
   "credit": "Future feat. Drake",
   "year": 2015,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/21/01/d0/2101d0ef-079a-974e-317a-780275f8c269/886445328547.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/where-ya-at-feat-drake/1017125737?i=1017125757&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2c/ef/26/2cef26c2-0fe4-8a22-52c8-7a07678f4c06/mzaf_15293701633937899383.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0a/46/ab/0a46ab3a-2415-0659-2cc2-f3f173144bd5/886445328530.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/where-ya-at-feat-drake/1017053934?i=1017055088&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/54/cc/1c/54cc1c31-b739-8ac6-b86f-5300ed782b3b/mzaf_7093323233087860336.plus.aac.p.m4a",
   "artists": [
    "Future",
    "Drake"
   ],
   "genre": "Rap",
   "rank": 479171,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1017125760,
+  "id": 1017055092,
   "title": "Stick Talk",
   "artist": "Future",
   "credit": "Future",
   "year": 2015,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/21/01/d0/2101d0ef-079a-974e-317a-780275f8c269/886445328547.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/stick-talk/1017125737?i=1017125760&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5b/3f/11/5b3f117f-d9cb-0627-16d6-d16df5f3ea9c/mzaf_8883890289383858089.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0a/46/ab/0a46ab3a-2415-0659-2cc2-f3f173144bd5/886445328530.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/stick-talk/1017053934?i=1017055092&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/9e/27/419e270f-df7a-fee0-2e8f-46ab2ff6e8c4/mzaf_11983743748430993131.plus.aac.p.m4a",
   "artists": [
    "Future"
   ],
   "genre": "Rap",
   "rank": 404518,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 834629427,
+  "id": 834632504,
   "title": "Honest",
   "artist": "Future",
   "credit": "Future",
   "year": 2013,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/23/8f/c1/238fc198-b927-8a36-876b-62085dfcaf9f/886444518451.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/honest/834629124?i=834629427&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/f6/1e/50f61e84-4277-bfbe-56aa-ba142a75072b/mzaf_16505366523606005211.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/82/45/f4/8245f4c4-6821-ccbd-27cd-7287427e195b/886444518444.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/honest/834632492?i=834632504&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bf/1a/ac/bf1aac5d-25ee-a9fb-bce9-098ca00be9ee/mzaf_8168415474205303430.plus.aac.p.m4a",
   "artists": [
    "Future"
   ],
   "genre": "Rap",
   "rank": 386939,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1017125752,
+  "id": 1017054903,
   "title": "Thought It Was a Drought",
   "artist": "Future",
   "credit": "Future",
   "year": 2015,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/21/01/d0/2101d0ef-079a-974e-317a-780275f8c269/886445328547.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/thought-it-was-a-drought/1017125737?i=1017125752&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/06/a2/c406a2c2-dfb7-186b-d25a-84836294b19f/mzaf_6753642335817946415.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0a/46/ab/0a46ab3a-2415-0659-2cc2-f3f173144bd5/886445328530.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/thought-it-was-a-drought/1017053934?i=1017054903&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/20/18/67/20186785-b213-6113-cdc7-33b82b3e855a/mzaf_9732135701612524103.plus.aac.p.m4a",
   "artists": [
    "Future"
   ],
   "genre": "Rap",
   "rank": 455745,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1205690474,
+  "id": 1205691962,
   "title": "Draco",
   "artist": "Future",
   "credit": "Future",
   "year": 2017,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/e1/fe/9d/e1fe9d22-2a74-cb1d-03c7-d804f471b160/886446376899.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/draco/1205690332?i=1205690474&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/20/b4/01/20b401ef-baea-d210-df3e-85ca026b44e2/mzaf_8491241405525370372.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/f3/f0/01/f3f001e3-a40c-099b-df3e-b292e1e6b854/886446371962.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/draco/1205691905?i=1205691962&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/a6/98/f2a69883-28e4-068f-149c-4a9469155028/mzaf_3891323210341698508.plus.aac.p.m4a",
   "artists": [
    "Future"
   ],
   "genre": "Rap",
   "rank": 493433,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1208303499,
+  "id": 1208302937,
   "title": "Selfish",
   "artist": "Future",
   "credit": "Future feat. Rihanna",
   "year": 2017,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/16/91/9e/16919e50-2709-9882-fab2-415b73cbebe6/886446376912.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/selfish-feat-rihanna/1208303209?i=1208303499&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/88/98/de/8898deab-3753-7984-ad49-f6cb0afa4533/mzaf_5017540710303716620.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/5b/7c/7d5b7c69-0ab4-1ef2-e1b5-fb42fd1b5fa4/886446376905.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/selfish-feat-rihanna/1208302551?i=1208302937&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/95/19/99/951999dd-55c2-dd4f-cd77-4a7262517a11/mzaf_3286707004554754088.plus.aac.p.m4a",
   "artists": [
    "Future",
    "Rihanna"
   ],
   "genre": "Rap",
   "rank": 500808,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1172598584,
+  "id": 1172512610,
   "title": "Used to This",
   "artist": "Future",
   "credit": "Future feat. Drake",
   "year": 2016,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/09/ee/d6/09eed64c-14dd-8bb7-6654-64a94209c5fe/886446180762.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/used-to-this-feat-drake/1172598569?i=1172598584&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/10/83/441083ba-5138-6f8a-b1e7-fe75efd77501/mzaf_1483179252176627746.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/72/30/b3/7230b3e9-349d-f3c8-76d9-838e0d3a8842/886446180748.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/used-to-this-feat-drake/1172512548?i=1172512610&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/19/3b/cd/193bcd00-859c-f148-3435-d848cf1045d0/mzaf_7782670181739675179.plus.aac.p.m4a",
   "artists": [
    "Future",
    "Drake"
   ],
   "genre": "Rap",
   "rank": 421937,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1621611233,
+  "id": 1621119442,
   "title": "PUFFIN ON ZOOTIEZ",
   "artist": "Future",
   "credit": "Future",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c8/4c/fa/c84cfa03-1916-89f1-5362-03425fbe2ff9/196589073709.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/puffin-on-zootiez/1621610722?i=1621611233&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/9f/da/669fda6a-36c7-4692-7ee8-09e1a7fe354a/mzaf_7740878029521855446.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/65/f2/06/65f2067b-a8ea-239c-c219-8e0f0282dcea/196589073693.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/puffin-on-zootiez/1621119097?i=1621119442&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/38/c1/cd/38c1cd0f-f752-8fed-4de5-12fe06fa63b4/mzaf_9255696139978393539.plus.aac.p.m4a",
   "artists": [
    "Future"
   ],
   "genre": "Rap",
   "rank": 581114,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1621610728,
+  "id": 1621119107,
   "title": "712PM",
   "artist": "Future",
   "credit": "Future",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c8/4c/fa/c84cfa03-1916-89f1-5362-03425fbe2ff9/196589073709.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/712pm/1621610722?i=1621610728&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c7/a0/bc/c7a0bc80-60ba-790f-8528-50334d2f5d71/mzaf_14063202181823251761.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/65/f2/06/65f2067b-a8ea-239c-c219-8e0f0282dcea/196589073693.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/712pm/1621119097?i=1621119107&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/c2/01/13c20118-b4db-46a9-2407-2309c87ada79/mzaf_17128793668811427851.plus.aac.p.m4a",
   "artists": [
    "Future"
   ],
   "genre": "Rap",
   "rank": 436826,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1449909243,
+  "id": 1448780190,
   "title": "Crushed Up",
   "artist": "Future",
   "credit": "Future",
   "year": 2019,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/56/0e/02/560e024d-bb60-9482-7d18-47ff08d4d2b0/886447486207.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/crushed-up/1449909236?i=1449909243&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6a/d9/da/6ad9daa9-8e55-3dfb-aab6-20228a00004c/mzaf_9400380931215870817.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d7/20/e2/d720e257-a6e7-fec1-4546-b83f73dc071f/886447486191.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/crushed-up/1448780185?i=1448780190&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7c/37/74/7c3774f7-c98b-fe7d-3edd-4646367288e2/mzaf_6375193609100754631.plus.aac.p.m4a",
   "artists": [
    "Future"
   ],
   "genre": "Rap",
   "rank": 415047,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1513388882,
+  "id": 1513037926,
   "title": "Solitaires",
   "artist": "Future",
   "credit": "Future feat. Travis Scott",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/64/ce/3f/64ce3f2a-b523-8f83-46fc-ef70b6ea48ff/886448469704.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/solitaires-feat-travis-scott/1513388867?i=1513388882&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/74/b9/5d74b988-f168-2a07-f6ee-30e6bf486b70/mzaf_3121537704419930759.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0b/28/ab/0b28aba1-f2d7-5f0b-d776-0c946e93ea7a/886448469605.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/solitaires-feat-travis-scott/1513037920?i=1513037926&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/a6/e6/6ba6e669-b88f-7cc1-590c-5fc28949a1d5/mzaf_8458546265370457811.plus.aac.p.m4a",
   "artists": [
    "Future",
    "Travis Scott"
   ],
   "genre": "Rap",
   "rank": 500290,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1513389466,
+  "id": 1513037941,
   "title": "Too Comfortable",
   "artist": "Future",
   "credit": "Future",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/64/ce/3f/64ce3f2a-b523-8f83-46fc-ef70b6ea48ff/886448469704.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/too-comfortable/1513388867?i=1513389466&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/a1/36/f8a136ff-005b-4ebb-e0d9-0889f5a4ebed/mzaf_14934684208894860164.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0b/28/ab/0b28aba1-f2d7-5f0b-d776-0c946e93ea7a/886448469605.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/too-comfortable/1513037920?i=1513037941&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/26/9b/f1/269bf1c1-0025-6d4a-168e-207f915e83ff/mzaf_2363810586932969453.plus.aac.p.m4a",
   "artists": [
    "Future"
   ],
   "genre": "Rap",
   "rank": 522347,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1447177630,
+  "id": 1407165118,
   "title": "Lucid Dreams",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD",
   "year": 2017,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/9b/af/759baf5f-f3c9-b8c7-d3cf-55a3079914b9/18UMGIM24792.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/lucid-dreams/1447177477?i=1447177630&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/cb/87/9ccb87b5-cfd0-a77c-94fb-fe6fa124bcef/mzaf_7202917834670087023.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e4/ca/3a/e4ca3a6c-b144-15db-5fdc-62ec22c9b813/18UMGIM30624.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/lucid-dreams/1407165109?i=1407165118&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/c8/ab/f4c8abaf-c992-6b59-f0e9-eca53178c5d0/mzaf_2384420549198014001.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD"
   ],
   "genre": "Rap",
   "rank": 832399,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1618089379,
+  "id": 1445927026,
   "title": "All Girls Are the Same",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD",
   "year": 2017,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/f8/6c/2a/f86c2ae0-b4eb-578c-1f02-3acb8409b815/21UMGIM53733.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/all-girls-are-the-same/1618089374?i=1618089379&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/b3/48/d9b348a1-215e-67d2-5f7d-d10ecdf318af/mzaf_9637773098199328780.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/14/b2/eb14b2c0-176d-d239-8c8a-c7b02a33fd5b/18UMGIM30624.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/all-girls-are-the-same/1445927022?i=1445927026&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/a0/65/b7a06504-a56e-15f3-865e-f457a87517bf/mzaf_17368228360228931668.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD"
   ],
   "genre": "Rap",
   "rank": 717803,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1609138720,
+  "id": 1454441104,
   "title": "Robbery",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD",
   "year": 2019,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/62/10/cf/6210cf4a-be77-3d97-218d-834f68bb33b3/19UMGIM16006.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/robbery/1609138628?i=1609138720&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/7f/00/fd7f0051-8757-536a-3967-17ceb2dbba5e/mzaf_3677615810180922699.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c0/0e/bc/c00ebc17-ea35-8abf-f4e5-85d1e4423fd1/19UMGIM16007.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/robbery/1454440896?i=1454441104&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/20/05/1a/20051a29-8d1f-b795-1dc9-a79a6d0ed0c8/mzaf_2093382673371665358.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD"
   ],
   "genre": "Rap",
   "rank": 677741,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1526575743,
+  "id": 1526562185,
   "title": "Wishing Well",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/39/b1/1e/39b11eef-4709-bf53-2b5b-7954d2782496/20UMGIM58296.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/wishing-well/1526575291?i=1526575743&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/13/5d/06135d4e-ea6f-39f9-24c1-828b285e90db/mzaf_17132896124065690258.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f5/a5/3b/f5a53beb-c1af-a05e-ebbd-6df101507553/20UMGIM58295.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/wishing-well/1526561014?i=1526562185&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/46/c9/d046c95c-6802-419f-8e89-b83237319d8a/mzaf_4116347694748421146.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD"
   ],
   "genre": "Rap",
   "rank": 640673,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1526575738,
+  "id": 1526562177,
   "title": "Come & Go",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD & Marshmello",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/39/b1/1e/39b11eef-4709-bf53-2b5b-7954d2782496/20UMGIM58296.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/come-go/1526575291?i=1526575738&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/80/95/3780957b-4180-3ea2-ea15-d48a5b3bb0ba/mzaf_4689983440939425430.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f5/a5/3b/f5a53beb-c1af-a05e-ebbd-6df101507553/20UMGIM58295.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/come-go/1526561014?i=1526562177&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/0d/99/0a0d99c9-9df9-bcad-6b0e-0621df6c8d57/mzaf_16110722180420934136.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD",
    "Marshmello"
   ],
   "genre": "Rap",
   "rank": 716145,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1481647419,
+  "id": 1481647222,
   "title": "Bandit",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD & YoungBoy Never Broke Again",
   "year": 2019,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a2/0a/ef/a20aef87-5300-3799-7843-dd06989602a4/19UMGIM88621.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/bandit/1481647240?i=1481647419&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7b/99/a9/7b99a9db-c07b-e437-0566-3a412fc26835/mzaf_6974014957485772143.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5a/88/ad/5a88ad2e-83f7-301e-d3e7-1b7e6b8f5325/19UMGIM88620.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/bandit/1481647215?i=1481647222&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ae/ec/13/aeec139b-d584-f027-5224-f0f615a20dce/mzaf_7532381931838089853.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD",
    "YoungBoy Never Broke Again"
   ],
   "genre": "Rap",
   "rank": 571231,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1614302940,
+  "id": 1401799886,
   "title": "Legends",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD",
   "year": 2021,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5a/18/b6/5a18b6f3-61cc-2ccc-3d59-874d3a7a2603/21UM1IM54284.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/legends/1614302711?i=1614302940&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/82/73/6d/82736d90-e8e2-f309-0631-0f2589afd91d/mzaf_5015466109723664233.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/75/32/64753221-30f8-166f-071a-3073985f3ccc/18UMGIM38873.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/legends/1401799872?i=1401799886&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/bb/38/b4bb38bc-6ab8-089c-a13f-e82c316f1a04/mzaf_2353966575090913077.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD"
   ],
   "genre": "Rap",
   "rank": 597965,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1618089382,
+  "id": 1445927031,
   "title": "Lean Wit Me",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/f8/6c/2a/f86c2ae0-b4eb-578c-1f02-3acb8409b815/21UMGIM53733.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/lean-wit-me/1618089374?i=1618089382&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/ba/23/89ba237d-6cfc-c9b0-3b91-fbb9ed9096ce/mzaf_7666711784786820724.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/14/b2/eb14b2c0-176d-d239-8c8a-c7b02a33fd5b/18UMGIM30624.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/lean-wit-me/1445927022?i=1445927031&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/9f/c6/ca9fc675-9018-0dd1-4ac4-877595cae510/mzaf_16076715949206717498.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD"
   ],
   "genre": "Rap",
   "rank": 592701,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1526575718,
+  "id": 1509339479,
   "title": "Righteous",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/39/b1/1e/39b11eef-4709-bf53-2b5b-7954d2782496/20UMGIM58296.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/righteous/1526575291?i=1526575718&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/7e/27/cb7e27dd-7fde-a882-0e6e-0fbf6969420f/mzaf_2707350002918467779.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/73/01/a2/7301a267-933e-498a-c610-55fd4937b995/20UMGIM29042.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/righteous/1509339474?i=1509339479&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3f/a5/4f/3fa54f51-ed31-8d31-b7cb-bb11082b83eb/mzaf_13573561787301567361.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD"
   ],
   "genre": "Rap",
   "rank": 568375,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1526575726,
+  "id": 1526562172,
   "title": "Hate the Other Side",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD, Marshmello & The Kid LAROI",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/39/b1/1e/39b11eef-4709-bf53-2b5b-7954d2782496/20UMGIM58296.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/hate-the-other-side/1526575291?i=1526575726&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/be/96/da/be96da15-7277-6d8d-142d-88758cf566d1/mzaf_17899478110576957757.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f5/a5/3b/f5a53beb-c1af-a05e-ebbd-6df101507553/20UMGIM58295.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/hate-the-other-side/1526561014?i=1526562172&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/4e/53/c04e5398-ff54-1c9d-8a25-74f657a63263/mzaf_8344247279795678672.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD",
    "Marshmello",
@@ -4030,164 +4271,174 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 528210,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1526575295,
+  "id": 1526562007,
   "title": "Conversations",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/39/b1/1e/39b11eef-4709-bf53-2b5b-7954d2782496/20UMGIM58296.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/conversations/1526575291?i=1526575295&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1f/da/52/1fda52a1-8997-d005-4b6b-b0ab139c30f0/mzaf_12599395036163729610.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f5/a5/3b/f5a53beb-c1af-a05e-ebbd-6df101507553/20UMGIM58295.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/conversations/1526561014?i=1526562007&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/8d/76/938d7652-3741-c680-2c5a-9742907b5e21/mzaf_4850122520199385275.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD"
   ],
   "genre": "Rap",
   "rank": 554169,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1526575735,
+  "id": 1526562176,
   "title": "Life's a Mess",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD & Halsey",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/39/b1/1e/39b11eef-4709-bf53-2b5b-7954d2782496/20UMGIM58296.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/lifes-a-mess/1526575291?i=1526575735&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/39/7c/e4/397ce41b-7438-f847-cafb-357fdea6d093/mzaf_12826118542725342494.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f5/a5/3b/f5a53beb-c1af-a05e-ebbd-6df101507553/20UMGIM58295.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/lifes-a-mess/1526561014?i=1526562176&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/36/a5/6536a59d-9478-e496-9487-8c410cc74afd/mzaf_9120868529369904475.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD",
    "Halsey"
   ],
   "genre": "Rap",
   "rank": 525449,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1526575721,
+  "id": 1526562029,
   "title": "Smile",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD & The Weeknd",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/39/b1/1e/39b11eef-4709-bf53-2b5b-7954d2782496/20UMGIM58296.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/smile/1526575291?i=1526575721&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/3d/e1/ba3de1d2-0923-e622-db87-099d8d86d9d4/mzaf_1885807968629980011.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f5/a5/3b/f5a53beb-c1af-a05e-ebbd-6df101507553/20UMGIM58295.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/smile/1526561014?i=1526562029&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/0b/db/670bdb5b-54c1-ca45-2f2e-763a5f50ef7e/mzaf_13046128436600072171.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD",
    "The Weeknd"
   ],
   "genre": "Rap",
   "rank": 600037,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1687712952,
+  "id": 1407179107,
   "title": "Wasted",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD feat. Lil Uzi Vert",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bb/7d/d3/bb7dd31e-d32a-6e8c-c4f5-5d80e5d72426/23UMGIM49821.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/wasted-feat-lil-uzi-vert/1687712597?i=1687712952&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/46/4d/49/464d491d-5a93-a463-8b4f-8dfcad88176e/mzaf_2640348504469812655.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/91/a3/78/91a378be-0aed-cfee-4d85-185324f22b83/18UMGIM41462.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/wasted-feat-lil-uzi-vert/1407179102?i=1407179107&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/55/8d/40558d04-f786-7607-fe0b-8585ea1acd98/mzaf_8087949808063846839.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD",
    "Lil Uzi Vert"
   ],
   "genre": "Rap",
   "rank": 553609,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1618089731,
+  "id": 1445927030,
   "title": "Black & White",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/f8/6c/2a/f86c2ae0-b4eb-578c-1f02-3acb8409b815/21UMGIM53733.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/black-white/1618089374?i=1618089731&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/56/5c/33565c34-57f8-fb65-1ff0-730bc4846816/mzaf_5354356036882140200.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/14/b2/eb14b2c0-176d-d239-8c8a-c7b02a33fd5b/18UMGIM30624.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/black-white/1445927022?i=1445927030&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/e9/35/6be935ce-1e29-cebd-38e4-90f6d850feb3/mzaf_7864159223333365318.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD"
   ],
   "genre": "Rap",
   "rank": 518718,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1609138650,
+  "id": 1454441025,
   "title": "Hear Me Calling",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD",
   "year": 2019,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/62/10/cf/6210cf4a-be77-3d97-218d-834f68bb33b3/19UMGIM16006.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/hear-me-calling/1609138628?i=1609138650&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/14/b6/ab/14b6ab7a-39f2-fb3b-1790-0a9db4540b96/mzaf_205809241257021331.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c0/0e/bc/c00ebc17-ea35-8abf-f4e5-85d1e4423fd1/19UMGIM16007.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/hear-me-calling/1454440896?i=1454441025&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/14/c5/7a14c5b5-7b05-92e9-340c-664a81130882/mzaf_128828262535433538.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD"
   ],
   "genre": "Rap",
   "rank": 491861,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1609138635,
+  "id": 1454441020,
   "title": "Fast",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD",
   "year": 2019,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/62/10/cf/6210cf4a-be77-3d97-218d-834f68bb33b3/19UMGIM16006.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/fast/1609138628?i=1609138635&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6d/84/01/6d840165-f5ae-39bb-0245-3cf9baebc9ff/mzaf_2868017584148428597.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c0/0e/bc/c00ebc17-ea35-8abf-f4e5-85d1e4423fd1/19UMGIM16007.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/fast/1454440896?i=1454441020&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/83/1a/43/831a4343-f833-a0a5-6ed6-c1ad699700ea/mzaf_6020767504385813946.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD"
   ],
   "genre": "Rap",
   "rank": 516257,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1609138629,
+  "id": 1454440906,
   "title": "Empty",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD",
   "year": 2019,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/62/10/cf/6210cf4a-be77-3d97-218d-834f68bb33b3/19UMGIM16006.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/empty/1609138628?i=1609138629&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/1c/05/051c05b9-bf8c-db29-a343-6b532051a1e1/mzaf_372440445563131077.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c0/0e/bc/c00ebc17-ea35-8abf-f4e5-85d1e4423fd1/19UMGIM16007.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/empty/1454440896?i=1454440906&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/5e/02/ce5e0235-0edf-a18a-95dc-2994b9f827ac/mzaf_8901782904644874038.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD"
   ],
   "genre": "Rap",
   "rank": 521217,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1614302718,
+  "id": 1594419556,
   "title": "Already Dead",
   "artist": "Juice WRLD",
   "credit": "Juice WRLD",
   "year": 2021,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5a/18/b6/5a18b6f3-61cc-2ccc-3d59-874d3a7a2603/21UM1IM54284.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/already-dead/1614302711?i=1614302718&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/79/54/71795411-a1b2-c88f-13ba-a4f3effc6947/mzaf_669913420392940672.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9b/88/05/9b88055c-c003-8196-798c-09cfa6447593/21UM1IM38161.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/already-dead/1594419406?i=1594419556&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a6/a3/25/a6a32532-b1b7-410a-c53a-eef86caa78ae/mzaf_16046190333222467473.plus.aac.p.m4a",
   "artists": [
    "Juice WRLD"
   ],
   "genre": "Rap",
   "rank": 487674,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1604376332,
+  "id": 1604944757,
   "title": "pushin P",
   "artist": "Gunna",
   "credit": "Gunna & Future feat. Young Thug",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8d/43/bf/8d43bf02-9bd8-6dd9-a3e0-662175cf7a2b/810043689250.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/pushin-p-feat-young-thug/1604376321?i=1604376332&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/67/93/246793a3-bee5-5e90-84d9-193c82679f34/mzaf_6895614983229375670.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e6/52/54/e6525474-f011-257e-04b7-12ecbae264e1/810043689519.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/pushin-p-feat-young-thug/1604944424?i=1604944757&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/97/01/de/9701de80-d49e-b9d9-fcde-f803594eca78/mzaf_2202817677022198025.plus.aac.p.m4a",
   "artists": [
    "Gunna",
    "Future",
@@ -4195,164 +4446,174 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 550549,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1437958680,
+  "id": 1437955726,
   "title": "Drip Too Hard",
   "artist": "Gunna",
   "credit": "Lil Baby & Gunna",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/73/2f/51/732f51a6-2f11-bdf6-dffc-f8b68e22b7ad/18UMGIM62580.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/drip-too-hard/1437958608?i=1437958680&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8a/ad/b6/8aadb675-ddd7-1127-8e82-760b37eb352a/mzaf_1875505956465342074.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e0/6e/7c/e06e7c84-345e-3617-7108-cda9ca9ccc68/18UMGIM62579.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/drip-too-hard/1437955279?i=1437955726&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/76/5a/49765ae5-74cf-c937-e7c9-2fd7cd61536d/mzaf_4870607574729546378.plus.aac.p.m4a",
   "artists": [
    "Lil Baby",
    "Gunna"
   ],
   "genre": "Rap",
   "rank": 728306,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1500961715,
+  "id": 1500963951,
   "title": "SKYBOX",
   "artist": "Gunna",
   "credit": "Gunna",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/72/bd/3f/72bd3fab-fa1b-1820-f988-e3271a7f7c5c/810043680424.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/skybox/1500961713?i=1500961715&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/22/c1/37/22c137c1-9e02-a137-b9cb-eeea28179eae/mzaf_2135179790619585201.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/56/37/25/563725d9-f322-7b11-c340-f7020790ce12/810043680417.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/skybox/1500963949?i=1500963951&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a9/41/3d/a9413dc6-0799-2681-2859-97e5806fc68e/mzaf_1516549127292833768.plus.aac.p.m4a",
   "artists": [
    "Gunna"
   ],
   "genre": "Rap",
   "rank": 361891,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1514515780,
+  "id": 1514490034,
   "title": "DOLLAZ ON MY HEAD",
   "artist": "Gunna",
   "credit": "Gunna feat. Young Thug",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/61/3c/80/613c80d7-c96c-9ce8-e5b9-cb8dbfdc1338/810043681469.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/dollaz-on-my-head-feat-young-thug/1514515498?i=1514515780&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/7c/d5/ca7cd570-7bc7-0d06-6b12-145c9f9fd3e4/mzaf_17271901417281304307.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/82/db/15/82db15f2-22b2-728a-2a44-ebd7b58b2f9e/810043680837.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/dollaz-on-my-head-feat-young-thug/1514490028?i=1514490034&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/e0/0a/3ce00a13-6320-7898-7689-bbb3eacd9101/mzaf_10774269159629485516.plus.aac.p.m4a",
   "artists": [
    "Gunna",
    "Young Thug"
   ],
   "genre": "Rap",
   "rank": 611198,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1514515867,
+  "id": 1514490406,
   "title": "WUNNA",
   "artist": "Gunna",
   "credit": "Gunna",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/61/3c/80/613c80d7-c96c-9ce8-e5b9-cb8dbfdc1338/810043681469.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/wunna/1514515498?i=1514515867&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/90/dc/59/90dc598a-79f5-b853-90d5-1be9844fdda4/mzaf_6489457466995018116.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/82/db/15/82db15f2-22b2-728a-2a44-ebd7b58b2f9e/810043680837.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/wunna/1514490028?i=1514490406&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/88/a2/6d/88a26de9-8b5a-fcb9-e355-c4597d4d832f/mzaf_6467574110129168058.plus.aac.p.m4a",
   "artists": [
    "Gunna"
   ],
   "genre": "Rap",
   "rank": 474335,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1604377115,
+  "id": 1587196023,
   "title": "too easy",
   "artist": "Gunna",
   "credit": "Gunna & Future",
   "year": 2021,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8d/43/bf/8d43bf02-9bd8-6dd9-a3e0-662175cf7a2b/810043689250.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/too-easy/1604376321?i=1604377115&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/90/69/5b906968-67d0-c2c9-6f2d-e38c8a81c523/mzaf_12275852345707457265.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/81/33/58/8133586d-2ff5-c0e2-652c-767c2fc4b6e6/810043687782.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/too-easy/1587196022?i=1587196023&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/65/86/0f65868d-d839-5205-eb5d-05c50f556505/mzaf_9416583495766135455.plus.aac.p.m4a",
   "artists": [
    "Gunna",
    "Future"
   ],
   "genre": "Rap",
   "rank": 379510,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1745391778,
+  "id": 1744458044,
   "title": "one of wun",
   "artist": "Gunna",
   "credit": "Gunna",
   "year": 2024,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f6/84/c3/f684c30e-9ea6-7532-429d-de6d22345614/075679660343.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/one-of-wun/1745391617?i=1745391778&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/01/3f/11/013f1120-893f-7b45-c53b-70339be94f3a/mzaf_15997137857898656795.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/42/4e/45/424e4521-37b7-6f49-293a-98a1285ed7c5/075679660336.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/one-of-wun/1744458034?i=1744458044&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/7f/1c/387f1c35-146d-92c5-e52f-6e3a7e8f1e74/mzaf_17351504890538750624.plus.aac.p.m4a",
   "artists": [
    "Gunna"
   ],
   "genre": "Rap",
   "rank": 636092,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1774072933,
+  "id": 1774073509,
   "title": "HIM ALL ALONG",
   "artist": "Gunna",
   "credit": "Gunna",
   "year": 2024,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/4c/90/fc4c9023-915b-370c-9658-eb81a04036e4/075679628244.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/him-all-along/1774072929?i=1774072933&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/d8/5f/54d85f5a-618c-25fd-6fc9-b97fa763a9e6/mzaf_16296648872333198925.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/68/12/a06812aa-110a-77b7-723f-662f5e977480/075679628237.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/him-all-along/1774072803?i=1774073509&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d8/75/30/d87530a5-6a09-b68d-892e-738bba4df019/mzaf_17805678013177549720.plus.aac.p.m4a",
   "artists": [
    "Gunna"
   ],
   "genre": "Rap",
   "rank": 534739,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1453759784,
+  "id": 1452313873,
   "title": "Baby Birkin",
   "artist": "Gunna",
   "credit": "Gunna",
   "year": 2019,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/56/f7/54/56f75470-bda9-c793-543f-849e16c115be/814908027591.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/baby-birkin/1453759561?i=1453759784&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7b/1e/d5/7b1ed567-193b-7d5c-bd39-373b8f78186e/mzaf_13293226451600139761.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/45/31/9645314d-34fc-3fc4-0339-85e30f455cd9/814908027522.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/baby-birkin/1452313862?i=1452313873&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f1/57/df/f157df27-2342-7471-e6f1-c62a07475527/mzaf_10537333428005112468.plus.aac.p.m4a",
   "artists": [
    "Gunna"
   ],
   "genre": "Rap",
   "rank": 330542,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1453759786,
+  "id": 1452313874,
   "title": "Speed It Up",
   "artist": "Gunna",
   "credit": "Gunna",
   "year": 2019,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/56/f7/54/56f75470-bda9-c793-543f-849e16c115be/814908027591.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/speed-it-up/1453759561?i=1453759786&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/eb/74/8f/eb748fdb-1980-8b98-4d1d-2a9565533b86/mzaf_4242182349468871876.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/45/31/9645314d-34fc-3fc4-0339-85e30f455cd9/814908027522.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/speed-it-up/1452313862?i=1452313874&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ef/aa/e6/efaae649-35c3-511e-c865-a8ec4cc8004a/mzaf_11696027003299738856.plus.aac.p.m4a",
   "artists": [
    "Gunna"
   ],
   "genre": "Rap",
   "rank": 298975,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1437958683,
+  "id": 1437955727,
   "title": "Never Recover",
   "artist": "Gunna",
   "credit": "Lil Baby, Gunna & Drake",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/73/2f/51/732f51a6-2f11-bdf6-dffc-f8b68e22b7ad/18UMGIM62580.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/never-recover/1437958608?i=1437958683&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/1d/27/e11d27e5-69fb-e8ee-8c99-ef873c4a2719/mzaf_4181659010693739721.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e0/6e/7c/e06e7c84-345e-3617-7108-cda9ca9ccc68/18UMGIM62579.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/never-recover/1437955279?i=1437955727&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/3d/76/f93d76a4-4fb0-6f38-7063-2ff7b72557af/mzaf_13086925615868405123.plus.aac.p.m4a",
   "artists": [
    "Lil Baby",
    "Gunna",
@@ -4360,73 +4621,78 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 589765,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1693517768,
+  "id": 1692838511,
   "title": "bread & butter",
   "artist": "Gunna",
   "credit": "Gunna",
   "year": 2023,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/f8/ef/aff8ef1c-e1e7-8c70-75fa-2201d8785f3d/075679678492.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/bread-butter/1693517473?i=1693517768&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/0c/9b/860c9bf5-d2c7-8219-6762-c1b34c6369d4/mzaf_13904266593866995892.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/82/29/76/822976d1-f1db-6626-e2f7-55343995ecd9/075679678485.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/bread-butter/1692838126?i=1692838511&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3d/15/76/3d15762c-965d-2697-0a0a-c2451e73ebca/mzaf_11942872085668627770.plus.aac.p.m4a",
   "artists": [
    "Gunna"
   ],
   "genre": "Rap",
   "rank": 417208,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1693517756,
+  "id": 1692838494,
   "title": "rodeo dr",
   "artist": "Gunna",
   "credit": "Gunna",
   "year": 2023,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/f8/ef/aff8ef1c-e1e7-8c70-75fa-2201d8785f3d/075679678492.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/rodeo-dr/1693517473?i=1693517756&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3a/5a/32/3a5a3207-9aab-fcd5-4fe8-76122ed9aae9/mzaf_4930074970639657330.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/82/29/76/822976d1-f1db-6626-e2f7-55343995ecd9/075679678485.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/rodeo-dr/1692838126?i=1692838494&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/53/b4/ce53b4e7-17fb-c178-78f1-c88942ee04f6/mzaf_17939918712858923743.plus.aac.p.m4a",
   "artists": [
    "Gunna"
   ],
   "genre": "Rap",
   "rank": 442295,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1745391793,
+  "id": 1744458268,
   "title": "Prada Dem",
   "artist": "Gunna",
   "credit": "Gunna feat. Offset",
   "year": 2024,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f6/84/c3/f684c30e-9ea6-7532-429d-de6d22345614/075679660343.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/prada-dem-feat-offset/1745391617?i=1745391793&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f1/0c/40/f10c409d-b10e-59a7-bc56-1c1dce0aea0e/mzaf_10821531413223321389.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/42/4e/45/424e4521-37b7-6f49-293a-98a1285ed7c5/075679660336.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/prada-dem-feat-offset/1744458034?i=1744458268&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/87/8c/f6878c09-dfc0-d003-ea13-03b8932c6a45/mzaf_17983355537589413113.plus.aac.p.m4a",
   "artists": [
    "Gunna",
    "Offset"
   ],
   "genre": "Rap",
   "rank": 513678,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1477895573,
+  "id": 1476636943,
   "title": "Hot",
   "artist": "Gunna",
   "credit": "Young Thug feat. Gunna",
   "year": 2019,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/39/f9/4d/39f94db0-5d28-4247-9d7c-950cd33a36a0/075679837325.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/hot-feat-gunna/1477895569?i=1477895573&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/eb/70/4b/eb704b68-413f-11d7-4b5b-59ae6d3b02bd/mzaf_1109033522928410322.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1f/f3/57/1ff35761-4124-912a-baef-02b236c977df/075679838612.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/hot-feat-gunna/1476636939?i=1476636943&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/6e/b6/416eb688-2e60-4879-3372-3badbded746b/mzaf_17525285186763568046.plus.aac.p.m4a",
   "artists": [
    "Young Thug",
    "Gunna"
   ],
   "genre": "Rap",
   "rank": 648784,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1502319171,
@@ -4442,17 +4708,18 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 754997,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1711562293,
+  "id": 1711424375,
   "title": "Lemonade",
   "artist": "Don Toliver",
   "credit": "Internet Money, Gunna & Don Toliver feat. NAV",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6f/6e/5f/6f6e5f75-7a2c-91c0-6ecc-5ed0c93e89e1/842812133862.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/lemonade-feat-nav/1711562289?i=1711562293&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/18/04/a9/1804a9e0-ae12-51e1-823d-ca9c114e84b1/mzaf_13985001673607573329.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7b/8c/b9/7b8cb94f-15a1-02af-130b-8c1ced7e8357/842812136894.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/lemonade-feat-nav/1711423948?i=1711424375&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/8a/32/a08a322f-c33f-54e3-284e-cc1c654d3e10/mzaf_12019535786579408052.plus.aac.p.m4a",
   "artists": [
    "Internet Money",
    "Gunna",
@@ -4461,17 +4728,18 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 764861,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1674022541,
+  "id": 1672446222,
   "title": "Private Landing",
   "artist": "Don Toliver",
   "credit": "Don Toliver feat. Justin Bieber & Future",
   "year": 2023,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2e/82/ad/2e82adaa-162d-80cd-59c0-a415b3ccf268/075679699916.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/private-landing-feat-justin-bieber-future/1674022160?i=1674022541&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/42/5c/cb425c10-0ef1-6eda-dfd5-9b180fb30b74/mzaf_973930821348998994.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/15/3a/d1/153ad1fe-7884-a2e5-18be-750a21bd1af1/075679699893.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/private-landing-feat-justin-bieber-future/1672446197?i=1672446222&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/f2/e9/50f2e925-e36c-2b1b-f33f-e2a9f5bcde26/mzaf_14076988485635509790.plus.aac.p.m4a",
   "artists": [
    "Don Toliver",
    "Justin Bieber",
@@ -4479,23 +4747,25 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 683568,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1754429229,
+  "id": 1753900896,
   "title": "Bandit",
   "artist": "Don Toliver",
   "credit": "Don Toliver",
   "year": 2024,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/42/50/0d/42500d90-adc2-f617-bd7f-ea67195fe76c/075679638144.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/bandit/1754428698?i=1754429229&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ff/d0/f2/ffd0f28b-7ac2-39d4-80a4-1d837b786f43/mzaf_2623561114685478443.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/3c/5d/223c5d96-501e-040e-a34d-0608e6e5c4ff/075679638434.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/bandit/1753900450?i=1753900896&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/d7/4d/80d74dd6-475d-2af2-9205-cf374e8f3245/mzaf_17232240410523024885.plus.aac.p.m4a",
   "artists": [
    "Don Toliver"
   ],
   "genre": "Rap",
   "rank": 657078,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1502319159,
@@ -4511,90 +4781,96 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 616766,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1566630619,
+  "id": 1587804195,
   "title": "What You Need",
   "artist": "Don Toliver",
   "credit": "Don Toliver",
   "year": 2021,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/85/8d/01/858d011b-63de-222e-e5b1-369b5f2a0ce5/075679781802.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/what-you-need/1566630618?i=1566630619&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/fa/da/6cfada07-445c-5c7e-6c1d-ef86b1b6909b/mzaf_2163220084197711448.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/ca/a0/fccaa0f7-0c60-0f80-ab06-5b3c7e23e240/075679767868.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/what-you-need/1587804188?i=1587804195&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/86/af/bd/86afbdf4-be57-3db2-24a4-65db1ab2454e/mzaf_4359729881738102830.plus.aac.p.m4a",
   "artists": [
    "Don Toliver"
   ],
   "genre": "Rap",
   "rank": 541547,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1589899620,
+  "id": 1587804198,
   "title": "Drugs N Hella Melodies",
   "artist": "Don Toliver",
   "credit": "Don Toliver feat. Kali Uchis",
   "year": 2021,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b1/05/3d/b1053d96-a026-324e-9322-decf3836ac1f/075679766335.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/drugs-n-hella-melodies-feat-kali-uchis/1589899599?i=1589899620&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/c0/21/0bc02121-0801-a8e8-358f-aaae83025c4a/mzaf_4474946089226814651.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/ca/a0/fccaa0f7-0c60-0f80-ab06-5b3c7e23e240/075679767868.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/drugs-n-hella-melodies-feat-kali-uchis/1587804188?i=1587804198&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/c7/f9/2ac7f970-d3b9-d9ef-0146-6b4297106aeb/mzaf_14992272671682852943.plus.aac.p.m4a",
   "artists": [
    "Don Toliver",
    "Kali Uchis"
   ],
   "genre": "Rap",
   "rank": 594795,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1589899609,
+  "id": 1587804194,
   "title": "Flocky Flocky",
   "artist": "Don Toliver",
   "credit": "Don Toliver feat. Travis Scott",
   "year": 2021,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b1/05/3d/b1053d96-a026-324e-9322-decf3836ac1f/075679766335.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/flocky-flocky-feat-travis-scott/1589899599?i=1589899609&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/d0/1b/35d01b7b-f67d-b2d2-0888-f79ab150fd46/mzaf_5977658534452312926.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/ca/a0/fccaa0f7-0c60-0f80-ab06-5b3c7e23e240/075679767868.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/flocky-flocky-feat-travis-scott/1587804188?i=1587804194&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/e0/fc/13e0fc95-0482-b08c-b599-09f4345c08e8/mzaf_4603394757413764018.plus.aac.p.m4a",
   "artists": [
    "Don Toliver",
    "Travis Scott"
   ],
   "genre": "Rap",
   "rank": 525400,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1589899795,
+  "id": 1587804205,
   "title": "You",
   "artist": "Don Toliver",
   "credit": "Don Toliver feat. Travis Scott",
   "year": 2021,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b1/05/3d/b1053d96-a026-324e-9322-decf3836ac1f/075679766335.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/you-feat-travis-scott/1589899599?i=1589899795&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/52/70/625270e6-8e10-c777-d6f7-6699f485f4fd/mzaf_18090025747242306473.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/ca/a0/fccaa0f7-0c60-0f80-ab06-5b3c7e23e240/075679767868.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/you-feat-travis-scott/1587804188?i=1587804205&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/ee/85/42ee85cd-2eeb-f131-c4ab-33624324bb1b/mzaf_10325104599856468520.plus.aac.p.m4a",
   "artists": [
    "Don Toliver",
    "Travis Scott"
   ],
   "genre": "Rap",
   "rank": 819138,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1589899607,
+  "id": 1587804193,
   "title": "Way Bigger",
   "artist": "Don Toliver",
   "credit": "Don Toliver",
   "year": 2021,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b1/05/3d/b1053d96-a026-324e-9322-decf3836ac1f/075679766335.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/way-bigger/1589899599?i=1589899607&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6f/9c/79/6f9c79cf-b1fb-2165-ba54-d59db736763c/mzaf_9346138929835961981.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/ca/a0/fccaa0f7-0c60-0f80-ab06-5b3c7e23e240/075679767868.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/way-bigger/1587804188?i=1587804193&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1d/d4/4b/1dd44b51-a22d-95de-30e6-3df396e61636/mzaf_3104671770071547960.plus.aac.p.m4a",
   "artists": [
    "Don Toliver"
   ],
   "genre": "Rap",
   "rank": 544824,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1674873883,
@@ -4611,33 +4887,35 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 352918,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1674022545,
+  "id": 1672446225,
   "title": "Do It Right",
   "artist": "Don Toliver",
   "credit": "Don Toliver",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2e/82/ad/2e82adaa-162d-80cd-59c0-a415b3ccf268/075679699916.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/do-it-right/1674022160?i=1674022545&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c5/06/ba/c506babd-467e-07af-75d0-dde1b061cbd8/mzaf_1530172345127975736.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/15/3a/d1/153ad1fe-7884-a2e5-18be-750a21bd1af1/075679699893.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/do-it-right/1672446197?i=1672446225&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/ab/f3/3eabf38a-bddf-ccd6-1dc7-1e1f9a0af2bf/mzaf_17030444850637018800.plus.aac.p.m4a",
   "artists": [
    "Don Toliver"
   ],
   "genre": "Rap",
   "rank": 330503,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1674022472,
+  "id": 1672446201,
   "title": "Leave the Club",
   "artist": "Don Toliver",
   "credit": "Don Toliver feat. Lil Durk & GloRilla",
   "year": 2023,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2e/82/ad/2e82adaa-162d-80cd-59c0-a415b3ccf268/075679699916.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/leave-the-club-feat-lil-durk-glorilla/1674022160?i=1674022472&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7f/d9/8f/7fd98f68-e921-c68f-4340-c04cb3b6b8ce/mzaf_3478094593487059561.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/15/3a/d1/153ad1fe-7884-a2e5-18be-750a21bd1af1/075679699893.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/leave-the-club-feat-glorilla-lil-durk/1672446197?i=1672446201&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a9/88/1e/a9881e3c-d104-7d7f-3be3-d1088f31380a/mzaf_7761964135702147495.plus.aac.p.m4a",
   "artists": [
    "Don Toliver",
    "Lil Durk",
@@ -4645,24 +4923,26 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 350964,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1752794287,
+  "id": 1753900685,
   "title": "BROTHER STONE",
   "artist": "Don Toliver",
   "credit": "Don Toliver feat. KODAK BLACK",
   "year": 2024,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/de/bf/44debf50-b8c0-85b7-0ac9-1f5acfc3e138/075679660763.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/brother-stone-feat-kodak-black/1752793935?i=1752794287&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/b5/e3/98b5e37b-c846-06d5-df06-1196ee334094/mzaf_11903843843601269130.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/3c/5d/223c5d96-501e-040e-a34d-0608e6e5c4ff/075679638434.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/brother-stone-feat-kodak-black/1753900450?i=1753900685&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/37/16/653716cc-25f2-fcd1-b94a-c31170f1f40e/mzaf_3899329137720619699.plus.aac.p.m4a",
   "artists": [
    "Don Toliver",
    "KODAK BLACK"
   ],
   "genre": "Rap",
   "rank": 517974,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1753900675,
@@ -4678,17 +4958,18 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 740311,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1752794295,
+  "id": 1753900885,
   "title": "ATTITUDE",
   "artist": "Don Toliver",
   "credit": "Don Toliver feat. CHARLIE WILSON & CASH COBAIN",
   "year": 2024,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/de/bf/44debf50-b8c0-85b7-0ac9-1f5acfc3e138/075679660763.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/attitude-feat-charlie-wilson-cash-cobain/1752793935?i=1752794295&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/a5/3d/05a53d4d-7acf-9619-8d1a-1f851a556019/mzaf_2986097100311218415.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/3c/5d/223c5d96-501e-040e-a34d-0608e6e5c4ff/075679638434.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/attitude-feat-charlie-wilson-cash-cobain/1753900450?i=1753900885&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f1/ee/bd/f1eebd63-b1b3-bb34-c064-e4b495e1b71c/mzaf_10829678961076822896.plus.aac.p.m4a",
   "artists": [
    "Don Toliver",
    "CHARLIE WILSON",
@@ -4696,23 +4977,25 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 450204,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1752794431,
+  "id": 1753901404,
   "title": "NEW DROP",
   "artist": "Don Toliver",
   "credit": "Don Toliver",
   "year": 2024,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/de/bf/44debf50-b8c0-85b7-0ac9-1f5acfc3e138/075679660763.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/new-drop/1752793935?i=1752794431&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6d/28/d8/6d28d8be-19da-8a7f-411d-b6b2154cf790/mzaf_6805342050460884752.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/3c/5d/223c5d96-501e-040e-a34d-0608e6e5c4ff/075679638434.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/new-drop/1753900450?i=1753901404&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/d6/f8/8cd6f84a-7370-85d8-9b8d-3d99736901fc/mzaf_13436906167236701159.plus.aac.p.m4a",
   "artists": [
    "Don Toliver"
   ],
   "genre": "Rap",
   "rank": 774157,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1753900453,
@@ -4728,147 +5011,156 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 622919,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1392816072,
+  "id": 1384782182,
   "title": "Yes Indeed",
   "artist": "Lil Baby",
   "credit": "Lil Baby & Drake",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/99/6f/89/996f8917-fd86-b6bf-6483-0540754efaaa/18UMGIM28344.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/yes-indeed/1392815671?i=1392816072&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/6e/98/556e988d-1803-c1f8-ed77-d90035fa3ee0/mzaf_7590975783634627626.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b2/21/04/b22104c5-b230-4e99-2b98-e99c664b88c7/18UMGIM28345.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/yes-indeed/1384782173?i=1384782182&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4e/08/6e/4e086e0b-18cd-baee-6985-1a229aeb0f9d/mzaf_3710743165742865399.plus.aac.p.m4a",
   "artists": [
    "Lil Baby",
    "Drake"
   ],
   "genre": "Rap",
   "rank": 587636,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1485954708,
+  "id": 1485955427,
   "title": "Woah",
   "artist": "Lil Baby",
   "credit": "Lil Baby",
   "year": 2019,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/df/3c/84/df3c84a2-3cb3-2fbc-4cb1-a37b9b936e7e/19UMGIM99886.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/woah/1485954707?i=1485954708&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f1/5b/04/f15b044c-2eb8-0179-7703-0e32444dd809/mzaf_16094566453949347078.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a4/7d/ff/a47dffa2-9998-aab8-0dc8-bf72ba63ec98/19UMGIM99885.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/woah/1485954690?i=1485955427&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7b/d1/f6/7bd1f666-61f1-e77f-822a-ba7d9b955f2f/mzaf_15618817443274443579.plus.aac.p.m4a",
   "artists": [
    "Lil Baby"
   ],
   "genre": "Rap",
   "rank": 521838,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1534811833,
+  "id": 1494073581,
   "title": "Sum 2 Prove",
   "artist": "Lil Baby",
   "credit": "Lil Baby",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/73/c3/0373c310-69ad-747f-ae78-14cf03b0464b/20UMGIM30254.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/sum-2-prove/1534811491?i=1534811833&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/f2/53/87f25377-bb81-bcfa-2d2b-fa3713b3a666/mzaf_12953726527852008086.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/68/97/09/689709b0-6bfb-0a8f-1518-2e3dea4bcd11/20UMGIM00630.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/sum-2-prove/1494073580?i=1494073581&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/06/3e/5a/063e5a04-1c31-3a5d-d9f1-94de481ceeef/mzaf_11749084962687882624.plus.aac.p.m4a",
   "artists": [
    "Lil Baby"
   ],
   "genre": "Rap",
   "rank": 509385,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1517904096,
+  "id": 1517903061,
   "title": "The Bigger Picture",
   "artist": "Lil Baby",
   "credit": "Lil Baby",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/16/cd/33/16cd3350-4b1d-fc28-c35d-d7cb5c7d7437/20UMGIM48549.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/the-bigger-picture/1517903754?i=1517904096&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/bc/60/a1bc600c-c2ae-c204-9de1-852f03431ead/mzaf_2472033774916554024.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/42/bc/e6/42bce690-9f9e-93a5-f0c9-10d02cb2934e/20UMGIM48548.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/the-bigger-picture/1517903056?i=1517903061&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/09/5e/15095e8d-a494-8ae1-15df-92382eb567f9/mzaf_6839054654049857196.plus.aac.p.m4a",
   "artists": [
    "Lil Baby"
   ],
   "genre": "Rap",
   "rank": 459979,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1499567670,
+  "id": 1498989227,
   "title": "Emotionally Scarred",
   "artist": "Lil Baby",
   "credit": "Lil Baby",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b8/e4/29/b8e429b5-54b7-6ba3-a2db-29b426dc2b45/20UMGIM04592.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/emotionally-scarred/1499567361?i=1499567670&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/c7/e4/6bc7e4f5-2728-d9f8-4bc1-2279c7f494fb/mzaf_4553032148537395598.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/78/e9/9b/78e99b99-84a0-9673-90b4-2b5c23ab4a51/20UMGIM04591.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/emotionally-scarred/1498988850?i=1498989227&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/1e/39/761e39ce-da13-4c80-249c-f244070d6d90/mzaf_3699894588164745823.plus.aac.p.m4a",
   "artists": [
    "Lil Baby"
   ],
   "genre": "Rap",
   "rank": 455827,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1509850829,
+  "id": 1510840890,
   "title": "We Paid",
   "artist": "Lil Baby",
   "credit": "Lil Baby & 42 Dugg",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/9b/60/27/9b60278b-be33-9726-84d7-322718eacc1a/20UMGIM30254.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/we-paid/1509850659?i=1509850829&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/48/6b/85/486b85b5-f183-406e-51c7-9dfc105e65a7/mzaf_491714807870961191.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9f/8f/f9/9f8ff9e7-cbb4-efd6-1335-c0b001f2649a/20UMGIM30253.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/we-paid/1510840178?i=1510840890&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7f/52/93/7f5293bf-5162-1c50-7d11-3a973647cbd4/mzaf_16211786780035684372.plus.aac.p.m4a",
   "artists": [
    "Lil Baby",
    "42 Dugg"
   ],
   "genre": "Rap",
   "rank": 551936,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1437958678,
+  "id": 1437955651,
   "title": "Close Friends",
   "artist": "Lil Baby",
   "credit": "Lil Baby",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/73/2f/51/732f51a6-2f11-bdf6-dffc-f8b68e22b7ad/18UMGIM62580.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/close-friends/1437958608?i=1437958678&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/79/64/e8796420-a5af-849e-39e6-2eb8e6f4d431/mzaf_15178061027476625380.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e0/6e/7c/e06e7c84-345e-3617-7108-cda9ca9ccc68/18UMGIM62579.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/close-friends/1437955279?i=1437955651&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/46/5d/34/465d3430-c51a-e760-896b-9065ee97452e/mzaf_17608847389945116784.plus.aac.p.m4a",
   "artists": [
    "Lil Baby"
   ],
   "genre": "Rap",
   "rank": 557772,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1449915989,
+  "id": 1443677211,
   "title": "Pure Cocaine",
   "artist": "Lil Baby",
   "credit": "Lil Baby",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e3/5a/18/e35a1802-0e37-9d8c-34a1-c4b38b3b9b6a/18UMGIM77805.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/pure-cocaine/1449915986?i=1449915989&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/a4/ad/c0a4ad55-2902-c3ea-7d82-0036d5add954/mzaf_15859165491569108618.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/df/b1/44/dfb1447b-79ee-f7c3-8e22-374f82535153/18UMGIM77804.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/pure-cocaine/1443676945?i=1443677211&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9a/c1/e8/9ac1e8d0-613d-9dec-1b2b-d9c885e33c4e/mzaf_7724909415275309235.plus.aac.p.m4a",
   "artists": [
    "Lil Baby"
   ],
   "genre": "Rap",
   "rank": 634013,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1392816080,
+  "id": 1384782409,
   "title": "Life Goes On",
   "artist": "Lil Baby",
   "credit": "Lil Baby feat. Gunna & Lil Uzi Vert",
   "year": 2018,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/99/6f/89/996f8917-fd86-b6bf-6483-0540754efaaa/18UMGIM28344.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/life-goes-on-feat-gunna-lil-uzi-vert/1392815671?i=1392816080&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/86/be/0c/86be0cee-9622-7bdb-6290-a3369173f178/mzaf_10909883020054931584.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b2/21/04/b22104c5-b230-4e99-2b98-e99c664b88c7/18UMGIM28345.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/life-goes-on-feat-gunna-lil-uzi-vert/1384782173?i=1384782409&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/99/47/369947c2-a366-f5c1-c426-c2a1c870330c/mzaf_8516076975895721804.plus.aac.p.m4a",
   "artists": [
    "Lil Baby",
    "Gunna",
@@ -4876,17 +5168,18 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 504025,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1473193965,
+  "id": 1473187057,
   "title": "Baby",
   "artist": "Lil Baby",
   "credit": "Quality Control, Lil Baby & DaBaby",
   "year": 2019,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/19/7e/02/197e02c5-b606-d994-d586-9c3e345c97d4/19UMGIM64565.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/baby/1473193953?i=1473193965&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/41/fd/9d41fd8d-f9ed-7f16-311b-77908104ea45/mzaf_520747815140954144.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f2/4d/33/f24d33f7-2b11-87ca-2c9e-fba3b6bb5328/19UMGIM64072.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/baby/1473187049?i=1473187057&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/29/8d/e7/298de72d-49d3-8dbb-ec98-d92fdf4aea34/mzaf_465376139291763882.plus.aac.p.m4a",
   "artists": [
    "Quality Control",
    "Lil Baby",
@@ -4894,198 +5187,210 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 591441,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1541937508,
+  "id": 1542841752,
   "title": "On Me",
   "artist": "Lil Baby",
   "credit": "Lil Baby",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/55/d3/96/55d396f8-08ed-a7e1-9ce8-743c3d781b1f/20UM1IM08893.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/on-me/1541937488?i=1541937508&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a2/eb/af/a2ebafa9-55d1-69a3-3ed7-191ee9a6eb54/mzaf_2354865976821126372.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/21/69/c8/2169c863-cdae-f6c7-1a0c-beab5a229872/20UM1IM08892.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/on-me/1542841747?i=1542841752&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/d7/fc/0ed7fc08-2643-8f67-4606-d032799fb6d7/mzaf_14541918465252651178.plus.aac.p.m4a",
   "artists": [
    "Lil Baby"
   ],
   "genre": "Rap",
   "rank": 413910,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1541948986,
+  "id": 1542403417,
   "title": "Errbody",
   "artist": "Lil Baby",
   "credit": "Lil Baby",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0f/bc/7b/0fbc7b67-3601-7c7d-30d9-a5a77e6368dc/20UM1IM07778.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/errbody/1541948658?i=1541948986&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/af/bb/cb/afbbcb7b-422e-20f6-87e7-9e97a7d4351b/mzaf_3150996059488787773.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3a/0a/bb/3a0abb8b-ae89-3424-61b3-4697466a8582/20UM1IM07777.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/errbody/1542403416?i=1542403417&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/21/9e/dc/219edcf8-4b58-42c6-b374-e533f31d98ec/mzaf_17105555284455443232.plus.aac.p.m4a",
   "artists": [
    "Lil Baby"
   ],
   "genre": "Rap",
   "rank": 252824,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1649121023,
+  "id": 1618285316,
   "title": "In A Minute",
   "artist": "Lil Baby",
   "credit": "Lil Baby",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/27/05/fc/2705fce4-0bad-659d-74c1-6edcf9eff2d7/22UM1IM13099.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/in-a-minute/1649120585?i=1649121023&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/46/02/e7/4602e7c2-6148-3322-0d7c-18ccdd4c1280/mzaf_4712580640846029656.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fc/1e/a5/fc1ea575-13ff-4a85-c158-962042ecdcd8/22UMGIM38834.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/in-a-minute/1618285311?i=1618285316&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/c7/f1/f9c7f100-210f-ddfa-058f-2a5471739854/mzaf_14203155316756581117.plus.aac.p.m4a",
   "artists": [
    "Lil Baby"
   ],
   "genre": "Rap",
   "rank": 455189,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1649120594,
+  "id": 1648587157,
   "title": "Heyy",
   "artist": "Lil Baby",
   "credit": "Lil Baby",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/27/05/fc/2705fce4-0bad-659d-74c1-6edcf9eff2d7/22UM1IM13099.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/heyy/1649120585?i=1649120594&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/6d/fa/ec6dfaa4-0aa1-6d4a-bda4-3193babf3a74/mzaf_1405185889048560795.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9f/c0/99/9fc09958-180d-e66a-bbf7-9462289435f6/22UM1IM13098.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/heyy/1648587138?i=1648587157&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cf/20/47/cf20474f-b7f0-c035-c20a-a349912ab469/mzaf_11332389141834905946.plus.aac.p.m4a",
   "artists": [
    "Lil Baby"
   ],
   "genre": "Rap",
   "rank": 288904,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1649120595,
+  "id": 1648587316,
   "title": "California Breeze",
   "artist": "Lil Baby",
   "credit": "Lil Baby",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/27/05/fc/2705fce4-0bad-659d-74c1-6edcf9eff2d7/22UM1IM13099.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/california-breeze/1649120585?i=1649120595&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/81/19/488119e1-65d1-15a6-7e65-afd4ed6ccc01/mzaf_19493649225931493.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9f/c0/99/9fc09958-180d-e66a-bbf7-9462289435f6/22UM1IM13098.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/california-breeze/1648587138?i=1648587316&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ae/16/66/ae1666a5-8bfc-8db0-eed5-152d71ac6da1/mzaf_14763568678297871766.plus.aac.p.m4a",
   "artists": [
    "Lil Baby"
   ],
   "genre": "Rap",
   "rank": 371904,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1499567768,
+  "id": 1648587323,
   "title": "Forever",
   "artist": "Lil Baby",
   "credit": "Lil Baby feat. Lil Wayne",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b8/e4/29/b8e429b5-54b7-6ba3-a2db-29b426dc2b45/20UMGIM04592.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/forever-feat-lil-wayne/1499567361?i=1499567768&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/04/f9/62/04f962fc-f7aa-509f-4a08-19bb007d45a6/mzaf_1041319806426861443.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9f/c0/99/9fc09958-180d-e66a-bbf7-9462289435f6/22UM1IM13098.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/forever/1648587138?i=1648587323&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f1/2d/06/f12d06c3-9c7d-da7c-0693-9d4c773a6e72/mzaf_5290136325499409320.plus.aac.p.m4a",
   "artists": [
    "Lil Baby",
    "Lil Wayne"
   ],
   "genre": "Rap",
   "rank": 459757,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1556527528,
+  "id": 1556527664,
   "title": "Real As It Gets",
   "artist": "Lil Baby",
   "credit": "Lil Baby feat. EST Gee",
   "year": 2021,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/da/65/03/da6503fb-9bbd-e018-147d-859417bc1a6f/21UMGIM18557.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/real-as-it-gets-feat-est-gee/1556527515?i=1556527528&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/68/0c/50/680c509f-573d-a0b4-0a6d-0ac73f18a770/mzaf_6764556759489327691.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f4/21/8a/f4218a2a-ad3e-73a0-84f5-0309a4153022/21UMGIM18556.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/real-as-it-gets-feat-est-gee/1556527567?i=1556527664&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bd/03/6b/bd036b69-beef-3052-66c4-06262f208b52/mzaf_11547836244220728355.plus.aac.p.m4a",
   "artists": [
    "Lil Baby",
    "EST Gee"
   ],
   "genre": "Rap",
   "rank": 301538,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1534811847,
+  "id": 1510840886,
   "title": "Low Down",
   "artist": "Lil Baby",
   "credit": "Lil Baby",
   "year": 2020,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/73/c3/0373c310-69ad-747f-ae78-14cf03b0464b/20UMGIM30254.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/low-down/1534811491?i=1534811847&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ae/68/a4/ae68a4f2-5da6-d77d-8b3b-7d68a5569610/mzaf_16748169804675677849.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9f/8f/f9/9f8ff9e7-cbb4-efd6-1335-c0b001f2649a/20UMGIM30253.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/low-down/1510840178?i=1510840886&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/cf/e4/b4cfe463-a1a9-4d6e-bca6-5bb4819b5efc/mzaf_17755117800762051669.plus.aac.p.m4a",
   "artists": [
    "Lil Baby"
   ],
   "genre": "Rap",
   "rank": 509366,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1607953443,
+  "id": 1607955750,
   "title": "Do We Have A Problem?",
   "artist": "Lil Baby",
   "credit": "Nicki Minaj & Lil Baby",
   "year": 2022,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/19/95/a4/1995a413-0c88-24f9-1cda-446e427491ce/22UMGIM10393.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/do-we-have-a-problem/1607953437?i=1607953443&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4e/70/4f/4e704f19-786c-05b0-1be8-5b0c70a7a599/mzaf_12837947848330037065.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/71/f3/be/71f3be46-8a7a-dcaa-d0b7-555ab7c9b4e1/22UMGIM10392.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/do-we-have-a-problem/1607955739?i=1607955750&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/18/c7/ac18c77b-bc32-e14c-8b86-3a977338313e/mzaf_16717508346292535516.plus.aac.p.m4a",
   "artists": [
    "Nicki Minaj",
    "Lil Baby"
   ],
   "genre": "Rap",
   "rank": 364948,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1556658055,
+  "id": 1556670532,
   "title": "Wants and Needs",
   "artist": "Lil Baby",
   "credit": "Drake feat. Lil Baby",
   "year": 2021,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9f/e2/93/9fe2935e-da8e-8951-26cc-3454c52a2831/21UMGIM18577.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/wants-and-needs-feat-lil-baby/1556657246?i=1556658055&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dc/d9/9b/dcd99bc8-a679-e12a-ce87-d97ef4193aba/mzaf_12330511370535298878.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/63/2a/34/632a3488-d104-3ff1-dc02-4ed86f58ed05/21UMGIM18577.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/wants-and-needs-feat-lil-baby/1556669854?i=1556670532&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8f/f5/f3/8ff5f38f-5803-212f-2edf-29865316646b/mzaf_9094270342036499562.plus.aac.p.m4a",
   "artists": [
    "Drake",
    "Lil Baby"
   ],
   "genre": "Rap",
   "rank": 610279,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1584449203,
+  "id": 1584281482,
   "title": "Girls Want Girls",
   "artist": "Lil Baby",
   "credit": "Drake feat. Lil Baby",
   "year": 2021,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cb/6b/5f/cb6b5fc3-8d35-908a-18e6-6f8eda46ce11/21UM1IM07521.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/girls-want-girls-feat-lil-baby/1584449196?i=1584449203&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/20/cb/db/20cbdb20-f11a-bd71-0365-6c512ccc643c/mzaf_14777770236286341071.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/36/38/1136384a-eebc-697a-c005-d890e41c0854/21UM1IM07518.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/girls-want-girls-feat-lil-baby/1584281467?i=1584281482&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/11/c0/a4/11c0a412-3a2f-b88f-49f0-6c99c65c82a1/mzaf_12383184488736412996.plus.aac.p.m4a",
   "artists": [
    "Drake",
    "Lil Baby"
   ],
   "genre": "Rap",
   "rank": 783105,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1565596418,
+  "id": 1565443631,
   "title": "Every Chance I Get",
   "artist": "Lil Baby",
   "credit": "DJ Khaled feat. Lil Baby & Lil Durk",
   "year": 2021,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/19/0b/77190b04-8f4b-a2f1-8c78-190056425f99/886449266708.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/every-chance-i-get-feat-lil-baby-lil-durk/1565596416?i=1565596418&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2c/4d/0f/2c4d0f97-2c26-9eef-8782-7d3c60610b2d/mzaf_286708908746335788.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/13/2b/5f132b68-1e45-36c3-452a-2a68ffb6aab5/886448654483.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/every-chance-i-get-feat-lil-baby-lil-durk/1565443380?i=1565443631&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/e9/75/c0e97533-6b9b-3c01-0db0-13ee6d899223/mzaf_15412697775143120628.plus.aac.p.m4a",
   "artists": [
    "DJ Khaled",
    "Lil Baby",
@@ -5093,27 +5398,29 @@ window.SONGS = [
   ],
   "genre": "Rap",
   "rank": 528461,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1569719175,
+  "id": 1569712091,
   "title": "Voice of the Heroes",
   "artist": "Lil Baby",
   "credit": "Lil Baby & Lil Durk",
   "year": 2021,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/60/b5/ef/60b5ef3d-f5d0-e066-7ce6-4508229eac60/21UMGIM47175.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/voice-of-the-heroes/1569718764?i=1569719175&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9c/3a/ca/9c3aca2d-d041-3e8c-61c5-68bcb4cefacf/mzaf_2257886594449332128.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9a/51/3f/9a513f0d-452a-a4de-aa54-3d629a94d2c3/21UMGIM47174.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/voice-of-the-heroes/1569712089?i=1569712091&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/d3/26/b4d326b6-9f9f-421f-385e-07cdfabc2fcf/mzaf_14647975019177499626.plus.aac.p.m4a",
   "artists": [
    "Lil Baby",
    "Lil Durk"
   ],
   "genre": "Rap",
   "rank": 254668,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1711246141,
+  "id": 1710472302,
   "title": "Jennifer's Body",
   "artist": "Ken Carson",
   "credit": "Ken Carson",
@@ -5122,14 +5429,15 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/bd/34/d3bd34aa-fc46-6496-9707-88ca3b60389a/23UM1IM16969.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/jennifers-body/1711245729?i=1711246141&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/eb/ea/8cebea9a-e575-f054-36a1-806568db5f1e/mzaf_7106612379258462107.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e5/63/15/e5631543-9e8c-7cb7-61b4-d122fb6003cc/23UM1IM16968.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/jennifers-body/1710472300?i=1710472302&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/da/5d/64da5dc5-f75d-9eae-686a-cdc8cdf0c31e/mzaf_16330966661997878938.plus.aac.p.m4a",
   "rank": 419210,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1739186207,
+  "id": 1739187310,
   "title": "Overseas",
   "artist": "Ken Carson",
   "credit": "Ken Carson",
@@ -5138,11 +5446,12 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/0e/d8/400ed87c-13f3-9ebf-4716-4ffca2a9f001/24UMGIM35527.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/overseas/1739186085?i=1739186207&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b8/6c/40/b86c403a-fea0-fe00-af8e-be1673a7ccf9/mzaf_5797064789771025848.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3d/c3/26/3dc3264c-e367-0a55-070f-5b134c1cebb8/24UMGIM35525.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/overseas/1739187307?i=1739187310&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/d9/c2/33d9c2a1-27f5-3953-17d0-835668e194e7/mzaf_1188372770117161748.plus.aac.p.m4a",
   "rank": 497103,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": "dz2868707392",
@@ -5159,11 +5468,12 @@ window.SONGS = [
   "rank": 598613,
   "art": "https://cdn-images.dzcdn.net/images/cover/78da94da4ebbd4c3b19ef52a8b3c5e23/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/2868707392",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/2/5/0/7253ca802d3ad4ed1c256d8ce94cd49e.mp3?hdnea=exp=1794898577~acl=/api/1/1/7/2/5/0/7253ca802d3ad4ed1c256d8ce94cd49e.mp3*~data=user_id=0,application_id=42~hmac=4a8744bcc8e11787b0cd78957d8aa09673aa9d9ba254ec56b0c38b8d42217c8f",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/2/5/0/7253ca802d3ad4ed1c256d8ce94cd49e.mp3?hdnea=exp=1794900259~acl=/api/1/1/7/2/5/0/7253ca802d3ad4ed1c256d8ce94cd49e.mp3*~data=user_id=0,application_id=42~hmac=36bad48601b474d578fa509d6adfa22c43acf7b9f6f7eaa7911243a3b4fe9cf5",
+  "explicitness": "explicit",
   "hit": true
  },
  {
-  "id": 1711246149,
+  "id": 1710472303,
   "title": "Fighting My Demons",
   "artist": "Ken Carson",
   "credit": "Ken Carson",
@@ -5172,14 +5482,15 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/bd/34/d3bd34aa-fc46-6496-9707-88ca3b60389a/23UM1IM16969.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/fighting-my-demons/1711245729?i=1711246149&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/06/fb/ed/06fbed57-b69b-eb6d-8590-383b88988d6c/mzaf_16020780132338375615.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e5/63/15/e5631543-9e8c-7cb7-61b4-d122fb6003cc/23UM1IM16968.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/fighting-my-demons/1710472300?i=1710472303&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/1f/18/b71f1810-e383-0564-ca95-6751f48cba66/mzaf_13566642316421664049.plus.aac.p.m4a",
   "rank": 559616,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1711247325,
+  "id": 1669821154,
   "title": "i need u",
   "artist": "Ken Carson",
   "credit": "Ken Carson",
@@ -5188,14 +5499,15 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/bd/34/d3bd34aa-fc46-6496-9707-88ca3b60389a/23UM1IM16969.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/i-need-u/1711245729?i=1711247325&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/5d/60/a85d60b8-7495-b20a-0df8-efabc4077f5c/mzaf_2668048419240810954.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7e/92/00/7e9200a7-a7a2-6600-14ef-a68323500033/23UMGIM10595.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/i-need-u/1669821144?i=1669821154&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e9/bc/1a/e9bc1aae-f451-150b-ab3b-fb286deb41f9/mzaf_17804931154297035169.plus.aac.p.m4a",
   "rank": 389827,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1632679649,
+  "id": 1632672421,
   "title": "Freestyle 2",
   "artist": "Ken Carson",
   "credit": "Ken Carson",
@@ -5204,14 +5516,15 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/09/9a/3b/099a3be4-dd5e-48f8-00e4-cf0d53166ee3/22UMGIM71543.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/freestyle-2/1632679206?i=1632679649&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/4a/48/724a4890-adde-ca6f-2de1-829d21abff06/mzaf_4403869883967984974.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/9d/85/939d85a5-cda9-321b-ee18-df16eeff989e/22UMGIM71542.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/freestyle-2/1632672311?i=1632672421&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/65/fd/f465fde4-35bb-3854-244a-cd5d80ef275b/mzaf_16978930137461441432.plus.aac.p.m4a",
   "rank": 361624,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1711246516,
+  "id": 1710472546,
   "title": "Lose It",
   "artist": "Ken Carson",
   "credit": "Ken Carson",
@@ -5220,11 +5533,12 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/bd/34/d3bd34aa-fc46-6496-9707-88ca3b60389a/23UM1IM16969.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/lose-it/1711245729?i=1711246516&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/c0/22/99c022ca-e53e-7798-e839-61f32f77c8d9/mzaf_10062519756080631155.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e5/63/15/e5631543-9e8c-7cb7-61b4-d122fb6003cc/23UM1IM16968.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/lose-it/1710472300?i=1710472546&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/e7/7d/0ee77df4-3999-435d-c422-5819ee8bee31/mzaf_4201610402702599653.plus.aac.p.m4a",
   "rank": 340677,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
   "id": "dz3526781451",
@@ -5241,11 +5555,12 @@ window.SONGS = [
   "rank": 549576,
   "art": "https://cdn-images.dzcdn.net/images/cover/1c0d7ab95997d32f951bd0c2d6e1f8c1/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/3526781451",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/6/0/0/4602c50d156120a2d5e1c50a94468edd.mp3?hdnea=exp=1794898582~acl=/api/1/1/4/6/0/0/4602c50d156120a2d5e1c50a94468edd.mp3*~data=user_id=0,application_id=42~hmac=f63c3dcfb798e81d949539dc88c2dd6694dd4eadbe23c08b070990fabceda39a",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/6/0/0/4602c50d156120a2d5e1c50a94468edd.mp3?hdnea=exp=1794900261~acl=/api/1/1/4/6/0/0/4602c50d156120a2d5e1c50a94468edd.mp3*~data=user_id=0,application_id=42~hmac=283a3c8c5d4d0f0f984375bee0231c63c6632523a9f7a330cb6674bdef3373c7",
+  "explicitness": "explicit",
   "hit": true
  },
  {
-  "id": 1711246706,
+  "id": 1710472552,
   "title": "Succubus",
   "artist": "Ken Carson",
   "credit": "Ken Carson",
@@ -5254,14 +5569,15 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/bd/34/d3bd34aa-fc46-6496-9707-88ca3b60389a/23UM1IM16969.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/succubus/1711245729?i=1711246706&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d8/49/a3/d849a311-ddec-b1db-41e3-4b47dae2d669/mzaf_17159853880383770019.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e5/63/15/e5631543-9e8c-7cb7-61b4-d122fb6003cc/23UM1IM16968.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/succubus/1710472300?i=1710472552&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8b/48/93/8b48930e-07c8-ae5b-a761-e8ae577847c8/mzaf_10393830112300343086.plus.aac.p.m4a",
   "rank": 426031,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1679849321,
+  "id": 1679853929,
   "title": "Rock N Roll",
   "artist": "Ken Carson",
   "credit": "Ken Carson",
@@ -5270,11 +5586,12 @@ window.SONGS = [
   ],
   "year": 2021,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/55/c1/c8/55c1c8b0-7ee5-9278-9504-df44e72edab5/808391124240_Cover.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/rock-n-roll/1679849306?i=1679849321&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/27/22/73272206-1b6e-ca7a-3346-94256c782848/mzaf_8783651126515090409.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a7/e7/58/a7e7588c-913e-78d9-876b-48c7208a96bd/808391124219_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/rock-n-roll/1679853925?i=1679853929&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/06/97/2b/06972b3c-6fff-a314-2b73-0d84cb98a806/mzaf_6675286436975148299.plus.aac.p.m4a",
   "rank": 473105,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": "dz3655512132",
@@ -5291,11 +5608,12 @@ window.SONGS = [
   "rank": 342509,
   "art": "https://cdn-images.dzcdn.net/images/cover/d90cf8fb4c60e7aad625eef8a4aa4d5d/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/3655512132",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/5/1/0/f51aca464905734a59cdd0a579ff3354.mp3?hdnea=exp=1794898587~acl=/api/1/1/f/5/1/0/f51aca464905734a59cdd0a579ff3354.mp3*~data=user_id=0,application_id=42~hmac=297ce52d6e0f427a490d9e56db281e8b765f9ebbff64a40d17987d0c68ddc07e",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/5/1/0/f51aca464905734a59cdd0a579ff3354.mp3?hdnea=exp=1794900263~acl=/api/1/1/f/5/1/0/f51aca464905734a59cdd0a579ff3354.mp3*~data=user_id=0,application_id=42~hmac=22f0374663620799559c7ecee9ae071eb61408ea52bae691ff71f29215b1bc30",
+  "explicitness": "explicit",
   "hit": false
  },
  {
-  "id": 1711246532,
+  "id": 1710472548,
   "title": "Hardcore",
   "artist": "Ken Carson",
   "credit": "Ken Carson",
@@ -5304,14 +5622,15 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/bd/34/d3bd34aa-fc46-6496-9707-88ca3b60389a/23UM1IM16969.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/hardcore/1711245729?i=1711246532&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/39/0d/52/390d52e0-67a2-fff9-1b94-9db02644e712/mzaf_5737821419097563143.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e5/63/15/e5631543-9e8c-7cb7-61b4-d122fb6003cc/23UM1IM16968.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/hardcore/1710472300?i=1710472548&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/b9/2b/3bb92bb2-cd57-0d13-54e5-aed3074593dc/mzaf_14616738133052825594.plus.aac.p.m4a",
   "rank": 370364,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1775940925,
+  "id": 1775940842,
   "title": "Delusional",
   "artist": "Ken Carson",
   "credit": "Ken Carson",
@@ -5320,11 +5639,12 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/78/99/2a789993-1993-2ad9-f19e-fbf3d48b4157/24UM1IM10405.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/delusional/1775940922?i=1775940925&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/20/af/ae/20afae21-b128-d26e-f391-0edf41a1cf1c/mzaf_8995321699890514442.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fb/c5/6a/fbc56aa0-9cab-0d90-048a-0d0bf5517a8e/24UM1IM10404.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/delusional/1775940840?i=1775940842&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/14/af/fd14afd3-d5d5-ac8c-7881-29ad657afce2/mzaf_4257803805847464833.plus.aac.p.m4a",
   "rank": 274186,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
   "id": "dz2868707372",
@@ -5341,11 +5661,12 @@ window.SONGS = [
   "rank": 340078,
   "art": "https://cdn-images.dzcdn.net/images/cover/78da94da4ebbd4c3b19ef52a8b3c5e23/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/2868707372",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/b/4/0/6b400578f0e75d690cb5815720c3129c.mp3?hdnea=exp=1794898593~acl=/api/1/1/6/b/4/0/6b400578f0e75d690cb5815720c3129c.mp3*~data=user_id=0,application_id=42~hmac=ac0c24414675978954909e72d078f4b610d4fad01023924827aa6e14b671ad13",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/b/4/0/6b400578f0e75d690cb5815720c3129c.mp3?hdnea=exp=1794900265~acl=/api/1/1/6/b/4/0/6b400578f0e75d690cb5815720c3129c.mp3*~data=user_id=0,application_id=42~hmac=33f06077fc3f3358bc8b2283a38009b37d02b4958cc2d970213332f0a0bee686",
+  "explicitness": "explicit",
   "hit": false
  },
  {
-  "id": 1711246717,
+  "id": 1710472553,
   "title": "Paranoid",
   "artist": "Ken Carson",
   "credit": "Ken Carson feat. Destroy Lonely",
@@ -5355,14 +5676,15 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/bd/34/d3bd34aa-fc46-6496-9707-88ca3b60389a/23UM1IM16969.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/paranoid-feat-destroy-lonely/1711245729?i=1711246717&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/05/ad/3c05ad96-492b-233b-5c66-131a22f023be/mzaf_5015675085698524876.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e5/63/15/e5631543-9e8c-7cb7-61b4-d122fb6003cc/23UM1IM16968.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/paranoid-feat-destroy-lonely/1710472300?i=1710472553&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/67/09/7a6709e9-9a3e-8b75-d052-878ae7038ba3/mzaf_18310809278645193199.plus.aac.p.m4a",
   "rank": 407384,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1806778744,
+  "id": 1806780318,
   "title": "Money Spread",
   "artist": "Ken Carson",
   "credit": "Ken Carson",
@@ -5371,14 +5693,15 @@ window.SONGS = [
   ],
   "year": 2025,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c4/a2/d8/c4a2d864-8b49-2174-e766-f6a8795b66b2/24UM1IM12407.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/money-spread/1806778739?i=1806778744&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6d/0d/9c/6d0d9cb3-8e31-70dd-55af-8f4ef8937fb7/mzaf_12242551901149771175.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/53/0e/30/530e3051-c993-91dd-9979-a783430fb61a/24UM1IM12406.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/money-spread/1806780313?i=1806780318&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/c8/63/77c86362-d745-3af6-5a2a-da577bf6d7cc/mzaf_11037894637783108262.plus.aac.p.m4a",
   "rank": 269063,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1651752866,
+  "id": 1632672411,
   "title": "MDMA",
   "artist": "Ken Carson",
   "credit": "Ken Carson feat. Destroy Lonely",
@@ -5388,11 +5711,12 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/34/f3/19/34f319d2-1ecf-8c98-2150-9d0dc1c5e73e/22UM1IM24287.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/mdma-feat-destroy-lonely/1651752403?i=1651752866&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/23/9a/fb239a90-d005-c2b5-5aaa-884731410492/mzaf_12907114659000709992.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/9d/85/939d85a5-cda9-321b-ee18-df16eeff989e/22UMGIM71542.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/mdma-feat-destroy-lonely/1632672311?i=1632672411&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/90/98/d3909898-dfd4-cb48-1884-55bfe6f1f7ac/mzaf_15630597937576795977.plus.aac.p.m4a",
   "rank": 262502,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
   "id": "dz3320256721",
@@ -5411,11 +5735,12 @@ window.SONGS = [
   "rank": 402731,
   "art": "https://cdn-images.dzcdn.net/images/cover/c464b8c538ee61a2cf276fa4b3a09261/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/3320256721",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/7/1/0/b7182cc1c3a5c0664840fde55b91cb32.mp3?hdnea=exp=1794898598~acl=/api/1/1/b/7/1/0/b7182cc1c3a5c0664840fde55b91cb32.mp3*~data=user_id=0,application_id=42~hmac=a883a3715ddaf47a86baae07a24447cd0dc8482601721c38854d969b7c3b1491",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/7/1/0/b7182cc1c3a5c0664840fde55b91cb32.mp3?hdnea=exp=1794900268~acl=/api/1/1/b/7/1/0/b7182cc1c3a5c0664840fde55b91cb32.mp3*~data=user_id=0,application_id=42~hmac=ea11b9650c4fc75c58566fef81a297d9afab1c5e762850f056aeb94c8304f4f2",
+  "explicitness": "explicit",
   "hit": true
  },
  {
-  "id": 1442846328,
+  "id": 1451902446,
   "title": "Stronger",
   "artist": "Kanye West",
   "credit": "Kanye West",
@@ -5424,14 +5749,15 @@ window.SONGS = [
   ],
   "year": 2007,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/39/25/2d/39252d65-2d50-b991-0962-f7a98a761271/00602517483507.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/stronger/1442845779?i=1442846328&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9e/cc/69/9ecc6918-a8dc-354f-909f-ccc20a0a7a33/mzaf_7863921970418240507.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2f/db/2c/2fdb2c9d-171c-c6dc-57ee-4bae2b4bb11a/07UMGIM12671.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/stronger/1451901307?i=1451902446&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/c1/ae/12c1ae65-3b3f-4a40-9577-b540b0ffa08a/mzaf_2091333597287804156.plus.aac.p.m4a",
   "rank": 40765,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440763833,
+  "id": 1440669054,
   "title": "Gold Digger",
   "artist": "Kanye West",
   "credit": "Kanye West feat. Jamie Foxx",
@@ -5441,11 +5767,12 @@ window.SONGS = [
   ],
   "year": 2005,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0e/90/3c/0e903c43-9d81-f91b-90f1-727a58f7fb2c/00602498824030.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/gold-digger-feat-jamie-foxx/1440763821?i=1440763833&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ec/1c/48/ec1c483c-d196-1c4f-d8e3-320d740c3f96/mzaf_7998854062663791888.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/00/68/13/006813b3-9ca1-2e6f-98df-4ef78cd6cb49/06UMGIM20452.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/gold-digger-feat-jamie-foxx/1440668749?i=1440669054&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/52/9f/0f529f5a-66db-de20-5366-cc85bd598e15/mzaf_6320009227632924128.plus.aac.p.m4a",
   "rank": 806171,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1441410309,
@@ -5461,10 +5788,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/heartless/1441410287?i=1441410309&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/2e/bb/c32ebbd5-9ed4-659e-161f-41e79ce1a0ad/mzaf_17099620641848520890.plus.aac.p.m4a",
   "rank": 794094,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1445866362,
+  "id": 1440742907,
   "title": "Power",
   "artist": "Kanye West",
   "credit": "Kanye West",
@@ -5473,14 +5801,15 @@ window.SONGS = [
   ],
   "year": 2010,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/37/da/7c/37da7cc5-2b6f-9bb8-30ba-8a8c3be3e16a/00602527584973.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/power/1445865909?i=1445866362&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ee/ea/83/eeea8340-20cc-0d4f-58ad-1029b6633b8a/mzaf_6199312431211256188.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0a/0b/31/0a0b31cc-077c-31bf-e7fe-612191774948/10UMGIM30072.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/power/1440742903?i=1440742907&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ed/2b/38/ed2b386b-92eb-ef2e-d42e-b8aa7279364b/mzaf_8594463983203438844.plus.aac.p.m4a",
   "rank": 788761,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1445866451,
+  "id": 1440742911,
   "title": "All of the Lights",
   "artist": "Kanye West",
   "credit": "Kanye West",
@@ -5489,14 +5818,15 @@ window.SONGS = [
   ],
   "year": 2010,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/37/da/7c/37da7cc5-2b6f-9bb8-30ba-8a8c3be3e16a/00602527584973.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/all-of-the-lights/1445865909?i=1445866451&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/44/ac/8944ac5b-f76e-fd29-b326-7b4fdb334ee7/mzaf_12826977769390347158.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0a/0b/31/0a0b31cc-077c-31bf-e7fe-612191774948/10UMGIM30072.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/all-of-the-lights/1440742903?i=1440742911&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/ed/61/0aed61e9-c97f-d3da-ae8b-2956f04ac505/mzaf_17413063123214116053.plus.aac.p.m4a",
   "rank": 817041,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1442846712,
+  "id": 1451903882,
   "title": "Flashing Lights",
   "artist": "Kanye West",
   "credit": "Kanye West",
@@ -5505,14 +5835,15 @@ window.SONGS = [
   ],
   "year": 2007,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/39/25/2d/39252d65-2d50-b991-0962-f7a98a761271/00602517483507.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/flashing-lights/1442845779?i=1442846712&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4c/be/8e/4cbe8e05-1130-8697-6775-8e52408e857a/mzaf_10845907730040426322.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2f/db/2c/2fdb2c9d-171c-c6dc-57ee-4bae2b4bb11a/07UMGIM12671.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/flashing-lights-feat-dwele/1451901307?i=1451903882&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/83/cf/da/83cfdae0-f6a8-92ec-2d0b-bd67e4541fb3/mzaf_10567238069747649390.plus.aac.p.m4a",
   "rank": 891802,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1445866473,
+  "id": 1440742918,
   "title": "Runaway",
   "artist": "Kanye West",
   "credit": "Kanye West & Pusha T",
@@ -5522,14 +5853,15 @@ window.SONGS = [
   ],
   "year": 2010,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/37/da/7c/37da7cc5-2b6f-9bb8-30ba-8a8c3be3e16a/00602527584973.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/runaway-feat-pusha-t/1445865909?i=1445866473&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/fb/f5/8efbf56f-d137-cc5d-6fd3-919547c6ca61/mzaf_17784119948124784639.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0a/0b/31/0a0b31cc-077c-31bf-e7fe-612191774948/10UMGIM30072.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/runaway-feat-pusha-t/1440742903?i=1440742918&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/48/86/674886a9-874c-8236-a349-775ee6721df7/mzaf_326263566097925496.plus.aac.p.m4a",
   "rank": 870128,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1442846473,
+  "id": 1451903287,
   "title": "Can't Tell Me Nothing",
   "artist": "Kanye West",
   "credit": "Kanye West",
@@ -5538,14 +5870,15 @@ window.SONGS = [
   ],
   "year": 2007,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/39/25/2d/39252d65-2d50-b991-0962-f7a98a761271/00602517483507.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/cant-tell-me-nothing/1442845779?i=1442846473&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/3f/25/603f25fb-1bb5-9e8f-9658-874f9948b69b/mzaf_7139487941093854326.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2f/db/2c/2fdb2c9d-171c-c6dc-57ee-4bae2b4bb11a/07UMGIM12671.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/cant-tell-me-nothing/1451901307?i=1451903287&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e8/78/37/e8783744-9533-330d-109f-0ffe1ef9d920/mzaf_768480617710952206.plus.aac.p.m4a",
   "rank": 841255,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440763831,
+  "id": 1440669048,
   "title": "Touch the Sky",
   "artist": "Kanye West",
   "credit": "Kanye West feat. Lupe Fiasco",
@@ -5555,14 +5888,15 @@ window.SONGS = [
   ],
   "year": 2005,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0e/90/3c/0e903c43-9d81-f91b-90f1-727a58f7fb2c/00602498824030.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/touch-the-sky-feat-lupe-fiasco/1440763821?i=1440763831&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/03/92/450392a8-9829-b7fd-8a6b-b8b8831d3790/mzaf_14545688503375738268.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/00/68/13/006813b3-9ca1-2e6f-98df-4ef78cd6cb49/06UMGIM20452.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/touch-the-sky-feat-lupe-fiasco/1440668749?i=1440669048&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/b7/29/09b729fc-ce32-9fac-759b-50acdc9ae053/mzaf_11851530229792694219.plus.aac.p.m4a",
   "rank": 701735,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1437467881,
+  "id": 1412873446,
   "title": "Jesus Walks",
   "artist": "Kanye West",
   "credit": "Kanye West",
@@ -5571,14 +5905,15 @@ window.SONGS = [
   ],
   "year": 2004,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/15/05/09/15050911-a2f1-9ebc-0d16-6e8faad1cf80/00602567924326.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/jesus-walks/1437467864?i=1437467881&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/43/5c/a4/435ca411-d982-9007-135a-a29422ddee94/mzaf_2097177023941251676.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0d/73/b1/0d73b181-2716-f7a6-a340-0a3f81eacfb9/06UMGIM15686.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/jesus-walks/1412872568?i=1412873446&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/09/d2/1209d2c4-10c1-b5ae-eb87-42a32757b549/mzaf_8671556785213044204.plus.aac.p.m4a",
   "rank": 576470,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1437467903,
+  "id": 1412873613,
   "title": "Through the Wire",
   "artist": "Kanye West",
   "credit": "Kanye West",
@@ -5587,14 +5922,15 @@ window.SONGS = [
   ],
   "year": 2003,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/15/05/09/15050911-a2f1-9ebc-0d16-6e8faad1cf80/00602567924326.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/through-the-wire/1437467864?i=1437467903&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/45/22/f44522de-4cd9-b35c-61e2-e9c7c7784682/mzaf_7953631545375879531.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0d/73/b1/0d73b181-2716-f7a6-a340-0a3f81eacfb9/06UMGIM15686.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/through-the-wire/1412872568?i=1412873613&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/d2/ff/6ed2ffa6-05a6-0cc1-d348-3ffe1cc4a230/mzaf_90703070713330219.plus.aac.p.m4a",
   "rank": 657906,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1442846735,
+  "id": 1451904360,
   "title": "Homecoming",
   "artist": "Kanye West",
   "credit": "Kanye West feat. Chris Martin",
@@ -5604,14 +5940,15 @@ window.SONGS = [
   ],
   "year": 2007,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/39/25/2d/39252d65-2d50-b991-0962-f7a98a761271/00602517483507.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/homecoming-feat-chris-martin/1442845779?i=1442846735&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/29/d2/b229d2e4-b151-a843-3582-edeb5172a197/mzaf_11876620842438510483.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2f/db/2c/2fdb2c9d-171c-c6dc-57ee-4bae2b4bb11a/07UMGIM12671.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/homecoming-feat-chris-martin/1451901307?i=1451904360&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/eb/e3/93/ebe393d8-9fc8-48e2-0fa0-abf98759844f/mzaf_5646837443107369848.plus.aac.p.m4a",
   "rank": 812669,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1442846347,
+  "id": 1451902834,
   "title": "Good Life",
   "artist": "Kanye West",
   "credit": "Kanye West feat. T-Pain",
@@ -5621,11 +5958,12 @@ window.SONGS = [
   ],
   "year": 2007,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/39/25/2d/39252d65-2d50-b991-0962-f7a98a761271/00602517483507.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/good-life-feat-t-pain/1442845779?i=1442846347&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/93/d3/4593d3db-0485-b786-c2c0-064a9ae76329/mzaf_2499398169957145905.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2f/db/2c/2fdb2c9d-171c-c6dc-57ee-4bae2b4bb11a/07UMGIM12671.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/good-life-feat-t-pain/1451901307?i=1451902834&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/ef/55/a6ef5595-411f-374b-c33c-6a41e4b6ff5b/mzaf_4468959157339868415.plus.aac.p.m4a",
   "rank": 608136,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": "dz68350105",
@@ -5642,7 +5980,8 @@ window.SONGS = [
   "rank": 664153,
   "art": "https://cdn-images.dzcdn.net/images/cover/5a56530f7906bd9786fa47bd0be421b3/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/68350105",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/9/9/0/89951a25c9ac29e780019df8e8116e49.mp3?hdnea=exp=1794898607~acl=/api/1/1/8/9/9/0/89951a25c9ac29e780019df8e8116e49.mp3*~data=user_id=0,application_id=42~hmac=231044fcb4db10e8ac5fe91e6e679acdb07ba99621f490c296405edc9e550d92",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/9/9/0/89951a25c9ac29e780019df8e8116e49.mp3?hdnea=exp=1794900270~acl=/api/1/1/8/9/9/0/89951a25c9ac29e780019df8e8116e49.mp3*~data=user_id=0,application_id=42~hmac=6f45ffd5de017854a46291c0eb14fd5344ffeeb61233871070cb33f28af393bc",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -5660,11 +5999,12 @@ window.SONGS = [
   "rank": 777130,
   "art": "https://cdn-images.dzcdn.net/images/cover/5a56530f7906bd9786fa47bd0be421b3/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/68350113",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/2/4/0/a24bef5135eebe751adc619a929d9c24.mp3?hdnea=exp=1794898612~acl=/api/1/1/a/2/4/0/a24bef5135eebe751adc619a929d9c24.mp3*~data=user_id=0,application_id=42~hmac=346856b92fda4055441649190a94ec21711e1f04decd595eba0976ae3fca144e",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/2/4/0/a24bef5135eebe751adc619a929d9c24.mp3?hdnea=exp=1794900272~acl=/api/1/1/a/2/4/0/a24bef5135eebe751adc619a929d9c24.mp3*~data=user_id=0,application_id=42~hmac=7b9b102f971fe70d32fdd25c990ba77c73fe4d31bcec2c141c2793fcc66ba4c6",
+  "explicitness": "explicit",
   "hit": true
  },
  {
-  "id": 1443478650,
+  "id": 1445169364,
   "title": "Mercy",
   "artist": "Kanye West",
   "credit": "Kanye West, Big Sean, Pusha T & 2 Chainz",
@@ -5676,14 +6016,15 @@ window.SONGS = [
   ],
   "year": 2012,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fb/89/da/fb89da0d-1920-2cef-a965-8421d11e28cc/00602537164431.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/mercy/1443478391?i=1443478650&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4e/05/56/4e05564c-8eba-953a-f62e-c15c5ea9e810/mzaf_3870953683508129012.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/85/d4/0f/85d40f9b-566e-4c9b-88a6-18c587712713/12UMGIM14730.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/mercy-feat-big-sean-pusha-t-2-chainz/1445169359?i=1445169364&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e3/6a/d0/e36ad032-a005-4f77-873e-be399e95fcf4/mzaf_5073372089148133814.plus.aac.p.m4a",
   "rank": 678253,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1442966480,
+  "id": 1445141703,
   "title": "Famous",
   "artist": "Kanye West",
   "credit": "Kanye West",
@@ -5692,14 +6033,15 @@ window.SONGS = [
   ],
   "year": 2016,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ec/fd/e0/ecfde04e-6db2-e55e-41fe-83c87a52b16e/00602547908339.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/famous/1442966257?i=1442966480&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/41/e8/3741e814-b809-4c22-4c15-2823150bb3bd/mzaf_12042732256423894607.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/eb/6a/ab/eb6aab7d-3a12-5c6d-e3db-bd471149d3e5/00602557068054.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/famous/1445141692?i=1445141703&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/4d/d7/3e/4dd73ebc-32a3-8b46-343b-6b5b7b945bd6/mzaf_7027919350842615279.plus.aac.p.m4a",
   "rank": 668260,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1442966474,
+  "id": 1443063971,
   "title": "Father Stretch My Hands, Pt. 1",
   "artist": "Kanye West",
   "credit": "Kanye West",
@@ -5708,14 +6050,15 @@ window.SONGS = [
   ],
   "year": 2016,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ec/fd/e0/ecfde04e-6db2-e55e-41fe-83c87a52b16e/00602547908339.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/father-stretch-my-hands-pt-1/1442966257?i=1442966474&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/db/28/5bdb28cc-696e-53f0-85bd-fcdfd5be8707/mzaf_8631042407972316120.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ab/74/4a/ab744ae9-235f-0a2f-9f8a-74ddee3c339e/16UMGIM37046.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/father-stretch-my-hands-pt-1/1443063578?i=1443063971&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/07/1a/ab/071aab43-f007-65b7-21e2-0c8cb11cd626/mzaf_8267663222599295607.plus.aac.p.m4a",
   "rank": 734388,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1442966259,
+  "id": 1443063579,
   "title": "Ultralight Beam",
   "artist": "Kanye West",
   "credit": "Kanye West",
@@ -5724,14 +6067,15 @@ window.SONGS = [
   ],
   "year": 2016,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ec/fd/e0/ecfde04e-6db2-e55e-41fe-83c87a52b16e/00602547908339.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/ultralight-beam/1442966257?i=1442966259&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ed/2c/40/ed2c40f7-b924-0566-f1a1-acbcbc760c16/mzaf_10651515518192358497.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ab/74/4a/ab744ae9-235f-0a2f-9f8a-74ddee3c339e/16UMGIM37046.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/ultralight-beam/1443063578?i=1443063579&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/88/cf/b188cf11-b3c8-e18c-ac3a-e39524102213/mzaf_9157860879279096004.plus.aac.p.m4a",
   "rank": 556896,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1442966629,
+  "id": 1443063995,
   "title": "Fade",
   "artist": "Kanye West",
   "credit": "Kanye West",
@@ -5740,14 +6084,15 @@ window.SONGS = [
   ],
   "year": 2016,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ec/fd/e0/ecfde04e-6db2-e55e-41fe-83c87a52b16e/00602547908339.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/fade/1442966257?i=1442966629&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/24/3d/e9/243de93b-8775-43be-3383-18ecfcf72c4b/mzaf_11545542147866652234.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ab/74/4a/ab744ae9-235f-0a2f-9f8a-74ddee3c339e/16UMGIM37046.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/fade/1443063578?i=1443063995&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2d/a2/98/2da29828-071c-d0e8-b2dc-0b0e62e2d86c/mzaf_5304076854900930301.plus.aac.p.m4a",
   "rank": 567315,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1442846336,
+  "id": 1451902760,
   "title": "I Wonder",
   "artist": "Kanye West",
   "credit": "Kanye West",
@@ -5756,14 +6101,15 @@ window.SONGS = [
   ],
   "year": 2007,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/39/25/2d/39252d65-2d50-b991-0962-f7a98a761271/00602517483507.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/i-wonder/1442845779?i=1442846336&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/0a/94/b70a94d2-386b-851b-af33-73161b051586/mzaf_3514470759908534229.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2f/db/2c/2fdb2c9d-171c-c6dc-57ee-4bae2b4bb11a/07UMGIM12671.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/i-wonder/1451901307?i=1451902760&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b6/0b/60/b60b6053-6a85-caa1-72af-8bee7ada9b2e/mzaf_16454006560854877815.plus.aac.p.m4a",
   "rank": 763200,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1442846321,
+  "id": 1451902183,
   "title": "Champion",
   "artist": "Kanye West",
   "credit": "Kanye West",
@@ -5772,11 +6118,12 @@ window.SONGS = [
   ],
   "year": 2007,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/39/25/2d/39252d65-2d50-b991-0962-f7a98a761271/00602517483507.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/champion/1442845779?i=1442846321&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/a5/60/c4a56079-0608-173b-3bdf-ff9abc6243b0/mzaf_16684516964870716980.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2f/db/2c/2fdb2c9d-171c-c6dc-57ee-4bae2b4bb11a/07UMGIM12671.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/champion/1451901307?i=1451902183&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d3/6c/8a/d36c8ac1-4d31-0f3c-1967-196caf9956a0/mzaf_5327961132204748256.plus.aac.p.m4a",
   "rank": 573102,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1587795284,
@@ -5792,7 +6139,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/hurricane/1587795158?i=1587795284&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/75/16/0375161a-e11e-ddc0-a060-68d454c2e78e/mzaf_11757634949460002590.plus.aac.p.m4a",
   "rank": 660083,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1587795285,
@@ -5808,10 +6156,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/praise-god/1587795158?i=1587795285&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/9d/0b/139d0b59-6832-f460-565b-41e1b1bab7d6/mzaf_14275243268091394926.plus.aac.p.m4a",
   "rank": 670642,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1445866454,
+  "id": 1440742912,
   "title": "Monster",
   "artist": "Kanye West",
   "credit": "Kanye West, JAŸ-Z, Rick Ross, Nicki Minaj & Bon Iver",
@@ -5824,11 +6173,12 @@ window.SONGS = [
   ],
   "year": 2010,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/37/da/7c/37da7cc5-2b6f-9bb8-30ba-8a8c3be3e16a/00602527584973.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/monster-feat-ja%C3%BF-z-rick-ross-nicki-minaj-bon-iver/1445865909?i=1445866454&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/19/88/fb1988b0-fd62-9a35-db0a-6176d4867cd2/mzaf_18402273560887653465.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0a/0b/31/0a0b31cc-077c-31bf-e7fe-612191774948/10UMGIM30072.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/monster-feat-ja%C3%BF-z-rick-ross-nicki-minaj-bon-iver/1440742903?i=1440742912&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/c0/27/2fc027b2-c164-31e3-1fb6-a3bdc3eab28d/mzaf_12641286821236808173.plus.aac.p.m4a",
   "rank": 648216,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1441410404,
@@ -5844,7 +6194,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/love-lockdown/1441410287?i=1441410404&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/41/a0/cd41a029-144c-ef10-b945-5c29b0966552/mzaf_16533792012921979472.plus.aac.p.m4a",
   "rank": 589241,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1587795282,
@@ -5860,7 +6211,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/off-the-grid/1587795158?i=1587795282&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/79/a7/6f/79a76f84-ba71-6255-184e-04f0917d4250/mzaf_18070411789131224445.plus.aac.p.m4a",
   "rank": 540376,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1440745246,
@@ -5876,10 +6228,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/day-n-nite/1440744775?i=1440745246&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/07/23/f707231e-ed5b-4e50-499c-114232d369ab/mzaf_7872385221426664785.plus.aac.p.m4a",
   "rank": 695263,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1443484271,
+  "id": 1472484938,
   "title": "Pursuit of Happiness",
   "artist": "Kid Cudi",
   "credit": "Kid Cudi feat. MGMT & Ratatat",
@@ -5890,14 +6243,15 @@ window.SONGS = [
   ],
   "year": 2009,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e1/cb/32/e1cb3268-1ba1-2c11-2f47-92ee469fac6a/09UMGIM33420.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/pursuit-of-happiness-nightmare-feat-mgmt-ratatat/1443483575?i=1443484271&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/96/a3/9f96a3f7-921c-08dd-b99e-8360f0ac2768/mzaf_5554590330721672539.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/78/1e/36781ee4-be7e-1c54-5a4a-a262faa3a245/09UMGIM33419.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/pursuit-of-happiness-nightmare-feat-mgmt-ratatat/1472484829?i=1472484938&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/61/b9/b4/61b9b45d-e540-124d-32f5-3f7fe4e6ddd7/mzaf_6960231504246334201.plus.aac.p.m4a",
   "rank": 834563,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1443483832,
+  "id": 1472484831,
   "title": "Soundtrack 2 My Life",
   "artist": "Kid Cudi",
   "credit": "Kid Cudi",
@@ -5906,14 +6260,15 @@ window.SONGS = [
   ],
   "year": 2009,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e1/cb/32/e1cb3268-1ba1-2c11-2f47-92ee469fac6a/09UMGIM33420.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/soundtrack-2-my-life/1443483575?i=1443483832&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/7f/76/1b7f76e1-3ec8-f05e-cb0f-66dea99fee54/mzaf_7036060717166481564.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/78/1e/36781ee4-be7e-1c54-5a4a-a262faa3a245/09UMGIM33419.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/soundtrack-2-my-life/1472484829?i=1472484831&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/57/ee/f0/57eef038-900a-0804-160e-508b75e87a0b/mzaf_10798738845418808110.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1443484284,
+  "id": 1472484943,
   "title": "Up Up & Away",
   "artist": "Kid Cudi",
   "credit": "Kid Cudi",
@@ -5922,11 +6277,12 @@ window.SONGS = [
   ],
   "year": 2009,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e1/cb/32/e1cb3268-1ba1-2c11-2f47-92ee469fac6a/09UMGIM33420.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/up-up-away/1443483575?i=1443484284&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a4/a4/ee/a4a4eead-03ae-a30d-84c3-df035affa602/mzaf_9515443663565671289.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/78/1e/36781ee4-be7e-1c54-5a4a-a262faa3a245/09UMGIM33419.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/up-up-away/1472484829?i=1472484943&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2b/eb/0b/2beb0b69-6bae-8021-07f3-ffa5f739d127/mzaf_15447471262432739020.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1452877474,
@@ -5942,10 +6298,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/mr-rager/1452877009?i=1452877474&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/32/3d/0e323d1e-d1c6-11da-df2d-78e436e8fa64/mzaf_16953929661096168602.plus.aac.p.m4a",
   "rank": 735556,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1442990329,
+  "id": 1452877315,
   "title": "Erase Me",
   "artist": "Kid Cudi",
   "credit": "Kid Cudi & Kanye West",
@@ -5955,11 +6312,12 @@ window.SONGS = [
   ],
   "year": 2010,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c9/72/b6/c972b69d-29d5-5442-7e40-020a7abddc17/10UMGIM27686.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/erase-me-feat-kanye-west/1442990188?i=1442990329&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/5f/80/0e5f8014-0942-b384-329a-93403aca8666/mzaf_15363946762256466879.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/12/4a/d9/124ad978-f720-dd52-30bd-7919643cf5f0/10UMGIM27683.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/erase-me-feat-kanye-west/1452877009?i=1452877315&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/e9/11/b9e911ff-8ccf-2e14-b37d-78094623462c/mzaf_14127578071117813527.plus.aac.p.m4a",
   "rank": 614701,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 726149086,
@@ -5976,10 +6334,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/memories-feat-kid-cudi/726148161?i=726149086&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/9f/88/8c9f885a-6d74-0d67-ccfb-6ccf705e1138/mzaf_57543994940521793.plus.aac.p.m4a",
   "rank": 698253,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1443108747,
+  "id": 1440867057,
   "title": "Frequency",
   "artist": "Kid Cudi",
   "credit": "Kid Cudi",
@@ -5988,14 +6347,15 @@ window.SONGS = [
   ],
   "year": 2016,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/56/58/74/56587425-b3fa-26b2-402c-75d700040d33/16UMGIM77685.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/frequency/1443108737?i=1443108747&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4b/a1/4d/4ba14d97-ab28-ce0c-1c73-103d2a82cc30/mzaf_5455545487172592053.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7b/ff/34/7bff3453-053a-3636-f76f-c9298807d3ca/16UMGIM77681.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/frequency/1440866929?i=1440867057&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/f5/37/a7f53707-c47e-7a3c-d01f-1d12c125d492/mzaf_3941251456316494838.plus.aac.p.m4a",
   "rank": 272421,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1544275752,
+  "id": 1543635672,
   "title": "Tequila Shots",
   "artist": "Kid Cudi",
   "credit": "Kid Cudi",
@@ -6004,14 +6364,15 @@ window.SONGS = [
   ],
   "year": 2020,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/ad/57/48ad57dd-f6f2-a1bc-b2a3-7241a64655bd/20UM1IM12830.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/tequila-shots/1544275140?i=1544275752&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/da/24/cada24d2-6098-30be-d8a7-48eeabc9387b/mzaf_14749047444626129908.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8e/1a/15/8e1a1594-4189-0102-e998-a87f4fbb52ce/20UM1IM12829.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/tequila-shots/1543635399?i=1543635672&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/54/e5/f554e5ff-2cbb-06a8-58ab-dc0da265c0b3/mzaf_12770272827023803020.plus.aac.p.m4a",
   "rank": 551286,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1544275770,
+  "id": 1543635679,
   "title": "She Knows This",
   "artist": "Kid Cudi",
   "credit": "Kid Cudi",
@@ -6020,14 +6381,15 @@ window.SONGS = [
   ],
   "year": 2020,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/ad/57/48ad57dd-f6f2-a1bc-b2a3-7241a64655bd/20UM1IM12830.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/she-knows-this/1544275140?i=1544275770&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8f/85/39/8f8539c9-3514-2486-376f-d2b7d8be252c/mzaf_7453865908497537270.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8e/1a/15/8e1a1594-4189-0102-e998-a87f4fbb52ce/20UM1IM12829.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/she-knows-this/1543635399?i=1543635679&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f3/68/7a/f3687ab5-b058-97dc-3bb0-b77eaedccfdd/mzaf_18295438578434601375.plus.aac.p.m4a",
   "rank": 361989,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1544276318,
+  "id": 1543635694,
   "title": "Show Out",
   "artist": "Kid Cudi",
   "credit": "Kid Cudi, Skepta & Pop Smoke",
@@ -6038,14 +6400,15 @@ window.SONGS = [
   ],
   "year": 2020,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/ad/57/48ad57dd-f6f2-a1bc-b2a3-7241a64655bd/20UM1IM12830.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/show-out/1544275140?i=1544276318&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/27/cb/7027cb6d-2a96-42dc-b88d-d4efa0c486e8/mzaf_2577437396256102496.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8e/1a/15/8e1a1594-4189-0102-e998-a87f4fbb52ce/20UM1IM12829.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/show-out/1543635399?i=1543635694&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c9/e3/24/c9e32494-656d-b4b5-9ec2-f51efcf34855/mzaf_10768746204311523602.plus.aac.p.m4a",
   "rank": 546910,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1443483843,
+  "id": 1472484926,
   "title": "Solo Dolo",
   "artist": "Kid Cudi",
   "credit": "Kid Cudi",
@@ -6054,14 +6417,15 @@ window.SONGS = [
   ],
   "year": 2009,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e1/cb/32/e1cb3268-1ba1-2c11-2f47-92ee469fac6a/09UMGIM33420.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/solo-dolo-nightmare/1443483575?i=1443483843&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/be/73/56be733c-175a-f7ae-5af9-2ae4b30d9e0f/mzaf_3871731546691752332.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/78/1e/36781ee4-be7e-1c54-5a4a-a262faa3a245/09UMGIM33419.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/solo-dolo-nightmare/1472484829?i=1472484926&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/90/be/d1/90bed165-20de-c2cd-4fd0-9601e6e6c941/mzaf_10004702448229183647.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1443484145,
+  "id": 1472484937,
   "title": "Make Her Say",
   "artist": "Kid Cudi",
   "credit": "Kid Cudi feat. Kanye West & Common",
@@ -6072,14 +6436,15 @@ window.SONGS = [
   ],
   "year": 2009,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e1/cb/32/e1cb3268-1ba1-2c11-2f47-92ee469fac6a/09UMGIM33420.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/make-her-say-feat-kanye-west-common/1443483575?i=1443484145&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/0a/ac/590aac68-06a0-815a-e626-a81779ef08b4/mzaf_11880752890553445006.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/78/1e/36781ee4-be7e-1c54-5a4a-a262faa3a245/09UMGIM33419.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/make-her-say-feat-kanye-west-common/1472484829?i=1472484937&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ae/5f/6b/ae5f6b99-bcec-6472-76bd-04695e3ecf5f/mzaf_1067327412427005226.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1442990322,
+  "id": 1452877308,
   "title": "Marijuana",
   "artist": "Kid Cudi",
   "credit": "Kid Cudi",
@@ -6088,14 +6453,15 @@ window.SONGS = [
   ],
   "year": 2010,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c9/72/b6/c972b69d-29d5-5442-7e40-020a7abddc17/10UMGIM27686.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/marijuana/1442990188?i=1442990322&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b8/b9/b0/b8b9b06f-2160-b06d-d4f3-a21c5eb7f3b3/mzaf_4747144450653897606.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/12/4a/d9/124ad978-f720-dd52-30bd-7919643cf5f0/10UMGIM27683.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/marijuana/1452877009?i=1452877308&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/c7/bd/f5c7bd12-ee2d-3a77-eef8-1aab0d10e4be/mzaf_5451156398548839560.plus.aac.p.m4a",
   "rank": 513804,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440882165,
+  "id": 1440881684,
   "title": "HUMBLE.",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar",
@@ -6104,14 +6470,15 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ab/16/ef/ab16efe9-e7f1-66ec-021c-5592a23f0f9e/17UMGIM88793.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/humble/1440881722?i=1440882165&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/2e/37/1f2e37be-bdd0-d770-6ea4-091011a6aade/mzaf_2360827885900940865.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/86/c9/bb/86c9bb30-fe3d-442e-33c1-c106c4d23705/17UMGIM88776.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/humble/1440881047?i=1440881684&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bb/5f/fd/bb5ffd24-738f-282a-1cad-68a87e43c3d5/mzaf_6241831141599885883.plus.aac.p.m4a",
   "rank": 816161,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440908096,
+  "id": 1440881357,
   "title": "DNA.",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar",
@@ -6120,14 +6487,15 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/94/28/36/94283609-93bb-db1c-e997-44e82c157e90/00602567261216.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/dna/1440907513?i=1440908096&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3f/d3/0f/3fd30f56-a2b6-55e1-d57d-a3133e31e412/mzaf_9875926193818403573.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/86/c9/bb/86c9bb30-fe3d-442e-33c1-c106c4d23705/17UMGIM88776.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/dna/1440881047?i=1440881357&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/71/51/7d71510c-fc65-d7b3-d7a8-0ae4db21f00d/mzaf_7095057374536879664.plus.aac.p.m4a",
   "rank": 715500,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440907882,
+  "id": 1440881570,
   "title": "LOYALTY.",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar feat. RIHANNA.",
@@ -6137,14 +6505,15 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/94/28/36/94283609-93bb-db1c-e997-44e82c157e90/00602567261216.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/loyalty-feat-rihanna/1440907513?i=1440907882&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/2e/b6/f12eb6e5-5355-98f4-ffc2-eb485e34b9b9/mzaf_10758515105974709516.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/86/c9/bb/86c9bb30-fe3d-442e-33c1-c106c4d23705/17UMGIM88776.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/loyalty-feat-rihanna/1440881047?i=1440881570&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/b4/21/88b42176-068f-63cf-4bd7-4ce048efcfda/mzaf_6858930629601595049.plus.aac.p.m4a",
   "rank": 364943,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440860408,
+  "id": 1440818980,
   "title": "Swimming Pools (Drank)",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar",
@@ -6153,14 +6522,15 @@ window.SONGS = [
   ],
   "year": 2012,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/36/86/ec/3686ec99-dec4-0a01-8b74-2d8a9a0263a7/12UMGIM52988.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/swimming-pools-drank-extended-version/1440860389?i=1440860408&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6c/8b/69/6c8b6925-647d-db57-2846-8cff9d02d565/mzaf_3261562986439060143.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ca/5b/c0/ca5bc0b3-d81d-cc6c-0d19-54b9eedb6dbd/12UMGIM52990.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/swimming-pools-drank-extended-version/1440818890?i=1440818980&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/26/e1/6026e138-6318-9c9a-94b4-d64856d97ffb/mzaf_10545076008461274924.plus.aac.p.m4a",
   "rank": 824975,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440860400,
+  "id": 1440818969,
   "title": "Money Trees",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar feat. Jay Rock",
@@ -6170,14 +6540,15 @@ window.SONGS = [
   ],
   "year": 2012,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/36/86/ec/3686ec99-dec4-0a01-8b74-2d8a9a0263a7/12UMGIM52988.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/money-trees-feat-jay-rock/1440860389?i=1440860400&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/be/7f/2f/be7f2fe2-41dd-6b9a-4957-a10ac5c62989/mzaf_17460900856492630846.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ca/5b/c0/ca5bc0b3-d81d-cc6c-0d19-54b9eedb6dbd/12UMGIM52990.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/money-trees-feat-jay-rock/1440818890?i=1440818969&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/49/e0/6049e086-f2d1-9a23-1ebb-044bdad81e4a/mzaf_4701297327288114494.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440860396,
+  "id": 1440818959,
   "title": "Bitch, Don't Kill My Vibe",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar",
@@ -6186,14 +6557,15 @@ window.SONGS = [
   ],
   "year": 2012,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/36/86/ec/3686ec99-dec4-0a01-8b74-2d8a9a0263a7/12UMGIM52988.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/bitch-dont-kill-my-vibe/1440860389?i=1440860396&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d3/4f/cf/d34fcf45-3059-5cd8-fd05-6c0f1070b39b/mzaf_1329962993872108634.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ca/5b/c0/ca5bc0b3-d81d-cc6c-0d19-54b9eedb6dbd/12UMGIM52990.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/bitch-dont-kill-my-vibe/1440818890?i=1440818959&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2e/a5/d7/2ea5d76c-c0db-fb7a-063d-a5fd45b1c523/mzaf_9188399391493956941.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440860402,
+  "id": 1440818972,
   "title": "Poetic Justice",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar feat. Drake",
@@ -6203,14 +6575,15 @@ window.SONGS = [
   ],
   "year": 2012,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/36/86/ec/3686ec99-dec4-0a01-8b74-2d8a9a0263a7/12UMGIM52988.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/poetic-justice-feat-drake/1440860389?i=1440860402&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d8/ea/2a/d8ea2a90-86c8-5ff1-54cb-a87b34435bbe/mzaf_267293595076580687.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ca/5b/c0/ca5bc0b3-d81d-cc6c-0d19-54b9eedb6dbd/12UMGIM52990.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/poetic-justice-feat-drake/1440818890?i=1440818972&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/ff/df/5fffdf9d-4616-1498-1e16-dc254792bbaf/mzaf_9266216589681435304.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440871882,
+  "id": 1440829137,
   "title": "King Kunta",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar",
@@ -6219,14 +6592,15 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b5/a6/91/b5a69171-5232-3d5b-9c15-8963802f83dd/15UMGIM15814.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/king-kunta/1440871877?i=1440871882&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/14/64/281464e2-0033-0ba3-303f-f74215f21fb0/mzaf_14773791895724654194.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0d/ae/61/0dae6140-d4af-d0df-eae0-3c92eb392a33/15UMGIM11922.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/king-kunta/1440828886?i=1440829137&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/26/15/64/26156438-55e2-eeef-272b-180a1634085c/mzaf_5932197698154626126.plus.aac.p.m4a",
   "rank": 661400,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440871886,
+  "id": 1440829463,
   "title": "Alright",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar",
@@ -6235,11 +6609,12 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b5/a6/91/b5a69171-5232-3d5b-9c15-8963802f83dd/15UMGIM15814.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/alright/1440871877?i=1440871886&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/27/4e/3b274eab-c2de-84c5-a68d-4f78f3269bac/mzaf_16117050990489545534.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0d/ae/61/0dae6140-d4af-d0df-eae0-3c92eb392a33/15UMGIM11922.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/alright/1440828886?i=1440829463&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/f6/95/62f695f9-6331-b292-8213-6731f41c6463/mzaf_4510846020766395523.plus.aac.p.m4a",
   "rank": 678827,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1440881708,
@@ -6256,10 +6631,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/love-feat-zacari/1440881047?i=1440881708&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/71/89/72718957-3475-8f6f-3685-aedd470ddc20/mzaf_4044691450436775386.plus.aac.p.m4a",
   "rank": 714814,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1626194607,
+  "id": 1626195811,
   "title": "N95",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar",
@@ -6268,14 +6644,15 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/eb/44/c9/eb44c9e1-401e-b118-6254-7b9a10888c39/22UMGIM52376.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/n95/1626194593?i=1626194607&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/89/f9/7289f97c-d803-1bfe-55eb-092e22c881e7/mzaf_8737454029581037527.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/f6/65/b5/f665b52b-8d6d-b94d-cc2c-db826e35304e/22UMGIM52376.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/n95/1626195790?i=1626195811&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/ba/83/f2ba8321-eb5e-28c8-877e-ffb993b56506/mzaf_7836717119851453834.plus.aac.p.m4a",
   "rank": 636266,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1781353929,
+  "id": 1744776167,
   "title": "Not Like Us",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar",
@@ -6284,11 +6661,12 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/31/3a/3f/313a3fbc-bb8f-80c7-b5a2-e226869a38cd/24UMGIM51924.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/not-like-us/1781353928?i=1781353929&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/e0/e8/2de0e874-cd0b-e9a9-e876-76be13a86662/mzaf_12385336780649591409.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d0/ef/b6/d0efb685-73be-fdee-58c9-be655f4cd4fd/24UMGIM51924.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/not-like-us/1744776162?i=1744776167&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/96/f8/f8/96f8f80b-dbb5-f2ca-714e-9c39d5dc6846/mzaf_4599292728755362943.plus.aac.p.m4a",
   "rank": 871792,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": "dz2775438091",
@@ -6305,11 +6683,12 @@ window.SONGS = [
   "rank": 636291,
   "art": "https://cdn-images.dzcdn.net/images/cover/3f6cfda899187bae90fb9dd2bc53ea7f/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/2775438091",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/3/2/0/d32b1074ee90037172967df2e17d4873.mp3?hdnea=exp=1794898632~acl=/api/1/1/d/3/2/0/d32b1074ee90037172967df2e17d4873.mp3*~data=user_id=0,application_id=42~hmac=ee4d231dcf82c994ff8ccc80efbd012447f2628959eed117d5f83871892d58c0",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/3/2/0/d32b1074ee90037172967df2e17d4873.mp3?hdnea=exp=1794900274~acl=/api/1/1/d/3/2/0/d32b1074ee90037172967df2e17d4873.mp3*~data=user_id=0,application_id=42~hmac=b87accc649f5d6239f2b75c6b837392b9d7fe89aee7f26021e39c02ea5284579",
+  "explicitness": "explicit",
   "hit": true
  },
  {
-  "id": 1781316952,
+  "id": 1781270540,
   "title": "tv off",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar feat. Lefty Gunplay",
@@ -6319,14 +6698,15 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/28/14/54281424-eece-0935-299d-fdd2ab403f92/24UM1IM28978.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/tv-off-feat-lefty-gunplay/1781316864?i=1781316952&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/20/31/fb203190-148f-f2be-6ad6-47c5a165f7b9/mzaf_5391716550911069545.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/c2/cc/50c2cc95-3658-9417-0d4b-831abde44ba1/24UM1IM28978.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/tv-off-feat-lefty-gunplay/1781270319?i=1781270540&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/22/33/41223311-6d08-5301-1929-7d81d1c9ccd3/mzaf_18291475941419214099.plus.aac.p.m4a",
   "rank": 760421,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1781316884,
+  "id": 1781270321,
   "title": "squabble up",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar",
@@ -6335,11 +6715,12 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/28/14/54281424-eece-0935-299d-fdd2ab403f92/24UM1IM28978.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/squabble-up/1781316864?i=1781316884&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/91/e5/aa/91e5aa0f-5d8b-532f-8a72-23d4f721d847/mzaf_14650418192241940161.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/c2/cc/50c2cc95-3658-9417-0d4b-831abde44ba1/24UM1IM28978.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/squabble-up/1781270319?i=1781270321&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/04/00/6a/04006a52-37b6-032d-22b0-c78284797590/mzaf_2728781692556153388.plus.aac.p.m4a",
   "rank": 651135,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1781270323,
@@ -6355,10 +6736,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/luther/1781270319?i=1781270323&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/1d/98/e01d9881-0953-f0ed-b03d-3a4bd6f3c769/mzaf_8283505998481315852.plus.aac.p.m4a",
   "rank": 783391,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1626195230,
+  "id": 1626196252,
   "title": "Count Me Out",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar",
@@ -6367,14 +6749,15 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/eb/44/c9/eb44c9e1-401e-b118-6254-7b9a10888c39/22UMGIM52376.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/count-me-out/1626194593?i=1626195230&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4e/a1/fa/4ea1faa5-3774-f9b8-1844-8746daefc4df/mzaf_6821347580322636043.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/f6/65/b5/f665b52b-8d6d-b94d-cc2c-db826e35304e/22UMGIM52376.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/count-me-out/1626195790?i=1626196252&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/31/bf/9331bf4f-c775-5b0f-c640-2676a718a9ff/mzaf_1314654236834299223.plus.aac.p.m4a",
   "rank": 674328,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1626194615,
+  "id": 1626196087,
   "title": "Die Hard",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar, Blxst & Amanda Reifer",
@@ -6385,14 +6768,15 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/eb/44/c9/eb44c9e1-401e-b118-6254-7b9a10888c39/22UMGIM52376.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/die-hard/1626194593?i=1626194615&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/4a/4c/304a4c84-75d9-2cc3-2c7b-e3cf12a45ca6/mzaf_13942384363204197670.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/f6/65/b5/f665b52b-8d6d-b94d-cc2c-db826e35304e/22UMGIM52376.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/die-hard/1626195790?i=1626196087&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/2d/32/5f2d32b7-d08a-d035-163e-4da3a48c8126/mzaf_11320957732497306333.plus.aac.p.m4a",
   "rank": 622637,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1626195226,
+  "id": 1626196099,
   "title": "Rich Spirit",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar",
@@ -6401,14 +6785,15 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/eb/44/c9/eb44c9e1-401e-b118-6254-7b9a10888c39/22UMGIM52376.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/rich-spirit/1626194593?i=1626195226&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e2/6d/28/e26d28b9-d540-fe14-43b4-e7edb4dc95e9/mzaf_3524495193746308752.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/f6/65/b5/f665b52b-8d6d-b94d-cc2c-db826e35304e/22UMGIM52376.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/rich-spirit/1626195790?i=1626196099&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2e/21/66/2e2166e4-de1a-7434-32f2-ffb30225e955/mzaf_4273720212082500852.plus.aac.p.m4a",
   "rank": 598655,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1626194604,
+  "id": 1626195797,
   "title": "United In Grief",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar",
@@ -6417,14 +6802,15 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/eb/44/c9/eb44c9e1-401e-b118-6254-7b9a10888c39/22UMGIM52376.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/united-in-grief/1626194593?i=1626194604&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/14/85/ce148565-f20c-20c8-c3a3-e5b316283bae/mzaf_2611850638206759199.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/f6/65/b5/f665b52b-8d6d-b94d-cc2c-db826e35304e/22UMGIM52376.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/united-in-grief/1626195790?i=1626195797&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/aa/9f/1d/aa9f1d53-aebd-6543-cf9b-50ea5eed1a39/mzaf_8594699446746103605.plus.aac.p.m4a",
   "rank": 744482,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440860404,
+  "id": 1440818977,
   "title": "m.A.A.d city",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar feat. MC Eiht",
@@ -6434,14 +6820,15 @@ window.SONGS = [
   ],
   "year": 2012,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/36/86/ec/3686ec99-dec4-0a01-8b74-2d8a9a0263a7/12UMGIM52988.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/m-a-a-d-city-feat-mc-eiht/1440860389?i=1440860404&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/0c/69/a70c6938-1b27-caba-37c7-57e3307ae496/mzaf_5302475785148073645.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ca/5b/c0/ca5bc0b3-d81d-cc6c-0d19-54b9eedb6dbd/12UMGIM52990.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/m-a-a-d-city-feat-mc-eiht/1440818890?i=1440818977&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/94/76/44947656-4440-2cd3-8a84-87fe00281aba/mzaf_7991069671885655163.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440860397,
+  "id": 1440818964,
   "title": "Backseat Freestyle",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar",
@@ -6450,14 +6837,15 @@ window.SONGS = [
   ],
   "year": 2012,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/36/86/ec/3686ec99-dec4-0a01-8b74-2d8a9a0263a7/12UMGIM52988.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/backseat-freestyle/1440860389?i=1440860397&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ef/ee/fd/efeefd9d-4573-c6ae-606c-93d4273a0c0b/mzaf_4147471207438509106.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ca/5b/c0/ca5bc0b3-d81d-cc6c-0d19-54b9eedb6dbd/12UMGIM52990.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/backseat-freestyle/1440818890?i=1440818964&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/7c/cc/ac7ccc8a-55e1-8cbb-d07c-603be69effd0/mzaf_6052890171422954351.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440871884,
+  "id": 1440829150,
   "title": "These Walls",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar feat. Bilal & Anna Wise & Thundercat",
@@ -6469,14 +6857,15 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b5/a6/91/b5a69171-5232-3d5b-9c15-8963802f83dd/15UMGIM15814.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/these-walls-feat-bilal-anna-wise-thundercat/1440871877?i=1440871884&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/2a/06/f02a0627-7a82-76c3-3034-e20bea852b26/mzaf_16429612645682745377.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0d/ae/61/0dae6140-d4af-d0df-eae0-3c92eb392a33/15UMGIM11922.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/these-walls-feat-bilal-anna-wise-thundercat/1440828886?i=1440829150&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/b6/7f/b0b67f89-4c45-0f82-0e72-5145e34eeb56/mzaf_8837364790887235248.plus.aac.p.m4a",
   "rank": 523281,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1444846349,
+  "id": 1440829895,
   "title": "i",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar",
@@ -6485,14 +6874,15 @@ window.SONGS = [
   ],
   "year": 2014,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/e4/1b/cc/e41bcc4a-0022-e8a1-7bd9-261569eaac35/00602557692174.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/i/1444846337?i=1444846349&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5b/38/e8/5b38e887-430e-5e4f-5dbe-0d5b58b42c14/mzaf_13874119598667964376.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0d/ae/61/0dae6140-d4af-d0df-eae0-3c92eb392a33/15UMGIM11922.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/i/1440828886?i=1440829895&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/44/6e/49446e15-e113-3997-0384-abcd1dbc2ad7/mzaf_15669762394594936880.plus.aac.p.m4a",
   "rank": 593750,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1709052875,
+  "id": 1684644642,
   "title": "if looks could kill",
   "artist": "Destroy Lonely",
   "credit": "Destroy Lonely",
@@ -6501,11 +6891,12 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/29/10/a4/2910a494-713f-e254-37eb-5d951b8531ef/23UM1IM13311.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/if-looks-could-kill/1709052872?i=1709052875&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/99/53/4a995386-c6ac-66a0-4e14-29af46f6a99f/mzaf_15950079032016039344.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/91/5e/71/915e718d-8d0b-de3e-4c8b-d8b104c21bb4/23UMGIM42823.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/if-looks-could-kill/1684644634?i=1684644642&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6e/99/5c/6e995caa-c7ff-f36c-e744-114648337832/mzaf_2638286568329467166.plus.aac.p.m4a",
   "rank": 556550,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": "dz2188209227",
@@ -6522,7 +6913,8 @@ window.SONGS = [
   "rank": 534610,
   "art": "https://cdn-images.dzcdn.net/images/cover/209d26949458f7b0a672062cece4e4d8/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/2188209227",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/c/5/0/ec5224d4b969721ce08926f5a34af65e.mp3?hdnea=exp=1794898641~acl=/api/1/1/e/c/5/0/ec5224d4b969721ce08926f5a34af65e.mp3*~data=user_id=0,application_id=42~hmac=81c05552c7ce9e192e4b1a54be03e51d264dcfba35dced516351daa780917d79",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/c/5/0/ec5224d4b969721ce08926f5a34af65e.mp3?hdnea=exp=1794900276~acl=/api/1/1/e/c/5/0/ec5224d4b969721ce08926f5a34af65e.mp3*~data=user_id=0,application_id=42~hmac=ebc542f25855eb539ba5c92542f8ec6ea651eb63229e6eeeb1f1bb6f275790b4",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -6540,7 +6932,8 @@ window.SONGS = [
   "rank": 248292,
   "art": "https://cdn-images.dzcdn.net/images/cover/8064f490779e2240e276780fd82894b8/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/2011302427",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/b/0/0/8b022e0bfdf16c75e9969a1e93c93b75.mp3?hdnea=exp=1794898646~acl=/api/1/1/8/b/0/0/8b022e0bfdf16c75e9969a1e93c93b75.mp3*~data=user_id=0,application_id=42~hmac=c0e8182793bed9fc971dfca9ad88e88e8720c763a6083ce349eb00e41849ba22",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/b/0/0/8b022e0bfdf16c75e9969a1e93c93b75.mp3?hdnea=exp=1794900278~acl=/api/1/1/8/b/0/0/8b022e0bfdf16c75e9969a1e93c93b75.mp3*~data=user_id=0,application_id=42~hmac=ae56d07dc9c7d68bb0f535d5f80b4c4c0be25c6045c9a939376890ad5c0e4170",
+  "explicitness": "explicit",
   "hit": false
  },
  {
@@ -6558,7 +6951,8 @@ window.SONGS = [
   "rank": 211875,
   "art": "https://cdn-images.dzcdn.net/images/cover/209d26949458f7b0a672062cece4e4d8/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/2188209187",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/4/4/0/0448e442f6bdf9871b85d2b4026a6c72.mp3?hdnea=exp=1794898652~acl=/api/1/1/0/4/4/0/0448e442f6bdf9871b85d2b4026a6c72.mp3*~data=user_id=0,application_id=42~hmac=69bb429def01523bc7c002aff2ee699c80a7fcbd4d88831a40e6946f9d9f36fc",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/4/4/0/0448e442f6bdf9871b85d2b4026a6c72.mp3?hdnea=exp=1794900280~acl=/api/1/1/0/4/4/0/0448e442f6bdf9871b85d2b4026a6c72.mp3*~data=user_id=0,application_id=42~hmac=5045301bd79373ef14e26300e7e1486b61ac6067e203a386ed46781bac9366d3",
+  "explicitness": "explicit",
   "hit": false
  },
  {
@@ -6576,7 +6970,8 @@ window.SONGS = [
   "rank": 474088,
   "art": "https://cdn-images.dzcdn.net/images/cover/6d3377c5762f195c3f3c7613a5d205e4/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/722822682",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/d/0/59d9269e311a358ffbee594a6fd0843d.mp3?hdnea=exp=1794898657~acl=/api/1/1/5/9/d/0/59d9269e311a358ffbee594a6fd0843d.mp3*~data=user_id=0,application_id=42~hmac=ed003e8846849efa1dd349cce21c9b1d4fda7d47dec2f6825d9ed3664c66a3e2",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/d/0/59d9269e311a358ffbee594a6fd0843d.mp3?hdnea=exp=1794900282~acl=/api/1/1/5/9/d/0/59d9269e311a358ffbee594a6fd0843d.mp3*~data=user_id=0,application_id=42~hmac=de709f75c7ccb6e9236b3fd796949a7ed4e26b1b22076c5de9e0c3babe3c5a0a",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -6594,11 +6989,12 @@ window.SONGS = [
   "rank": 254994,
   "art": "https://cdn-images.dzcdn.net/images/cover/8064f490779e2240e276780fd82894b8/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/2011302457",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/9/9/0/09930e125b72a51593ad2865d7513ff1.mp3?hdnea=exp=1794898663~acl=/api/1/1/0/9/9/0/09930e125b72a51593ad2865d7513ff1.mp3*~data=user_id=0,application_id=42~hmac=ba17a77243ca6d56e89d3386e7c55deef803da54f3fb4355788f445c81732abc",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/9/9/0/09930e125b72a51593ad2865d7513ff1.mp3?hdnea=exp=1794900284~acl=/api/1/1/0/9/9/0/09930e125b72a51593ad2865d7513ff1.mp3*~data=user_id=0,application_id=42~hmac=3728786c5f66bc2e585aba94e05170067d584b28fb910d5988da63cb21e07e6c",
+  "explicitness": "explicit",
   "hit": false
  },
  {
-  "id": 1709052874,
+  "id": 1684644635,
   "title": "how u feel?",
   "artist": "Destroy Lonely",
   "credit": "Destroy Lonely",
@@ -6607,14 +7003,15 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/29/10/a4/2910a494-713f-e254-37eb-5d951b8531ef/23UM1IM13311.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/how-u-feel/1709052872?i=1709052874&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/4f/22/ab4f22d7-42cd-05ad-6dfc-9f767ca58efc/mzaf_1920758080994503240.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/91/5e/71/915e718d-8d0b-de3e-4c8b-d8b104c21bb4/23UMGIM42823.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/how-u-feel/1684644634?i=1684644635&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/74/d4/6d/74d46d7b-4dcd-0816-3f8e-6f488346b879/mzaf_3250297084752562053.plus.aac.p.m4a",
   "rank": 427231,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1468508848,
+  "id": 1466839702,
   "title": "Ransom",
   "artist": "Lil Tecca",
   "credit": "Lil Tecca",
@@ -6623,14 +7020,15 @@ window.SONGS = [
   ],
   "year": 2019,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/02/88/84/02888430-47ff-d97d-418c-3211d7890741/19UMGIM54321.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/ransom/1468508847?i=1468508848&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2a/17/cc/2a17cc34-099b-8db4-8426-6a777636b981/mzaf_2270249946485081165.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0c/35/21/0c3521be-e646-db60-7fd4-847c12c033de/19UMGIM50641.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/ransom/1466839697?i=1466839702&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/39/c3/58/39c35870-5db3-f79e-c8d0-d93be2de2119/mzaf_16746664027610222189.plus.aac.p.m4a",
   "rank": 838157,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1802034520,
+  "id": 1802035599,
   "title": "Dark Thoughts",
   "artist": "Lil Tecca",
   "credit": "Lil Tecca",
@@ -6639,14 +7037,15 @@ window.SONGS = [
   ],
   "year": 2025,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/93/50/289350da-4db0-a6c4-493e-bfb738b68311/25UMGIM44738.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/dark-thoughts/1802034518?i=1802034520&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/e7/db/dfe7dbb5-9c6a-4c47-b0d9-db6d56e5b3bc/mzaf_4113229891781230283.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/c6/36/3fc63631-5293-b225-1e65-11c9abeea5c5/25UMGIM44739.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/dark-thoughts/1802035598?i=1802035599&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/10/3e/42103efa-fb52-e003-447b-0ced82bac5d7/mzaf_5491734056084934396.plus.aac.p.m4a",
   "rank": 687983,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1697372045,
+  "id": 1697375649,
   "title": "500lbs",
   "artist": "Lil Tecca",
   "credit": "Lil Tecca",
@@ -6655,11 +7054,12 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a4/18/1f/a4181f73-deb5-f0cb-0eaf-de697b90b3e0/23UMGIM75461.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/500lbs/1697372043?i=1697372045&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1a/4e/fb/1a4efbc5-5e3c-9e91-d36e-129ba8ca24c3/mzaf_16078289095665403119.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/ad/24/eaad249d-fd7b-3cfc-32cb-9131a0defa84/23UMGIM75459.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/500lbs/1697375646?i=1697375649&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/e7/df/c0e7df6e-bdf9-c1d9-38ef-e7bb95b3cd5b/mzaf_4567161040690703482.plus.aac.p.m4a",
   "rank": 643758,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": "dz741757222",
@@ -6676,11 +7076,12 @@ window.SONGS = [
   "rank": 638910,
   "art": "https://cdn-images.dzcdn.net/images/cover/d03176529ebfb0f75c2e6f6a70218a31/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/741757222",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/2/f/0/e2f0c5a4975055ad3ad0b81ec30ea04d.mp3?hdnea=exp=1794898693~acl=/api/1/1/e/2/f/0/e2f0c5a4975055ad3ad0b81ec30ea04d.mp3*~data=user_id=0,application_id=42~hmac=8f7f78f3517ac750c0782cb07626d8756c2015692ea42926c43cda171546e521",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/2/f/0/e2f0c5a4975055ad3ad0b81ec30ea04d.mp3?hdnea=exp=1794900286~acl=/api/1/1/e/2/f/0/e2f0c5a4975055ad3ad0b81ec30ea04d.mp3*~data=user_id=0,application_id=42~hmac=556fd916d5a0ea053627fbbb8e2e38e87c6a7e2e102c294072c5afc2cf70573a",
+  "explicitness": "explicit",
   "hit": true
  },
  {
-  "id": 1481535795,
+  "id": 1481535252,
   "title": "Did It Again",
   "artist": "Lil Tecca",
   "credit": "Lil Tecca",
@@ -6689,14 +7090,15 @@ window.SONGS = [
   ],
   "year": 2019,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/98/2a/7f/982a7fa5-37a7-70ab-2b80-18d3492b4f1b/19UMGIM78834.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/did-it-again/1481535790?i=1481535795&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/a4/a4/73a4a4f2-d2de-7b3f-4682-df750e90cf65/mzaf_13538040601262213325.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/dd/6d/6a/dd6d6ae8-b6b7-f809-08b3-7f80ffda3b05/19UMGIM78833.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/did-it-again/1481535238?i=1481535252&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/78/e4/ee/78e4eef6-9d5f-26c3-a094-85d768f4c77f/mzaf_16222848304560167422.plus.aac.p.m4a",
   "rank": 512646,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1531781080,
+  "id": 1531786796,
   "title": "Out of Love",
   "artist": "Lil Tecca",
   "credit": "Lil Tecca feat. Internet Money",
@@ -6706,11 +7108,12 @@ window.SONGS = [
   ],
   "year": 2020,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2c/fb/55/2cfb55ee-757a-a0a8-efa5-829f05b7e089/20UMGIM79199.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/out-of-love-feat-internet-money/1531780807?i=1531781080&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/20/fb/4120fb52-397c-1f5e-0ad7-92ea784c4178/mzaf_17007193836245833526.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a8/46/17/a8461763-3f0d-b686-4c52-87cce7e45f46/20UMGIM79198.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/out-of-love-feat-internet-money/1531786369?i=1531786796&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/d3/70/08d3708e-4440-19a1-d582-225157664520/mzaf_14632013258028965612.plus.aac.p.m4a",
   "rank": 478785,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
   "id": "dz741757122",
@@ -6727,11 +7130,12 @@ window.SONGS = [
   "rank": 399263,
   "art": "https://cdn-images.dzcdn.net/images/cover/d03176529ebfb0f75c2e6f6a70218a31/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/741757122",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/0/5/0/805cfa656fcbcfbb8effead0c19eb21c.mp3?hdnea=exp=1794898699~acl=/api/1/1/8/0/5/0/805cfa656fcbcfbb8effead0c19eb21c.mp3*~data=user_id=0,application_id=42~hmac=37428620873a0d3f652741f60ac9102dfd1da7ca97f9ae70ea13eba6d2f21852",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/0/5/0/805cfa656fcbcfbb8effead0c19eb21c.mp3?hdnea=exp=1794900288~acl=/api/1/1/8/0/5/0/805cfa656fcbcfbb8effead0c19eb21c.mp3*~data=user_id=0,application_id=42~hmac=7439332b33c0ef7386f7b5eb9ac0ba56e3391c34f3910d2935c0a1690a39d98f",
+  "explicitness": "explicit",
   "hit": false
  },
  {
-  "id": 1565228899,
+  "id": 1565231063,
   "title": "Never Left",
   "artist": "Lil Tecca",
   "credit": "Lil Tecca",
@@ -6740,14 +7144,15 @@ window.SONGS = [
   ],
   "year": 2021,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ab/ba/8c/abba8c47-5da6-273b-acf5-05c87822d6ba/21UMGIM37630.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/never-left/1565228642?i=1565228899&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bf/4b/25/bf4b250d-98c9-7802-4246-f688b39049db/mzaf_8460665325876831571.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4f/e1/a0/4fe1a016-7d4e-c599-3012-507e445db98b/21UMGIM37628.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/never-left/1565230925?i=1565231063&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/45/cd/5945cd69-d6e6-10dc-9735-d3787d3b3958/mzaf_1871541043305239306.plus.aac.p.m4a",
   "rank": 388453,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1578936418,
+  "id": 1582496855,
   "title": "Repeat It",
   "artist": "Lil Tecca",
   "credit": "Lil Tecca & Gunna",
@@ -6757,14 +7162,15 @@ window.SONGS = [
   ],
   "year": 2021,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f4/3a/61/f43a6159-1365-e47e-df91-16a3cafa8a75/21UMGIM70556.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/repeat-it/1578936415?i=1578936418&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/83/ea/98/83ea9865-6f40-2388-ef1d-bff392625b42/mzaf_1357229394298279555.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a2/07/cc/a207ccaf-d9ea-27cc-35b0-9ca39686728f/21UMGIM70555.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/repeat-it/1582496839?i=1582496855&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/66/5c/44665cb8-cc98-5c92-54e6-20bbc47b1120/mzaf_5063434751263099974.plus.aac.p.m4a",
   "rank": 532997,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1724100750,
+  "id": 1724100694,
   "title": "Down With Me",
   "artist": "Lil Tecca",
   "credit": "Lil Tecca",
@@ -6773,14 +7179,15 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/50/30/72/503072d4-f7d6-54e2-b2c3-a11212b790b2/24UMGIM00399.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/down-with-me/1724100749?i=1724100750&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/07/aa/5b/07aa5b3c-8f17-3eb3-042e-9fc8aec1e92d/mzaf_8775350183008331481.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/43/44/e5/4344e598-371c-1259-ce53-bb4601cbfc8a/24UMGIM00398.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/down-with-me/1724100693?i=1724100694&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/d5/0a/91d50add-5edc-89ce-87b5-ebd4115b5617/mzaf_5684208142063162588.plus.aac.p.m4a",
   "rank": 544685,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1817013340,
+  "id": 1817013285,
   "title": "Owa Owa",
   "artist": "Lil Tecca",
   "credit": "Lil Tecca",
@@ -6789,14 +7196,15 @@ window.SONGS = [
   ],
   "year": 2025,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/b9/c3/78b9c34a-b38d-c536-73a3-3d43046e5b20/25UMGIM73965.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/owa-owa/1817013332?i=1817013340&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/24/1d/3d241dac-28ec-14b5-f971-33560f6f6912/mzaf_13611453918046993074.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b4/79/b7/b479b72b-c913-1a8e-2f51-4cd2d95126f7/25UMGIM73964.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/owa-owa/1817013284?i=1817013285&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/28/c2/d328c281-653c-d55c-62ea-4cc274c0d354/mzaf_15567333346890929594.plus.aac.p.m4a",
   "rank": 581598,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1531780812,
+  "id": 1531786699,
   "title": "When You Down",
   "artist": "Lil Tecca",
   "credit": "Lil Tecca & Polo G feat. Lil Durk",
@@ -6807,14 +7215,15 @@ window.SONGS = [
   ],
   "year": 2020,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2c/fb/55/2cfb55ee-757a-a0a8-efa5-829f05b7e089/20UMGIM79199.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/when-you-down-feat-lil-durk/1531780807?i=1531780812&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/01/2e/5e/012e5e78-d23a-1186-c486-88b82f606b01/mzaf_2893939402816206062.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a8/46/17/a8461763-3f0d-b686-4c52-87cce7e45f46/20UMGIM79198.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/when-you-down-feat-lil-durk/1531786369?i=1531786699&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/81/ad/76/81ad76da-74b0-7616-0226-a5a89e513e74/mzaf_16041745307716671419.plus.aac.p.m4a",
   "rank": 379327,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1767063257,
+  "id": 1767063509,
   "title": "Taste",
   "artist": "Lil Tecca",
   "credit": "Lil Tecca",
@@ -6823,14 +7232,15 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/d0/91/3fd09111-b083-ff0b-67fb-dcc64bbe848d/24UMGIM98697.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/taste/1767063234?i=1767063257&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/b1/83/e6b18341-7d94-f3f2-01f5-c58288c37bbd/mzaf_17420373864878082805.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d8/28/12/d82812c6-e36f-4568-7f0f-969c21091163/24UMGIM98696.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/taste/1767063070?i=1767063509&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/5b/d9/9c5bd9db-0345-d0a0-9f94-aa4b00dc8647/mzaf_1429755714712088953.plus.aac.p.m4a",
   "rank": 460572,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1274598339,
+  "id": 1274153124,
   "title": "XO Tour Llif3",
   "artist": "Lil Uzi Vert",
   "credit": "Lil Uzi Vert",
@@ -6839,11 +7249,12 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/ed/6f/02ed6f77-7e89-ca9c-4d5a-83088113cbe8/075679887955.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/xo-tour-llif3/1274598012?i=1274598339&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ff/be/8d/ffbe8d52-9942-858b-75e7-ef68b27da9c1/mzaf_16399358930097655830.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/ff/4f/fdff4f0f-3710-4e54-1153-4618b6503c01/075679887979.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/xo-tour-llif3/1274150514?i=1274153124&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/62/d3/14/62d314fd-31c7-2e0c-2a95-40b973ff7c4b/mzaf_12722152459391776859.plus.aac.p.m4a",
   "rank": 785689,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": "dz125536814",
@@ -6860,7 +7271,8 @@ window.SONGS = [
   "rank": 533759,
   "art": "https://cdn-images.dzcdn.net/images/cover/e67037fb4abb754a234bd3f77752450d/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/125536814",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/9/5/0/e95cab95c4c6c530fff6a1f0b8d028db.mp3?hdnea=exp=1794898707~acl=/api/1/1/e/9/5/0/e95cab95c4c6c530fff6a1f0b8d028db.mp3*~data=user_id=0,application_id=42~hmac=f7dcd6db89735fc593d3706bcb461577d217095169dfd8cca0bae3c35d3a718e",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/9/5/0/e95cab95c4c6c530fff6a1f0b8d028db.mp3?hdnea=exp=1794900290~acl=/api/1/1/e/9/5/0/e95cab95c4c6c530fff6a1f0b8d028db.mp3*~data=user_id=0,application_id=42~hmac=4170cf4699475673ab23a9a31b29970bd03604651be70baa6613cd25f51efcbc",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -6878,7 +7290,8 @@ window.SONGS = [
   "rank": 360886,
   "art": "https://cdn-images.dzcdn.net/images/cover/e67037fb4abb754a234bd3f77752450d/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/125536818",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/5/e/0/b5e4e40e013ad0af1240eb73cdf43fa1.mp3?hdnea=exp=1794898713~acl=/api/1/1/b/5/e/0/b5e4e40e013ad0af1240eb73cdf43fa1.mp3*~data=user_id=0,application_id=42~hmac=737d10af9c3c00628e136c7a75d8722048a0cb5d7affb474e6b5b3111082ce9e",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/5/e/0/b5e4e40e013ad0af1240eb73cdf43fa1.mp3?hdnea=exp=1794900292~acl=/api/1/1/b/5/e/0/b5e4e40e013ad0af1240eb73cdf43fa1.mp3*~data=user_id=0,application_id=42~hmac=39b57f004d2b92b81a1768a5d7bfdfc3cf4a139e3c15d2562a529a9cf284dde1",
+  "explicitness": "explicit",
   "hit": false
  },
  {
@@ -6896,11 +7309,12 @@ window.SONGS = [
   "rank": 402305,
   "art": "https://cdn-images.dzcdn.net/images/cover/757b65eef408035453c1904136991e40/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/129916020",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/a/c/0/8acf82a41c03ba812e97f571602a6d55.mp3?hdnea=exp=1794898718~acl=/api/1/1/8/a/c/0/8acf82a41c03ba812e97f571602a6d55.mp3*~data=user_id=0,application_id=42~hmac=6823f0c8bc0bb87463b73eed1ef8190830ea05f49deaabeca8d71b3267fbaa00",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/a/c/0/8acf82a41c03ba812e97f571602a6d55.mp3?hdnea=exp=1794900294~acl=/api/1/1/8/a/c/0/8acf82a41c03ba812e97f571602a6d55.mp3*~data=user_id=0,application_id=42~hmac=41202d8a3ce0ec5f8d3ed879bc3018e0add50a62fb2adc09ca0ea819fcd56972",
+  "explicitness": "explicit",
   "hit": false
  },
  {
-  "id": 1313342763,
+  "id": 1274152200,
   "title": "The Way Life Goes",
   "artist": "Lil Uzi Vert",
   "credit": "Lil Uzi Vert feat. Oh Wonder",
@@ -6910,11 +7324,12 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4a/d7/df/4ad7df3d-f63c-45ed-e6be-6a808e5101b6/075679884763.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/the-way-life-goes-feat-oh-wonder/1313342534?i=1313342763&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a9/cb/e3/a9cbe39b-aeb4-c066-0f39-5b83b1691bab/mzaf_6746806159838918860.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/ff/4f/fdff4f0f-3710-4e54-1153-4618b6503c01/075679887979.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/the-way-life-goes-feat-oh-wonder/1274150514?i=1274152200&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3d/19/00/3d190046-45c8-0765-71d4-7c4a48442df6/mzaf_12116322616410745711.plus.aac.p.m4a",
   "rank": 597078,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": "dz662969192",
@@ -6931,7 +7346,8 @@ window.SONGS = [
   "rank": 507247,
   "art": "https://cdn-images.dzcdn.net/images/cover/b01d72df52860aabd759015c4b8612c9/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/662969192",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/8/3/0/e835b56d06699ccb8f097b14aaa5e979.mp3?hdnea=exp=1794898723~acl=/api/1/1/e/8/3/0/e835b56d06699ccb8f097b14aaa5e979.mp3*~data=user_id=0,application_id=42~hmac=2ae23708da9ea40e547ddbc22aaa4572a79011e7f7bc5664154a9cf0c9d61bdc",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/8/3/0/e835b56d06699ccb8f097b14aaa5e979.mp3?hdnea=exp=1794900296~acl=/api/1/1/e/8/3/0/e835b56d06699ccb8f097b14aaa5e979.mp3*~data=user_id=0,application_id=42~hmac=c5d219393f82139a52f6b1b00438de6add990a5c0918741dc7eb9b958d41e070",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -6949,7 +7365,8 @@ window.SONGS = [
   "rank": 376181,
   "art": "https://cdn-images.dzcdn.net/images/cover/cf1b5062393acbabd34a507ee22e817b/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/892395542",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/d/b/0/7db1c34b742aa529fc93a56a35d60c4b.mp3?hdnea=exp=1794898729~acl=/api/1/1/7/d/b/0/7db1c34b742aa529fc93a56a35d60c4b.mp3*~data=user_id=0,application_id=42~hmac=c954277c89d0917995cf39caf546b54e2a8b912641e61c24b10373d77a7d25c9",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/d/b/0/7db1c34b742aa529fc93a56a35d60c4b.mp3?hdnea=exp=1794900298~acl=/api/1/1/7/d/b/0/7db1c34b742aa529fc93a56a35d60c4b.mp3*~data=user_id=0,application_id=42~hmac=a3a1c5bff59958e338c1c3a4f3719411a7681784480b8ac2f69571b819f6d4b8",
+  "explicitness": "explicit",
   "hit": false
  },
  {
@@ -6967,11 +7384,12 @@ window.SONGS = [
   "rank": 497810,
   "art": "https://cdn-images.dzcdn.net/images/cover/c5d0127e460baf750a174f06b4ed32fb/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/831054332",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/e/e/0/4ee69316061b6065cbe825b0402dd3fc.mp3?hdnea=exp=1794898734~acl=/api/1/1/4/e/e/0/4ee69316061b6065cbe825b0402dd3fc.mp3*~data=user_id=0,application_id=42~hmac=f4cc47644c043f0a24d8d553b22c88bd7392bd141e528fb315d2d6bdcd99aa44",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/e/e/0/4ee69316061b6065cbe825b0402dd3fc.mp3?hdnea=exp=1794900300~acl=/api/1/1/4/e/e/0/4ee69316061b6065cbe825b0402dd3fc.mp3*~data=user_id=0,application_id=42~hmac=4d9b5ceb27d75166d30b36f42346bbf9bf87da67f4361e23661f49180759247d",
+  "explicitness": "explicit",
   "hit": false
  },
  {
-  "id": 1650201274,
+  "id": 1694344188,
   "title": "Just Wanna Rock",
   "artist": "Lil Uzi Vert",
   "credit": "Lil Uzi Vert",
@@ -6980,11 +7398,12 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e8/f3/b9/e8f3b9fd-979c-7def-e314-13a021dea301/075679711694.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/just-wanna-rock/1650201273?i=1650201274&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/88/0d/fb880d53-897a-3215-08e7-02a921bfa56f/mzaf_14704373119531038328.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/29/a3/34/29a3341f-2cd6-9661-f8f7-e154478b8491/075679677983.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/just-wanna-rock/1694343104?i=1694344188&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/43/4b/e4434b75-2932-d8b4-5872-8b42222fac48/mzaf_18438314212210405854.plus.aac.p.m4a",
   "rank": 725452,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": "dz902794742",
@@ -7001,11 +7420,12 @@ window.SONGS = [
   "rank": 503027,
   "art": "https://cdn-images.dzcdn.net/images/cover/7a532d945074ced10587b69150598049/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/902794742",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/6/0/d46077af7c57e6dae52660940c001b12.mp3?hdnea=exp=1794898739~acl=/api/1/1/d/4/6/0/d46077af7c57e6dae52660940c001b12.mp3*~data=user_id=0,application_id=42~hmac=5cac518b0eecffa21947ebed983b205ce555a1f55941ee5c8e8189b0ac1ae9cb",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/6/0/d46077af7c57e6dae52660940c001b12.mp3?hdnea=exp=1794900302~acl=/api/1/1/d/4/6/0/d46077af7c57e6dae52660940c001b12.mp3*~data=user_id=0,application_id=42~hmac=f104c7332b08221800424cd70b64579e95c844fffc2588f94236bdadb1e22cf1",
+  "explicitness": "explicit",
   "hit": true
  },
  {
-  "id": 1313343025,
+  "id": 1274152818,
   "title": "Neon Guts",
   "artist": "Lil Uzi Vert",
   "credit": "Lil Uzi Vert feat. Pharrell Williams",
@@ -7015,11 +7435,12 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4a/d7/df/4ad7df3d-f63c-45ed-e6be-6a808e5101b6/075679884763.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/neon-guts-feat-pharrell-williams/1313342534?i=1313343025&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/3b/c1/f23bc105-980e-a00a-3e75-ecae1dfff017/mzaf_5054354099043633734.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/ff/4f/fdff4f0f-3710-4e54-1153-4618b6503c01/075679887979.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/neon-guts-feat-pharrell-williams/1274150514?i=1274152818&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/59/71/de597176-10f2-cb31-484a-971efd3b4719/mzaf_12255994456171185161.plus.aac.p.m4a",
   "rank": 516734,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": "dz129916034",
@@ -7036,11 +7457,12 @@ window.SONGS = [
   "rank": 503271,
   "art": "https://cdn-images.dzcdn.net/images/cover/757b65eef408035453c1904136991e40/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/129916034",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/c/d/0/acd3cc51cb912defc5fe3e16c295e678.mp3?hdnea=exp=1794898745~acl=/api/1/1/a/c/d/0/acd3cc51cb912defc5fe3e16c295e678.mp3*~data=user_id=0,application_id=42~hmac=608600d575847e2f3e5ad2473151ebe1b382ed974c06fbf968b76c56aec1d10e",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/c/d/0/acd3cc51cb912defc5fe3e16c295e678.mp3?hdnea=exp=1794900304~acl=/api/1/1/a/c/d/0/acd3cc51cb912defc5fe3e16c295e678.mp3*~data=user_id=0,application_id=42~hmac=79434b8d5fcb90afebc9372094c34b01cc97b8ce1673e03e9e8ab8e2069bab28",
+  "explicitness": "explicit",
   "hit": true
  },
  {
-  "id": 1313343143,
+  "id": 1313366296,
   "title": "20 Min",
   "artist": "Lil Uzi Vert",
   "credit": "Lil Uzi Vert",
@@ -7049,11 +7471,12 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4a/d7/df/4ad7df3d-f63c-45ed-e6be-6a808e5101b6/075679884763.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/20-min/1313342534?i=1313343143&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/22/8e/f4228e0b-13ca-cbd4-c9b8-8c3af7021f59/mzaf_9975572739204036254.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/af/12/47/af1247c9-a09e-bdb3-e8a0-7c536ca95606/075679884787.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/20-min/1313364174?i=1313366296&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/30/5c/af305c69-dd1a-75fd-a83d-14c4f13db742/mzaf_15233099484209086643.plus.aac.p.m4a",
   "rank": 765610,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": "dz898025832",
@@ -7070,7 +7493,8 @@ window.SONGS = [
   "rank": 483872,
   "art": "https://cdn-images.dzcdn.net/images/cover/1dfc30f6832a56913bedb5430007b64a/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/898025832",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/e/5/0/8e5d18cb14aa74be6a8ee5d853573f9b.mp3?hdnea=exp=1794898750~acl=/api/1/1/8/e/5/0/8e5d18cb14aa74be6a8ee5d853573f9b.mp3*~data=user_id=0,application_id=42~hmac=4b62c7616d45df5e66b782942acf69cded4b6b189ea3c03f595a91f85120e1aa",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/e/5/0/8e5d18cb14aa74be6a8ee5d853573f9b.mp3?hdnea=exp=1794900306~acl=/api/1/1/8/e/5/0/8e5d18cb14aa74be6a8ee5d853573f9b.mp3*~data=user_id=0,application_id=42~hmac=c2b0aabc13443cada015cff41a74dc7c3c96ef891edf1a976ce006f976743d88",
+  "explicitness": "explicit",
   "hit": false
  },
  {
@@ -7088,11 +7512,12 @@ window.SONGS = [
   "rank": 360092,
   "art": "https://cdn-images.dzcdn.net/images/cover/66112214a2face187edfc1c078f1d05a/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/115195936",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/5/0/26590ecaca1fd92fcfe431f2c5397ba6.mp3?hdnea=exp=1794898755~acl=/api/1/1/2/6/5/0/26590ecaca1fd92fcfe431f2c5397ba6.mp3*~data=user_id=0,application_id=42~hmac=6f8b635aae75c96c5f5e0c030054d174dd9830bb7180e025f49c52af1d09e7f1",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/5/0/26590ecaca1fd92fcfe431f2c5397ba6.mp3?hdnea=exp=1794900308~acl=/api/1/1/2/6/5/0/26590ecaca1fd92fcfe431f2c5397ba6.mp3*~data=user_id=0,application_id=42~hmac=113111b4df7dae59c2bda65c6fb70979ff7a1c92a545e4cea7e43b00e886e8af",
+  "explicitness": "explicit",
   "hit": false
  },
  {
-  "id": 1274598324,
+  "id": 1274152107,
   "title": "Sauce It Up",
   "artist": "Lil Uzi Vert",
   "credit": "Lil Uzi Vert",
@@ -7101,11 +7526,12 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/ed/6f/02ed6f77-7e89-ca9c-4d5a-83088113cbe8/075679887955.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/sauce-it-up/1274598012?i=1274598324&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5d/91/9a/5d919a39-2383-6c56-7c8e-53275d3c753d/mzaf_15880953497931106136.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/ff/4f/fdff4f0f-3710-4e54-1153-4618b6503c01/075679887979.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/sauce-it-up/1274150514?i=1274152107&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7b/39/eb/7b39ebf1-cadd-68b6-180c-f89a5dbaeca5/mzaf_15451836227646306412.plus.aac.p.m4a",
   "rank": 426913,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
   "id": "dz347376721",
@@ -7122,7 +7548,8 @@ window.SONGS = [
   "rank": 689898,
   "art": "https://cdn-images.dzcdn.net/images/cover/0ae8e05f734268cbe5aae06f96f2b1f2/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/347376721",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/b/e/0/3be8a1e38a5384d72f1aba576b948fb2.mp3?hdnea=exp=1794898768~acl=/api/1/1/3/b/e/0/3be8a1e38a5384d72f1aba576b948fb2.mp3*~data=user_id=0,application_id=42~hmac=2f1dc1dec881816aafa4dc02076c951bf04d004dbdb4170c896bd64286012dec",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/b/e/0/3be8a1e38a5384d72f1aba576b948fb2.mp3?hdnea=exp=1794900310~acl=/api/1/1/3/b/e/0/3be8a1e38a5384d72f1aba576b948fb2.mp3*~data=user_id=0,application_id=42~hmac=dffcccf8210d8c03c7acb0b0007a960bc9f78c47857f64e753dbf3d511794f62",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -7141,7 +7568,8 @@ window.SONGS = [
   "rank": 573168,
   "art": "https://cdn-images.dzcdn.net/images/cover/f2d66b587ca8d3f0fa222c3501d23564/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/497467102",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/8/7/0/d87245945c273a66b7cfc4564d7f9ac4.mp3?hdnea=exp=1794898774~acl=/api/1/1/d/8/7/0/d87245945c273a66b7cfc4564d7f9ac4.mp3*~data=user_id=0,application_id=42~hmac=85df374595e7786819f560130949c3a3321d5445ae9a5de134a7210e46584f70",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/8/7/0/d87245945c273a66b7cfc4564d7f9ac4.mp3?hdnea=exp=1794900312~acl=/api/1/1/d/8/7/0/d87245945c273a66b7cfc4564d7f9ac4.mp3*~data=user_id=0,application_id=42~hmac=c67ceebe03fddfdfc7073a41aadeb0f7695b0a3ead110763d9a8e0bf000d1042",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -7159,7 +7587,8 @@ window.SONGS = [
   "rank": 729854,
   "art": "https://cdn-images.dzcdn.net/images/cover/3c5f5f3f5f41ff96f961afd7df7eb4d9/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/1189531242",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/7/b/0/a7baa69c27f747f2aa10297d6060929e.mp3?hdnea=exp=1794898779~acl=/api/1/1/a/7/b/0/a7baa69c27f747f2aa10297d6060929e.mp3*~data=user_id=0,application_id=42~hmac=2b05735ce78bf4f8a27fe7d4f7b4040fa59e0e0139b33c7e653d989c710d926a",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/7/b/0/a7baa69c27f747f2aa10297d6060929e.mp3?hdnea=exp=1794900314~acl=/api/1/1/a/7/b/0/a7baa69c27f747f2aa10297d6060929e.mp3*~data=user_id=0,application_id=42~hmac=922f65797f299aa8392ed5e949733821c824a77e2b9cb598c24ee36c88998ca4",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -7177,7 +7606,8 @@ window.SONGS = [
   "rank": 628016,
   "art": "https://cdn-images.dzcdn.net/images/cover/f2d66b587ca8d3f0fa222c3501d23564/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/497467052",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/b/5/0/4b563074bdc3e34ed8014d123e298ef5.mp3?hdnea=exp=1794898785~acl=/api/1/1/4/b/5/0/4b563074bdc3e34ed8014d123e298ef5.mp3*~data=user_id=0,application_id=42~hmac=99e98f2762fd8c10d1405338c0afd3770e727f340daff847c360468e0c39bffd",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/b/5/0/4b563074bdc3e34ed8014d123e298ef5.mp3?hdnea=exp=1794900317~acl=/api/1/1/4/b/5/0/4b563074bdc3e34ed8014d123e298ef5.mp3*~data=user_id=0,application_id=42~hmac=8c7ab037e65621fa339969a4a7f693b03f1023364302afe85fbbf6069501bdb5",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -7196,7 +7626,8 @@ window.SONGS = [
   "rank": 514499,
   "art": "https://cdn-images.dzcdn.net/images/cover/0ae8e05f734268cbe5aae06f96f2b1f2/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/347376741",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/6/1/0/36109d5fc2d7373c5da9fb353e4bc88f.mp3?hdnea=exp=1794898790~acl=/api/1/1/3/6/1/0/36109d5fc2d7373c5da9fb353e4bc88f.mp3*~data=user_id=0,application_id=42~hmac=23918e4b2cb0903ac287086d1b60cff61c1abd2c96c2aa9761b4b49742310dda",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/6/1/0/36109d5fc2d7373c5da9fb353e4bc88f.mp3?hdnea=exp=1794900319~acl=/api/1/1/3/6/1/0/36109d5fc2d7373c5da9fb353e4bc88f.mp3*~data=user_id=0,application_id=42~hmac=1051249a9a7e7eb7c032c427de6972c99782c375d2a785e0de3e5cf4bc94b248",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -7214,7 +7645,8 @@ window.SONGS = [
   "rank": 668772,
   "art": "https://cdn-images.dzcdn.net/images/cover/0ae8e05f734268cbe5aae06f96f2b1f2/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/347376711",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/1/6/0/5163a83924eab2fb9cfeac1aab09354c.mp3?hdnea=exp=1794898795~acl=/api/1/1/5/1/6/0/5163a83924eab2fb9cfeac1aab09354c.mp3*~data=user_id=0,application_id=42~hmac=c603b948d35ae1a815ee4a336ccda8329c03d064c2c3b0104ac6caab615a2c95",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/1/6/0/5163a83924eab2fb9cfeac1aab09354c.mp3?hdnea=exp=1794900321~acl=/api/1/1/5/1/6/0/5163a83924eab2fb9cfeac1aab09354c.mp3*~data=user_id=0,application_id=42~hmac=d1c087509e3439a2e96162b94b55e440ca57e052de3c6722958fd54221697c03",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -7232,7 +7664,8 @@ window.SONGS = [
   "rank": 540063,
   "art": "https://cdn-images.dzcdn.net/images/cover/f2d66b587ca8d3f0fa222c3501d23564/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/497467062",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/e/d/0/2ed8a088a9466932dc6caa5135b6035c.mp3?hdnea=exp=1794898801~acl=/api/1/1/2/e/d/0/2ed8a088a9466932dc6caa5135b6035c.mp3*~data=user_id=0,application_id=42~hmac=75eb3e0a9aea3e76f1a2a858c377977d9f7eab529c1203c75054fc23188b2389",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/e/d/0/2ed8a088a9466932dc6caa5135b6035c.mp3?hdnea=exp=1794900323~acl=/api/1/1/2/e/d/0/2ed8a088a9466932dc6caa5135b6035c.mp3*~data=user_id=0,application_id=42~hmac=bf8ac1a52f16ee9001966909fd8d6c7572ae5ae31351d7378233ff0b6fc545aa",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -7250,7 +7683,8 @@ window.SONGS = [
   "rank": 511400,
   "art": "https://cdn-images.dzcdn.net/images/cover/3c5f5f3f5f41ff96f961afd7df7eb4d9/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/1189531082",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/2/0/98285d6c073484b941eee76cde2cda98.mp3?hdnea=exp=1794898806~acl=/api/1/1/9/8/2/0/98285d6c073484b941eee76cde2cda98.mp3*~data=user_id=0,application_id=42~hmac=094a4838bc116c1df924bd83b2c7bf0126e9877a9f93ed52ef4fc9da4001a981",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/2/0/98285d6c073484b941eee76cde2cda98.mp3?hdnea=exp=1794900325~acl=/api/1/1/9/8/2/0/98285d6c073484b941eee76cde2cda98.mp3*~data=user_id=0,application_id=42~hmac=475ff2f6f8e62fef165a14b1f97ef945453a6a96154c41dbdad2841f56444fce",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -7268,7 +7702,8 @@ window.SONGS = [
   "rank": 594149,
   "art": "https://cdn-images.dzcdn.net/images/cover/3c5f5f3f5f41ff96f961afd7df7eb4d9/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/1189531172",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/3/3/0/a3326c85d5c3c1eff02c02bf5bb80547.mp3?hdnea=exp=1794898812~acl=/api/1/1/a/3/3/0/a3326c85d5c3c1eff02c02bf5bb80547.mp3*~data=user_id=0,application_id=42~hmac=2de0102dd6e070112eb1c90a184744e7243ec68ce8db8c7e551cab293e2d964c",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/3/3/0/a3326c85d5c3c1eff02c02bf5bb80547.mp3?hdnea=exp=1794900327~acl=/api/1/1/a/3/3/0/a3326c85d5c3c1eff02c02bf5bb80547.mp3*~data=user_id=0,application_id=42~hmac=6f5a2d9f54407935afe8eb0306be481007220925e17b04d6d2cf637690d22f44",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -7286,7 +7721,8 @@ window.SONGS = [
   "rank": 499464,
   "art": "https://cdn-images.dzcdn.net/images/cover/3c5f5f3f5f41ff96f961afd7df7eb4d9/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/1189531062",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/a/1/0/fa19bac9579d9ab86ce4a30bb84fa26e.mp3?hdnea=exp=1794898817~acl=/api/1/1/f/a/1/0/fa19bac9579d9ab86ce4a30bb84fa26e.mp3*~data=user_id=0,application_id=42~hmac=30784f65ccee0c2c7c648151c912a1f0b0378809e8fe1853fbbda3aac11de5ca",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/a/1/0/fa19bac9579d9ab86ce4a30bb84fa26e.mp3?hdnea=exp=1794900329~acl=/api/1/1/f/a/1/0/fa19bac9579d9ab86ce4a30bb84fa26e.mp3*~data=user_id=0,application_id=42~hmac=54d412b629d11fe740eed425609e1a1aed035dc4a400db566bff9ddffe77ae18",
+  "explicitness": "explicit",
   "hit": false
  },
  {
@@ -7305,7 +7741,8 @@ window.SONGS = [
   "rank": 578374,
   "art": "https://cdn-images.dzcdn.net/images/cover/f2d66b587ca8d3f0fa222c3501d23564/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/497467142",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/3/7/0/237f158fdd80774693747e2ebac808ad.mp3?hdnea=exp=1794898823~acl=/api/1/1/2/3/7/0/237f158fdd80774693747e2ebac808ad.mp3*~data=user_id=0,application_id=42~hmac=c47df3e5c606c45da40a5f98665bc23f34b17172b1f9b517edf3eb81b7505d8f",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/3/7/0/237f158fdd80774693747e2ebac808ad.mp3?hdnea=exp=1794900331~acl=/api/1/1/2/3/7/0/237f158fdd80774693747e2ebac808ad.mp3*~data=user_id=0,application_id=42~hmac=b4ec7c78cc9a201910c87f1a1b4c25fc3d69c66897e16fc4c2ff5a60821f842e",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -7323,11 +7760,12 @@ window.SONGS = [
   "rank": 630165,
   "art": "https://cdn-images.dzcdn.net/images/cover/8848c366508735e513fed3e2c6f2a6d1/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/3278625201",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/f/4/0/1f4bddaf67b8b9831d2375e420832db2.mp3?hdnea=exp=1794898828~acl=/api/1/1/1/f/4/0/1f4bddaf67b8b9831d2375e420832db2.mp3*~data=user_id=0,application_id=42~hmac=7d622ffc36d0c18f175a829a2b7edd68fceff9bcdb03127ed681074289f7116d",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/f/4/0/1f4bddaf67b8b9831d2375e420832db2.mp3?hdnea=exp=1794900333~acl=/api/1/1/1/f/4/0/1f4bddaf67b8b9831d2375e420832db2.mp3*~data=user_id=0,application_id=42~hmac=cb0eaa0c96bb96be0025edfa87d6ea101629a5605abc2fffa097aacb00d4976d",
+  "explicitness": "explicit",
   "hit": true
  },
  {
-  "id": 1768918764,
+  "id": 1768194761,
   "title": "ALL RED",
   "artist": "Playboi Carti",
   "credit": "Playboi Carti",
@@ -7336,11 +7774,12 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c1/f6/a1/c1f6a1ab-7a7b-a727-2330-aa76a929800a/24UM1IM01668.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/all-red/1768918762?i=1768918764&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/07/b9/e507b9d8-e941-adac-0131-8077d4821e53/mzaf_11482399288140625428.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/06/11/c10611c1-fd64-9c7f-9834-9322e715e763/24UM1IM01151.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/all-red/1768194749?i=1768194761&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/37/eb/7d37eb07-e2c3-904a-1663-ca86c3f919b0/mzaf_14844435952919492213.plus.aac.p.m4a",
   "rank": 582664,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": "dz1189531142",
@@ -7357,7 +7796,8 @@ window.SONGS = [
   "rank": 466469,
   "art": "https://cdn-images.dzcdn.net/images/cover/3c5f5f3f5f41ff96f961afd7df7eb4d9/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/1189531142",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/5/8/0/c580c665272c25edef4d290726f688bd.mp3?hdnea=exp=1794898838~acl=/api/1/1/c/5/8/0/c580c665272c25edef4d290726f688bd.mp3*~data=user_id=0,application_id=42~hmac=af93ba19f292168c24c0824ababbdfd7cffa7f31ec323ce01d3d07551f75c854",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/5/8/0/c580c665272c25edef4d290726f688bd.mp3?hdnea=exp=1794900335~acl=/api/1/1/c/5/8/0/c580c665272c25edef4d290726f688bd.mp3*~data=user_id=0,application_id=42~hmac=6080b68a8ae34510cdfb08b4e214597a8552dc94e0ddd013c3ceb52523c8351b",
+  "explicitness": "explicit",
   "hit": false
  },
  {
@@ -7375,7 +7815,8 @@ window.SONGS = [
   "rank": 536066,
   "art": "https://cdn-images.dzcdn.net/images/cover/3c5f5f3f5f41ff96f961afd7df7eb4d9/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/1189531252",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/6/0/136c0daac57ed4ae93c8a77b6d7028cf.mp3?hdnea=exp=1794898844~acl=/api/1/1/1/3/6/0/136c0daac57ed4ae93c8a77b6d7028cf.mp3*~data=user_id=0,application_id=42~hmac=2556d54c7a4f5096d01e151280f4e20ad5ed31888d2df1d5bfe1fdc8036e9d60",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/6/0/136c0daac57ed4ae93c8a77b6d7028cf.mp3?hdnea=exp=1794900337~acl=/api/1/1/1/3/6/0/136c0daac57ed4ae93c8a77b6d7028cf.mp3*~data=user_id=0,application_id=42~hmac=785e97d53ea42fa2494b85eb19f2d014e14c3e61b96463eb60f9b6fcfa913d9b",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -7396,7 +7837,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/carnival-feat-rich-the-kid-playboi-carti/1762082199?i=1762082207&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/43/8e/56438ef0-615f-a7f2-012f-bfdc64a73c1d/mzaf_5462242079286767709.plus.aac.p.m4a",
   "rank": 729220,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": "dz2174176187",
@@ -7413,7 +7855,8 @@ window.SONGS = [
   "rank": 498306,
   "art": "https://cdn-images.dzcdn.net/images/cover/14e37e05b1acd67c06b0408ef1146a26/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/2174176187",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/d/0/0/4d028343c71e71dbcaeb1b0a751f07ee.mp3?hdnea=exp=1794898853~acl=/api/1/1/4/d/0/0/4d028343c71e71dbcaeb1b0a751f07ee.mp3*~data=user_id=0,application_id=42~hmac=790eb92409b1fd90f5ab1c0f9502d1373223db6696e836c0aeeb933e992bfe8e",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/d/0/0/4d028343c71e71dbcaeb1b0a751f07ee.mp3?hdnea=exp=1794900339~acl=/api/1/1/4/d/0/0/4d028343c71e71dbcaeb1b0a751f07ee.mp3*~data=user_id=0,application_id=42~hmac=bf5bc3ae20b102f054dd1d38ebb66db94a79b467a372e6f00b03d70a5c6c63b3",
+  "explicitness": "explicit",
   "hit": false
  },
  {
@@ -7431,7 +7874,8 @@ window.SONGS = [
   "rank": 658837,
   "art": "https://cdn-images.dzcdn.net/images/cover/a6afef6fc32ab5253276b2325ca58233/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/2174176987",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/7/f/0/47fe1323a3d4d1f9172ee077903a1062.mp3?hdnea=exp=1794898858~acl=/api/1/1/4/7/f/0/47fe1323a3d4d1f9172ee077903a1062.mp3*~data=user_id=0,application_id=42~hmac=8f4647303eefb4b9cb22739846ed255dfd8927acd384f77a41b86f73a8b00b11",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/7/f/0/47fe1323a3d4d1f9172ee077903a1062.mp3?hdnea=exp=1794900341~acl=/api/1/1/4/7/f/0/47fe1323a3d4d1f9172ee077903a1062.mp3*~data=user_id=0,application_id=42~hmac=9fccf41dcbc6ff2b09e7d3c288dd0072cb9134b4b306707b3f186e86edf4d9fd",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -7449,7 +7893,8 @@ window.SONGS = [
   "rank": 562663,
   "art": "https://cdn-images.dzcdn.net/images/cover/82dca01444eabd6eb19ba25cfa52f034/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/2174175367",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/4/0/ef44397dc0790cb66d01bd95f67cc0b9.mp3?hdnea=exp=1794898864~acl=/api/1/1/e/f/4/0/ef44397dc0790cb66d01bd95f67cc0b9.mp3*~data=user_id=0,application_id=42~hmac=613b02a600e49b532fd1a52a603f0a7e8d5cc0f00c4b086edda34d76e90520ae",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/4/0/ef44397dc0790cb66d01bd95f67cc0b9.mp3?hdnea=exp=1794900343~acl=/api/1/1/e/f/4/0/ef44397dc0790cb66d01bd95f67cc0b9.mp3*~data=user_id=0,application_id=42~hmac=5d150596a4abafdab63390a7550bbf76dc945faa993d36ad20738e293b42849c",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -7466,10 +7911,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/rich-minion/1629795061?i=1629795063&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/55/a5/f655a5b3-79be-ae1c-2bb0-438d384a8498/mzaf_14861043410836159598.plus.aac.p.m4a",
   "rank": 307501,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1645619065,
+  "id": 1642621833,
   "title": "Talk",
   "artist": "Yeat",
   "credit": "Yeat",
@@ -7478,14 +7924,15 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/c6/c1/eec6c154-cc65-4640-2fb5-1cff3cda5f5c/22UMGIM91369.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/talk/1645618711?i=1645619065&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/79/2e/1f/792e1fac-babc-6e7b-fc4d-974c42994ae7/mzaf_13577339045464264241.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/ca/43/94ca4305-10af-1610-a877-63f5516bca3c/22UMGIM91368.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/talk/1642621828?i=1642621833&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/73/91/487391d0-288c-f252-3355-98dd94c03681/mzaf_6130292377870564752.plus.aac.p.m4a",
   "rank": 566254,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1645618723,
+  "id": 1643750054,
   "title": "Out the Way",
   "artist": "Yeat",
   "credit": "Yeat",
@@ -7494,14 +7941,15 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/c6/c1/eec6c154-cc65-4640-2fb5-1cff3cda5f5c/22UMGIM91369.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/out-th%C3%AB-way/1645618711?i=1645618723&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/24/09/0f/24090f7b-141c-b54a-0649-26f73b814b11/mzaf_1068095256733065295.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/3e/09/713e09f5-0c2a-90f2-7f5a-f84e98b90ff4/22UMGIM91368.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/out-th%C3%AB-way/1643750030?i=1643750054&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/aa/6d/c4aa6dad-e535-3a02-07a9-1b4a275894b9/mzaf_13055046165843584032.plus.aac.p.m4a",
   "rank": 625359,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1645618720,
+  "id": 1643750048,
   "title": "Up off X",
   "artist": "Yeat",
   "credit": "Yeat",
@@ -7510,14 +7958,15 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/c6/c1/eec6c154-cc65-4640-2fb5-1cff3cda5f5c/22UMGIM91369.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/up-off-x/1645618711?i=1645618720&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/ba/69/12ba69f9-ee44-7d99-3a89-578863f1a01d/mzaf_2638017780027843039.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/3e/09/713e09f5-0c2a-90f2-7f5a-f84e98b90ff4/22UMGIM91368.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/up-off-x/1643750030?i=1643750048&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/44/23/9a4423ca-575a-aa6c-e712-b4eb202fad94/mzaf_16717125570912722914.plus.aac.p.m4a",
   "rank": 351847,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1731057466,
+  "id": 1731044409,
   "title": "Breathe",
   "artist": "Yeat",
   "credit": "Yeat",
@@ -7526,14 +7975,15 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b1/69/86/b169862a-cdb8-6a0a-8359-03e86921f306/24UMGIM13668.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/breathe/1731057463?i=1731057466&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/16/a8/1e16a83d-3e27-95f3-f9b9-915eea29b459/mzaf_450529069271859220.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/4a/01/754a01bd-d381-6d36-e549-f4094e4e5198/24UMGIM13665.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/breathe/1731044406?i=1731044409&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/53/86/5553866b-f1d4-4ffb-6574-d87e042d41d8/mzaf_5460501351972597060.plus.aac.p.m4a",
   "rank": 570625,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1710694571,
+  "id": 1710685786,
   "title": "IDGAF",
   "artist": "Yeat",
   "credit": "Drake feat. Yeat",
@@ -7543,14 +7993,15 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fa/9e/e6/fa9ee672-0880-2b5b-a69d-981e8fcb807e/23UM1IM09863.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/idgaf-feat-yeat/1710694554?i=1710694571&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/4c/70/fd4c7029-d13d-9f28-9d54-028765a2594d/mzaf_7174145725832971541.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/21/50/ee/2150ee84-62c3-4190-7dfa-da30abd98ac8/23UM1IM09862.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/idgaf-feat-yeat/1710685602?i=1710685786&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/31/da/1f31daae-27b9-ff03-da70-323f4121ff4e/mzaf_17156776501246715047.plus.aac.p.m4a",
   "rank": 700269,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1700589385,
+  "id": 1700589484,
   "title": "Bigger Then Everything",
   "artist": "Yeat",
   "credit": "Yeat",
@@ -7559,14 +8010,15 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/14/df/71/14df7114-185f-da10-8358-b799bde94400/23UMGIM86860.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/bigger-th%C3%ABn-everything/1700589384?i=1700589385&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/b1/22/b6b122ad-c3fe-c2a4-e303-e9e3411153f7/mzaf_13297656476789321559.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/21/40/89/214089c7-da8b-2364-25cf-afb9b3c63df0/23UMGIM86857.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/bigger-th%C3%ABn-everything/1700589328?i=1700589484&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/28/60/812860cb-52ed-47cb-998f-d4c05de8f16f/mzaf_11998406843444300083.plus.aac.p.m4a",
   "rank": 420944,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1616760157,
+  "id": 1609701616,
   "title": "Poppin",
   "artist": "Yeat",
   "credit": "Yeat",
@@ -7575,14 +8027,15 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/68/1c/47/681c4738-3346-a0c4-81f5-cb433740708f/22UMGIM33360.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/poppin/1616759853?i=1616760157&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c7/ca/7b/c7ca7b75-7782-b0a9-5ee5-d8a4dc7d7afe/mzaf_2911632702738808110.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/88/cd/3a88cd17-80cf-9933-7ae5-285922c1e172/22UMGIM15568.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/poppin/1609701608?i=1609701616&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/06/12/d006126a-7dd6-60bc-867d-4193183c04a2/mzaf_7095381087557268799.plus.aac.p.m4a",
   "rank": 476369,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1731057464,
+  "id": 1731044407,
   "title": "Psycho CEO",
   "artist": "Yeat",
   "credit": "Yeat",
@@ -7591,14 +8044,15 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b1/69/86/b169862a-cdb8-6a0a-8359-03e86921f306/24UMGIM13668.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/psycho-ceo/1731057463?i=1731057464&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a1/64/1f/a1641f79-4a4c-eb92-8bdd-47158946c5ba/mzaf_14360451498462839892.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/4a/01/754a01bd-d381-6d36-e549-f4094e4e5198/24UMGIM13665.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/psycho-ceo/1731044406?i=1731044407&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b4/c5/47/b4c54768-d00c-c254-0545-4b433182016b/mzaf_8666346639826607306.plus.aac.p.m4a",
   "rank": 411971,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1731057886,
+  "id": 1731044712,
   "title": "If We Being Real",
   "artist": "Yeat",
   "credit": "Yeat",
@@ -7607,14 +8061,15 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b1/69/86/b169862a-cdb8-6a0a-8359-03e86921f306/24UMGIM13668.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/if-we-being-r%C3%ABal/1731057463?i=1731057886&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/bd/c1/cbbdc1f4-b36b-7525-387a-e824c4432f5d/mzaf_3678672328761986911.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/4a/01/754a01bd-d381-6d36-e549-f4094e4e5198/24UMGIM13665.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/if-we-being-r%C3%ABal/1731044406?i=1731044712&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/a1/30/11a1301e-6797-6efb-fc78-39f992949192/mzaf_11878529847244159302.plus.aac.p.m4a",
   "rank": 739213,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1673624026,
+  "id": 1673618099,
   "title": "Shmunk",
   "artist": "Yeat",
   "credit": "Yeat feat. YoungBoy Never Broke Again",
@@ -7624,14 +8079,15 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6c/01/ba/6c01ba5c-ba17-6be7-bb8d-cf26054df5d6/23UMGIM16901.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/shmunk-feat-youngboy-never-broke-again/1673623728?i=1673624026&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/17/aa/40/17aa402f-a019-4de7-2f54-5c6771379c89/mzaf_5640777721655820158.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/80/d6/4e80d616-b88c-a023-243b-0cc5ff33c4b9/23UMGIM16900.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/shmunk-feat-youngboy-never-broke-again/1673618095?i=1673618099&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/c7/a0/a5c7a0b6-a0d4-3942-b61b-c7ed1b1824d8/mzaf_9017802700424879441.plus.aac.p.m4a",
   "rank": 321367,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1686200943,
+  "id": 1686202022,
   "title": "Already Rich",
   "artist": "Yeat",
   "credit": "Yeat",
@@ -7640,14 +8096,15 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fe/7d/df/fe7ddff8-d998-6ba0-8e24-4f3a104d45ba/23UMGIM50160.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/already-rich/1686200867?i=1686200943&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/f8/bb/55f8bb89-d98c-3dfc-cd30-97507948543c/mzaf_3789068218711517244.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/1b/45/991b457b-10a6-09c9-20d9-08af625b41d3/23UMGIM49769.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/already-rich/1686202017?i=1686202022&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/be/40/c4be40aa-4b8a-1216-8a36-23793e24cca9/mzaf_7638725881945198560.plus.aac.p.m4a",
   "rank": 549028,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1645618715,
+  "id": 1643750040,
   "title": "Flawless",
   "artist": "Yeat",
   "credit": "Yeat",
@@ -7656,14 +8113,15 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/c6/c1/eec6c154-cc65-4640-2fb5-1cff3cda5f5c/22UMGIM91369.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/flawl%C3%ABss/1645618711?i=1645618715&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/69/79/6a/69796a85-ec41-adde-b206-4d52a70a8331/mzaf_10089272777484858588.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/3e/09/713e09f5-0c2a-90f2-7f5a-f84e98b90ff4/22UMGIM91368.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/flawl%C3%ABss-feat-lil-uzi-vert/1643750030?i=1643750040&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/43/fb/b3/43fbb309-884c-1a28-c87c-d31439ccf1d8/mzaf_3183078289033603787.plus.aac.p.m4a",
   "rank": 652963,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440910489,
+  "id": 1539774201,
   "title": "Super Bass",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj",
@@ -7672,14 +8130,15 @@ window.SONGS = [
   ],
   "year": 2010,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/6a/dc/3f6adcfb-4d27-303e-b964-3710c56800e3/11UMGIM13385.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/super-bass/1440909639?i=1440910489&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/31/80/b03180ac-be20-9366-b4b5-e078bf791737/mzaf_3970609514950194332.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d9/56/3b/d9563bbd-ba4f-59d3-966b-c2380ee1ec97/20UM1IM02442.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/super-bass/1539773868?i=1539774201&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/2c/a7/d92ca767-8d99-db50-fb7b-102f4d0fa60e/mzaf_17111757493398377239.plus.aac.p.m4a",
   "rank": 728185,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1442868833,
+  "id": 1443191581,
   "title": "Starships",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj",
@@ -7688,14 +8147,15 @@ window.SONGS = [
   ],
   "year": 2012,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a5/c4/90/a5c490a1-d914-9943-7e02-32f8320e5840/12UMGIM12516.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/starships/1442868208?i=1442868833&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/ee/76/2dee7621-6063-0550-d935-67e23f91fd77/mzaf_8674609450839125969.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/ff/4b/cfff4bc2-0928-020f-ee43-6e82127812ca/12UMGIM12513.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/starships/1443190809?i=1443191581&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/70/17/a0701771-815f-ef34-102f-8b535383d66e/mzaf_1659774321086077816.plus.aac.p.m4a",
   "rank": 945969,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440956801,
+  "id": 1440852049,
   "title": "Anaconda",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj",
@@ -7704,14 +8164,15 @@ window.SONGS = [
   ],
   "year": 2014,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/ae/f6/96aef61f-306a-c9f9-e899-98a8b60550b6/14UMGIM59294.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/anaconda/1440956379?i=1440956801&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/cb/96/48cb96d3-7556-4f7c-f890-6ab3fa3a4300/mzaf_14435255667099508834.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a1/98/a0/a198a0ae-3fe0-a780-b012-0c20b76bc96d/14UMGIM59293.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/anaconda/1440851747?i=1440852049&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/6c/2a/5b6c2ad9-95a2-f4b9-21cc-9f28bf42d653/mzaf_6651544624303557036.plus.aac.p.m4a",
   "rank": 707090,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1541893871,
+  "id": 1440776809,
   "title": "Moment 4 Life",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj feat. Drake",
@@ -7721,14 +8182,15 @@ window.SONGS = [
   ],
   "year": 2010,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/80/7a/ce807a0c-aa3e-5650-206c-34cfd88b672f/10UMGIM30438.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/moment-4-life-feat-drake-edited/1541893206?i=1541893871&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/85/c1/bd/85c1bd28-1990-21b7-b969-dec01ade973f/mzaf_11861110181216743114.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c8/b5/1b/c8b51bba-f8c9-90ae-971a-b0d8add8f37f/10UMGIM29301.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/moment-4-life-feat-drake/1440776646?i=1440776809&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/08/5e/86085eb4-b8ef-d7f4-f58c-976da950af95/mzaf_5695400240344489050.plus.aac.p.m4a",
   "rank": 653052,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1442868836,
+  "id": 1440811650,
   "title": "Pound the Alarm",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj",
@@ -7737,14 +8199,15 @@ window.SONGS = [
   ],
   "year": 2012,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a5/c4/90/a5c490a1-d914-9943-7e02-32f8320e5840/12UMGIM12516.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/pound-the-alarm/1442868208?i=1442868836&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/dd/29/89dd2965-d719-0341-ded9-c732a34fa314/mzaf_552546380625667948.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a5/dd/be/a5ddbeb0-4d39-70a9-d65d-00da0d689c6f/12UMGIM12514.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/pound-the-alarm/1440810774?i=1440811650&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/63/b4/5d63b45c-2bff-5e7b-1378-ab0b2809f2ee/mzaf_3626840327448361021.plus.aac.p.m4a",
   "rank": 700026,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1398477470,
+  "id": 1398449677,
   "title": "Chun-Li",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj",
@@ -7753,14 +8216,15 @@ window.SONGS = [
   ],
   "year": 2018,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/67/a7/0767a745-34c4-7ddb-512a-4af4ddb03db4/18UMGIM36519.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/chun-li/1398477182?i=1398477470&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5d/63/94/5d639486-6405-f243-75f4-2d0d07aa1aa9/mzaf_10495968225649591756.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/77/77/0a/77770abc-c365-81d2-0ad1-439d29e2794e/18UMGIM36518.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/chun-li/1398449449?i=1398449677&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c3/9c/f7/c39cf736-8290-c5ce-2128-2e930a48585d/mzaf_15481709310388022135.plus.aac.p.m4a",
   "rank": 602394,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1638814933,
+  "id": 1638814465,
   "title": "Super Freaky Girl",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj",
@@ -7769,11 +8233,12 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/00/eb/14/00eb14fa-647c-2f3d-e0df-f48617ada7b9/22UMGIM87050.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/super-freaky-girl/1638814929?i=1638814933&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/37/30/f93730f7-04a7-2480-5e59-d523a0a8040d/mzaf_12714217041452557245.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/74/d9/a8/74d9a88e-9641-df34-401a-506b739bd824/22UMGIM87047.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/super-freaky-girl/1638814204?i=1638814465&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/b6/7b/e3b67bfd-d41e-170a-888c-ef33946aff18/mzaf_2381501906795618480.plus.aac.p.m4a",
   "rank": 640254,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
@@ -7794,10 +8259,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/bang-bang/1444896437?i=1444896442&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/f9/05/e0f905d9-ecb8-778b-5be4-6389476a8511/mzaf_14917492324789195708.plus.aac.p.m4a",
   "rank": 803883,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1440956822,
+  "id": 1440852169,
   "title": "Truffle Butter",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj feat. Drake & Lil Wayne",
@@ -7808,14 +8274,15 @@ window.SONGS = [
   ],
   "year": 2014,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/ae/f6/96aef61f-306a-c9f9-e899-98a8b60550b6/14UMGIM59294.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/truffle-butter-feat-drake-lil-wayne/1440956379?i=1440956822&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f3/da/50/f3da502c-e12f-9ac6-8a35-8f74f2b1f9d3/mzaf_3210228095156872639.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a1/98/a0/a198a0ae-3fe0-a780-b012-0c20b76bc96d/14UMGIM59293.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/truffle-butter-feat-drake-lil-wayne/1440851747?i=1440852169&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/e5/8d/36e58d5e-0c5f-457b-2c01-0ed313aff5e0/mzaf_16145394503938388320.plus.aac.p.m4a",
   "rank": 532402,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440956572,
+  "id": 1440851763,
   "title": "Only",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj feat. Drake & Lil Wayne & Chris Brown",
@@ -7827,14 +8294,15 @@ window.SONGS = [
   ],
   "year": 2014,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/ae/f6/96aef61f-306a-c9f9-e899-98a8b60550b6/14UMGIM59294.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/only-feat-drake-lil-wayne-chris-brown/1440956379?i=1440956572&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/42/40/364240f7-5bf7-a31e-0ec9-c7f420904894/mzaf_11958011426358226509.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a1/98/a0/a198a0ae-3fe0-a780-b012-0c20b76bc96d/14UMGIM59293.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/only-feat-drake-lil-wayne-chris-brown/1440851747?i=1440851763&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/41/6d/5f/416d5f60-58f5-4f7f-21f3-74a2238c78e8/mzaf_12523471739705772332.plus.aac.p.m4a",
   "rank": 561424,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440956570,
+  "id": 1440851762,
   "title": "Feeling Myself",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj feat. Beyoncé",
@@ -7844,14 +8312,15 @@ window.SONGS = [
   ],
   "year": 2014,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/ae/f6/96aef61f-306a-c9f9-e899-98a8b60550b6/14UMGIM59294.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/feeling-myself-feat-beyonc%C3%A9/1440956379?i=1440956570&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/cc/60/0acc60a1-6ad3-cb24-1ecc-b81a9817254a/mzaf_369739128005543377.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a1/98/a0/a198a0ae-3fe0-a780-b012-0c20b76bc96d/14UMGIM59293.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/feeling-myself-feat-beyonc%C3%A9/1440851747?i=1440851762&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/6f/5e/b76f5efe-5560-7e3e-fde5-ecb0da5da161/mzaf_4967579529884190804.plus.aac.p.m4a",
   "rank": 580371,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440910291,
+  "id": 1539774198,
   "title": "Your Love",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj",
@@ -7860,14 +8329,15 @@ window.SONGS = [
   ],
   "year": 2010,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/6a/dc/3f6adcfb-4d27-303e-b964-3710c56800e3/11UMGIM13385.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/your-love/1440909639?i=1440910291&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/60/a4/1c/60a41c60-4104-57af-de0f-8e19d8ab7c1f/mzaf_6304514597924203178.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d9/56/3b/d9563bbd-ba4f-59d3-966b-c2380ee1ec97/20UM1IM02442.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/your-love/1539773868?i=1539774198&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/5a/e4/e65ae429-47fb-7031-667b-4e0d85d9227d/mzaf_13842020748624362266.plus.aac.p.m4a",
   "rank": 531337,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1440909773,
+  "id": 1440776802,
   "title": "Roman's Revenge",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj feat. Eminem",
@@ -7877,14 +8347,15 @@ window.SONGS = [
   ],
   "year": 2010,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/6a/dc/3f6adcfb-4d27-303e-b964-3710c56800e3/11UMGIM13385.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/romans-revenge-feat-eminem/1440909639?i=1440909773&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/24/4f/4a244fc1-51be-4989-e877-dcbadafb2c8a/mzaf_10479707957226116922.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c8/b5/1b/c8b51bba-f8c9-90ae-971a-b0d8add8f37f/10UMGIM29301.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/romans-revenge-feat-eminem/1440776646?i=1440776802&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/53/5c/d9535cd3-072e-8b8c-521a-3fde11359ad9/mzaf_13155816047402985918.plus.aac.p.m4a",
   "rank": 403676,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1442868530,
+  "id": 1440811090,
   "title": "Beez in the Trap",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj feat. 2 Chainz",
@@ -7894,14 +8365,15 @@ window.SONGS = [
   ],
   "year": 2012,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a5/c4/90/a5c490a1-d914-9943-7e02-32f8320e5840/12UMGIM12516.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/beez-in-the-trap-feat-2-chainz/1442868208?i=1442868530&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d8/81/f0/d881f036-e902-29a6-9ce0-efb8abfc29cc/mzaf_137494890137735544.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a5/dd/be/a5ddbeb0-4d39-70a9-d65d-00da0d689c6f/12UMGIM12514.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/beez-in-the-trap-feat-2-chainz/1440810774?i=1440811090&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d7/e8/4ad7e8ec-7e88-e29a-8e1f-3870b5ed0080/mzaf_2205493406221376148.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1398477213,
+  "id": 1398449456,
   "title": "Barbie Dreams",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj",
@@ -7910,14 +8382,15 @@ window.SONGS = [
   ],
   "year": 2018,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/67/a7/0767a745-34c4-7ddb-512a-4af4ddb03db4/18UMGIM36519.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/barbie-dreams/1398477182?i=1398477213&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/43/95/ad/4395ad07-8e12-9d0e-ca42-917f0ef2bfd3/mzaf_12368557897254516248.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/77/77/0a/77770abc-c365-81d2-0ad1-439d29e2794e/18UMGIM36518.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/barbie-dreams/1398449449?i=1398449456&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/97/f2/dc/97f2dc23-b289-c62c-f107-321920a64358/mzaf_12705582243278986500.plus.aac.p.m4a",
   "rank": 406476,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1674641576,
+  "id": 1674645835,
   "title": "Red Ruby Da Sleeze",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj",
@@ -7926,11 +8399,12 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4b/71/92/4b7192b9-6394-9bda-9cf4-07d1b4be1dc7/23UMGIM20595.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/red-ruby-da-sleeze/1674641572?i=1674641576&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/79/a3/5479a3db-969d-173d-4c0a-6f4480a6e3b4/mzaf_3379320829575746591.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c1/66/77/c166775f-1e1a-d866-8524-122ee9326338/23UMGIM20594.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/red-ruby-da-sleeze/1674645834?i=1674645835&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/61/aa/b061aa26-02b7-a82c-d5c4-93c636991343/mzaf_13149215171095230883.plus.aac.p.m4a",
   "rank": 428059,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
   "id": 1704777944,
@@ -7946,10 +8420,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/last-time-i-saw-you/1704777941?i=1704777944&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/9b/d6/5c9bd6d7-8632-88da-052a-6cb8f71ac3af/mzaf_8963234641326098236.plus.aac.p.m4a",
   "rank": 421994,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1720327186,
+  "id": 1720307420,
   "title": "FTCU",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj",
@@ -7958,11 +8433,12 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/83/f0/83/83f08337-954b-e616-b8d9-317d9def8190/23UM1IM08927.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/ftcu/1720327181?i=1720327186&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/03/8d/0f038d8d-bd47-de74-2825-ccba35863e46/mzaf_16970154677407629611.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4f/e3/71/4fe3710a-465c-605f-99c7-cb1e48a5b0d3/23UM1IM08927.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/ftcu/1720307257?i=1720307420&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/de/05/1b/de051b5c-2ba0-46fe-1e60-adb6de007812/mzaf_13685314781772671923.plus.aac.p.m4a",
   "rank": 462923,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
   "id": 1689239206,
@@ -7980,10 +8456,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/barbie-world-with-aqua/1689238301?i=1689239206&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/5d/13/195d1394-c91a-27cd-63a2-c783361eb975/mzaf_11304170247462285205.plus.aac.p.m4a",
   "rank": 561408,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1031334418,
+  "id": 1031354882,
   "title": "Don't",
   "artist": "Bryson Tiller",
   "credit": "Bryson Tiller",
@@ -7992,17 +8469,18 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b6/80/3c/b6803c18-1285-3c66-ec98-5e423e7268f8/886445447828.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/dont/1031334412?i=1031334418&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/f8/63/12f86376-9b16-4206-fe19-bc74c6d77113/mzaf_15220743029863562895.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/26/4a/f9/264af9b7-813d-4b08-2822-de8b26c0e188/886445447811.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/dont/1031354875?i=1031354882&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/6d/4d/be6d4d93-bc89-5eba-18c3-df6503681dac/mzaf_7760373023838939914.plus.aac.p.m4a",
   "rank": 797793,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 1031334416,
+  "id": 1031354880,
   "title": "Exchange",
   "artist": "Bryson Tiller",
   "credit": "Bryson Tiller",
@@ -8011,17 +8489,18 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b6/80/3c/b6803c18-1285-3c66-ec98-5e423e7268f8/886445447828.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/exchange/1031334412?i=1031334416&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c9/fe/b6/c9feb604-de7c-6049-ac94-156816418e49/mzaf_14405863975469964599.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/26/4a/f9/264af9b7-813d-4b08-2822-de8b26c0e188/886445447811.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/exchange/1031354875?i=1031354880&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/ee/a8/4beea853-9e09-5c12-ccb3-100bf8b422a5/mzaf_4476931788187642035.plus.aac.p.m4a",
   "rank": 658092,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 1031334695,
+  "id": 1031355368,
   "title": "Sorry Not Sorry",
   "artist": "Bryson Tiller",
   "credit": "Bryson Tiller",
@@ -8030,11 +8509,12 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b6/80/3c/b6803c18-1285-3c66-ec98-5e423e7268f8/886445447828.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/sorry-not-sorry/1031334412?i=1031334695&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6e/c0/bd/6ec0bd0e-c163-5c78-fcf3-4b750a1c9b5d/mzaf_1815191821550997950.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/26/4a/f9/264af9b7-813d-4b08-2822-de8b26c0e188/886445447811.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/sorry-not-sorry/1031354875?i=1031355368&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/28/4f/a4284f81-55a2-ec02-e29d-25c5814f5452/mzaf_13295423088429187482.plus.aac.p.m4a",
   "rank": 487164,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
@@ -8053,10 +8533,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/right-my-wrongs/1031354875?i=1031355371&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/81/7c/98/817c9856-5245-af16-e2db-2ef9914e1236/mzaf_3784958317387865794.plus.aac.p.m4a",
   "rank": 661425,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1233821905,
+  "id": 1233821294,
   "title": "Somethin Tells Me",
   "artist": "Bryson Tiller",
   "credit": "Bryson Tiller",
@@ -8065,14 +8546,15 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/10/69/12/10691251-c3a6-373d-5e8d-e0cc5f5bd20e/886446500706.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/somethin-tells-me/1233821767?i=1233821905&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6a/64/f5/6a64f5eb-fec4-b8ef-ab6e-968bf0b0c268/mzaf_6134475910622629314.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d9/64/bb/d964bb73-4dcb-0e63-97d6-f843b4d7f3a9/886446500690.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/somethin-tells-me/1233821036?i=1233821294&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/a2/33/93a2330b-6726-3ede-af04-8ae4b745091a/mzaf_2109214420661588498.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1031334422,
+  "id": 1031355366,
   "title": "Rambo",
   "artist": "Bryson Tiller",
   "credit": "Bryson Tiller",
@@ -8081,14 +8563,15 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b6/80/3c/b6803c18-1285-3c66-ec98-5e423e7268f8/886445447828.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/rambo/1031334412?i=1031334422&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b6/47/5f/b6475faf-9f63-ebb4-b65d-8308a7ef1679/mzaf_5290456691829556734.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/26/4a/f9/264af9b7-813d-4b08-2822-de8b26c0e188/886445447811.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/rambo/1031354875?i=1031355366&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/92/c5/39/92c539b3-cf19-c4ae-bc6b-55ae4dda56a0/mzaf_9318939627610263263.plus.aac.p.m4a",
   "rank": 331682,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1031334414,
+  "id": 1031354879,
   "title": "Let Em' Know",
   "artist": "Bryson Tiller",
   "credit": "Bryson Tiller",
@@ -8097,14 +8580,15 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b6/80/3c/b6803c18-1285-3c66-ec98-5e423e7268f8/886445447828.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/let-em-know/1031334412?i=1031334414&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/31/e5/7f/31e57f98-7a2a-a610-4ed7-e8de262fbb1d/mzaf_2304124114120516180.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/26/4a/f9/264af9b7-813d-4b08-2822-de8b26c0e188/886445447811.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/let-em-know/1031354875?i=1031354879&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/29/d9/dc/29d9dcb2-83e1-c42c-554c-32b152783834/mzaf_13723263486145021811.plus.aac.p.m4a",
   "rank": 595536,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1729872411,
+  "id": 1729856953,
   "title": "Whatever She Wants",
   "artist": "Bryson Tiller",
   "credit": "Bryson Tiller",
@@ -8113,11 +8597,12 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/20/ab/f7/20abf7ba-b29c-ae25-e3c5-2f930ca90b8a/196871828369.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/whatever-she-wants/1729872191?i=1729872411&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/ff/91/0fff91fa-fcd0-babe-e1c1-a01fb9f00b16/mzaf_1945651808108253794.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6d/c3/0c/6dc30cf7-86ee-5e87-8703-d0eb4fbddbdd/196871828352.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/whatever-she-wants/1729856932?i=1729856953&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/1a/b7/931ab7a1-39da-ebe9-e901-7a56a1591f19/mzaf_339843858845879497.plus.aac.p.m4a",
   "rank": 585283,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1533349972,
@@ -8133,10 +8618,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/always-forever/1533349969?i=1533349972&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e2/38/31/e2383175-66a8-9d80-37ab-737a9e532fe8/mzaf_14950444356150512094.plus.aac.p.m4a",
   "rank": 347809,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1233821896,
+  "id": 1233821045,
   "title": "Run Me Dry",
   "artist": "Bryson Tiller",
   "credit": "Bryson Tiller",
@@ -8145,14 +8631,15 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/10/69/12/10691251-c3a6-373d-5e8d-e0cc5f5bd20e/886446500706.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/run-me-dry/1233821767?i=1233821896&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/be/4a/e4be4a27-ed62-cfa6-2d94-0bf8c9840c38/mzaf_18216918541719104613.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d9/64/bb/d964bb73-4dcb-0e63-97d6-f843b4d7f3a9/886446500690.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/run-me-dry/1233821036?i=1233821045&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/6c/e7/766ce7c9-594b-dc78-e01e-f4acfd75be71/mzaf_13130527095681182686.plus.aac.p.m4a",
   "rank": 452615,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1233821895,
+  "id": 1233821044,
   "title": "Self-Made",
   "artist": "Bryson Tiller",
   "credit": "Bryson Tiller",
@@ -8161,11 +8648,12 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/10/69/12/10691251-c3a6-373d-5e8d-e0cc5f5bd20e/886446500706.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/self-made/1233821767?i=1233821895&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/8a/9a/f78a9a08-5b88-c66f-112f-e4033b1b3ebd/mzaf_5208345023869551730.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d9/64/bb/d964bb73-4dcb-0e63-97d6-f843b4d7f3a9/886446500690.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/self-made/1233821036?i=1233821044&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/9d/5e/db9d5e51-aa77-13bb-a9ea-7ad31e0e94cc/mzaf_4565677606603873044.plus.aac.p.m4a",
   "rank": 300493,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
   "id": "dz552753202",
@@ -8182,7 +8670,8 @@ window.SONGS = [
   "rank": 303325,
   "art": "https://cdn-images.dzcdn.net/images/cover/a42c57160978318393358bb3628c0278/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/552753202",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/f/2/0/5f2082265cebc853715701e4b8214fae.mp3?hdnea=exp=1794898877~acl=/api/1/1/5/f/2/0/5f2082265cebc853715701e4b8214fae.mp3*~data=user_id=0,application_id=42~hmac=8e420fc161a04e9f98d690094b3958f63ba051bb3119e3367658c89e0c09bf2f",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/f/2/0/5f2082265cebc853715701e4b8214fae.mp3?hdnea=exp=1794900345~acl=/api/1/1/5/f/2/0/5f2082265cebc853715701e4b8214fae.mp3*~data=user_id=0,application_id=42~hmac=6c900f23742bf9889d8e0096f24dc5949e37103b6bf29987d73f5bbf8b4e01ab",
+  "explicitness": "explicit",
   "hit": false
  },
  {
@@ -8200,10 +8689,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/outta-time-feat-drake/1533349969?i=1533349985&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/76/64/40/76644092-ec23-447c-bd7a-9540853de3cf/mzaf_4143369741300061985.plus.aac.p.m4a",
   "rank": 500035,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1555119693,
+  "id": 1530060453,
   "title": "Inhale",
   "artist": "Bryson Tiller",
   "credit": "Bryson Tiller",
@@ -8212,11 +8702,12 @@ window.SONGS = [
   ],
   "year": 2020,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d7/83/42/d7834219-12e4-9bb2-0673-30c1f5eb8070/886448861072.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/inhale/1555119414?i=1555119693&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1d/2c/ae/1d2cae02-839e-6efe-258b-ce20b7978ca1/mzaf_10732418113117473992.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1f/78/d5/1f78d54f-aa4c-2787-ed5f-6a3150c4551c/886448736608.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/inhale/1530060449?i=1530060453&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/b9/0b/ecb90b78-ca40-de7e-a51d-9b42a965bfaa/mzaf_699424511389590456.plus.aac.p.m4a",
   "rank": 398387,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
   "id": 353859978,
@@ -8236,10 +8727,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/all-i-do-is-win-feat-t-pain-ludacris-snoop-dogg-rick-ross/353859956?i=353859978&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/62/07/e5/6207e59a-f4a0-2a12-f301-7ee8218e6056/mzaf_7481805004735607044.plus.aac.p.m4a",
   "rank": 649605,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1244229849,
+  "id": 1244230127,
   "title": "I'm the One",
   "artist": "DJ Khaled",
   "credit": "DJ Khaled feat. Justin Bieber & Quavo & Chance the Rapper & Lil Wayne",
@@ -8252,14 +8744,15 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/7c/23/427c23ba-78dc-5a27-78c4-1a0e5f0e40da/886446557731.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/im-the-one-feat-justin-bieber-quavo-chance-the-rapper/1244229844?i=1244229849&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8a/28/4d/8a284d70-8d38-83b6-2ee7-229ce8078166/mzaf_3510320664187372122.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/03/5d/32/035d32e9-6fdb-8f08-daf0-c2f208128d06/886446550695.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/im-the-one-feat-justin-bieber-quavo-chance-the-rapper/1244230120?i=1244230127&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/23/fb/8e/23fb8e6d-c40d-4f26-dec2-0ae40fd9065b/mzaf_2425486966148538794.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1244229848,
+  "id": 1244230126,
   "title": "Wild Thoughts",
   "artist": "DJ Khaled",
   "credit": "DJ Khaled feat. Rihanna & Bryson Tiller",
@@ -8270,14 +8763,15 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/7c/23/427c23ba-78dc-5a27-78c4-1a0e5f0e40da/886446557731.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/wild-thoughts-feat-rihanna-bryson-tiller/1244229844?i=1244229848&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e5/98/28/e59828be-9f37-6e63-5086-764c4c6f9271/mzaf_13981546878508173189.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/03/5d/32/035d32e9-6fdb-8f08-daf0-c2f208128d06/886446550695.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/wild-thoughts-feat-rihanna-bryson-tiller/1244230120?i=1244230126&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/3d/8e/f03d8e51-211e-6d54-5ca8-e65b2cf53eed/mzaf_12524223611445018184.plus.aac.p.m4a",
   "rank": 332448,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1418026017,
+  "id": 1418046822,
   "title": "No Brainer",
   "artist": "DJ Khaled",
   "credit": "DJ Khaled feat. Justin Bieber & Chance the Rapper & Quavo",
@@ -8289,14 +8783,15 @@ window.SONGS = [
   ],
   "year": 2018,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a1/a7/b5/a1a7b5c1-f5cb-6ec7-5f63-b405da9d02eb/886447218402.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/no-brainer-feat-justin-bieber-chance-the-rapper-quavo/1418026005?i=1418026017&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/67/35/16/6735164a-e1a3-8a11-7005-38cba5113643/mzaf_13120433113608779940.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/44/b6/c3/44b6c3a2-8ab0-19d5-b7f9-6f4547f771ab/886447218396.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/no-brainer-feat-justin-bieber-chance-the-rapper-quavo/1418046529?i=1418046822&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/6a/e5/a46ae559-3bd5-8d5a-a05b-d58126e08a9b/mzaf_1901181970748706025.plus.aac.p.m4a",
   "rank": 589330,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1523923942,
+  "id": 1523923824,
   "title": "Popstar",
   "artist": "DJ Khaled",
   "credit": "DJ Khaled feat. Drake",
@@ -8306,14 +8801,15 @@ window.SONGS = [
   ],
   "year": 2020,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c7/76/5a/c7765a51-bd4e-bdc6-8fab-ce29e4ee4f90/886448646334.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/popstar-feat-drake/1523923941?i=1523923942&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/74/a9/1c74a938-fc1f-3c4d-9f4d-f54a5a54d807/mzaf_601432665304264541.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/73/8c/64/738c6422-f3e6-c0ab-e073-87ca7c1d49f3/886448646310.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/popstar-feat-drake/1523923474?i=1523923824&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/2d/cd/2f2dcda9-2349-c308-a8c7-0b9ca624fd30/mzaf_17915181718013333247.plus.aac.p.m4a",
   "rank": 673442,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1523924099,
+  "id": 1523923826,
   "title": "Greece",
   "artist": "DJ Khaled",
   "credit": "DJ Khaled feat. Drake",
@@ -8323,14 +8819,15 @@ window.SONGS = [
   ],
   "year": 2020,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/46/87/f1468775-3e7c-083b-5285-b10bb18c30c3/886448646341.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/greece-feat-drake/1523924098?i=1523924099&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3a/81/35/3a8135e8-3629-24c2-b24b-13197051f5ee/mzaf_1644927646945956345.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f4/58/79/f45879f6-fc84-b921-2059-05e36a3aea6d/886448646327.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/greece-feat-drake/1523923810?i=1523923826&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8f/68/c9/8f68c9b4-3f8a-93f4-76cc-c17080e9a0fe/mzaf_13023180941430287738.plus.aac.p.m4a",
   "rank": 691155,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1354738677,
+  "id": 1354722917,
   "title": "Top Off",
   "artist": "DJ Khaled",
   "credit": "DJ Khaled feat. JAŸ-Z & Future & Beyoncé",
@@ -8342,14 +8839,15 @@ window.SONGS = [
   ],
   "year": 2018,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/23/ab/87/23ab8714-3ac7-7111-56e8-3291c6acca08/886446998909.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/top-off-feat-ja%C3%BF-z-future-beyonc%C3%A9/1354738676?i=1354738677&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/09/d8/32/09d832bf-4093-92e0-dab2-1fd15ca57913/mzaf_5069879426245725826.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b7/2b/3b/b72b3b09-48cc-afc7-42b5-9a8d6253b397/886446998893.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/top-off-feat-ja%C3%BF-z-future-beyonc%C3%A9/1354722100?i=1354722917&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/83/de/2d/83de2dbf-a643-cbb9-afd0-ed61a06929b2/mzaf_3476683572379307871.plus.aac.p.m4a",
   "rank": 392683,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1641780227,
+  "id": 1638180125,
   "title": "Staying Alive",
   "artist": "DJ Khaled",
   "credit": "DJ Khaled feat. Drake & Lil Baby",
@@ -8360,14 +8858,15 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/78/16/92/7816924f-c733-e443-9d20-ef72ecfec181/196589286383.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/staying-alive-feat-drake-lil-baby/1641779917?i=1641780227&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/f5/27/0ef527cd-22d5-93e3-4cd6-d406f76cdfcd/mzaf_9716555735641078048.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7e/bf/7c/7ebf7cea-4296-aec1-beb2-f961dac13901/196589286260.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/staying-alive-feat-drake-lil-baby/1638180124?i=1638180125&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/65/ae/8565ae38-1d29-7012-fece-ecadc0164916/mzaf_13208804942760750729.plus.aac.p.m4a",
   "rank": 552682,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1127957581,
+  "id": 1127989697,
   "title": "For Free",
   "artist": "DJ Khaled",
   "credit": "DJ Khaled feat. Drake",
@@ -8377,14 +8876,15 @@ window.SONGS = [
   ],
   "year": 2016,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8a/a0/e9/8aa0e9e6-e0c8-2943-6dab-0dc78d2cc280/886445975840.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/for-free-feat-drake/1127957437?i=1127957581&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9b/4d/85/9b4d8542-3e4f-1591-f9af-e3dbf6243e7d/mzaf_9635743591112292188.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/02/f6/9e/02f69e64-9f7b-8c15-c0a4-4dec2860fb44/886445975833.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/for-free-feat-drake/1127989414?i=1127989697&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/51/78/5b/51785bea-918e-d0ce-ab07-17941950af05/mzaf_6533258021824305971.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1444194560,
+  "id": 1445288976,
   "title": "I'm On One",
   "artist": "DJ Khaled",
   "credit": "DJ Khaled feat. Drake & Rick Ross & Lil Wayne",
@@ -8396,14 +8896,15 @@ window.SONGS = [
   ],
   "year": 2011,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/50/69/30/50693088-05b7-147e-cd14-bbc67d4db89e/11UMGIM17569.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/im-on-one-feat-drake-rick-ross-lil-wayne/1444194558?i=1444194560&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a0/08/48/a00848cf-9f42-419b-5f1b-1efd876c9719/mzaf_11507841636791252056.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/af/ff/6c/afff6cb9-0c2d-e7bc-6a30-5bae16815ec5/11UMGIM13879.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/im-on-one-feat-drake-rick-ross-lil-wayne/1445288975?i=1445288976&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7b/ee/b9/7beeb917-48aa-82cb-a423-9e43dc421c65/mzaf_15884831647718980918.plus.aac.p.m4a",
   "rank": 689321,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1444217842,
+  "id": 1445305282,
   "title": "Take It To The Head",
   "artist": "DJ Khaled",
   "credit": "DJ Khaled feat. Chris Brown & Rick Ross & Nicki Minaj & Lil Wayne",
@@ -8416,14 +8917,15 @@ window.SONGS = [
   ],
   "year": 2012,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/22/d1/50/22d1505b-d716-1d6b-13d5-e707b119c137/00602537148844.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/take-it-to-the-head-feat-chris-brown-rick-ross-nicki/1444217836?i=1444217842&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/a3/b8/3ba3b858-8129-64bd-495b-84153d38430f/mzaf_6243872724863562285.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f8/40/e6/f840e643-0846-0a1b-f35b-9cd84869b3e6/12UMGIM13378.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/take-it-to-the-head-feat-chris-brown-rick-ross-nicki/1445305281?i=1445305282&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/15/74/90/157490c6-6030-a4cc-375b-3522a1fa5133/mzaf_10346867864122608810.plus.aac.p.m4a",
   "rank": 373407,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1047316363,
+  "id": 1047325137,
   "title": "Hold You Down",
   "artist": "DJ Khaled",
   "credit": "DJ Khaled feat. Chris Brown & August Alsina & Future & Jeremih",
@@ -8436,14 +8938,15 @@ window.SONGS = [
   ],
   "year": 2014,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/b5/50/1e/b5501e7b-8891-f4a7-53fa-86aca27a52d6/886445510447.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/hold-you-down-feat-chris-brown-august-alsina-future-jeremih/1047315291?i=1047316363&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a2/ab/4c/a2ab4c85-11c5-0964-da5e-8f086b9ce141/mzaf_3232519892681057548.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2c/a4/85/2ca485b6-4436-2839-70e4-33f41b0444e6/886445500639.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/hold-you-down-feat-chris-brown-august-alsina-future-jeremih/1047325117?i=1047325137&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/6c/0d/096c0d99-fcb5-c4f0-2f64-d15ad99bdd85/mzaf_10776425821777706974.plus.aac.p.m4a",
   "rank": 493244,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1244229846,
+  "id": 1244230124,
   "title": "Shining",
   "artist": "DJ Khaled",
   "credit": "DJ Khaled feat. Beyoncé & JAŸ-Z",
@@ -8454,14 +8957,15 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/7c/23/427c23ba-78dc-5a27-78c4-1a0e5f0e40da/886446557731.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/shining-feat-beyonc%C3%A9-ja%C3%BF-z/1244229844?i=1244229846&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c9/69/38/c969387f-12e4-efb6-4a88-b2a28d0f9e50/mzaf_4566556676335246763.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/03/5d/32/035d32e9-6fdb-8f08-daf0-c2f208128d06/886446550695.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/shining-feat-beyonc%C3%A9-ja%C3%BF-z/1244230120?i=1244230124&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/34/dc/ef/34dcefd2-c639-b0c7-c9de-dc524a1841eb/mzaf_7283379580098978470.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1464070087,
+  "id": 1464024152,
   "title": "Holy Mountain",
   "artist": "DJ Khaled",
   "credit": "DJ Khaled feat. Buju Banton & Sizzla & Mavado & 070 Shake",
@@ -8474,14 +8978,15 @@ window.SONGS = [
   ],
   "year": 2019,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0a/83/2f/0a832fb4-d938-8349-b751-915d98490032/886447753545.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/holy-mountain-feat-buju-banton-sizzla-mavado-070-shake/1464070086?i=1464070087&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ae/9d/fa/ae9dfa75-6d03-13d1-9518-bc845813748a/mzaf_18321932884593175695.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/02/45/a60245a8-ccde-cf34-f3f6-3f4f625d429c/886447753538.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/holy-mountain-feat-buju-banton-sizzla-mavado-070-shake/1464024147?i=1464024152&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/25/8c/16/258c166a-7120-25eb-0bb4-1ad3fb51a95d/mzaf_15565896321886425993.plus.aac.p.m4a",
   "rank": 367504,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1464070103,
+  "id": 1464024217,
   "title": "Higher",
   "artist": "DJ Khaled",
   "credit": "DJ Khaled feat. Nipsey Hussle & John Legend",
@@ -8492,11 +8997,12 @@ window.SONGS = [
   ],
   "year": 2019,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0a/83/2f/0a832fb4-d938-8349-b751-915d98490032/886447753545.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/higher-feat-nipsey-hussle-john-legend/1464070086?i=1464070103&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/7e/be/fb7ebebc-b479-8e24-4f75-ad50a5306703/mzaf_3786961774302828169.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/02/45/a60245a8-ccde-cf34-f3f6-3f4f625d429c/886447753538.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/higher-feat-nipsey-hussle-john-legend/1464024147?i=1464024217&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/77/e2/ea77e292-4f4c-058d-29e4-92a3f158d50d/mzaf_7481085017529210514.plus.aac.p.m4a",
   "rank": 255002,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
   "id": "dz1919680227",
@@ -8513,7 +9019,8 @@ window.SONGS = [
   "rank": 162122,
   "art": "https://cdn-images.dzcdn.net/images/cover/18265bafbedc1e4eda41296d174a2ed4/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/1919680227",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/1/d/0/11deb77f4766dad255b709ab34416d5f.mp3?hdnea=exp=1794898886~acl=/api/1/1/1/1/d/0/11deb77f4766dad255b709ab34416d5f.mp3*~data=user_id=0,application_id=42~hmac=26f7d4d32882142cea912b9db61c0ba59eb7ca9f8f37f3c3e2739a2cfa92af48",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/1/d/0/11deb77f4766dad255b709ab34416d5f.mp3?hdnea=exp=1794900347~acl=/api/1/1/1/1/d/0/11deb77f4766dad255b709ab34416d5f.mp3*~data=user_id=0,application_id=42~hmac=240fa0e69af8a38faf55f30aae6f03abd284ed9c42de23f81272c5f7b28ff70e",
+  "explicitness": "explicit",
   "hit": false
  },
  {
@@ -8531,7 +9038,8 @@ window.SONGS = [
   "rank": 246221,
   "art": "https://cdn-images.dzcdn.net/images/cover/7fcec7fadd0b0e79c253c099e559e81e/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/1785255737",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/c/4/0/7c4eb543ed98834cc9aa05c5bcc5df00.mp3?hdnea=exp=1794898891~acl=/api/1/1/7/c/4/0/7c4eb543ed98834cc9aa05c5bcc5df00.mp3*~data=user_id=0,application_id=42~hmac=e8bb604b87c9dac543aa15c5da3ef7c57dc073c1f1dd98e96a8c893bc7548568",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/c/4/0/7c4eb543ed98834cc9aa05c5bcc5df00.mp3?hdnea=exp=1794900349~acl=/api/1/1/7/c/4/0/7c4eb543ed98834cc9aa05c5bcc5df00.mp3*~data=user_id=0,application_id=42~hmac=4625df809b257d1e7291cdab27c52857485269fe4ab64b3b7f11691505ab9ba0",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -8549,7 +9057,8 @@ window.SONGS = [
   "rank": 345813,
   "art": "https://cdn-images.dzcdn.net/images/cover/7b7c9c9e86c59f4bf5e0661ae4049c34/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/1653450062",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/f/1/0/9f13299467eda6728a79a752865af920.mp3?hdnea=exp=1794898896~acl=/api/1/1/9/f/1/0/9f13299467eda6728a79a752865af920.mp3*~data=user_id=0,application_id=42~hmac=30233600ad71f5d1c0075ad6a5009fe8f61e913942a70200f0a930318999fc1d",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/f/1/0/9f13299467eda6728a79a752865af920.mp3?hdnea=exp=1794900351~acl=/api/1/1/9/f/1/0/9f13299467eda6728a79a752865af920.mp3*~data=user_id=0,application_id=42~hmac=8406c8eea3c794c3b9aebf56271b2ae61f786ea09a22b30f1c7044618a3504bf",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -8567,7 +9076,8 @@ window.SONGS = [
   "rank": 212846,
   "art": "https://cdn-images.dzcdn.net/images/cover/18265bafbedc1e4eda41296d174a2ed4/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/1919680207",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/6/2/0/e626b4e084f8e59482c3df75ec7e3587.mp3?hdnea=exp=1794898902~acl=/api/1/1/e/6/2/0/e626b4e084f8e59482c3df75ec7e3587.mp3*~data=user_id=0,application_id=42~hmac=6eaa968932854541ba040eb2476ee306fdd4219db3c621e86e61a0be4c27a433",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/6/2/0/e626b4e084f8e59482c3df75ec7e3587.mp3?hdnea=exp=1794900353~acl=/api/1/1/e/6/2/0/e626b4e084f8e59482c3df75ec7e3587.mp3*~data=user_id=0,application_id=42~hmac=d4d9829b5f938f469fc048637a0a2662f7eda601ffdda7cf3b2570e0cd68c8c6",
+  "explicitness": "explicit",
   "hit": false
  },
  {
@@ -8585,7 +9095,8 @@ window.SONGS = [
   "rank": 150119,
   "art": "https://cdn-images.dzcdn.net/images/cover/1308e2fcc8cda33fcde7051e8f39a2db/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/926631952",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/3/0/b6390cf3d1dc260c3c0f74f2e24d109e.mp3?hdnea=exp=1794898907~acl=/api/1/1/b/6/3/0/b6390cf3d1dc260c3c0f74f2e24d109e.mp3*~data=user_id=0,application_id=42~hmac=42d32059744690bc60c25f0e943cc845b3391124b24a617c1bafcf34c96c5602",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/3/0/b6390cf3d1dc260c3c0f74f2e24d109e.mp3?hdnea=exp=1794900355~acl=/api/1/1/b/6/3/0/b6390cf3d1dc260c3c0f74f2e24d109e.mp3*~data=user_id=0,application_id=42~hmac=e2692d3f720d798155d377097ad4ebdfd6728407886974444e6c251b950e99d8",
+  "explicitness": "explicit",
   "hit": false
  },
  {
@@ -8603,11 +9114,12 @@ window.SONGS = [
   "rank": 420164,
   "art": "https://cdn-images.dzcdn.net/images/cover/5ec884e68da49f1d55786eb22fe33360/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/2248666917",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/c/3/0/1c3e6e5c0b0de1ddf0446323bee8c4ba.mp3?hdnea=exp=1794898917~acl=/api/1/1/1/c/3/0/1c3e6e5c0b0de1ddf0446323bee8c4ba.mp3*~data=user_id=0,application_id=42~hmac=a630150575a745a80a086782d4a70f5b777e0070de05f66e638d5bbfc526d2cb",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/c/3/0/1c3e6e5c0b0de1ddf0446323bee8c4ba.mp3?hdnea=exp=1794900357~acl=/api/1/1/1/c/3/0/1c3e6e5c0b0de1ddf0446323bee8c4ba.mp3*~data=user_id=0,application_id=42~hmac=064d7e604503038824185fc5f7e35013df3b787b926e7c8b06d22d00447acad6",
+  "explicitness": "explicit",
   "hit": true
  },
  {
-  "id": 1696244996,
+  "id": 1695030115,
   "title": "No Bap",
   "artist": "LUCKI",
   "credit": "LUCKI",
@@ -8616,11 +9128,12 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0a/91/f1/0a91f1d5-f027-9a56-5526-a8b84be88dcc/197342278010_cover.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/no-bap/1696244773?i=1696244996&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/25/8c/49/258c493c-eea2-82ba-7674-639bda45462d/mzaf_4316601347322086430.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/84/0f/68/840f6837-057a-1e71-ccd0-c8cff30ab152/197342257350_cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/no-bap/1695030109?i=1695030115&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/ef/9e/b1ef9ed5-ad5f-0eae-0f4b-7827ac21c07e/mzaf_18164478028416437584.plus.aac.p.m4a",
   "rank": 351068,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 693226464,
@@ -8637,7 +9150,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/titanium-feat-sia/693225996?i=693226464&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/dd/8f/45dd8ffc-0164-1f70-c53d-bf91a1d80b1a/mzaf_3092057092144618662.plus.aac.p.m4a",
   "rank": 956365,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 693226002,
@@ -8654,7 +9168,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/without-you-feat-usher/693225996?i=693226002&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7e/8a/cd/7e8acdeb-2f15-849b-8fe9-b9890d332929/mzaf_13894951771782459156.plus.aac.p.m4a",
   "rank": 818619,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 693246521,
@@ -8671,7 +9186,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/when-love-takes-over-feat-kelly-rowland/693244948?i=693246521&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/eb/43/85/eb4385ac-4298-ead3-ae0d-72bce464eecb/mzaf_8686096449071760557.plus.aac.p.m4a",
   "rank": 47305,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 693247224,
@@ -8688,7 +9204,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/sexy-bitch-feat-akon-continuous-mix/693244948?i=693247224&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/76/5a/d9/765ad990-a920-e222-056a-d50ddd497d35/mzaf_17715985563536521798.plus.aac.p.m4a",
   "rank": 367859,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 693290786,
@@ -8706,7 +9223,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/play-hard-feat-akon-ne-yo/693290088?i=693290786&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/93/a8/6493a8ea-6485-6f28-fb32-7092b12df2e4/mzaf_15720046396040045801.plus.aac.p.m4a",
   "rank": 852508,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 693226000,
@@ -8723,7 +9241,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/turn-me-on-feat-nicki-minaj/693225996?i=693226000&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/83/29/c4832915-5f44-8a05-6674-9b895ce01a38/mzaf_12928430481504686387.plus.aac.p.m4a",
   "rank": 761177,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 924568962,
@@ -8742,7 +9261,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/hey-mama-feat-nicki-minaj-bebe-rexha-afrojack/924562828?i=924568962&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/01/07/2f010764-9126-7fa6-56b9-158cb23b581c/mzaf_4181447779748310372.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1052705836,
@@ -8760,7 +9280,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/bang-my-head-feat-sia-fetty-wap/1052705453?i=1052705836&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/cb/c8/81cbc8d4-8948-12ec-a279-58f7884ece83/mzaf_3683002750537342106.plus.aac.p.m4a",
   "rank": 699159,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 924568905,
@@ -8777,7 +9298,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/lovers-on-the-sun-feat-sam-martin/924562828?i=924568905&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/63/5c/0b635c6b-5f61-2a74-e84c-7cbf50008ebc/mzaf_5338074955664944436.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 924568893,
@@ -8794,7 +9316,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/dangerous-feat-sam-martin/924562828?i=924568893&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/23/b9/c2/23b9c274-7502-8b1f-193e-5f96ddf3297f/mzaf_1868438346763270891.plus.aac.p.m4a",
   "rank": 32515,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1445023444,
@@ -8811,7 +9334,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/2u-feat-justin-bieber/1445023441?i=1445023444&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/da/13/98da137a-bfc6-f5b9-0647-3ce80b802cb0/mzaf_14914810459669206481.plus.aac.p.m4a",
   "rank": 131471,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1526859615,
@@ -8828,10 +9352,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/lets-love/1526859322?i=1526859615&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/71/79/3371791c-07e2-b081-9e47-6c3d5e74a8f8/mzaf_17553774875159221104.plus.aac.p.m4a",
   "rank": 721334,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1642788728,
+  "id": 1640751223,
   "title": "I'm Good (Blue)",
   "artist": "David Guetta",
   "credit": "David Guetta & Bebe Rexha",
@@ -8841,11 +9366,12 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "House/EDM",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/32/d2/9c/32d29c8a-e0a2-a629-7889-23c12ead0595/5054197344749.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/im-good-blue/1642788726?i=1642788728&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/4e/bd/3a4ebd86-16fa-4804-d39b-04e62e596735/mzaf_1434980429612457583.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/10/07/f9/1007f9e3-9815-38a2-66ae-c1952b1688e9/5054197324338.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/im-good-blue/1640751219?i=1640751223&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b4/51/2c/b4512c91-3ea5-0a1c-a7db-324060825217/mzaf_17640365983854922081.plus.aac.p.m4a",
   "rank": 809495,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 1679958206,
@@ -8863,7 +9389,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/baby-dont-hurt-me/1679958196?i=1679958206&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/50/32/3d5032a9-85c0-1c1b-7035-4adab47d8f84/mzaf_10433615530456253502.plus.aac.p.m4a",
   "rank": 784742,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 693246514,
@@ -8882,10 +9409,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/gettin-over-you-feat-fergie-lmfao/693244948?i=693246514&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/fb/47/befb4763-fa65-67c6-d851-6ac11ae8f8ea/mzaf_7001727675217821418.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 693224810,
+  "id": 693225998,
   "title": "Where Them Girls At",
   "artist": "David Guetta",
   "credit": "David Guetta feat. Nicki Minaj & Flo Rida",
@@ -8896,11 +9424,12 @@ window.SONGS = [
   ],
   "year": 2011,
   "genre": "Pop",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/23/75/a2/2375a297-2afc-74e6-4677-634d3810d3d7/5099967938551.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/where-them-girls-at-feat-nicki-minaj-flo-rida/693224617?i=693224810&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/aa/53/c9/aa53c9fc-3881-6076-09fb-0aa8c8a21a01/mzaf_12855860301144127094.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/99/b4/7b/99b47bd8-2b22-e1ef-2e60-c5147f27a861/dj.thrvmjqj.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/where-them-girls-at-feat-nicki-minaj-flo-rida/693225996?i=693225998&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/a4/cc/5fa4cc47-8f67-7d4a-af55-d97822c1933e/mzaf_809403461659556481.plus.aac.p.m4a",
   "rank": 863379,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 400442819,
@@ -8917,7 +9446,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/club-cant-handle-me-feat-david-guetta/400442800?i=400442819&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/31/f9/54/31f95405-6e34-cc3a-1d2b-53072dd7ab4b/mzaf_15442134564950386338.plus.aac.p.m4a",
   "rank": 758537,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1443765155,
@@ -8935,7 +9465,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/little-bad-girl-feat-taio-cruz-ludacris/1443764587?i=1443765155&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/e4/44/e4e444c5-de1d-3c48-5f18-c78ff1a43bc8/mzaf_14895169006323151333.plus.aac.p.m4a",
   "rank": 335076,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1715688715,
@@ -8952,7 +9483,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/whos-that-chick-feat-rihanna/1715686450?i=1715688715&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/84/cb/6784cb01-876e-8863-7539-37901bcc1757/mzaf_714194573104258027.plus.aac.p.m4a",
   "rank": 826501,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1715687127,
@@ -8969,7 +9501,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/memories-feat-kid-cudi/1715686450?i=1715687127&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/a3/76/a5a376f7-7cb5-2f82-c326-7633278924b9/mzaf_18016540057574241633.plus.aac.p.m4a",
   "rank": 698253,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": "dz2114001497",
@@ -8987,7 +9520,8 @@ window.SONGS = [
   "rank": 644044,
   "art": "https://cdn-images.dzcdn.net/images/cover/a0e8759657599213e01760d1d827c836/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/2114001497",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/1/d/0/c1d2e2c7eef2aae4a5f9e8454488bc78.mp3?hdnea=exp=1794898942~acl=/api/1/1/c/1/d/0/c1d2e2c7eef2aae4a5f9e8454488bc78.mp3*~data=user_id=0,application_id=42~hmac=fbf405e7ab6aa513cdb170fddb93c07e17869c8a3b1e485705e4d7cefaa9ead2",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/1/d/0/c1d2e2c7eef2aae4a5f9e8454488bc78.mp3?hdnea=exp=1794900359~acl=/api/1/1/c/1/d/0/c1d2e2c7eef2aae4a5f9e8454488bc78.mp3*~data=user_id=0,application_id=42~hmac=5d0fa5693d360ea93bd3e45b4fbd637e7a490ad4fd1ef8ac9c064fa2a3a6c5e8",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -9005,11 +9539,12 @@ window.SONGS = [
   "rank": 470667,
   "art": "https://cdn-images.dzcdn.net/images/cover/7a0c3b2279938641c09754dc40fbecdb/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/2312700875",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/a/d/0/badcc65f7348815b211f3364392bf0a0.mp3?hdnea=exp=1794898947~acl=/api/1/1/b/a/d/0/badcc65f7348815b211f3364392bf0a0.mp3*~data=user_id=0,application_id=42~hmac=9572e4cb92f7c32c6d1abe24c09116fb4290f0382909b00b0f9e29b4dd957b8d",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/a/d/0/badcc65f7348815b211f3364392bf0a0.mp3?hdnea=exp=1794900361~acl=/api/1/1/b/a/d/0/badcc65f7348815b211f3364392bf0a0.mp3*~data=user_id=0,application_id=42~hmac=c830e62938f7d3d2c9c2691588226168d0076eef6df51d57dee14f6142ac7e05",
+  "explicitness": "explicit",
   "hit": true
  },
  {
-  "id": 1749058812,
+  "id": 1736033446,
   "title": "Get It Sexyy",
   "artist": "Sexyy Red",
   "credit": "Sexyy Red",
@@ -9018,14 +9553,15 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/d9/75/5cd9756e-1a9a-e8b7-72fd-f459c877a278/797885195340_cover.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/get-it-sexyy/1749058811?i=1749058812&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/cb/b8/65cbb8ab-d100-9079-faa5-471554338c81/mzaf_18010732187815355202.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e8/f3/82/e8f382ad-9d6a-ac80-e78a-1336a5c5f17f/797885071965_cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/get-it-sexyy/1736033445?i=1736033446&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/29/0d/0d290db3-5df5-6f49-bdf2-ffca495a361d/mzaf_2620048902299571090.plus.aac.p.m4a",
   "rank": 552767,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1716986413,
+  "id": 1710685898,
   "title": "Rich Baby Daddy",
   "artist": "Sexyy Red",
   "credit": "Drake feat. Sexyy Red & SZA",
@@ -9036,11 +9572,12 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/68/8b/a9/688ba9aa-4c90-c630-63c3-b6a7a0d945c2/23UM1IM56239.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/rich-baby-daddy-feat-sexyy-red-sza/1716986138?i=1716986413&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/32/ee/9e/32ee9e30-81ad-a50f-bcad-6e101e85b49f/mzaf_6918026260684511965.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/21/50/ee/2150ee84-62c3-4190-7dfa-da30abd98ac8/23UM1IM09862.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/rich-baby-daddy-feat-sexyy-red-sza/1710685602?i=1710685898&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/95/af/5695af1a-5212-ad33-b0c4-a22c2694923e/mzaf_5002931800925577858.plus.aac.p.m4a",
   "rank": 821624,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": "dz2467835265",
@@ -9057,11 +9594,12 @@ window.SONGS = [
   "rank": 339250,
   "art": "https://cdn-images.dzcdn.net/images/cover/f7e271dc52e2fca305b5ea82ddf6e80e/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/2467835265",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/7/1/0/871e5890d69a957783462549b4e568a5.mp3?hdnea=exp=1794898957~acl=/api/1/1/8/7/1/0/871e5890d69a957783462549b4e568a5.mp3*~data=user_id=0,application_id=42~hmac=1deceac4dbc5e052e6d31e441ef9feeb7fcee42bc0dac484c132d85e32c251b7",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/7/1/0/871e5890d69a957783462549b4e568a5.mp3?hdnea=exp=1794900364~acl=/api/1/1/8/7/1/0/871e5890d69a957783462549b4e568a5.mp3*~data=user_id=0,application_id=42~hmac=449c18866602b22b61ce78b8ca77a5586a01f95b3bf37ce5a84df012e8b33514",
+  "explicitness": "explicit",
   "hit": false
  },
  {
-  "id": 1749059606,
+  "id": 1748026817,
   "title": "U My Everything",
   "artist": "Sexyy Red",
   "credit": "Sexyy Red & Drake",
@@ -9071,11 +9609,12 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/d9/75/5cd9756e-1a9a-e8b7-72fd-f459c877a278/797885195340_cover.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/u-my-everything/1749058811?i=1749059606&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/d5/5d/e4d55d3f-f876-a52d-e9e2-8b81bafd6784/mzaf_3077401788152037547.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/3a/e2/e63ae247-7bb8-2026-f868-347cf9b7cca2/797885187680_cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/u-my-everything/1748026811?i=1748026817&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d7/09/07/d7090793-4e9e-0829-e5b6-47255091b60b/mzaf_7817962874791391874.plus.aac.p.m4a",
   "rank": 455388,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
   "id": "dz2312700955",
@@ -9093,7 +9632,8 @@ window.SONGS = [
   "rank": 156811,
   "art": "https://cdn-images.dzcdn.net/images/cover/7a0c3b2279938641c09754dc40fbecdb/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/2312700955",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/3/2/0/e320cd088d9e4ee5a2b2fe96852ce6a1.mp3?hdnea=exp=1794898966~acl=/api/1/1/e/3/2/0/e320cd088d9e4ee5a2b2fe96852ce6a1.mp3*~data=user_id=0,application_id=42~hmac=63f454fd85a2bda085d814b2151a3affad5b7ed46a8fb64809ac459c3a4fdcfd",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/3/2/0/e320cd088d9e4ee5a2b2fe96852ce6a1.mp3?hdnea=exp=1794900366~acl=/api/1/1/e/3/2/0/e320cd088d9e4ee5a2b2fe96852ce6a1.mp3*~data=user_id=0,application_id=42~hmac=4d549d9c74aa1590339c2e86ec17189464d2e856f8f12096cfecc0ad8c87b8ec",
+  "explicitness": "explicit",
   "hit": false
  },
  {
@@ -9111,11 +9651,12 @@ window.SONGS = [
   "rank": 553303,
   "art": "https://cdn-images.dzcdn.net/images/cover/7a0c3b2279938641c09754dc40fbecdb/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/2312700905",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/e/e/0/cee5eaa091d060fb2e24dbff759c6b3c.mp3?hdnea=exp=1794898972~acl=/api/1/1/c/e/e/0/cee5eaa091d060fb2e24dbff759c6b3c.mp3*~data=user_id=0,application_id=42~hmac=3f9e0b62e9b69b4cb0f08cccbd932f42af5930cb0395c273466284bd133c0ed7",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/e/e/0/cee5eaa091d060fb2e24dbff759c6b3c.mp3?hdnea=exp=1794900368~acl=/api/1/1/c/e/e/0/cee5eaa091d060fb2e24dbff759c6b3c.mp3*~data=user_id=0,application_id=42~hmac=974907f4b9bb10665504a1b50835a95e3a771f7339b032dac467e88f5c8ba06c",
+  "explicitness": "explicit",
   "hit": true
  },
  {
-  "id": 1368105797,
+  "id": 1368156577,
   "title": "Bodak Yellow",
   "artist": "Cardi B",
   "credit": "Cardi B",
@@ -9124,14 +9665,15 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ca/58/e5/ca58e5e3-acb7-8ca3-6af9-ad63af3b71f1/075679873675.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/bodak-yellow/1368105671?i=1368105797&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/95/50/61/9550615a-6145-b65c-a696-d735f4b83390/mzaf_3562298962357544356.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6a/f7/6c/6af76c1c-4d8e-c761-8856-34d273b4703b/075679873682.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/bodak-yellow/1368156323?i=1368156577&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/de/d2/eaded281-7800-28b6-5b52-35a64c49d5ef/mzaf_15478616818215222753.plus.aac.p.m4a",
   "rank": 658582,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1368105802,
+  "id": 1368157211,
   "title": "I Like It",
   "artist": "Cardi B",
   "credit": "Cardi B, Bad Bunny & J Balvin",
@@ -9142,14 +9684,15 @@ window.SONGS = [
   ],
   "year": 2018,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ca/58/e5/ca58e5e3-acb7-8ca3-6af9-ad63af3b71f1/075679873675.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/i-like-it/1368105671?i=1368105802&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/67/82/7c/67827c63-4aa2-7931-9bff-467592cd08dd/mzaf_11836739583341938706.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6a/f7/6c/6af76c1c-4d8e-c761-8856-34d273b4703b/075679873682.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/i-like-it/1368156323?i=1368157211&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/32/38/2f323858-2f9f-5bbf-df18-0e197635a79c/mzaf_11306679552261433220.plus.aac.p.m4a",
   "rank": 842038,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1526747167,
+  "id": 1821526567,
   "title": "WAP",
   "artist": "Cardi B",
   "credit": "Cardi B feat. Megan Thee Stallion",
@@ -9159,14 +9702,15 @@ window.SONGS = [
   ],
   "year": 2020,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ec/f5/45/ecf545c0-24bd-90de-7639-3069e648c51d/075679804938.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/wap-feat-megan-thee-stallion/1526746983?i=1526747167&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/f8/9a/d9f89aa1-e94e-cfb8-78ee-8416f31fc8cf/mzaf_6235565286408681473.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c1/5e/19/c15e1941-19f3-bebd-6b97-3161ee075351/075679604828.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/wap-feat-megan-thee-stallion/1821526317?i=1821526567&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/31/65/2f3165b8-982b-58c6-0422-a3c034ad745e/mzaf_10564847432268499995.plus.aac.p.m4a",
   "rank": 751423,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1439777572,
+  "id": 1439777400,
   "title": "Money",
   "artist": "Cardi B",
   "credit": "Cardi B",
@@ -9175,14 +9719,15 @@ window.SONGS = [
   ],
   "year": 2018,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/82/a2/e582a24b-a269-7427-486f-5ab5add44d0d/075679860491.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/money/1439777571?i=1439777572&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6e/33/18/6e3318d5-fa34-f1bb-db55-c2ecef6588d2/mzaf_12435095314890588238.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d3/62/4c/d3624c29-966b-bf96-f1bb-d0e8f7834ad9/075679860507.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/money/1439777399?i=1439777400&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/88/25/d4882568-fbd5-4719-27b9-4113ee0f0323/mzaf_907029262789383838.plus.aac.p.m4a",
   "rank": 625776,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1552255040,
+  "id": 1821526566,
   "title": "Up",
   "artist": "Cardi B",
   "credit": "Cardi B",
@@ -9191,14 +9736,15 @@ window.SONGS = [
   ],
   "year": 2021,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cf/66/73/cf6673b8-b936-dc2e-4f9c-75595eb545b2/075679791344.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/up/1552255038?i=1552255040&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/f4/58/70f458da-8f7e-1083-6146-859f7a2dce47/mzaf_15975525249901762250.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c1/5e/19/c15e1941-19f3-bebd-6b97-3161ee075351/075679604828.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/up/1821526317?i=1821526566&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/df/e8/c2/dfe8c215-34bf-2a7f-8db9-bddc1ca0ab20/mzaf_15211208305726686797.plus.aac.p.m4a",
   "rank": 594739,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1368105800,
+  "id": 1368156579,
   "title": "Be Careful",
   "artist": "Cardi B",
   "credit": "Cardi B",
@@ -9207,14 +9753,15 @@ window.SONGS = [
   ],
   "year": 2018,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ca/58/e5/ca58e5e3-acb7-8ca3-6af9-ad63af3b71f1/075679873675.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/be-careful/1368105671?i=1368105800&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/25/80/64258057-bd4f-e0f8-69b3-a26f0d8a6383/mzaf_7547748246126600747.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6a/f7/6c/6af76c1c-4d8e-c761-8856-34d273b4703b/075679873682.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/be-careful/1368156323?i=1368156579&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/30/01/9c/30019cef-61e2-5c68-61f3-1937329b060d/mzaf_6650783372646879729.plus.aac.p.m4a",
   "rank": 537393,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1368105806,
+  "id": 1368157223,
   "title": "Bartier Cardi",
   "artist": "Cardi B",
   "credit": "Cardi B feat. 21 Savage",
@@ -9224,14 +9771,15 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ca/58/e5/ca58e5e3-acb7-8ca3-6af9-ad63af3b71f1/075679873675.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/bartier-cardi-feat-21-savage/1368105671?i=1368105806&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/1d/9b/0b1d9b79-b9c8-f14a-d6eb-c476424dec20/mzaf_9746607810643301069.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6a/f7/6c/6af76c1c-4d8e-c761-8856-34d273b4703b/075679873682.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/bartier-cardi-feat-21-savage/1368156323?i=1368157223&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/fe/b3/35feb30f-fe25-ba53-4ce9-8116435a2454/mzaf_12734103242695220051.plus.aac.p.m4a",
   "rank": 497808,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1368105795,
+  "id": 1368156573,
   "title": "Drip",
   "artist": "Cardi B",
   "credit": "Cardi B feat. Migos",
@@ -9241,14 +9789,15 @@ window.SONGS = [
   ],
   "year": 2018,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ca/58/e5/ca58e5e3-acb7-8ca3-6af9-ad63af3b71f1/075679873675.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/drip-feat-migos/1368105671?i=1368105795&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/04/9e/d7/049ed71f-bb9a-eb01-470b-07a6b86d4d89/mzaf_17215284530986073709.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6a/f7/6c/6af76c1c-4d8e-c761-8856-34d273b4703b/075679873682.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/drip-feat-migos/1368156323?i=1368156573&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2c/bf/cc/2cbfcc1d-f5ae-c2b9-ac38-184175ae8736/mzaf_6831060196395801843.plus.aac.p.m4a",
   "rank": 437080,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1466097361,
+  "id": 1466094169,
   "title": "Press",
   "artist": "Cardi B",
   "credit": "Cardi B",
@@ -9257,14 +9806,15 @@ window.SONGS = [
   ],
   "year": 2019,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/99/a1/50/99a15085-a573-8ed9-935a-3f78fc7432b9/075679844613.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/press/1466097074?i=1466097361&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/c3/3c/c0c33cdf-9d00-6283-3ddb-b41ac444a319/mzaf_4779633080368697911.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ea/7e/97/ea7e9711-d5ca-27f6-ddd2-a35cd44abb19/075679846914.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/press/1466094106?i=1466094169&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/13/e6/b113e6ad-e674-37d7-8e12-69693778af57/mzaf_6422417904245331273.plus.aac.p.m4a",
   "rank": 543091,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1706355538,
+  "id": 1706359183,
   "title": "Bongos",
   "artist": "Cardi B",
   "credit": "Cardi B & Megan Thee Stallion",
@@ -9274,14 +9824,15 @@ window.SONGS = [
   ],
   "year": 2023,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/93/f1/51/93f15169-07a7-5175-837f-dc1f6208c64d/075679669216.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/bongos/1706355530?i=1706355538&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/eb/2c/81/eb2c8158-8189-0e0d-a6a8-fed653c3b99f/mzaf_7426681982385731667.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/93/04/b0/9304b045-4182-0857-a7df-f9e2d151b093/075679669209.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/bongos/1706359158?i=1706359183&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bf/15/ee/bf15eeb2-fd02-402d-256a-91174f78b8b2/mzaf_581677938238212046.plus.aac.p.m4a",
   "rank": 496969,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1735774393,
+  "id": 1735401402,
   "title": "Enough (Miami)",
   "artist": "Cardi B",
   "credit": "Cardi B",
@@ -9290,14 +9841,15 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ca/0a/0f/ca0a0f85-98cb-e34f-4d27-8cb70c0cc9e8/075679651402.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/enough-miami/1735774389?i=1735774393&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/64/10/e7641064-3a38-a6c3-ac4d-8e809fc018ea/mzaf_14974219146943650267.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/be/47/83/be47834f-6298-9efa-8969-752efb2f1746/075679651747.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/enough-miami/1735401401?i=1735401402&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/75/43/ea75437d-4252-7d66-0c28-e02321d503b6/mzaf_3233253458715825246.plus.aac.p.m4a",
   "rank": 476173,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1632352820,
+  "id": 1632349056,
   "title": "Hot Shit",
   "artist": "Cardi B",
   "credit": "Cardi B, Kanye West & Lil Durk",
@@ -9308,14 +9860,15 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/5e/00/7e/5e007e85-d731-7c96-f23c-3fc849a904f7/075679736949.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/hot-shit/1632352629?i=1632352820&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/3f/cf/933fcfcf-6b48-084f-f70b-6c9163cd934a/mzaf_9040828734161294802.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/38/56/19/385619cd-d17f-c491-23ca-a046c4b71af3/075679736956.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/hot-shit/1632349053?i=1632349056&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/f6/58/28f65805-9a32-880c-3403-8a9e8c4c26f5/mzaf_12211805303772447850.plus.aac.p.m4a",
   "rank": 363144,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1368105808,
+  "id": 1368157238,
   "title": "Thru Your Phone",
   "artist": "Cardi B",
   "credit": "Cardi B",
@@ -9324,14 +9877,15 @@ window.SONGS = [
   ],
   "year": 2018,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ca/58/e5/ca58e5e3-acb7-8ca3-6af9-ad63af3b71f1/075679873675.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/thru-your-phone/1368105671?i=1368105808&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/30/fa/4130fade-3b2c-f054-4d3c-f183248e5a69/mzaf_16776004652906578945.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6a/f7/6c/6af76c1c-4d8e-c761-8856-34d273b4703b/075679873682.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/thru-your-phone/1368156323?i=1368157238&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a9/68/10/a96810dc-e914-06b9-9fae-ab6fe8a856d7/mzaf_8730492233463408520.plus.aac.p.m4a",
   "rank": 474038,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1368105804,
+  "id": 1368157215,
   "title": "Ring",
   "artist": "Cardi B",
   "credit": "Cardi B feat. Kehlani",
@@ -9341,14 +9895,15 @@ window.SONGS = [
   ],
   "year": 2018,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ca/58/e5/ca58e5e3-acb7-8ca3-6af9-ad63af3b71f1/075679873675.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/ring-feat-kehlani/1368105671?i=1368105804&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/4d/7e/7a4d7e86-7af5-42dd-1402-05436298d4e8/mzaf_3640345128893551220.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6a/f7/6c/6af76c1c-4d8e-c761-8856-34d273b4703b/075679873682.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/ring-feat-kehlani/1368156323?i=1368157215&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/81/9d/12/819d12a3-3c47-0fb8-27a0-02f5dce197d3/mzaf_3247630996982570950.plus.aac.p.m4a",
   "rank": 548736,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1501739781,
+  "id": 1501734796,
   "title": "Savage",
   "artist": "Megan Thee Stallion",
   "credit": "Megan Thee Stallion",
@@ -9357,14 +9912,15 @@ window.SONGS = [
   ],
   "year": 2020,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/99/3b/4b/993b4b79-ebce-8763-9e87-0a6eb539ae83/810043680479.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/savage/1501739777?i=1501739781&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/8d/0f/f68d0fbe-0943-7ac0-e43c-1f39f1b0b286/mzaf_3593784148630317126.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/6f/f9/186ff955-7ef2-4037-931c-1963da0ebb86/810043680462.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/savage/1501734515?i=1501734796&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/ae/01/94ae0131-2521-3eaa-088a-890c571f6ad1/mzaf_16110573974660857642.plus.aac.p.m4a",
   "rank": 647733,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1541244059,
+  "id": 1540031628,
   "title": "Body",
   "artist": "Megan Thee Stallion",
   "credit": "Megan Thee Stallion",
@@ -9373,14 +9929,15 @@ window.SONGS = [
   ],
   "year": 2020,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/39/95/fa/3995fadd-0e4a-0bfc-3878-01f6f7d4f440/810043683357.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/body/1541243687?i=1541244059&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/80/8f/0b/808f0b93-7ff5-6ad6-4892-5f3b6461eadf/mzaf_17108528831705166704.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ef/fb/93/effb9391-725f-97fe-7030-adc542cfba17/810043683203.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/body/1540031620?i=1540031628&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2e/1c/04/2e1c04c0-c0bf-924c-5f52-45c42222c19d/mzaf_5721781383469817320.plus.aac.p.m4a",
   "rank": 603442,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1475290487,
+  "id": 1475080333,
   "title": "Hot Girl Summer",
   "artist": "Megan Thee Stallion",
   "credit": "Megan Thee Stallion feat. Nicki Minaj & Ty Dolla $ign",
@@ -9391,14 +9948,15 @@ window.SONGS = [
   ],
   "year": 2019,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/33/b0/58/33b05868-e5a3-3066-d119-f564fc8b3f36/814908028741.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/hot-girl-summer-feat-nicki-minaj-ty-dolla-%24ign/1475290485?i=1475290487&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4f/5e/4c/4f5e4c06-7d41-43cd-b8be-7ea836652db5/mzaf_9108778418566303229.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c3/f4/25/c3f425d1-a7fd-dfc0-cfb4-78faae5a3583/814908028734.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/hot-girl-summer-feat-nicki-minaj-ty-dolla-%24ign/1475080332?i=1475080333&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6e/50/d8/6e50d843-5402-2649-8ac1-b1d9a742f308/mzaf_3589397994403191046.plus.aac.p.m4a",
   "rank": 463208,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1571139611,
+  "id": 1571139786,
   "title": "Thot Shit",
   "artist": "Megan Thee Stallion",
   "credit": "Megan Thee Stallion",
@@ -9407,14 +9965,15 @@ window.SONGS = [
   ],
   "year": 2021,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/55/e6/16/55e616ea-d025-49b4-d6cb-39e2a45cff06/810043685993.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/thot-shit/1571139610?i=1571139611&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/bc/5f/55bc5f5f-2390-e45a-70b7-b4e4382bef7d/mzaf_13601724543893595213.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b9/c1/a7/b9c1a7d8-4992-d189-8f74-2305249e8040/810043685986.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/thot-shit/1571139515?i=1571139786&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/23/ba/55/23ba55c3-257f-7a76-577d-bfd765a30d3c/mzaf_9476728777624620336.plus.aac.p.m4a",
   "rank": 599695,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1463430396,
+  "id": 1463027714,
   "title": "Cash Shit",
   "artist": "Megan Thee Stallion",
   "credit": "Megan Thee Stallion feat. DaBaby",
@@ -9424,11 +9983,12 @@ window.SONGS = [
   ],
   "year": 2019,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d7/7b/eb/d77bebf1-0971-4e3f-f3ae-c9a36d268d9d/814908028154.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/cash-shit-feat-dababy/1463430388?i=1463430396&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/82/26/13822614-bda3-275e-9622-de4d9f032a58/mzaf_12948339988795296529.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/03/b9/97/03b99709-f2cb-4e58-d5fe-d8e86675f0fa/814908028147.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/cash-shit-feat-dababy/1463027710?i=1463027714&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/d1/80/22d1805d-3d69-93d7-d701-6e79ae1e3eb8/mzaf_14356595458270393631.plus.aac.p.m4a",
   "rank": 439044,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
   "id": "dz606887352",
@@ -9445,11 +10005,12 @@ window.SONGS = [
   "rank": 545333,
   "art": "https://cdn-images.dzcdn.net/images/cover/1fb9852538256c7ee38cb2643961c646/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/606887352",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/f/4/0/4f4909aa8dff7b13d0e6b6c8e95c237d.mp3?hdnea=exp=1794899000~acl=/api/1/1/4/f/4/0/4f4909aa8dff7b13d0e6b6c8e95c237d.mp3*~data=user_id=0,application_id=42~hmac=e0542151743c3857784f591b8298f5d235ad2b9783377242e76e72bc02456e2e",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/f/4/0/4f4909aa8dff7b13d0e6b6c8e95c237d.mp3?hdnea=exp=1794900370~acl=/api/1/1/4/f/4/0/4f4909aa8dff7b13d0e6b6c8e95c237d.mp3*~data=user_id=0,application_id=42~hmac=5d868fbf9b7d1fba12ab1c4724fe61a030fb318db145622e6b5cbb50fd637559",
+  "explicitness": "explicit",
   "hit": true
  },
  {
-  "id": 1501739783,
+  "id": 1501734799,
   "title": "Captain Hook",
   "artist": "Megan Thee Stallion",
   "credit": "Megan Thee Stallion",
@@ -9458,14 +10019,15 @@ window.SONGS = [
   ],
   "year": 2020,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/99/3b/4b/993b4b79-ebce-8763-9e87-0a6eb539ae83/810043680479.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/captain-hook/1501739777?i=1501739783&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/99/be/1b99be81-c524-d190-038b-c80b6e377b2c/mzaf_4693336847863043078.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/6f/f9/186ff955-7ef2-4037-931c-1963da0ebb86/810043680462.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/captain-hook/1501734515?i=1501734799&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/cf/c6/64cfc672-5b42-c25c-dbd3-1bda84d71b12/mzaf_17410557920354353529.plus.aac.p.m4a",
   "rank": 476093,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1520470091,
+  "id": 1520466505,
   "title": "Girls in the Hood",
   "artist": "Megan Thee Stallion",
   "credit": "Megan Thee Stallion",
@@ -9474,14 +10036,15 @@ window.SONGS = [
   ],
   "year": 2020,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/85/30/2b/85302b68-e88f-3992-523a-94a49f36c57f/810043681803.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/girls-in-the-hood/1520469838?i=1520470091&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e5/20/10/e520109f-4021-c8fd-1f19-bd7d42b96f73/mzaf_17717371845804003378.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cd/49/b2/cd49b217-f897-5de3-b225-3bb6af705968/810043681742.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/girls-in-the-hood/1520466502?i=1520466505&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/d3/02/c0d302cf-a627-e4b6-b0b1-a05ca84cfe2f/mzaf_14585967293010524414.plus.aac.p.m4a",
   "rank": 499679,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1534158925,
+  "id": 1534158699,
   "title": "Don't Stop",
   "artist": "Megan Thee Stallion",
   "credit": "Megan Thee Stallion feat. Young Thug",
@@ -9491,14 +10054,15 @@ window.SONGS = [
   ],
   "year": 2020,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b5/1a/86/b51a8668-89a3-463f-d608-9c22c268b21e/810043682879.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/dont-stop-feat-young-thug/1534158424?i=1534158925&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/96/37/77/96377747-07b0-85d7-8861-eaca30a0188a/mzaf_4844901064695914853.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ee/c8/e2/eec8e279-8250-e83a-1abc-7f8efe8ec7d4/810043682855.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/dont-stop-feat-young-thug/1534158698?i=1534158699&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e5/c1/4b/e5c14bdc-dec7-9dda-948e-ff21f4afa69e/mzaf_264567251724046215.plus.aac.p.m4a",
   "rank": 477681,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1620386618,
+  "id": 1639431677,
   "title": "Plan B",
   "artist": "Megan Thee Stallion",
   "credit": "Megan Thee Stallion",
@@ -9507,14 +10071,15 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/66/bf/e8/66bfe861-6115-229a-b9c6-5997eaea3ef5/075679747075.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/plan-b/1620386616?i=1620386618&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d1/da/ad/d1daadb9-ba75-dc31-ef82-52b605fe6f9c/mzaf_15467607416591602250.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cd/8b/96/cd8b960a-6460-5441-e54e-b3c8028a1e82/075679731203.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/plan-b/1639430350?i=1639431677&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/9e/37/ce9e37e9-918d-d2b4-ba91-de84a41a7224/mzaf_8980428301445481552.plus.aac.p.m4a",
   "rank": 426910,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1727623042,
+  "id": 1727623658,
   "title": "HISS",
   "artist": "Megan Thee Stallion",
   "credit": "Megan Thee Stallion",
@@ -9523,14 +10088,15 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1c/9c/c8/1c9cc81e-41db-452b-5ee9-60bd59f09f44/075679656506.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/hiss/1727623037?i=1727623042&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/a8/10/0ba81066-0379-0952-40f9-7442f50cab52/mzaf_18004639977912505736.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/eb/5a/65/eb5a65bf-0a34-389f-357c-c46a841f5035/075679656490.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/hiss/1727623649?i=1727623658&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dc/4b/79/dc4b7971-765b-2813-2f7a-d5726ccc241d/mzaf_6865284737312205590.plus.aac.p.m4a",
   "rank": 519910,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1752025863,
+  "id": 1752024398,
   "title": "Mamushi",
   "artist": "Megan Thee Stallion",
   "credit": "Megan Thee Stallion feat. Yuki Chiba",
@@ -9540,14 +10106,15 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/98/bc/7498bce2-125d-a550-401e-71a2a4c354a6/075679642578.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/mamushi-feat-yuki-chiba/1752025676?i=1752025863&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/b1/15/6ab115ea-ae3c-9209-5a22-f04417015101/mzaf_17362011851264128923.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/1d/8e/931d8ec8-5191-f0df-201b-100731c58cac/075679642554.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/mamushi-feat-yuki-chiba/1752024169?i=1752024398&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/18/a0/7218a012-aa2d-6f3f-a630-ed57dafd9cdb/mzaf_12053227254622343699.plus.aac.p.m4a",
   "rank": 616154,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1639439734,
+  "id": 1639431051,
   "title": "Her",
   "artist": "Megan Thee Stallion",
   "credit": "Megan Thee Stallion",
@@ -9556,14 +10123,15 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/fa/9b/b3/fa9bb342-2603-ac12-2377-c78a7206d7a2/075679731210.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/her/1639439718?i=1639439734&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/05/f2/ac/05f2ac50-15d3-1ef2-5fa6-131e5ad54b91/mzaf_8936211248347320768.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cd/8b/96/cd8b960a-6460-5441-e54e-b3c8028a1e82/075679731203.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/her/1639430350?i=1639431051&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/b4/79/b2b47913-a178-c064-157a-0aae8e64a2a9/mzaf_5065461277494123451.plus.aac.p.m4a",
   "rank": 521072,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1613405717,
+  "id": 1613376653,
   "title": "Sweetest Pie",
   "artist": "Megan Thee Stallion",
   "credit": "Megan Thee Stallion & Dua Lipa",
@@ -9573,14 +10141,15 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "Pop",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ac/a8/ef/aca8efd2-10be-0930-4605-c2c3e6f21552/850039440304.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/sweetest-pie/1613405716?i=1613405717&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/00/68/5500680e-9a4b-d089-3575-a743b200d3e0/mzaf_765082947658524743.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a4/9a/11/a49a118a-546b-3e7f-4112-92058392e282/850039440298.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/sweetest-pie/1613376645?i=1613376653&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/8c/5f/1c8c5f38-97ef-b7b8-af86-ad57960c992e/mzaf_6297381232181462245.plus.aac.p.m4a",
   "rank": 668005,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1541243925,
+  "id": 1540031623,
   "title": "Cry Baby",
   "artist": "Megan Thee Stallion",
   "credit": "Megan Thee Stallion feat. DaBaby",
@@ -9590,14 +10159,15 @@ window.SONGS = [
   ],
   "year": 2020,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/39/95/fa/3995fadd-0e4a-0bfc-3878-01f6f7d4f440/810043683357.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/cry-baby-feat-dababy/1541243687?i=1541243925&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/86/c7/f286c76b-f69e-c98b-4768-fd3a5d5a557c/mzaf_9367085150605978834.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ef/fb/93/effb9391-725f-97fe-7030-adc542cfba17/810043683203.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/cry-baby-feat-dababy/1540031620?i=1540031623&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/a8/3a/e6a83ac0-56cd-c623-ebb8-d969af02862c/mzaf_10150182183965665164.plus.aac.p.m4a",
   "rank": 537957,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1745595831,
+  "id": 1745595929,
   "title": "Boa",
   "artist": "Megan Thee Stallion",
   "credit": "Megan Thee Stallion",
@@ -9606,14 +10176,15 @@ window.SONGS = [
   ],
   "year": 2024,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/df/a5/b2/dfa5b280-b4ed-8bf7-8aff-4d804786379a/075679646354.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/boa/1745595557?i=1745595831&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/27/41/892741cc-0b06-f96b-ee57-3b1e12a0947a/mzaf_9320809943920771302.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/fe/bd/fffebd54-81b3-0048-6925-ebbd6f47b071/075679646385.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/boa/1745595926?i=1745595929&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/14/82/281482f9-27c3-a32a-4bcf-dbcf4f52c6ae/mzaf_4656562510905709160.plus.aac.p.m4a",
   "rank": 471841,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1463430393,
+  "id": 1463027711,
   "title": "Realer",
   "artist": "Megan Thee Stallion",
   "credit": "Megan Thee Stallion",
@@ -9622,14 +10193,15 @@ window.SONGS = [
   ],
   "year": 2019,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d7/7b/eb/d77bebf1-0971-4e3f-f3ae-c9a36d268d9d/814908028154.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/realer/1463430388?i=1463430393&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/d9/c6/6cd9c63c-b0e4-954a-4df5-684256c13f72/mzaf_12173108500062999889.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/03/b9/97/03b99709-f2cb-4e58-d5fe-d8e86675f0fa/814908028147.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/realer/1463027710?i=1463027711&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/90/b9/c890b90e-972a-d906-f8ec-7a1d17eba727/mzaf_16229987453608278066.plus.aac.p.m4a",
   "rank": 266877,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1039540875,
+  "id": 1039459590,
   "title": "Trap Queen",
   "artist": "Fetty Wap",
   "credit": "Fetty Wap",
@@ -9638,14 +10210,15 @@ window.SONGS = [
   ],
   "year": 2014,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b3/df/c5/b3dfc5e2-3980-7b7c-f227-7022c846f5dd/814908020219.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/trap-queen/1039540785?i=1039540875&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/51/6d/2d/516d2da9-aee7-bd22-e732-aba6ecfbb224/mzaf_5982728977980834958.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/7f/1c/a67f1c2e-6fcb-1bcd-2260-eb7f4b3d75c3/mzm.nopiamsw.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/trap-queen/1039458694?i=1039459590&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/29/fc/0f29fc80-1bff-bb23-a1d8-d8b03915f629/mzaf_4678247671581372877.plus.aac.p.m4a",
   "rank": 303538,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1039447863,
+  "id": 1039459656,
   "title": "679",
   "artist": "Fetty Wap",
   "credit": "Fetty Wap feat. Monty",
@@ -9655,14 +10228,15 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/9b/95/539b9581-3dd6-7a02-8b25-ebad59ba0949/814908020318.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/679-feat-monty/1039447856?i=1039447863&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/92/d9/d492d9e6-8beb-fa0f-7159-11a0b569bdf3/mzaf_5283333249421494173.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/7f/1c/a67f1c2e-6fcb-1bcd-2260-eb7f4b3d75c3/mzm.nopiamsw.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/679-feat-monty/1039458694?i=1039459656&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/b3/8d/19b38dac-6217-cafa-67ae-be349ac77775/mzaf_6198761284205204416.plus.aac.p.m4a",
   "rank": 525551,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1039448773,
+  "id": 1039459662,
   "title": "My Way",
   "artist": "Fetty Wap",
   "credit": "Fetty Wap feat. Monty",
@@ -9672,14 +10246,15 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/9b/95/539b9581-3dd6-7a02-8b25-ebad59ba0949/814908020318.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/my-way-feat-monty/1039447856?i=1039448773&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/1b/13/671b136a-8085-1ed4-81fd-56d1e867360e/mzaf_5572063824762532224.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/7f/1c/a67f1c2e-6fcb-1bcd-2260-eb7f4b3d75c3/mzm.nopiamsw.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/my-way-feat-monty/1039458694?i=1039459662&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/54/90/08549081-5456-3013-b7bc-89a6849fb9db/mzaf_4963564398952214141.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1039448771,
+  "id": 1039459661,
   "title": "Again",
   "artist": "Fetty Wap",
   "credit": "Fetty Wap",
@@ -9688,14 +10263,15 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/9b/95/539b9581-3dd6-7a02-8b25-ebad59ba0949/814908020318.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/again/1039447856?i=1039448771&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/79/b8/ce/79b8ce59-f790-e105-99a1-dcb20b88cf08/mzaf_15809114324756800759.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/7f/1c/a67f1c2e-6fcb-1bcd-2260-eb7f4b3d75c3/mzm.nopiamsw.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/again/1039458694?i=1039459661&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/a2/ea/d3a2ea64-c68a-6e2c-08c8-8a55aa7332e5/mzaf_16688518291539136048.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1039448780,
+  "id": 1039459666,
   "title": "RGF Island",
   "artist": "Fetty Wap",
   "credit": "Fetty Wap",
@@ -9704,14 +10280,15 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/9b/95/539b9581-3dd6-7a02-8b25-ebad59ba0949/814908020318.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/rgf-island/1039447856?i=1039448780&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e5/7c/53/e57c532f-1ecd-391e-e2e3-75d8b7f6151c/mzaf_4249343811846588855.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/7f/1c/a67f1c2e-6fcb-1bcd-2260-eb7f4b3d75c3/mzm.nopiamsw.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/rgf-island/1039458694?i=1039459666&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/8e/50/418e50a5-14db-830f-c24e-cf50c0c96f72/mzaf_934221863694996668.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1080767842,
+  "id": 1080769973,
   "title": "Jimmy Choo",
   "artist": "Fetty Wap",
   "credit": "Fetty Wap",
@@ -9720,14 +10297,15 @@ window.SONGS = [
   ],
   "year": 2016,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/0d/fd/39/0dfd39ef-33e3-18f4-241e-eaf657a51b91/814908020929.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/jimmy-choo/1080767836?i=1080767842&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/cc/70/3ecc70a8-c3c3-bb61-c2dc-5cf4a1bad6b6/mzaf_12110294987958813603.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/4a/5e/98/4a5e9874-3b60-3dd2-f496-3707a6f03cc0/814908020912.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/jimmy-choo/1080769969?i=1080769973&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/a3/b2/7aa3b231-f794-888d-0f89-5e269b6d10c2/mzaf_14702929961177122847.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1104423727,
+  "id": 1104423116,
   "title": "Wake Up",
   "artist": "Fetty Wap",
   "credit": "Fetty Wap",
@@ -9736,14 +10314,15 @@ window.SONGS = [
   ],
   "year": 2016,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music20/v4/5d/01/fd/5d01fd02-176b-92c6-ed7f-135b95965f57/dj.wkvelice.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/wake-up/1104423653?i=1104423727&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/78/82/7a788269-0746-ad70-19e4-10b0d8d70974/mzaf_14858224958357684249.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0f/4b/bc/0f4bbcc8-f7b6-136e-0be6-0181cf9eb62c/dj.ouqfflgq.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/wake-up/1104422974?i=1104423116&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/ba/5c/77ba5c18-8e06-5c3c-6b98-2c6718fa60ad/mzaf_14248708526561116966.plus.aac.p.m4a",
   "rank": 203407,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
-  "id": 1039448793,
+  "id": 1039459672,
   "title": "Couple Bands",
   "artist": "Fetty Wap",
   "credit": "Fetty Wap",
@@ -9752,14 +10331,15 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/9b/95/539b9581-3dd6-7a02-8b25-ebad59ba0949/814908020318.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/couple-bands/1039447856?i=1039448793&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2b/28/b3/2b28b324-d007-11ac-81c6-ab0f51275a1b/mzaf_17272584927311493361.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/7f/1c/a67f1c2e-6fcb-1bcd-2260-eb7f4b3d75c3/mzm.nopiamsw.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/couple-bands/1039458694?i=1039459672&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/25/9a/3f/259a3f76-7ff5-79ad-9930-1862ccff914e/mzaf_12227301008329346174.plus.aac.p.m4a",
   "rank": 200765,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
-  "id": 1039448767,
+  "id": 1039459658,
   "title": "Trap Luv",
   "artist": "Fetty Wap",
   "credit": "Fetty Wap",
@@ -9768,11 +10348,12 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/9b/95/539b9581-3dd6-7a02-8b25-ebad59ba0949/814908020318.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/trap-luv/1039447856?i=1039448767&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/fd/9b/50fd9ba9-9276-dc5a-8db0-f1a03ededf7b/mzaf_3841314539848690374.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/7f/1c/a67f1c2e-6fcb-1bcd-2260-eb7f4b3d75c3/mzm.nopiamsw.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/trap-luv/1039458694?i=1039459658&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a3/88/4a/a3884a5b-c383-c3b3-c9c2-ddfcd0cf1a5a/mzaf_1039587133338344033.plus.aac.p.m4a",
   "rank": 0,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 440733032,
@@ -9791,7 +10372,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/give-me-everything-feat-ne-yo-afrojack-nayer/440733026?i=440733032&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/7a/58/077a5833-acac-306a-c927-f800f1e09d4d/mzaf_10663174745007601529.plus.aac.p.m4a",
   "rank": 344241,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 737053283,
@@ -9808,7 +10390,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/timber/737053237?i=737053283&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/61/d9/56/61d95679-bdac-4000-098e-8a56f61bfaab/mzaf_7998422178907458225.plus.aac.p.m4a",
   "rank": 931017,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 933984097,
@@ -9825,7 +10408,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/fireball-feat-john-ryan/933984003?i=933984097&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/85/2b/93852baa-d008-7988-7d56-ef7c33ee5e10/mzaf_3071141517363935876.plus.aac.p.m4a",
   "rank": 785760,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 327261795,
@@ -9841,7 +10425,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/hotel-room-service/327261330?i=327261795&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/20/c2/0b20c26a-ac06-6e68-5efc-cb027520bcfd/mzaf_7116839697232571433.plus.aac.p.m4a",
   "rank": 394298,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 327261557,
@@ -9857,7 +10442,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/i-know-you-want-me-calle-ocho/327261330?i=327261557&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9b/87/39/9b8739b7-6758-a913-06be-6862f773aa25/mzaf_7990834720038583794.plus.aac.p.m4a",
   "rank": 838966,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 440733046,
@@ -9874,7 +10460,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/international-love-feat-chris-brown/440733026?i=440733046&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/25/73/61/25736155-2993-3277-72bb-6d4f2911eb6c/mzaf_17551155527966317730.plus.aac.p.m4a",
   "rank": 856002,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 440733037,
@@ -9891,10 +10478,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/rain-over-me-feat-marc-anthony/440733026?i=440733037&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/3b/d7/b73bd795-d9f0-a644-578b-a9c67e266ab5/mzaf_17210614191238842031.plus.aac.p.m4a",
   "rank": 785516,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 938014004,
+  "id": 933984166,
   "title": "Time of Our Lives",
   "artist": "Pitbull",
   "credit": "Pitbull & Ne-Yo",
@@ -9904,11 +10492,12 @@ window.SONGS = [
   ],
   "year": 2014,
   "genre": "Pop",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c4/18/c0/c418c0d5-7b89-822c-1905-bdb3b386fc51/886444893251.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/time-of-our-lives/938010917?i=938014004&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d4/fa/df/d4fadffe-2141-a2cf-8142-bcadd28a2ea6/mzaf_1501459193169153839.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7d/cc/08/7dcc0849-8aed-b259-e246-f7ffad54507b/886444753852.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/time-of-our-lives/933984003?i=933984166&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e2/a7/b2/e2a7b273-6495-86c0-6d3c-805d1e941ba3/mzaf_8024972504471207299.plus.aac.p.m4a",
   "rank": 790903,
-  "hit": true
+  "hit": true,
+  "explicitness": "explicit"
  },
  {
   "id": 737053271,
@@ -9925,7 +10514,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/dont-stop-the-party-feat-tjr/737053237?i=737053271&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/a9/c3/68a9c3e7-6763-bfde-e278-560869ae02b8/mzaf_18078357235331277646.plus.aac.p.m4a",
   "rank": 595848,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 737053272,
@@ -9942,7 +10532,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/feel-this-moment-feat-christina-aguilera/737053237?i=737053272&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/00/58/ce/0058ceda-46ec-fe93-d3fc-9aa6605bfd05/mzaf_1276257855083678260.plus.aac.p.m4a",
   "rank": 819482,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 440733039,
@@ -9959,7 +10550,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/hey-baby-drop-it-to-the-floor-feat-t-pain/440733026?i=440733039&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/66/41/7d664181-b8b9-bc78-1ce9-9318f2aa83c0/mzaf_1972171549441622023.plus.aac.p.m4a",
   "rank": 163394,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 737053274,
@@ -9975,10 +10567,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/back-in-time-from-men-in-black-3/737053237?i=737053274&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/96/2e/e7962e0a-431e-ad5c-4c18-2f417fda54e7/mzaf_6663206569965025371.plus.aac.p.m4a",
   "rank": 696266,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 327014505,
+  "id": 327262019,
   "title": "Krazy",
   "artist": "Pitbull",
   "credit": "Pitbull feat. Lil Jon",
@@ -9988,11 +10581,12 @@ window.SONGS = [
   ],
   "year": 2009,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4e/c3/09/4ec3096e-4597-6469-f576-26658fff296d/mzi.botoocbc.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/krazy-feat-lil-jon/327014475?i=327014505&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/cf/13/05cf1362-f3aa-425e-d5f2-a0f845b45d06/mzaf_10308922353851523498.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/78/c7/6d/78c76d7c-4ab1-a3f1-9e5c-1341855f99fe/mzi.lnodydiw.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/krazy-feat-lil-jon/327261330?i=327262019&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/64/07/a66407d8-3eb2-bd09-7f4c-47b120a3a752/mzaf_5094645368801774003.plus.aac.p.m4a",
   "rank": 157657,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
   "id": 1440622264,
@@ -10009,7 +10603,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/on-the-floor-feat-pitbull/1440622252?i=1440622264&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/c2/9f/b7c29f2a-4d89-1dba-8484-14ff71ef8a81/mzaf_10145980146387884095.plus.aac.p.m4a",
   "rank": 966461,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 268284600,
@@ -10025,7 +10620,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/baby-one-more-time/268284599?i=268284600&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/2d/12/492d127a-ae83-a0cd-97b6-10d34d4a56f5/mzaf_694336938043858459.plus.aac.p.m4a",
   "rank": 956742,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 267954487,
@@ -10041,7 +10637,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/oops-i-did-it-again/267954486?i=267954487&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d8/fa/77/d8fa770b-a342-c0e9-9af2-8807c8e236b8/mzaf_16428789446546576226.plus.aac.p.m4a",
   "rank": 889615,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 251948354,
@@ -10057,7 +10654,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/toxic/251947909?i=251948354&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ae/c4/7f/aec47f56-842d-49b4-558b-7a7523fd6728/mzaf_6693111381462300599.plus.aac.p.m4a",
   "rank": 903632,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 990422390,
@@ -10073,7 +10671,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/womanizer/990422389?i=990422390&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c2/97/18/c297183d-ba98-fb37-f294-dd9795952176/mzaf_11516860194132644939.plus.aac.p.m4a",
   "rank": 911917,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 990422391,
@@ -10089,7 +10688,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/circus/990422389?i=990422391&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/89/fe/0e89fe58-262c-2474-6830-65bec665fd04/mzaf_1090451664971003081.plus.aac.p.m4a",
   "rank": 837137,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 686780571,
@@ -10105,7 +10705,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/gimme-more-remastered/686778973?i=686780571&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6f/e0/e0/6fe0e033-ddff-b9e2-c9e9-5e57ddc0cd84/mzaf_4956507918908265812.plus.aac.p.m4a",
   "rank": 920340,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 521738943,
@@ -10121,7 +10722,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/piece-of-me/521738882?i=521738943&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/9c/93/b79c93b1-cfdb-48d2-97a6-80e8b3faadd5/mzaf_3486581769859563106.plus.aac.p.m4a",
   "rank": 701533,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 273143828,
@@ -10137,7 +10739,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/im-a-slave-4-u/273143821?i=273143828&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/88/bf/fe88bf24-5e46-997f-4a90-19be838b87b1/mzaf_15503501772600270554.plus.aac.p.m4a",
   "rank": 741544,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 267954493,
@@ -10153,7 +10756,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/stronger/267954486?i=267954493&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/39/f1/6739f184-89d9-4594-513e-62b15c2ca63c/mzaf_3223653369358724164.plus.aac.p.m4a",
   "rank": 698252,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 267954592,
@@ -10169,7 +10773,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/lucky/267954486?i=267954592&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/0b/d6/a50bd60b-7295-1351-9f52-230bf4f8638c/mzaf_15075916858908336688.plus.aac.p.m4a",
   "rank": 665124,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 273143823,
@@ -10185,7 +10790,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/sometimes/273143723?i=273143823&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/22/c9/3322c91d-d979-9c8b-0d30-8a68091253e8/mzaf_9711420074544491480.plus.aac.p.m4a",
   "rank": 689899,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 251948405,
@@ -10201,7 +10807,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/everytime/251947909?i=251948405&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/24/91/f2249140-6ba1-9933-d276-59302f67ca5e/mzaf_6124348992790889245.plus.aac.p.m4a",
   "rank": 143298,
-  "hit": false
+  "hit": false,
+  "explicitness": "notExplicit"
  },
  {
   "id": 990422395,
@@ -10217,7 +10824,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/if-u-seek-amy/990422389?i=990422395&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2d/9c/72/2d9c72c4-353a-a8ff-0d50-11227ffc4819/mzaf_3452762162180800678.plus.aac.p.m4a",
   "rank": 750525,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 686780582,
@@ -10233,7 +10841,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/3/686778973?i=686780582&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2e/d6/f9/2ed6f970-36a1-e654-cd32-13b0866d9b5c/mzaf_10450822493185699988.plus.aac.p.m4a",
   "rank": 645052,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 581774806,
@@ -10249,7 +10858,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/till-the-world-ends/581774791?i=581774806&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e9/28/30/e9283041-350a-bf36-8375-1d40828aa5ca/mzaf_12970138973682672438.plus.aac.p.m4a",
   "rank": 744934,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 581775110,
@@ -10265,10 +10875,11 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/hold-it-against-me/581774791?i=581775110&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/18/3a/0e183a24-d63f-e55b-cae3-6a042712b64a/mzaf_11885892613929243898.plus.aac.p.m4a",
   "rank": 535051,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
-  "id": 1442823431,
+  "id": 1442258767,
   "title": "Scream & Shout",
   "artist": "Britney Spears",
   "credit": "will.i.am feat. Britney Spears",
@@ -10278,11 +10889,12 @@ window.SONGS = [
   ],
   "year": 2012,
   "genre": "Pop",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/84/6d/92/846d926b-8290-3855-b32b-dd903cc9b1ad/13UMGIM26867.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/scream-shout-feat-britney-spears/1442822997?i=1442823431&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/76/8d/f3/768df35a-a801-aedf-5688-ed21b59f28f9/mzaf_9461667921124652116.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/99/25/d4/9925d475-1ef4-a536-d45d-adb8101ef539/13UMGIM26865.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/scream-shout-feat-britney-spears/1442258237?i=1442258767&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/d5/9a/bed59ab0-a9c0-2ad3-ba26-106f01c89b78/mzaf_8382239498404325688.plus.aac.p.m4a",
   "rank": 485191,
-  "hit": false
+  "hit": false,
+  "explicitness": "explicit"
  },
  {
   "id": "dz72569034",
@@ -10299,7 +10911,8 @@ window.SONGS = [
   "rank": 794602,
   "art": "https://cdn-images.dzcdn.net/images/cover/d1a4a86f6841de681aa8fd329656c4fc/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/72569034",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/8/5/0/585ea0b6137e5ecd1b4d1272f2eb1032.mp3?hdnea=exp=1794899016~acl=/api/1/1/5/8/5/0/585ea0b6137e5ecd1b4d1272f2eb1032.mp3*~data=user_id=0,application_id=42~hmac=bf292c0c8e16fb476c321c0424522014a30f53901eb35986743d444fc984b3b3",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/8/5/0/585ea0b6137e5ecd1b4d1272f2eb1032.mp3?hdnea=exp=1794900372~acl=/api/1/1/5/8/5/0/585ea0b6137e5ecd1b4d1272f2eb1032.mp3*~data=user_id=0,application_id=42~hmac=2e29e646d436e72dc8960627463a08454e744c2f179e803cd0993795d1a2e430",
+  "explicitness": "explicit",
   "hit": true
  },
  {
@@ -10316,7 +10929,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/radar/521738882?i=521738945&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/54/a9/87/54a9877e-50e9-28e2-1544-5e8b96253dbe/mzaf_17970610672264455896.plus.aac.p.m4a",
   "rank": 633005,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 1641082205,
@@ -10333,7 +10947,8 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/hold-me-closer/1641082201?i=1641082205&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/f2/68/bcf2685e-40a0-79e3-3ecb-cb1bc5bf7258/mzaf_10552679888358902679.plus.aac.p.m4a",
   "rank": 770077,
-  "hit": true
+  "hit": true,
+  "explicitness": "notExplicit"
  },
  {
   "id": 157465470,
@@ -10350,6 +10965,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/ba/a4/ecbaa46d-f4b4-f42f-1a73-ddd6940fe70b/mzaf_11029564969896829872.plus.aac.p.m4a",
   "rank": 758819,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10369,6 +10985,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c7/6b/fc/c76bfcdb-c09d-0e45-a0d7-73b6247fe58b/mzaf_14598637795635819020.plus.aac.p.m4a",
   "rank": 169437,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10388,6 +11005,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/7d/78/657d7885-37de-152c-3eb7-c5791d0f7bab/mzaf_15874200346719516130.plus.aac.p.m4a",
   "rank": 77603,
   "hit": false,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10407,6 +11025,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/fa/06/a5fa06d4-f2aa-087f-95f7-6ae7f5575e5e/mzaf_17730847906921419308.plus.aac.p.m4a",
   "rank": 579514,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10426,6 +11045,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/f8/ae/cef8ae38-c007-8951-4997-ed80c8d57327/mzaf_6610145743011991240.plus.aac.p.m4a",
   "rank": 790095,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10445,6 +11065,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/f2/df/eaf2df4b-edba-718f-f2fe-d683f6f5e43d/mzaf_1329616471525204682.plus.aac.p.m4a",
   "rank": 621546,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10465,12 +11086,13 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d6/c0/51/d6c0512a-dbff-c5cd-8084-7e4d15c3e58d/mzaf_1573445411293324512.plus.aac.p.m4a",
   "rank": 740300,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 1442990486,
+  "id": 1440860281,
   "title": "Don't Tell 'Em",
   "artist": "Jeremih",
   "credit": "Jeremih feat. YG",
@@ -10480,11 +11102,12 @@ window.SONGS = [
   ],
   "year": 2014,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/56/e4/e7/56e4e79f-fba7-e571-5697-edfa7e2f6176/15UMGIM69301.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/dont-tell-em-feat-yg/1442989647?i=1442990486&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/81/b5/ea/81b5ea36-953f-7c6c-add3-8f2af91071c6/mzaf_13190624239356214683.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b3/9d/f9/b39df97f-4443-9375-fd2b-7b6b8f39691c/15UMGIM68955.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/dont-tell-em-feat-yg/1440859822?i=1440860281&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/73/70/4a737088-ef3f-b6b8-749b-7b333afcb328/mzaf_13236914630420161402.plus.aac.p.m4a",
   "rank": 717100,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
@@ -10504,6 +11127,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/6b/e0/916be011-61dd-0262-bdb9-c14e120b8a9c/mzaf_14295857088692844836.plus.aac.p.m4a",
   "rank": 451474,
   "hit": false,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10523,6 +11147,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/96/fb/0b96fb95-1201-0bb7-9dd9-f1c10c4254e1/mzaf_9310353347064347455.plus.aac.p.m4a",
   "rank": 796329,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10543,7 +11168,8 @@ window.SONGS = [
   "rank": 511715,
   "art": "https://cdn-images.dzcdn.net/images/cover/724c1bf242fdffc08f4e671f0a292c47/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/1148131032",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/f/6/0/af6f62fd3db70ed2b852dc590cf06e19.mp3?hdnea=exp=1794899025~acl=/api/1/1/a/f/6/0/af6f62fd3db70ed2b852dc590cf06e19.mp3*~data=user_id=0,application_id=42~hmac=efd38897950587a0b4f3ec62faaea79fd91d9362dabe2aacf038ca987ef96bfd",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/f/6/0/af6f62fd3db70ed2b852dc590cf06e19.mp3?hdnea=exp=1794900374~acl=/api/1/1/a/f/6/0/af6f62fd3db70ed2b852dc590cf06e19.mp3*~data=user_id=0,application_id=42~hmac=146f788b05c5a16d1c2977b3305689bfc072576d5539264dcd9f3843d6d4c6ae",
+  "explicitness": "explicit",
   "hit": true,
   "tags": [
    "freak"
@@ -10564,6 +11190,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/84/87/658487c3-82c7-73ea-71b9-ffc5157afbed/mzaf_17312926339392132228.plus.aac.p.m4a",
   "rank": 568892,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10583,6 +11210,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/3b/e1/333be1d2-40c4-f5bf-8479-a5840caea07d/mzaf_6373493292385768191.plus.aac.p.m4a",
   "rank": 525663,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10603,6 +11231,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b5/bd/47/b5bd47bd-b6a7-220b-4588-e08b7172ea4a/mzaf_9680239665109470255.plus.aac.p.m4a",
   "rank": 703391,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10623,6 +11252,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/78/b5/ec/78b5ecc9-cbd5-71bf-6757-afc674ca8a4e/mzaf_13587996780644707891.plus.aac.p.m4a",
   "rank": 343721,
   "hit": false,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10642,6 +11272,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d4/c0/d6/d4c0d6cd-13f4-8fdd-589a-b2f9d6f0a41c/mzaf_1388578226846562095.plus.aac.p.m4a",
   "rank": 568259,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10663,6 +11294,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/52/3c/94523c88-f5f9-16f4-dbd7-f284ca168048/mzaf_7184891920196479048.plus.aac.p.m4a",
   "rank": 910078,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10682,12 +11314,13 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/bc/15/5fbc153f-cdd5-4e21-eb30-2f28a46af695/mzaf_15049758109709960745.plus.aac.p.m4a",
   "rank": 431832,
   "hit": false,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 1059791971,
+  "id": 1059869490,
   "title": "Back to Sleep",
   "artist": "Chris Brown",
   "credit": "Chris Brown",
@@ -10696,17 +11329,18 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3e/2b/6d/3e2b6d6e-8edf-71f3-1e64-428d6bbb4dcb/886445462951.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/back-to-sleep/1059791314?i=1059791971&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/48/ba/1d/48ba1dae-9554-af15-d926-44741de78ec2/mzaf_7539598728558932992.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/0b/4b/6f/0b4b6fc8-8231-dbfd-49d3-a92bb95d0f24/mzm.nsulprvx.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/back-to-sleep/1059869479?i=1059869490&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/ea/ad/caeaad24-0cf8-4e06-1284-90bc2e04fc6c/mzaf_6766812652207207327.plus.aac.p.m4a",
   "rank": 538991,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 1481598829,
+  "id": 1481623864,
   "title": "Under the Influence",
   "artist": "Chris Brown",
   "credit": "Chris Brown",
@@ -10715,11 +11349,12 @@ window.SONGS = [
   ],
   "year": 2019,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/62/7c/ac/627cac79-3693-dd16-6466-48950746f527/886447924471.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/under-the-influence/1481598822?i=1481598829&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/54/66/b7546682-84c1-0bc8-ac68-8a19236c33d4/mzaf_10117396265292486794.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/1b/c9/961bc949-7e03-2670-f612-72c34ece6a22/886447924464.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/under-the-influence/1481623861?i=1481623864&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/fe/a4/87fea4f3-6cac-582f-9c4e-f396850c8548/mzaf_15989362272985688952.plus.aac.p.m4a",
   "rank": 850269,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
@@ -10739,6 +11374,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2b/23/29/2b2329d4-a3f6-b0bf-ad42-959626d2caaa/mzaf_9078977681311961177.plus.aac.p.m4a",
   "rank": 454542,
   "hit": false,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10759,6 +11395,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/f0/28/18f028aa-211a-6cb2-9f9f-ea61edbc330b/mzaf_4809523194825631421.plus.aac.p.m4a",
   "rank": 481484,
   "hit": false,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10780,7 +11417,8 @@ window.SONGS = [
   "rank": 755351,
   "art": "https://cdn-images.dzcdn.net/images/cover/3fa9c43f6d2ba567ad5a6129d4544e84/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/648152282",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/0/a/0/20ae918ae942c3b3380cfe036ce6f3f9.mp3?hdnea=exp=1794899034~acl=/api/1/1/2/0/a/0/20ae918ae942c3b3380cfe036ce6f3f9.mp3*~data=user_id=0,application_id=42~hmac=fa7400e9a34b2b151f77361e5c3b4624a53de145b1cfd93b5c32515ad53bd950",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/0/a/0/20ae918ae942c3b3380cfe036ce6f3f9.mp3?hdnea=exp=1794900376~acl=/api/1/1/2/0/a/0/20ae918ae942c3b3380cfe036ce6f3f9.mp3*~data=user_id=0,application_id=42~hmac=4b768891cf1f147c51d3539440a01ab951bb3a71bcd12c97d096ddc1f57d2011",
+  "explicitness": "explicit",
   "hit": true,
   "tags": [
    "freak"
@@ -10801,6 +11439,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b4/22/a8/b422a8b6-bb67-d455-9fc4-21bd751a84d9/mzaf_720917998794500513.plus.aac.p.m4a",
   "rank": 0,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10820,6 +11459,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c4/3c/ef/c43cef58-ab77-43b3-8840-337f29f97559/mzaf_8011635695086582296.plus.aac.p.m4a",
   "rank": 891125,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10839,12 +11479,13 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/48/5e/7d485e71-14aa-9dc6-e646-f6d9e0ae83e5/mzaf_14076487562786451363.plus.aac.p.m4a",
   "rank": 0,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 561525397,
+  "id": 561709117,
   "title": "Do You...",
   "artist": "Miguel",
   "credit": "Miguel",
@@ -10853,11 +11494,12 @@ window.SONGS = [
   ],
   "year": 2012,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f7/3d/ee/f73dee61-0973-35ee-181b-aa02b5452d03/886443632950.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/do-you/561525301?i=561525397&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d6/fd/b6/d6fdb6ca-7202-340f-6af4-1ff570785f36/mzaf_14112119237815220875.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a1/56/ac/a156acb2-068e-a616-3e56-86ca656c14ce/886443632943.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/do-you/561709112?i=561709117&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/42/6a/b7426a3c-16fc-4c48-d0d7-785763f08e39/mzaf_14138937011568673566.plus.aac.p.m4a",
   "rank": 0,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
@@ -10877,6 +11519,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/fe/59/defe598e-f939-c8dc-f3c6-8bd4394acd15/mzaf_5318601552409337815.plus.aac.p.m4a",
   "rank": 640066,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10896,6 +11539,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/10/36/77/103677db-b70e-505f-eefd-cfb20ae130d2/mzaf_3849021925576978930.plus.aac.p.m4a",
   "rank": 522078,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10915,6 +11559,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/0b/73/130b7305-986a-af93-151e-0cfa65a9e73b/mzaf_1804801055802990205.plus.aac.p.m4a",
   "rank": 450447,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10934,6 +11579,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/5f/92/a75f928c-d8c6-b3ad-ac76-c57cf0ebdd5f/mzaf_4295521376987920162.plus.aac.p.m4a",
   "rank": 588837,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10953,6 +11599,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1c/c8/1c/1cc81cb3-fd6a-e4aa-07f5-dd577644d3ca/mzaf_12492361390047635404.plus.aac.p.m4a",
   "rank": 591645,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10972,6 +11619,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/61/b6/9f61b6ab-0a4a-db7f-3d6f-45bfa0477031/mzaf_13950839017517931950.plus.aac.p.m4a",
   "rank": 485048,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -10991,12 +11639,13 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7b/cf/73/7bcf7371-4602-7fc5-1abb-271ad12793cd/mzaf_14567856399701536994.plus.aac.p.m4a",
   "rank": 577194,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 780519964,
+  "id": 780330377,
   "title": "Partition",
   "artist": "Beyoncé",
   "credit": "Beyoncé",
@@ -11005,17 +11654,18 @@ window.SONGS = [
   ],
   "year": 2013,
   "genre": "Pop",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/13/27/cf/1327cfb1-ff1c-5b53-d92b-da3b78155e00/dj.ixakzkan.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/partition/780519939?i=780519964&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/70/ab/4a70abb3-a375-49db-4eb3-e35fd6680d10/mzaf_2876541013432996535.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/7b/13/d47b1359-6270-4669-83da-1dec4e140f95/886444385855.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/partition/780330041?i=780330377&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/27/35/36273587-011e-dc57-4569-79844f5a4f06/mzaf_4120699149615164096.plus.aac.p.m4a",
   "rank": 497040,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 780519961,
+  "id": 780330308,
   "title": "Drunk in Love",
   "artist": "Beyoncé",
   "credit": "Beyoncé feat. JAŸ-Z",
@@ -11025,17 +11675,18 @@ window.SONGS = [
   ],
   "year": 2013,
   "genre": "Pop",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/13/27/cf/1327cfb1-ff1c-5b53-d92b-da3b78155e00/dj.ixakzkan.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/drunk-in-love-feat-ja%C3%BF-z/780519939?i=780519961&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/15/eb/4215eb99-6656-8916-97ed-348f7f035f9a/mzaf_6922506136578698447.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/7b/13/d47b1359-6270-4669-83da-1dec4e140f95/886444385855.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/drunk-in-love-feat-ja%C3%BF-z/780330041?i=780330308&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/58/c0/c8/58c0c805-5ca9-9b30-e639-0091a0712229/mzaf_14020078071328326604.plus.aac.p.m4a",
   "rank": 828533,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 780519967,
+  "id": 780330396,
   "title": "Rocket",
   "artist": "Beyoncé",
   "credit": "Beyoncé",
@@ -11044,11 +11695,12 @@ window.SONGS = [
   ],
   "year": 2013,
   "genre": "Pop",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/13/27/cf/1327cfb1-ff1c-5b53-d92b-da3b78155e00/dj.ixakzkan.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/rocket/780519939?i=780519967&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4d/ec/08/4dec0821-8865-8b89-c699-03cf612734a5/mzaf_10343874408046613761.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/7b/13/d47b1359-6270-4669-83da-1dec4e140f95/886444385855.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/rocket/780330041?i=780330396&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/b6/d5/85b6d559-1fe2-fe77-5525-14dea9baa2e0/mzaf_1066630876495096281.plus.aac.p.m4a",
   "rank": 526003,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
@@ -11068,6 +11720,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/9a/8c/629a8c8b-58d3-e11d-d717-606f905f5bbb/mzaf_10438221441288786284.plus.aac.p.m4a",
   "rank": 330427,
   "hit": false,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -11087,12 +11740,13 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/f3/30/04f330dd-020c-d353-77db-4cbc3df9f596/mzaf_9092830422261166631.plus.aac.p.m4a",
   "rank": 602360,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 1443105586,
+  "id": 1443062160,
   "title": "Birthday Cake",
   "artist": "Rihanna",
   "credit": "Rihanna",
@@ -11101,11 +11755,12 @@ window.SONGS = [
   ],
   "year": 2011,
   "genre": "Pop",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ac/51/45/ac51452d-c03f-94fb-6f3b-4f18b7beee53/11UMGIM38934.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/birthday-cake/1443105016?i=1443105586&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1a/f0/40/1af040a2-1550-66bc-717f-5f2988552fb2/mzaf_15475642867095318049.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ae/46/51/ae465169-b0a4-3c10-42a0-63e4448d1508/16UMGIM59230.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/birthday-cake/1443061797?i=1443062160&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/6b/af/596baf2f-06de-1962-2b93-814d6c130834/mzaf_6422415511671402419.plus.aac.p.m4a",
   "rank": 400484,
   "hit": false,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
@@ -11125,6 +11780,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c5/a3/3e/c5a33ebd-72bf-0dda-128a-6b2714efc927/mzaf_16498597934121845231.plus.aac.p.m4a",
   "rank": 194102,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -11145,12 +11801,13 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2a/fa/d4/2afad4cf-f816-f5ec-2139-c993d0fdbd66/mzaf_14186322767415667124.plus.aac.p.m4a",
   "rank": 526443,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 1438761626,
+  "id": 1438765134,
   "title": "Girls Need Love",
   "artist": "Summer Walker",
   "credit": "Summer Walker",
@@ -11159,17 +11816,18 @@ window.SONGS = [
   ],
   "year": 2018,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2c/84/07/2c840719-b05c-97d3-61c1-a481e1ad598a/18UMGIM66022.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/girls-need-love/1438761621?i=1438761626&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/1d/d8/1a1dd84a-2d99-c7a0-b34c-6893b20f92a4/mzaf_18309670960494408226.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/1e/1a/7c1e1a21-013c-f31d-dc2c-c8118439641d/18UMGIM66021.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/girls-need-love/1438765128?i=1438765134&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/83/21/3e83212b-2aef-8c91-05f1-3b05e9881c67/mzaf_6605689109113980646.plus.aac.p.m4a",
   "rank": 756268,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 1481897703,
+  "id": 1481606158,
   "title": "Body",
   "artist": "Summer Walker",
   "credit": "Summer Walker",
@@ -11178,17 +11836,18 @@ window.SONGS = [
   ],
   "year": 2019,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/44/8b/b2448b3b-e882-d5d3-6042-2477e354e72e/19UMGIM85342.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/body/1481897598?i=1481897703&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/27/65/e1/2765e1ce-7213-5b0b-850c-8aae500bfe7e/mzaf_13602420498632500348.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/d3/62/9dd362c9-0b8c-a7df-6054-1b4bb76af946/19UMGIM85343.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/body/1481606156?i=1481606158&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/b3/24/0ab32463-e7b9-135c-267f-3f4725e6410b/mzaf_17710797820950066481.plus.aac.p.m4a",
   "rank": 606449,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 1440907482,
+  "id": 1440907745,
   "title": "Sativa",
   "artist": "Jhené Aiko",
   "credit": "Jhené Aiko feat. Swae Lee",
@@ -11198,17 +11857,18 @@ window.SONGS = [
   ],
   "year": 2017,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/88/85/26/88852625-38db-8f1c-2c7c-d5823300cd3d/17UM1IM29249.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/sativa-feat-swae-lee/1440906903?i=1440907482&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/31/cd/4c/31cd4c62-b4b2-e975-d438-45ff8543393f/mzaf_17231788429917158879.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/33/73/9b/33739be4-4131-5ebe-a84d-f8673bbeda8f/17UM1IM29248.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/sativa-feat-swae-lee/1440907359?i=1440907745&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c3/72/20/c3722045-f3f0-6937-8912-3e2e8716a2d5/mzaf_4248144568113291915.plus.aac.p.m4a",
   "rank": 639241,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 944459436,
+  "id": 942089571,
   "title": "Post to Be",
   "artist": "Jhené Aiko",
   "credit": "Omarion feat. Chris Brown & Jhene Aiko",
@@ -11219,17 +11879,18 @@ window.SONGS = [
   ],
   "year": 2014,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/76/d1/67/76d167bf-b5fa-d7de-5f6d-a58542bda6a0/075679945624.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/post-to-be-feat-chris-brown-jhene-aiko/944459370?i=944459436&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/f7/a4/f7f7a4e8-89c6-74d2-e3b4-f2c9b9c613d9/mzaf_16265822751271613404.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/83/31/a7/8331a7c4-82f1-549f-310c-09dba41dff9d/075679945631.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/post-to-be-feat-chris-brown-jhene-aiko/942089565?i=942089571&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3f/25/ef/3f25eff0-0d1a-6501-3feb-37d71d76ef46/mzaf_610832411844021518.plus.aac.p.m4a",
   "rank": 588057,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 1434345612,
+  "id": 1434346001,
   "title": "Pretty Little Fears",
   "artist": "6LACK",
   "credit": "6LACK feat. J. Cole",
@@ -11239,11 +11900,12 @@ window.SONGS = [
   ],
   "year": 2018,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/91/da/16/91da164f-f447-115a-a88f-514927f8416e/18UMGIM53418.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/pretty-little-fears-feat-j-cole/1434345364?i=1434345612&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a7/23/56/a72356a3-40a1-68b4-f45d-01eaf3bba082/mzaf_7680742769854719757.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/34/af/97/34af9745-a76a-3bc0-4568-eec3030ffe66/18UMGIM53417.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/pretty-little-fears-feat-j-cole/1434345841?i=1434346001&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/92/bc/3992bcef-b56c-e3ac-1ac8-e5c47df5ea48/mzaf_9839415900714230514.plus.aac.p.m4a",
   "rank": 499601,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
@@ -11264,14 +11926,15 @@ window.SONGS = [
   "rank": 592901,
   "art": "https://cdn-images.dzcdn.net/images/cover/38f53c7ad2ef060d90f500a597e0f2f5/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/613420582",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/f/5/0/6f5210c33870481e3990427d1e985f88.mp3?hdnea=exp=1794899050~acl=/api/1/1/6/f/5/0/6f5210c33870481e3990427d1e985f88.mp3*~data=user_id=0,application_id=42~hmac=673e1fa981f04e48de316b26e8e7621faeeef49f184471d5a43e314cf0cf3ba2",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/f/5/0/6f5210c33870481e3990427d1e985f88.mp3?hdnea=exp=1794900378~acl=/api/1/1/6/f/5/0/6f5210c33870481e3990427d1e985f88.mp3*~data=user_id=0,application_id=42~hmac=ecca269ed68ad91d620ff5349480dd1add728ef785c6a3ed7403ed2c0a395131",
+  "explicitness": "explicit",
   "hit": true,
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 1631016230,
+  "id": 1529524255,
   "title": "Dead Man Walking",
   "artist": "Brent Faiyaz",
   "credit": "Brent Faiyaz",
@@ -11280,17 +11943,18 @@ window.SONGS = [
   ],
   "year": 2022,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/30/1b/30/301b30ef-9bb5-8fbd-6bdc-30552aefd0c6/8DrDvnuaSqqztj1vOGwY_Wasteland-Final6.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/dead-man-walking/1631016123?i=1631016230&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/f4/11/1cf4115f-8bb1-730b-4126-434ef348c0d8/mzaf_5180948415763221370.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/86/5b/5d/865b5d09-f8ae-79aa-5f5c-1c24755c76ba/193436232715_01_img001.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/dead-man-walking/1529524254?i=1529524255&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/29/d2/e629d234-55fa-6c8b-a1e2-1be9ffb1deeb/mzaf_8918984405472392549.plus.aac.p.m4a",
   "rank": 634371,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 6803236214,
+  "id": 6803231117,
   "title": "Come and See Me",
   "artist": "PARTYNEXTDOOR",
   "credit": "PARTYNEXTDOOR feat. Drake",
@@ -11300,17 +11964,18 @@ window.SONGS = [
   ],
   "year": 2016,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cd/3c/da/cd3cda94-8f7b-8368-3fa3-53abca7baf6a/808391400252.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/come-and-see-me-feat-drake/6803235614?i=6803236214&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/4c/ed/f24ced9b-4a5e-1bc3-8f37-5adbee6bd961/mzaf_11782790266435309123.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/bb/59/27bb5963-b73c-efc1-04c2-c89f43f7fba0/808391400276.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/come-and-see-me/6803230832?i=6803231117&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f7/a7/40/f7a74029-3369-cdad-e5f3-cb3374971959/mzaf_14987056763937506771.plus.aac.p.m4a",
   "rank": 532796,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 1550878110,
+  "id": 1550875424,
   "title": "Wicked Games",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
@@ -11319,18 +11984,19 @@ window.SONGS = [
   ],
   "year": 2011,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4b/ab/3c/4bab3c0d-ea9a-ad8e-4229-b1e73cad0283/21UMGIM06668.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/wicked-games/1550877895?i=1550878110&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/a8/be/2fa8be8c-4dd8-5b72-a100-855acf921275/mzaf_9274276073018723273.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/dc/e9/95/dce995ab-5287-cba4-4966-46d16bf1c072/21UMGIM06667.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/wicked-games/1550875218?i=1550875424&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/0d/84/a60d8435-cbf9-bf4a-7f63-1974fe3a8b09/mzaf_8033376888673646338.plus.aac.p.m4a",
   "rank": 570620,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "akul",
    "freak"
   ]
  },
  {
-  "id": 784313979,
+  "id": 784263228,
   "title": "Or Nah",
   "artist": "Ty Dolla $ign",
   "credit": "Ty Dolla $ign feat. Wiz Khalifa & DJ Mustard",
@@ -11341,11 +12007,12 @@ window.SONGS = [
   ],
   "year": 2014,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/1f/fb/161ffbbc-c61f-26b1-a9c2-84cdce654e72/075679945662.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/or-nah-feat-wiz-khalifa-dj-mustard/784311759?i=784313979&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/dd/8f/52dd8f53-08bb-e102-2fc2-b0bbca166594/mzaf_9533722014699199503.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/29/77/6c/29776c81-ddda-81b0-b755-b3fbd78694a1/075679945679.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/or-nah-feat-wiz-khalifa-dj-mustard/784263204?i=784263228&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/60/4d/af604d19-1f1d-8e51-a8a9-87b7fc4f74c4/mzaf_13321986065660401673.plus.aac.p.m4a",
   "rank": 860616,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
@@ -11366,14 +12033,15 @@ window.SONGS = [
   "rank": 444719,
   "art": "https://cdn-images.dzcdn.net/images/cover/5fbfd0de39c2bd4fb6b49afa2b25c2aa/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/925892",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/d/c/0/9dcdf9cd6e693ad66d8d91dde0cae9a6.mp3?hdnea=exp=1794899059~acl=/api/1/1/9/d/c/0/9dcdf9cd6e693ad66d8d91dde0cae9a6.mp3*~data=user_id=0,application_id=42~hmac=a106ae8bd2398f7039d9ca1e078c020861913245a8ec7b9a94cc1f846e9ccb60",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/d/c/0/9dcdf9cd6e693ad66d8d91dde0cae9a6.mp3?hdnea=exp=1794900380~acl=/api/1/1/9/d/c/0/9dcdf9cd6e693ad66d8d91dde0cae9a6.mp3*~data=user_id=0,application_id=42~hmac=e1d5fc02e609a288de1e2adb4ce922aff09e340e5724d9dc6e5a4950f1a6e9af",
+  "explicitness": "explicit",
   "hit": true,
   "tags": [
    "freak"
   ]
  },
  {
-  "id": 1444055863,
+  "id": 1610800664,
   "title": "Smack That",
   "artist": "Akon",
   "credit": "Akon featuring Eminem",
@@ -11384,11 +12052,12 @@ window.SONGS = [
   ],
   "year": 2006,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/88/33/b78833e4-30eb-739b-d5de-09d2d7db84b3/06UMGIM19420.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/smack-that-feat-eminem/1444055616?i=1444055863&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/31/b5/fa/31b5fa92-c263-08cd-6fb6-5ba234bc8222/mzaf_17293636083004452090.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1a/8e/f6/1a8ef635-e359-c8d6-bee3-7a720c56e52a/21UMGIM80636.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/smack-that-feat-eminem/1610800313?i=1610800664&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/49/18/d0491856-25d8-6a22-6362-5e103f15eb82/mzaf_14376959755749384185.plus.aac.p.m4a",
   "rank": 860263,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "freak"
   ]
@@ -11408,6 +12077,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/bc/d9/02/bcd90224-4353-d0d8-b321-5259904cb1ae/mzaf_3498862297526096709.plus.aac.p.m4a",
   "rank": 562182,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -11427,12 +12097,13 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d8/aa/e7/d8aae726-31d9-3274-1980-641be2548b70/mzaf_9886385114410573383.plus.aac.p.m4a",
   "rank": 537804,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "akul"
   ]
  },
  {
-  "id": 1550878111,
+  "id": 1550875425,
   "title": "The Morning",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
@@ -11441,17 +12112,18 @@ window.SONGS = [
   ],
   "year": 2011,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4b/ab/3c/4bab3c0d-ea9a-ad8e-4229-b1e73cad0283/21UMGIM06668.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/the-morning/1550877895?i=1550878111&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e3/37/98/e33798c6-ab13-4203-8092-87a2e638d60b/mzaf_6127986664630820149.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/dc/e9/95/dce995ab-5287-cba4-4966-46d16bf1c072/21UMGIM06667.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/the-morning/1550875218?i=1550875425&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/f1/f0/5cf1f0bb-8792-6558-bb75-e0988da40019/mzaf_14003818998630247682.plus.aac.p.m4a",
   "rank": 700750,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "akul"
   ]
  },
  {
-  "id": 1444221972,
+  "id": 1422668495,
   "title": "Kiss Land",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
@@ -11460,17 +12132,18 @@ window.SONGS = [
   ],
   "year": 2013,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1b/fe/ea/1bfeea22-0fd6-a2af-afa1-1db7ff9838e7/13UAAIM69536.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/kiss-land/1444221395?i=1444221972&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2b/b8/78/2bb878b6-e4ea-cde1-ff7b-01cc2b2a5662/mzaf_1568646435806741435.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f1/7f/7a/f17f7a98-1e96-b29d-2916-df7fcf63f34e/13UAAIM69533.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/kiss-land/1422667786?i=1422668495&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ad/7b/15/ad7b15fc-3c9e-5f1c-b378-507fd6295a7b/mzaf_10813125277726002798.plus.aac.p.m4a",
   "rank": 379039,
   "hit": false,
+  "explicitness": "explicit",
   "tags": [
    "akul"
   ]
  },
  {
-  "id": 1444221658,
+  "id": 1422667810,
   "title": "Love in the Sky",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
@@ -11479,11 +12152,12 @@ window.SONGS = [
   ],
   "year": 2013,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1b/fe/ea/1bfeea22-0fd6-a2af-afa1-1db7ff9838e7/13UAAIM69536.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/love-in-the-sky/1444221395?i=1444221658&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/82/f5/a4/82f5a4ad-5c6d-86ba-0f14-14a6cde0acc8/mzaf_1208434229184663327.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f1/7f/7a/f17f7a98-1e96-b29d-2916-df7fcf63f34e/13UAAIM69533.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/love-in-the-sky/1422667786?i=1422667810&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/ab/dc/61abdc49-ed7e-4767-d532-1e029878ee29/mzaf_7183344049716351500.plus.aac.p.m4a",
   "rank": 0,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "akul"
   ]
@@ -11503,12 +12177,13 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/bc/3b/2abc3b4e-08e7-b724-ada3-8c07a42fe3af/mzaf_4232615497002808726.plus.aac.p.m4a",
   "rank": 0,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "akul"
   ]
  },
  {
-  "id": 1444221975,
+  "id": 1422668496,
   "title": "Pretty",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
@@ -11517,11 +12192,12 @@ window.SONGS = [
   ],
   "year": 2013,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1b/fe/ea/1bfeea22-0fd6-a2af-afa1-1db7ff9838e7/13UAAIM69536.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/pretty/1444221395?i=1444221975&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/1d/d7/371dd74f-71e3-0cc3-cca9-3dc3f8a71494/mzaf_17829273505671076816.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f1/7f/7a/f17f7a98-1e96-b29d-2916-df7fcf63f34e/13UAAIM69533.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/pretty/1422667786?i=1422668496&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/c9/f0/5cc9f025-0e44-f0c9-9d9d-375e38bffb6b/mzaf_12904836279972546158.plus.aac.p.m4a",
   "rank": 0,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "akul"
   ]
@@ -11542,12 +12218,13 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d1/e6/a7/d1e6a783-c41d-f5db-9a66-dc32cf1b0397/mzaf_8578862161573166847.plus.aac.p.m4a",
   "rank": 0,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "akul"
   ]
  },
  {
-  "id": 1440870376,
+  "id": 1440871694,
   "title": "Party Monster",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
@@ -11556,17 +12233,18 @@ window.SONGS = [
   ],
   "year": 2016,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b5/92/bb/b592bb72-52e3-e756-9b26-9f56d08f47ab/16UMGIM67864.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/party-monster/1440870373?i=1440870376&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/15/c0/3715c0eb-a4a1-0418-4878-f55ed1ce7649/mzaf_9895791806045730359.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/party-monster/1440871397?i=1440871694&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/08/2c/3b082c06-5bac-6c4e-b19f-568d66583a6b/mzaf_10516694741874869697.plus.aac.p.m4a",
   "rank": 774694,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "akul"
   ]
  },
  {
-  "id": 1440870386,
+  "id": 1440871956,
   "title": "Six Feet Under",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
@@ -11575,17 +12253,18 @@ window.SONGS = [
   ],
   "year": 2016,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b5/92/bb/b592bb72-52e3-e756-9b26-9f56d08f47ab/16UMGIM67864.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/six-feet-under/1440870373?i=1440870386&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ad/47/d9/ad47d99b-3826-2f85-fa64-03aba4ddf2d3/mzaf_365776660976782613.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/six-feet-under/1440871397?i=1440871956&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b2/bd/48/b2bd482c-43de-a5e6-a1f5-2e5f2b0e4d1c/mzaf_15011301983250310437.plus.aac.p.m4a",
   "rank": 583202,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "akul"
   ]
  },
  {
-  "id": 1440870381,
+  "id": 1440871708,
   "title": "Rockin'",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
@@ -11594,11 +12273,12 @@ window.SONGS = [
   ],
   "year": 2016,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b5/92/bb/b592bb72-52e3-e756-9b26-9f56d08f47ab/16UMGIM67864.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/rockin/1440870373?i=1440870381&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/14/57/cf/1457cf78-6c7c-b738-2fba-ad23284365d3/mzaf_14765790082550942571.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/rockin/1440871397?i=1440871708&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/09/59/fa/0959fa03-bc61-95c8-e71e-6ea28a25453d/mzaf_15173908030441539904.plus.aac.p.m4a",
   "rank": 586179,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "akul"
   ]
@@ -11618,7 +12298,8 @@ window.SONGS = [
   "rank": 315015,
   "art": "https://cdn-images.dzcdn.net/images/cover/ef5abb0ea84232ad1bfd99f6eca0a100/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/1461093002",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/9/3/0/89384f17baadb142b9d3db0186fef24d.mp3?hdnea=exp=1794898552~acl=/api/1/1/8/9/3/0/89384f17baadb142b9d3db0186fef24d.mp3*~data=user_id=0,application_id=42~hmac=7d06c0b6b5dae8496663ca054f64819ad3cd5fd0e13477f07c95dd81d8591406",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/9/3/0/89384f17baadb142b9d3db0186fef24d.mp3?hdnea=exp=1794900382~acl=/api/1/1/8/9/3/0/89384f17baadb142b9d3db0186fef24d.mp3*~data=user_id=0,application_id=42~hmac=68ad1b863534ee2a253c37e88d603678f7ea4656e0e558635fd4861faf4eca4d",
+  "explicitness": "explicit",
   "hit": false,
   "tags": [
    "akul"
@@ -11639,7 +12320,8 @@ window.SONGS = [
   "rank": 443910,
   "art": "https://cdn-images.dzcdn.net/images/cover/912594cc88625ecbeeb6fce8ee178a74/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/1278960512",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/9/e/0/89e8dea166da6d17dabce0707e5ff308.mp3?hdnea=exp=1794898557~acl=/api/1/1/8/9/e/0/89e8dea166da6d17dabce0707e5ff308.mp3*~data=user_id=0,application_id=42~hmac=60e6d50421eca3fd43c27f8901cf4cb551448eb72d83c87ba68db9f671676cf5",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/9/e/0/89e8dea166da6d17dabce0707e5ff308.mp3?hdnea=exp=1794900384~acl=/api/1/1/8/9/e/0/89e8dea166da6d17dabce0707e5ff308.mp3*~data=user_id=0,application_id=42~hmac=0c1aad1dbfd39c1578e65669c29935979f0f9849cd5c16daa2a339be2550126a",
+  "explicitness": "explicit",
   "hit": false,
   "tags": [
    "akul"
@@ -11660,6 +12342,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/f4/c0/b7f4c09c-d20c-d3a7-3a35-0acd3cc0ce1b/mzaf_1248819328861407392.plus.aac.p.m4a",
   "rank": 530677,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "akul"
   ]
@@ -11679,7 +12362,8 @@ window.SONGS = [
   "rank": 762956,
   "art": "https://cdn-images.dzcdn.net/images/cover/912594cc88625ecbeeb6fce8ee178a74/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/1278960492",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/4/0/2841bc65298c8f01ed07feaa2812efa9.mp3?hdnea=exp=1794898562~acl=/api/1/1/2/8/4/0/2841bc65298c8f01ed07feaa2812efa9.mp3*~data=user_id=0,application_id=42~hmac=9e9202d66db1b275fa265ca2e38f9df3de8da0e121c0ba76144e9c70fda752ca",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/4/0/2841bc65298c8f01ed07feaa2812efa9.mp3?hdnea=exp=1794900386~acl=/api/1/1/2/8/4/0/2841bc65298c8f01ed07feaa2812efa9.mp3*~data=user_id=0,application_id=42~hmac=61049655be56f93c21318f630d99ae6e6893508a9896ea5ce8960458514255a1",
+  "explicitness": "explicit",
   "hit": true,
   "tags": [
    "akul"
@@ -11700,6 +12384,7 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/71/c5/5671c513-6656-80c1-ce70-273a46324b7b/mzaf_4134154684420010349.plus.aac.p.m4a",
   "rank": 363618,
   "hit": false,
+  "explicitness": "notExplicit",
   "tags": [
    "akul"
   ]
@@ -11720,7 +12405,8 @@ window.SONGS = [
   "rank": 407240,
   "art": "https://cdn-images.dzcdn.net/images/cover/ef5abb0ea84232ad1bfd99f6eca0a100/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/1461092962",
-  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/f/f/0/0ff8b2bb9ccdc719e67ea614f59cc0a2.mp3?hdnea=exp=1794898568~acl=/api/1/1/0/f/f/0/0ff8b2bb9ccdc719e67ea614f59cc0a2.mp3*~data=user_id=0,application_id=42~hmac=fb3755f0311e8e4b8a4c779bfbc2fc328ca4c49b20bb722edf52f69918c6db11",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/f/f/0/0ff8b2bb9ccdc719e67ea614f59cc0a2.mp3?hdnea=exp=1794900388~acl=/api/1/1/0/f/f/0/0ff8b2bb9ccdc719e67ea614f59cc0a2.mp3*~data=user_id=0,application_id=42~hmac=f6bb736f54e06d796527df26b93a059efe6ae246ff55d885f4553bb197db0f1d",
+  "explicitness": "explicit",
   "hit": false,
   "tags": [
    "akul"
@@ -11741,12 +12427,13 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/24/98/f6249870-2554-3387-71a6-119e6b217d5e/mzaf_5599670517372067603.plus.aac.p.m4a",
   "rank": 405761,
   "hit": false,
+  "explicitness": "notExplicit",
   "tags": [
    "akul"
   ]
  },
  {
-  "id": 1440746111,
+  "id": 1440642735,
   "title": "Crew Love",
   "artist": "The Weeknd",
   "credit": "Drake feat. The Weeknd",
@@ -11756,11 +12443,12 @@ window.SONGS = [
   ],
   "year": 2011,
   "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d2/53/62/d2536245-b94c-b3fd-7168-9512f655f6d4/00602527899091.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/crew-love-feat-the-weeknd/1440745498?i=1440746111&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8f/fe/73/8ffe73a3-85e4-174b-35a8-0bb71bf73730/mzaf_11076272330288107983.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/74/fb/d3/74fbd365-bd52-23b4-604b-7f164407b0a9/00602527899107.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/crew-love-feat-the-weeknd/1440642493?i=1440642735&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/09/05/da0905d2-247b-c1e3-8b0a-b7af09ab7225/mzaf_69827375955436217.plus.aac.p.m4a",
   "rank": 559411,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "akul"
   ]
@@ -11780,12 +12468,13 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/68/b9/f268b907-4249-6641-2b60-d60c102e85da/mzaf_16702151399735554065.plus.aac.p.m4a",
   "rank": 514731,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "akul"
   ]
  },
  {
-  "id": 1499386250,
+  "id": 1499378596,
   "title": "Escape From LA",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
@@ -11794,11 +12483,12 @@ window.SONGS = [
   ],
   "year": 2020,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/escape-from-la/1499385848?i=1499386250&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/78/f7/26/78f726e7-9cdc-840c-c1b4-11f9b41d5d88/mzaf_10330046187604993158.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6f/bc/e6/6fbce6c4-c38c-72d8-4fd0-66cfff32f679/20UMGIM12176.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/escape-from-la/1499378108?i=1499378596&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4f/7d/36/4f7d366b-7f95-ebfd-738f-e7dddc5b1f14/mzaf_17278497472148154607.plus.aac.p.m4a",
   "rank": 566920,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "akul"
   ]
@@ -11818,12 +12508,13 @@ window.SONGS = [
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/05/2d/70052d8a-44e1-4fa2-8b24-504cf28d3506/mzaf_10428041991938795363.plus.aac.p.m4a",
   "rank": 744748,
   "hit": true,
+  "explicitness": "notExplicit",
   "tags": [
    "akul"
   ]
  },
  {
-  "id": 1440858501,
+  "id": 1440826575,
   "title": "Shameless",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
@@ -11832,17 +12523,18 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/05/1e/30051e57-a63a-3acc-4b30-42568293f5f7/15UMGIM36514.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/shameless/1440858094?i=1440858501&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/54/f7/3654f7f3-b9f9-6d6a-803e-ab79ceaade36/mzaf_7895407354704101960.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/cd/1a/40cd1a65-7948-eb96-74c6-1c4b3497456c/15UMGIM36513.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/shameless/1440826239?i=1440826575&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/32/7c/f0327c03-7685-a336-c081-e8fcaa30de72/mzaf_18159076972086249003.plus.aac.p.m4a",
   "rank": 610003,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "akul"
   ]
  },
  {
-  "id": 1440858498,
+  "id": 1440826386,
   "title": "Acquainted",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
@@ -11851,17 +12543,18 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/05/1e/30051e57-a63a-3acc-4b30-42568293f5f7/15UMGIM36514.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/acquainted/1440858094?i=1440858498&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/69/ac/94/69ac94c9-6f13-1207-b5cc-5982f5ad566a/mzaf_11717300728087956813.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/cd/1a/40cd1a65-7948-eb96-74c6-1c4b3497456c/15UMGIM36513.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/acquainted/1440826239?i=1440826386&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9a/f5/6d/9af56d3e-8f7f-1a8f-5dfa-ae545155de17/mzaf_12199321729145582476.plus.aac.p.m4a",
   "rank": 683959,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "akul"
   ]
  },
  {
-  "id": 1440858492,
+  "id": 1440826376,
   "title": "Tell Your Friends",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
@@ -11870,11 +12563,12 @@ window.SONGS = [
   ],
   "year": 2015,
   "genre": "R&B",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/05/1e/30051e57-a63a-3acc-4b30-42568293f5f7/15UMGIM36514.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/tell-your-friends/1440858094?i=1440858492&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/d8/ef/bed8ef05-81ce-94fb-70f7-46eab043103a/mzaf_13103198277877867909.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/cd/1a/40cd1a65-7948-eb96-74c6-1c4b3497456c/15UMGIM36513.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/tell-your-friends/1440826239?i=1440826376&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/6c/8d/b66c8d6f-aa54-31f9-b60e-c25d122a18c4/mzaf_12339288779527824632.plus.aac.p.m4a",
   "rank": 565349,
   "hit": true,
+  "explicitness": "explicit",
   "tags": [
    "akul"
   ]

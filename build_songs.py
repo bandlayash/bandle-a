@@ -131,6 +131,75 @@ def refresh_ranks(found):
         time.sleep(0.4)  # Deezer allows 50 requests per 5 seconds; stay well under it
 
 
+def apple_lookup(ids, **params):
+    url = "https://itunes.apple.com/lookup?" + urllib.parse.urlencode(
+        {"id": ",".join(map(str, ids)), "country": "US", **params})
+    for _ in range(4):
+        out = subprocess.run(["curl", "-s", "-m", "30", "-w", "\n%{http_code}", url],
+                             capture_output=True, text=True).stdout
+        body, _, code = out.rpartition("\n")
+        time.sleep(DELAY)
+        if code == "200":
+            return json.loads(body).get("results", [])
+        print(f"   (HTTP {code}, waiting 60s)", flush=True)
+        time.sleep(60)
+    return []
+
+
+def refresh_explicit(found):
+    """Apple's search API now returns only clean edits, so swap each one for the explicit recording:
+    first among the artist's songs, then on the explicit version of the same album."""
+    apple = [s for s in found.values() if s.get("source") != "deezer" and s.get("explicitness") in (None, "cleaned")]
+    info = {}
+    for i in range(0, len(apple), 150):
+        for r in apple_lookup([s["id"] for s in apple[i:i + 150]]):
+            if r.get("wrapperType") == "track":
+                info[r["trackId"]] = r
+    songs_of, albums_of, swapped, still_clean = {}, {}, 0, []
+    for s in apple:
+        r = info.get(s["id"])
+        if not r:
+            continue
+        s["explicitness"] = r.get("trackExplicitness")
+        if s["explicitness"] != "cleaned":
+            continue
+        want, aid = norm(core(r["trackName"])), r["artistId"]
+
+        def match(tracks):
+            return next((t for t in tracks if t.get("wrapperType") == "track" and t.get("previewUrl")
+                         and t.get("trackExplicitness") == "explicit" and norm(core(t["trackName"])) == want
+                         and not (BAD.search(t["trackName"]) and not BAD.search(r["trackName"]))), None)
+
+        if aid not in songs_of:
+            songs_of[aid] = apple_lookup([aid], entity="song", limit=200)
+        t = match(songs_of[aid])
+        if not t:
+            if aid not in albums_of:
+                albums_of[aid] = [c for c in apple_lookup([aid], entity="album", limit=200)
+                                  if c.get("wrapperType") == "collection" and c.get("collectionExplicitness") == "explicit"]
+            album = norm(core(r.get("collectionName", "")))
+            ids = [c["collectionId"] for c in albums_of[aid] if norm(core(c["collectionName"])) == album]
+            if ids:
+                t = match(apple_lookup(ids[:10], entity="song", limit=200))
+        if t:
+            s.update(id=t["trackId"], preview=t["previewUrl"], url=t.get("trackViewUrl", s["url"]),
+                     art=t.get("artworkUrl100", "").replace("100x100", "300x300") or s["art"],
+                     explicitness="explicit")
+            swapped += 1
+        else:
+            still_clean.append(f"{s['artist']} - {s['title']}")
+    print(f"Explicit versions: swapped {swapped} clean edits; {len(still_clean)} have no explicit version on Apple")
+    for name in still_clean:
+        print("   clean only:", name)
+
+
+def refresh_deezer_explicit(found):
+    """Re-pick Deezer songs chosen before explicit versions were preferred."""
+    for key, s in list(found.items()):
+        if s.get("source") == "deezer" and "explicitness" not in s:
+            found[key] = deezer_find(s["artist"], s["title"]) or {**s, "explicitness": "unknown"}
+
+
 def deezer_get(path, **params):
     url = f"https://api.deezer.com/{path}" + ("?" + urllib.parse.urlencode(params) if params else "")
     out = subprocess.run(["curl", "-s", "-m", "20", url], capture_output=True, text=True).stdout
@@ -152,7 +221,7 @@ def deezer_find(artist, title):
             and not (BAD.search(r.get("title", "")) and not BAD.search(title))]
     if not hits:
         return None
-    best = max(hits, key=lambda r: r.get("rank", 0))
+    best = max(hits, key=lambda r: (bool(r.get("explicit_lyrics")), r.get("rank", 0)))  # uncensored first
     track = deezer_get(f"track/{best['id']}") or best
     names = [c["name"] for c in track.get("contributors", [])] or [best["artist"]["name"]]
     main = best["artist"]["name"]
@@ -169,7 +238,8 @@ def deezer_find(artist, title):
             "genre": genre_of(genres[0]["name"] if genres else ""),
             "rank": best.get("rank", 0),
             "art": album.get("cover_big") or album.get("cover_medium", ""),
-            "url": track.get("link", ""), "preview": best["preview"]}
+            "url": track.get("link", ""), "preview": best["preview"],
+            "explicitness": "explicit" if best.get("explicit_lyrics") else "notExplicit"}
 
 
 def pick(results, artist, title):
@@ -268,6 +338,8 @@ def main():
         print(f"{artist}: {got}/{len(todo)} new", flush=True)
         save()
     refresh_credits(found)
+    refresh_explicit(found)
+    refresh_deezer_explicit(found)
     refresh_ranks(found)
 
     print(f"\n{save()} songs written to songs.js")
