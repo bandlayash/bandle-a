@@ -6,7 +6,8 @@ A song-guessing game that runs entirely in the browser. Each song starts as drum
 - On the start screen, filter by genre, artist (searchable, A–Z), release years and "hits only", and pick a colour scheme (Dark, Mono, Vivid, Ocean, Sunset, Forest, Midnight or the animated Faraz). The 👅 genre chip switches to a red bedroom-R&B Freak mode, and a secret code in the ⋯ menu unlocks Akul mode.
 - In the game, type your guess in the panel left of the waveforms (results show each song's release year), click a layer's name to mute it, click or drag on the waveform to seek, press ⏮ to jump back to the start, and click an artist in the side list to browse their songs. A correct guess gets confetti (emoji confetti in Freak and Akul modes). Revealed songs link to Apple Music or Deezer, and to a Spotify search for the track.
 - Songs use the explicit (uncensored) recording wherever one exists.
-- Songs don't repeat: the browser remembers what you've heard and only deals unheard songs until a pool is used up. Best scores are kept per mode.
+- Songs don't repeat: the browser remembers what you've heard and only deals unheard songs until a pool is used up (the start screen can reset this). Best scores are kept per mode.
+- The stats page (chart icon, top right) shows your daily streak, longest streak, best and average runs, songs guessed, which layer you usually get songs on, a 4-week activity grid, your last 20 runs, top artists and recent runs. Stats live in this browser only.
 - The site asks for a password first. This is a light lock only: GitHub Pages serves every file publicly, so anyone reading the code can get past it. Only a SHA-256 hash of the password is in the page.
 
 ## How it works

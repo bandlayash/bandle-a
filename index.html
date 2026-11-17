@@ -330,6 +330,55 @@
 
   #confetti { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 30; }
 
+  /* ---- stats page ---- */
+  header .hud { margin-left: auto; }
+  header #statsBtn { margin-left: auto; }
+  header .hud:not([hidden]) + #statsBtn { margin-left: 0; }
+  .statshead { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1rem; margin: .5rem 0 1.5rem; }
+  .statshead h2 { margin: 0; font-size: 1.625rem; letter-spacing: -0.01em; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr)); gap: .75rem; }
+  .tile { background: var(--panel); border: 1px solid var(--line); border-radius: .875rem; padding: .875rem 1rem; display: grid; gap: .125rem; }
+  .tile .label { font: .75rem var(--mono); color: var(--dim); text-transform: uppercase; letter-spacing: .06em; }
+  .tile .value { font: 600 1.875rem/1.15 var(--mono); letter-spacing: -0.02em; }
+  .tile .sub { font-size: .8125rem; color: var(--dim); }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr)); gap: .75rem; margin-top: .75rem; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: .875rem; padding: 1rem 1.125rem 1.125rem; min-width: 0; }
+  .card.wide { grid-column: 1 / -1; }
+  .card h3, .tablehead { font: .8125rem var(--mono); color: var(--dim); text-transform: uppercase; letter-spacing: .06em; margin: 0 0 .875rem; font-weight: 400; }
+  .card h3 .status { text-transform: none; letter-spacing: 0; margin-left: .5rem; font-size: .75rem; }
+  /* activity: one hue, more runs = stronger */
+  .activity { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; max-width: 18rem; }
+  .activity i, .key i { display: block; aspect-ratio: 1; border-radius: 4px; background: var(--line); }
+  .activity i[data-n="1"], .key i[data-n="1"] { background: color-mix(in srgb, var(--accent) 38%, var(--line)); }
+  .activity i[data-n="2"], .key i[data-n="2"] { background: color-mix(in srgb, var(--accent) 68%, var(--line)); }
+  .activity i[data-n="3"], .key i[data-n="3"] { background: var(--accent); }
+  .activity i.today { outline: 2px solid var(--text); outline-offset: 1px; }
+  .key { display: flex; align-items: center; gap: 4px; margin-top: .625rem; font: .75rem var(--mono); color: var(--dim); }
+  .key i { width: .75rem; }
+  .key span:first-child { margin-right: .25rem; } .key span:last-child { margin-left: .25rem; }
+  /* horizontal bars: thin, square at the baseline, rounded at the data end */
+  .hbars { display: grid; gap: .625rem; }
+  .hbar { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr) 3rem; align-items: center; gap: .625rem; font-size: .9375rem; }
+  .hbar .track { height: .75rem; position: relative; }
+  .hbar .fill { position: absolute; left: 0; top: 0; bottom: 0; background: var(--accent); border-radius: 0 4px 4px 0; min-width: 2px; }
+  .hbar .n { font-family: var(--mono); text-align: right; }
+  /* run columns: one series, baseline-anchored, 2px gaps, rounded tops */
+  .cols { position: relative; display: flex; align-items: flex-end; gap: 2px; height: 9rem; border-bottom: 1px solid var(--line); padding-top: 1px; }
+  .cols::before { content: "50k"; position: absolute; top: -.5rem; right: 0; font: .6875rem var(--mono); color: var(--dim); }
+  .cols::after { content: ""; position: absolute; left: 0; right: 2rem; top: 0; border-top: 1px dashed var(--line); }
+  .cols i { flex: 1; max-width: 2.25rem; background: var(--accent); border-radius: 4px 4px 0 0; min-height: 2px; }
+  .cols i.zero { background: var(--line); }
+  .toplist { margin: 0; padding: 0 0 0 1.25rem; display: grid; gap: .375rem; }
+  .toplist li::marker { color: var(--dim); font-family: var(--mono); }
+  .toplist span { color: var(--dim); font-family: var(--mono); font-size: .875rem; margin-left: .5rem; }
+  .tablehead { margin-top: 1.75rem; }
+  .runs { width: 100%; border-collapse: collapse; font-size: .9375rem; }
+  .runs th { font: .75rem var(--mono); color: var(--dim); text-transform: uppercase; letter-spacing: .06em; text-align: left; padding: 0 0 .5rem; font-weight: 400; }
+  .runs td { padding: .5rem 0; border-top: 1px solid var(--line); }
+  .runs .num { text-align: right; font-family: var(--mono); }
+  #tip { position: fixed; z-index: 35; pointer-events: none; background: var(--pop); color: var(--text); border: 1px solid var(--line);
+         border-radius: .5rem; padding: .375rem .625rem; font-size: .8125rem; box-shadow: 0 .5rem 1.25rem rgba(0,0,0,.35); white-space: nowrap; }
+
   /* phones: a step smaller so everything still fits a 375px screen */
   @media (max-width: 480px) {
     :root { font-size: 100%; --tagw: 7rem; --lane: 4.5rem; }
@@ -356,6 +405,11 @@
     #reveal p { font-size: .9375rem; }
     .total { font-size: 3.5rem; }
     .seg button { padding: .5rem .625rem; }
+    .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; }
+    .tile { padding: .75rem .8125rem; }
+    .tile .value { font-size: 1.5rem; }
+    .cards { grid-template-columns: minmax(0, 1fr); }
+    .hbar { grid-template-columns: 6rem minmax(0, 1fr) 2rem; }
   }
 </style>
 </head>
@@ -380,6 +434,9 @@
       <span class="modetag" id="modeTag" hidden></span>
     </div>
     <div class="hud" id="hud" hidden><span id="hudSong"></span><span><b id="hudScore">0</b> pts</span><span id="hudBest"></span></div>
+    <button class="iconbtn" id="statsBtn" title="Your stats" aria-label="Your stats">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M5 20V11M12 20V4M19 20v-6"/></svg>
+    </button>
   </header>
 
   <section id="start">
@@ -492,11 +549,48 @@
     <div class="startrow">
       <button class="btn primary" id="againBtn">Play another run</button>
       <button class="btn" id="optionsBtn">Change options</button>
+      <button class="btn" id="summaryStatsBtn">Your stats</button>
       <span class="status best" id="bestNote"></span>
+    </div>
+  </section>
+
+  <section id="stats" hidden>
+    <div class="statshead">
+      <h2>Your stats</h2>
+      <span class="status">Saved in this browser · runs are counted once you finish all 5 songs</span>
+    </div>
+    <p class="lede" id="statsEmpty" hidden>No finished runs yet. Play one and your streak starts here.</p>
+    <div id="statsBody">
+      <div class="tiles" id="statTiles"></div>
+      <div class="cards">
+        <div class="card">
+          <h3>Last 4 weeks</h3>
+          <div class="activity" id="activity" role="img"></div>
+          <div class="key"><span>Less</span><i data-n="0"></i><i data-n="1"></i><i data-n="2"></i><i data-n="3"></i><span>More runs</span></div>
+        </div>
+        <div class="card">
+          <h3>Layer you guessed on</h3>
+          <div class="hbars" id="layerChart"></div>
+        </div>
+        <div class="card wide">
+          <h3>Last 20 runs <span class="status">score out of 50,000</span></h3>
+          <div class="cols" id="runChart"></div>
+        </div>
+        <div class="card">
+          <h3>Artists you guess most</h3>
+          <ol class="toplist" id="topArtists"></ol>
+        </div>
+      </div>
+      <h3 class="tablehead">Recent runs</h3>
+      <table class="runs" id="recentRuns">
+        <thead><tr><th>Date</th><th>Mode</th><th>Guessed</th><th class="num">Score</th></tr></thead>
+        <tbody></tbody>
+      </table>
     </div>
   </section>
 </div>
 <canvas id="confetti" aria-hidden="true"></canvas>
+<div id="tip" role="tooltip" hidden></div>
 
 <script src="songs.js?v=7b542a59"></script>
 <script type="module">
@@ -838,7 +932,7 @@ function finish(won) {
   const earned = won ? worth() : 0;
   round.done = true; round.open.fill(true);
   run.score += earned;
-  run.results.push({ song: round.track.song, earned, won });
+  run.results.push({ song: round.track.song, earned, won, layer: round.paid, wrong: round.wrong.length });
 
   const s = round.track.song;
   $('verdict').textContent = won ? `Got it · +${fmt(earned)}` : 'Gave up · +0';
@@ -874,6 +968,7 @@ function next() {
     el('div', { className: 'songtext' }, r.song.title + ' ', el('span', { textContent: r.song.credit || r.song.artist })),
     el('b', { textContent: fmt(r.earned) }))));
   $('bestNote').textContent = `Best: ${fmt(best)}`;
+  recordRun(run);
   player.track = null; round = null; $('hud').hidden = true;
   show('summary');
 }
@@ -882,6 +977,114 @@ function goHome() {  // back to the start screen, abandoning any run in progress
   stopAudio(); run = round = player.track = null;
   $('hud').hidden = true; setStatus(''); show('start'); renderStart();
 }
+
+/* ---------- stats: every finished run is kept in this browser ---------- */
+const dayKey = (d = new Date()) => d.toLocaleDateString('en-CA');  // local YYYY-MM-DD
+const MODE_NAMES = { normal: 'Normal', freak: '👅 Freak', akul: 'Akul' };
+function recordRun(r) {
+  const runs = store.get('runs', []);
+  runs.push({
+    t: Date.now(), day: dayKey(), mode: r.mode, score: r.score, max: r.songs.length * START_WORTH,
+    songs: r.results.map(x => ({ id: x.song.id, title: x.song.title, artist: x.song.artist, won: x.won, layer: x.layer, wrong: x.wrong })),
+  });
+  store.set('runs', runs.slice(-500));
+}
+function streaks(runs) {
+  const days = new Set(runs.map(r => r.day));
+  const back = (d, n = 1) => { const c = new Date(d); c.setDate(c.getDate() - n); return c; };
+  const run = from => { let n = 0; for (let d = from; days.has(dayKey(d)); d = back(d)) n++; return n; };
+  // Today's streak, or yesterday's if you haven't played yet today (it's still alive until midnight).
+  const playedToday = days.has(dayKey());
+  const current = playedToday ? run(new Date()) : run(back(new Date()));
+  let longest = 0, len = 0, prev = null;
+  for (const day of [...days].sort()) {
+    const d = new Date(day + 'T12:00');
+    len = prev && Math.round((d - prev) / 864e5) === 1 ? len + 1 : 1;
+    longest = Math.max(longest, len); prev = d;
+  }
+  return { current, longest, playedToday };
+}
+function tile(label, value, sub = '') {
+  return el('div', { className: 'tile' }, el('span', { className: 'label', textContent: label }),
+    el('span', { className: 'value', textContent: value }), el('span', { className: 'sub', textContent: sub }));
+}
+function showStats() {
+  if (run) { stopAudio(); run = round = player.track = null; $('hud').hidden = true; setStatus(''); applyLook(); }
+  renderStats(); show('stats'); window.scrollTo(0, 0);
+}
+function renderStats() {
+  const runs = store.get('runs', []), songs = runs.flatMap(r => r.songs), won = songs.filter(x => x.won);
+  $('statsEmpty').hidden = runs.length > 0; $('statsBody').hidden = !runs.length;
+  if (!runs.length) return;
+  const st = streaks(runs);
+  const bestIn = m => Math.max(bestFor(m), ...runs.filter(r => r.mode === m).map(r => r.score));
+  const bestAny = Math.max(...['normal', 'freak', 'akul'].map(bestIn));
+  const avg = Math.round(runs.reduce((a, r) => a + r.score, 0) / runs.length);
+  const pct = songs.length ? Math.round(won.length / songs.length * 100) : 0;
+  const modeBests = ['freak', 'akul'].filter(m => bestIn(m)).map(m => `${MODE_NAMES[m]} ${fmt(bestIn(m))}`).join(' · ');
+  $('statTiles').replaceChildren(
+    tile('Daily streak', `🔥 ${st.current}`, st.current ? (st.playedToday ? 'played today' : 'play today to keep it') : 'play a run to start one'),
+    tile('Longest streak', `${st.longest}`, st.longest === 1 ? 'day' : 'days'),
+    tile('Best run', fmt(bestAny), modeBests || 'out of 50,000'),
+    tile('Average run', fmt(avg), `over ${runs.length} run${runs.length === 1 ? '' : 's'}`),
+    tile('Songs guessed', `${pct}%`, `${won.length} of ${songs.length}`),
+    tile('Drums only', `${won.filter(x => x.layer === 0).length}`, 'named from the beat alone'),
+    tile('Total points', fmt(runs.reduce((a, r) => a + r.score, 0)), ''),
+  );
+
+  // Last 4 weeks, oldest first, ending today
+  const perDay = runs.reduce((m, r) => (m[r.day] = (m[r.day] || 0) + 1, m), {});
+  $('activity').replaceChildren(...Array.from({ length: 28 }, (_, i) => {
+    const d = new Date(); d.setDate(d.getDate() - (27 - i));
+    const key = dayKey(d), n = perDay[key] || 0;
+    const cell = el('i'); cell.dataset.n = Math.min(n, 3);
+    if (i === 27) cell.className = 'today';
+    cell.dataset.tip = `${d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}: ${n ? `${n} run${n === 1 ? '' : 's'}` : 'no runs'}`;
+    return cell;
+  }));
+  $('activity').setAttribute('aria-label', `Runs per day over the last 4 weeks; ${Object.keys(perDay).length} days played in total`);
+
+  // Which layer you were on when you named the song
+  const counts = PARTS.map((_, i) => won.filter(x => x.layer === i).length), top = Math.max(1, ...counts);
+  const LAYER_LABELS = ['Drums', '+ Bass', '+ Instruments', '+ Vocals'];
+  $('layerChart').replaceChildren(...counts.map((n, i) => {
+    const fill = el('div', { className: 'fill' }); fill.style.width = `${n / top * 100}%`;
+    const row = el('div', { className: 'hbar' }, el('span', { textContent: LAYER_LABELS[i] }), el('div', { className: 'track' }, fill),
+      el('span', { className: 'n', textContent: n }));
+    row.dataset.tip = `${n} song${n === 1 ? '' : 's'} guessed with ${LAYER_LABELS[i] === 'Drums' ? 'only the drums' : `the ${LAYER_LABELS[i].slice(2).toLowerCase()} added`}${won.length ? ` (${Math.round(n / won.length * 100)}%)` : ''}`;
+    return row;
+  }));
+
+  // Last 20 runs as columns
+  $('runChart').replaceChildren(...runs.slice(-20).map(r => {
+    const col = el('i', { className: r.score ? '' : 'zero' });
+    col.style.height = `${Math.max(1.5, r.score / (r.max || 50000) * 100)}%`;
+    col.dataset.tip = `${new Date(r.t).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })} · ${MODE_NAMES[r.mode] || r.mode} · ${fmt(r.score)}`;
+    return col;
+  }));
+
+  const byArtist = won.reduce((m, x) => (m[x.artist] = (m[x.artist] || 0) + 1, m), {});
+  const ranked = Object.entries(byArtist).sort((a, b) => b[1] - a[1]).slice(0, 5);
+  $('topArtists').replaceChildren(...(ranked.length ? ranked : [['Nobody yet', 0]]).map(([a, n]) =>
+    el('li', {}, a, el('span', { textContent: n ? `${n} guessed` : '' }))));
+
+  $('recentRuns').tBodies[0].replaceChildren(...runs.slice(-10).reverse().map(r => el('tr', {},
+    el('td', { textContent: new Date(r.t).toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) }),
+    el('td', { textContent: MODE_NAMES[r.mode] || r.mode }),
+    el('td', { textContent: `${r.songs.filter(x => x.won).length}/${r.songs.length}` }),
+    el('td', { className: 'num', textContent: fmt(r.score) }))));
+}
+// One shared tooltip for anything on the stats page with a data-tip
+$('stats').addEventListener('pointermove', e => {
+  const target = e.target.closest('[data-tip]');
+  $('tip').hidden = !target;
+  if (!target) return;
+  $('tip').textContent = target.dataset.tip;
+  const w = $('tip').offsetWidth;
+  $('tip').style.left = Math.min(innerWidth - w - 8, e.clientX + 12) + 'px';
+  $('tip').style.top = (e.clientY + 16) + 'px';
+});
+$('stats').addEventListener('pointerleave', () => { $('tip').hidden = true; });
 
 /* ---------- confetti for a correct guess (emoji confetti in Akul and Freak modes) ---------- */
 const CONFETTI_EMOJI = { akul: ['🍆', '🍑', '😩', '💦', '🫦'], freak: ['👅'] };
@@ -921,7 +1124,7 @@ function confetti() {
 
 /* ---------- rendering ---------- */
 function show(id) {
-  for (const s of ['start', 'game', 'summary']) $(s).hidden = s !== id;
+  for (const s of ['start', 'game', 'summary', 'stats']) $(s).hidden = s !== id;
   $('app').classList.toggle('wide', id === 'game');
 }
 function applyLook() {
@@ -1158,6 +1361,7 @@ $('akulOn').onchange = () => { prefs.akul = $('akulOn').checked; renderStart(); 
 SONGS.forEach(s => s.hay = norm(`${s.title} ${s.credit || ''} ${s.artist}`));
 $('startBtn').onclick = $('againBtn').onclick = startRun;
 $('optionsBtn').onclick = $('homeBtn').onclick = goHome;
+$('statsBtn').onclick = $('summaryStatsBtn').onclick = showStats;
 $('playBtn').onclick = () => player.playing ? pause() : play();
 $('addBtn').onclick = addPart;
 $('skipBtn').onclick = () => round && !round.done && finish(false);
