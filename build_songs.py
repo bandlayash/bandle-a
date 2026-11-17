@@ -310,9 +310,19 @@ def main():
                 ranks_by_artist.setdefault(s["artist"], []).append(s["rank"])
         for r in ranks_by_artist.values():
             r.sort(reverse=True)
-        songs, seen = [], set()
+        def who(song):
+            return {norm(a) for a in song.get("artists", [])} | {norm(song["artist"])}
+
+        songs, seen, by_title = [], set(), {}
         for key in wanted:
             song = found.get(key)
+            # The same song listed under two artists (e.g. a feature) can resolve to two releases,
+            # such as a single and an album version. Keep the first and merge the other's tags into it.
+            twin = next((t for t in by_title.get(norm(core(song["title"])), []) if who(t) & who(song)), None) if song else None
+            if twin is not None:
+                if tags[key]:
+                    twin["tags"] = sorted(set(twin.get("tags", [])) | tags[key])
+                continue
             if song and song["id"] not in seen:
                 seen.add(song["id"])
                 out = {**song, "year": years.get(key, song["year"]), "hit": is_hit(song, ranks_by_artist)}
@@ -320,6 +330,7 @@ def main():
                 if tags[key]:
                     out["tags"] = sorted(tags[key])
                 songs.append(out)
+                by_title.setdefault(norm(core(out["title"])), []).append(out)
         OUT.write_text("window.SONGS = " + json.dumps(songs, ensure_ascii=False, indent=1)
                        + ";\n", encoding="utf-8")
         return len(songs)
