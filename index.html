@@ -219,22 +219,21 @@
   #secretPanel { display: grid; gap: .75rem; justify-items: end; width: min(24rem, 100%); }
   #secretForm { display: flex; gap: .5rem; width: 100%; }
 
-  /* ---- game screen: guess panel | waveforms | artists in play ---- */
-  #game { display: grid; grid-template-columns: 19rem minmax(0, 1fr) 12rem; grid-template-areas: "guess board roster"; gap: 2rem; align-items: start; }
-  .guesscol { grid-area: guess; display: grid; gap: .875rem; }
+  /* ---- game screen: guess panel | waveforms, with the artists in play along the bottom ---- */
+  #game { display: grid; grid-template-columns: minmax(22rem, 26rem) minmax(0, 1fr); grid-template-areas: "guess board" "roster roster"; gap: 2rem 2.25rem; align-items: start; }
+  .guesscol { grid-area: guess; display: grid; gap: .875rem; min-width: 0; }
   .board { grid-area: board; min-width: 0; }
-  #roster { grid-area: roster; }
+  #roster { grid-area: roster; border-top: 1px solid var(--line); padding-top: 1.25rem; }
   .colhead, #roster h2 { font: .8125rem var(--mono); color: var(--dim); text-transform: uppercase; letter-spacing: .08em; margin: 0 0 .625rem; font-weight: 400; }
   #guessing, #answer { display: grid; gap: .875rem; align-content: start; }
-  #roster ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; max-height: 34rem; overflow: auto; }
+  #roster ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; }
   #roster button { font-size: 1rem; color: var(--dim); padding: .25rem 0; text-align: left; }
   #roster button:hover { color: var(--text); }
-  @media (max-width: 1180px) {
-    #game { grid-template-columns: 17rem minmax(0, 1fr); grid-template-areas: "guess board" "roster board"; }
+  @media (max-width: 1100px) {
+    #game { grid-template-columns: minmax(18rem, 22rem) minmax(0, 1fr); gap: 1.75rem; }
   }
   @media (max-width: 760px) {
     #game { grid-template-columns: minmax(0, 1fr); grid-template-areas: "board" "guess" "roster"; gap: 1.25rem; }
-    #roster ul { flex-direction: row; flex-wrap: wrap; gap: 0 1rem; max-height: none; }
   }
 
   /* ---- stage ---- */
@@ -286,13 +285,14 @@
     background: var(--panel); color: var(--text); font: inherit;
   }
   #guess::placeholder, #secretCode::placeholder, .gatebox input::placeholder { color: var(--dim); }
+  /* results sit inside the guess panel (pushing the rest down) rather than floating over the page */
   #suggest {
-    position: absolute; z-index: 5; left: 0; right: 0; top: calc(100% + .375rem); margin: 0; padding: .3125rem; list-style: none;
-    background: var(--pop); border: 1px solid var(--line); border-radius: .75rem; max-height: 24rem; overflow: auto;
-    box-shadow: 0 .75rem 2rem rgba(0,0,0,.4);
+    margin: .375rem 0 0; padding: .3125rem; list-style: none;
+    background: var(--pop); border: 1px solid var(--line); border-radius: .75rem; max-height: 26rem; overflow: auto;
   }
   #suggest li { padding: .4375rem .625rem; border-radius: .5rem; cursor: pointer; font-size: 1.0625rem; display: flex; align-items: center; gap: .75rem; }
-  #suggest li span { color: var(--dim); }
+  #suggest li span { color: var(--dim); display: block; font-size: .875rem; overflow: hidden; text-overflow: ellipsis; }  /* artist · year on its own line */
+  #suggest li { padding-top: .5rem; padding-bottom: .5rem; line-height: 1.3; }
   #suggest li[aria-selected="true"] { background: var(--sel); }
   .thumb { width: 2.5rem; height: 2.5rem; border-radius: .375rem; object-fit: cover; flex: none; background: var(--line); }
   .songtext { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -927,8 +927,9 @@ function applyLook() {
   $('modeTag').textContent = m === 'akul' ? 'Akul mode' : 'Freak mode';
   if (round) renderLanes();
 }
-function cover(song) {
-  return el('img', { className: 'thumb', src: song.art || '', alt: '', loading: 'lazy', decoding: 'async' });
+function cover(song) {  // small thumbnails: Apple's 100px artwork, Deezer's small cover
+  const src = (song.art || '').replace('/300x300bb', '/100x100bb').replace('/500x500-', '/120x120-');
+  return el('img', { className: 'thumb', src, alt: '', loading: 'lazy', decoding: 'async' });
 }
 function renderRoster() {
   // Normal runs list just the artists you picked (that have songs in this run's pool);
