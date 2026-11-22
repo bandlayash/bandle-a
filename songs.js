@@ -10196,7 +10196,7 @@ window.SONGS = [
   "url": "https://music.apple.com/us/album/trap-queen/1039458694?i=1039459590&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/29/fc/0f29fc80-1bff-bb23-a1d8-d8b03915f629/mzaf_4678247671581372877.plus.aac.p.m4a",
   "rank": 303538,
-  "hit": false,
+  "hit": true,
   "explicitness": "explicit"
  },
  {
@@ -10282,8 +10282,8 @@ window.SONGS = [
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/4a/5e/98/4a5e9874-3b60-3dd2-f496-3707a6f03cc0/814908020912.jpg/300x300bb.jpg",
   "url": "https://music.apple.com/us/album/jimmy-choo/1080769969?i=1080769973&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/a3/b2/7aa3b231-f794-888d-0f89-5e269b6d10c2/mzaf_14702929961177122847.plus.aac.p.m4a",
-  "rank": 0,
-  "hit": true,
+  "rank": 119340,
+  "hit": false,
   "explicitness": "explicit"
  },
  {
@@ -10931,6 +10931,659 @@ window.SONGS = [
   "rank": 770077,
   "hit": true,
   "explicitness": "notExplicit"
+ },
+ {
+  "id": 1836115703,
+  "title": "Dior",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke",
+  "artists": [
+   "Pop Smoke"
+  ],
+  "year": 2019,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/b1/69/3eb16907-74e8-fa15-06d0-8ace9a146a2e/00602508001857_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/dior/1836115527?i=1836115703&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/e0/56/f1e0560a-8cb2-7dd7-4b85-3f0d1faa1278/mzaf_11710176117625380814.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 771630,
+  "hit": true
+ },
+ {
+  "id": 1836115681,
+  "title": "Welcome to the Party",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke",
+  "artists": [
+   "Pop Smoke"
+  ],
+  "year": 2019,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/b1/69/3eb16907-74e8-fa15-06d0-8ace9a146a2e/00602508001857_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/welcome-to-the-party/1836115527?i=1836115681&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/a1/ae/0ba1aec7-8e06-e789-7cb9-5df7e0d5f5a1/mzaf_15532267140267132477.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 559687,
+  "hit": false
+ },
+ {
+  "id": 1836132954,
+  "title": "Mood Swings",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke feat. Lil Tjay",
+  "artists": [
+   "Pop Smoke",
+   "Lil Tjay"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7d/40/3b/7d403bba-2866-63d8-7cdd-7fe11c46f0d3/00602507456610_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/mood-swings-feat-lil-tjay/1836132713?i=1836132954&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/47/a2/6c/47a26c62-448d-1179-dd7e-485a897035ed/mzaf_13734378668123685993.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 691937,
+  "hit": true
+ },
+ {
+  "id": 1836134813,
+  "title": "What You Know Bout Love",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke",
+  "artists": [
+   "Pop Smoke"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/70/12/907012c1-87cc-8bed-c69d-d2eac294a03b/00602435015613_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/what-you-know-bout-love/1836134248?i=1836134813&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/90/4d/4d/904d4d49-3158-54c7-eb84-480ec3093511/mzaf_14479178940448764230.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 751600,
+  "hit": true
+ },
+ {
+  "id": "dz3529770231",
+  "source": "deezer",
+  "dz": 3529770231,
+  "title": "For the Night",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke feat. Lil Baby & DaBaby",
+  "artists": [
+   "Pop Smoke",
+   "Lil Baby",
+   "DaBaby"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "rank": 742648,
+  "art": "https://cdn-images.dzcdn.net/images/cover/e25e149e1fd2f560a571c77555ced4bb/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/3529770231",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/4/c/0/14c914eeaf579cdae015629429d85a52.mp3?hdnea=exp=1795336316~acl=/api/1/1/1/4/c/0/14c914eeaf579cdae015629429d85a52.mp3*~data=user_id=0,application_id=42~hmac=b1e99a8ef545ab3110d1da82ac4fa335f43e3bed90f76aead709a265de179681",
+  "explicitness": "explicit",
+  "hit": true
+ },
+ {
+  "id": 1836135250,
+  "title": "Hello",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke feat. A Boogie wit da Hoodie",
+  "artists": [
+   "Pop Smoke",
+   "A Boogie wit da Hoodie"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/70/12/907012c1-87cc-8bed-c69d-d2eac294a03b/00602435015613_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/hello-feat-a-boogie-wit-da-hoodie/1836134248?i=1836135250&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/14/dd/ee/14ddee52-88c1-aea0-5b50-19bf92430992/mzaf_13300453053451508532.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 677332,
+  "hit": true
+ },
+ {
+  "id": 1835997120,
+  "title": "Invincible",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke",
+  "artists": [
+   "Pop Smoke"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/81/ed/05/81ed0574-2cfc-c6a1-c8e7-cfebd70def65/00602508792380_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/invincible/1835997119?i=1835997120&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/73/1c/ec731c16-2b3a-1a3a-2b23-0726e4b89aa9/mzaf_16158258959592116759.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 675629,
+  "hit": true
+ },
+ {
+  "id": 1835997126,
+  "title": "Christopher Walking",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke",
+  "artists": [
+   "Pop Smoke"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/81/ed/05/81ed0574-2cfc-c6a1-c8e7-cfebd70def65/00602508792380_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/christopher-walking/1835997119?i=1835997126&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/32/aa/fd32aaf5-ca2b-b196-7971-06502d693a83/mzaf_3734610175155293033.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 425734,
+  "hit": false
+ },
+ {
+  "id": 1835997121,
+  "title": "Shake the Room",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke feat. Quavo",
+  "artists": [
+   "Pop Smoke",
+   "Quavo"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/81/ed/05/81ed0574-2cfc-c6a1-c8e7-cfebd70def65/00602508792380_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/shake-the-room-feat-quavo/1835997119?i=1835997121&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c7/4f/f0/c74ff0e3-bcf7-8df5-237c-7c27145fed70/mzaf_12139311148987870019.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 487915,
+  "hit": false
+ },
+ {
+  "id": 1836134824,
+  "title": "Got It on Me",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke",
+  "artists": [
+   "Pop Smoke"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/70/12/907012c1-87cc-8bed-c69d-d2eac294a03b/00602435015613_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/got-it-on-me/1836134248?i=1836134824&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/02/c3/5f02c324-e814-424b-d898-5c72689076f7/mzaf_12185378083069456141.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 592567,
+  "hit": false
+ },
+ {
+  "id": 1838446178,
+  "title": "Make It Rain",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke feat. Rowdy Rebel",
+  "artists": [
+   "Pop Smoke",
+   "Rowdy Rebel"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/4b/70/354b7039-a3cf-1970-e822-2ccbd6b4d4c2/00602507318789_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/make-it-rain-feat-rowdy-rebel/1838446172?i=1838446178&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d8/1c/95/d81c95ac-fb68-251d-bcf6-4793c973e311/mzaf_4288743573065214976.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 466707,
+  "hit": false
+ },
+ {
+  "id": 1835993295,
+  "title": "Element",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke",
+  "artists": [
+   "Pop Smoke"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ad/33/17/ad33172d-31bd-6100-df98-9217696f1ddd/00602508442223_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/element/1835993284?i=1835993295&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/fd/ef/7dfdefac-05fc-759f-5688-4ee688f9baa7/mzaf_11896676757044612166.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 528488,
+  "hit": false
+ },
+ {
+  "id": 1836132968,
+  "title": "Something Special",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke",
+  "artists": [
+   "Pop Smoke"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7d/40/3b/7d403bba-2866-63d8-7cdd-7fe11c46f0d3/00602507456610_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/something-special/1836132713?i=1836132968&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/9f/ef/0d9fef3c-88ac-950b-2695-5376db869a0e/mzaf_2645406467260822429.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 520924,
+  "hit": false
+ },
+ {
+  "id": 1835993009,
+  "title": "Bout a Million",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke feat. 21 Savage & 42 Dugg",
+  "artists": [
+   "Pop Smoke",
+   "21 Savage",
+   "42 Dugg"
+  ],
+  "year": 2021,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/08/d9/e708d9ea-cd0a-3d6f-442b-41b21e8947e3/00602438717750_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/bout-a-million-feat-21-savage-42-dugg/1835992995?i=1835993009&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/53/22/5a/53225a4e-ea9c-e231-2029-4717efba1def/mzaf_1198153303711970702.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 434327,
+  "hit": false
+ },
+ {
+  "id": 1836134255,
+  "title": "Aim for the Moon",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke feat. Quavo",
+  "artists": [
+   "Pop Smoke",
+   "Quavo"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/70/12/907012c1-87cc-8bed-c69d-d2eac294a03b/00602435015613_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/aim-for-the-moon-feat-quavo/1836134248?i=1836134255&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/c3/c8/1bc3c858-9e77-1e4e-500b-50fc70018731/mzaf_18193773500561770531.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 475962,
+  "hit": false
+ },
+ {
+  "id": 1835993229,
+  "title": "30",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke feat. Bizzy Banks",
+  "artists": [
+   "Pop Smoke",
+   "Bizzy Banks"
+  ],
+  "year": 2021,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/08/d9/e708d9ea-cd0a-3d6f-442b-41b21e8947e3/00602438717750_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/30-feat-bizzy-banks/1835992995?i=1835993229&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/ed/9f/70ed9f68-8052-27af-fec5-6a146585cec3/mzaf_17822094920576277053.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 307879,
+  "hit": false
+ },
+ {
+  "id": 1835993299,
+  "title": "Mannequin",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke feat. Lil Tjay",
+  "artists": [
+   "Pop Smoke",
+   "Lil Tjay"
+  ],
+  "year": 2020,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ad/33/17/ad33172d-31bd-6100-df98-9217696f1ddd/00602508442223_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/mannequin-feat-lil-tjay/1835993284?i=1835993299&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/7b/d5/127bd5ae-0afa-79ce-8f68-e91db20109ae/mzaf_5170220079389090683.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 519199,
+  "hit": false
+ },
+ {
+  "id": 1836277442,
+  "title": "Woo Baby",
+  "artist": "Pop Smoke",
+  "credit": "Pop Smoke feat. Chris Brown",
+  "artists": [
+   "Pop Smoke",
+   "Chris Brown"
+  ],
+  "year": 2021,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/c9/41/82c94118-dbf2-db8b-b6a2-fd10b90e0dfd/00602438619979_Cover.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/woo-baby-feat-chris-brown/1836276765?i=1836277442&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e2/93/bd/e293bdbe-39bf-e203-b01b-d5c78e2c7255/mzaf_3653250377791979581.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 631986,
+  "hit": false
+ },
+ {
+  "id": 1321217032,
+  "title": "Havana",
+  "artist": "Camila Cabello",
+  "credit": "Camila Cabello feat. Young Thug",
+  "artists": [
+   "Camila Cabello",
+   "Young Thug"
+  ],
+  "year": 2017,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/85/28/70/85287029-19b9-cbe3-d1ab-300781875bf4/886446870298.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/havana-feat-young-thug/1321216767?i=1321217032&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/42/fe/7d42fe40-78b9-c546-861e-bda5788bba4e/mzaf_7434858341023410545.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 916460,
+  "hit": true
+ },
+ {
+  "id": 1468910018,
+  "title": "Señorita",
+  "artist": "Camila Cabello",
+  "credit": "Shawn Mendes & Camila Cabello",
+  "artists": [
+   "Shawn Mendes",
+   "Camila Cabello"
+  ],
+  "year": 2019,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/46/fe/4a/46fe4a39-feb4-7b8b-97b9-0187d49a46bd/19UMGIM53914.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/se%C3%B1orita/1468910011?i=1468910018&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/06/d6/cf06d6fd-f7a0-2898-8363-67688df6c14f/mzaf_8234301186390421644.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 844854,
+  "hit": true
+ },
+ {
+  "id": 1321217021,
+  "title": "Never Be the Same",
+  "artist": "Camila Cabello",
+  "credit": "Camila Cabello",
+  "artists": [
+   "Camila Cabello"
+  ],
+  "year": 2017,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/85/28/70/85287029-19b9-cbe3-d1ab-300781875bf4/886446870298.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/never-be-the-same/1321216767?i=1321217021&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4e/7b/a2/4e7ba217-b7cb-0df2-2ea4-19120bd497bc/mzaf_3130532990706214969.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 794813,
+  "hit": true
+ },
+ {
+  "id": 1610834871,
+  "title": "Bam Bam",
+  "artist": "Camila Cabello",
+  "credit": "Camila Cabello feat. Ed Sheeran",
+  "artists": [
+   "Camila Cabello",
+   "Ed Sheeran"
+  ],
+  "year": 2022,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b7/e3/2f/b7e32fd7-7ca3-edf6-7df8-861bfcfd6f9a/886449526772.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/bam-bam-feat-ed-sheeran/1610834866?i=1610834871&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/5b/b7/285bb720-dc8e-ec39-d695-50f7317d0eb3/mzaf_12634987122525693998.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 832247,
+  "hit": true
+ },
+ {
+  "id": 1576806330,
+  "title": "Don't Go Yet",
+  "artist": "Camila Cabello",
+  "credit": "Camila Cabello",
+  "artists": [
+   "Camila Cabello"
+  ],
+  "year": 2021,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a7/ba/21/a7ba21d5-84f7-aba8-28a0-59e376f65c91/886449422241.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/dont-go-yet/1576806329?i=1576806330&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1d/be/60/1dbe6000-8b25-ee49-f88a-76b7db9ea03a/mzaf_16906716016787987809.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 726974,
+  "hit": true
+ },
+ {
+  "id": 1487577497,
+  "title": "My Oh My",
+  "artist": "Camila Cabello",
+  "credit": "Camila Cabello feat. DaBaby",
+  "artists": [
+   "Camila Cabello",
+   "DaBaby"
+  ],
+  "year": 2019,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c5/d5/7e/c5d57e36-4270-8730-d009-5e82a71016f7/886448121220.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/my-oh-my-feat-dababy/1487577356?i=1487577497&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/c2/28/e3c22828-281c-b3e6-3553-a1690784f677/mzaf_2558720137181385830.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 756029,
+  "hit": true
+ },
+ {
+  "id": 1478601842,
+  "title": "Liar",
+  "artist": "Camila Cabello",
+  "credit": "Camila Cabello",
+  "artists": [
+   "Camila Cabello"
+  ],
+  "year": 2019,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/60/5e/3f/605e3f52-f6e2-a1ba-62bd-33f7ab32b305/886447928004.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/liar/1478601841?i=1478601842&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/3a/a5/1e3aa5f9-bf35-1bbe-88ab-9fb3fe12d8b6/mzaf_15131257504582188061.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 645164,
+  "hit": false
+ },
+ {
+  "id": 1478601583,
+  "title": "Shameless",
+  "artist": "Camila Cabello",
+  "credit": "Camila Cabello",
+  "artists": [
+   "Camila Cabello"
+  ],
+  "year": 2019,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a7/a2/46/a7a24662-3a0e-5f00-3f38-b321b89d6d4e/886447905470.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/shameless/1478601578?i=1478601583&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/ed/f6/3dedf601-422b-631a-a732-016b486191bc/mzaf_5293678245725216879.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 828199,
+  "hit": true
+ },
+ {
+  "id": 1321217034,
+  "title": "Consequences",
+  "artist": "Camila Cabello",
+  "credit": "Camila Cabello",
+  "artists": [
+   "Camila Cabello"
+  ],
+  "year": 2018,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/85/28/70/85287029-19b9-cbe3-d1ab-300781875bf4/886446870298.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/consequences/1321216767?i=1321217034&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/61/ed/b161ed94-26bc-381b-cd81-ed6ec757b42f/mzaf_12796758337392836688.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 533596,
+  "hit": false
+ },
+ {
+  "id": 1236883400,
+  "title": "Crying in the Club",
+  "artist": "Camila Cabello",
+  "credit": "Camila Cabello",
+  "artists": [
+   "Camila Cabello"
+  ],
+  "year": 2017,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/66/d1/d5/66d1d52f-0aeb-05ef-62ca-64c077d64bce/886446504209.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/crying-in-the-club/1236882907?i=1236883400&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/14/54/cd/1454cd77-8211-6c88-bd96-500d48c3f8e5/mzaf_13464115734031948589.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 674867,
+  "hit": true
+ },
+ {
+  "id": 1440849850,
+  "title": "I Know What You Did Last Summer",
+  "artist": "Camila Cabello",
+  "credit": "Shawn Mendes & Camila Cabello",
+  "artists": [
+   "Shawn Mendes",
+   "Camila Cabello"
+  ],
+  "year": 2015,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ef/06/de/ef06deeb-3890-e06f-905c-5686e23c2b88/15UMGIM06404.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/i-know-what-you-did-last-summer/1440849566?i=1440849850&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dd/89/88/dd8988b6-5eb1-eb4a-72ca-d91912e66b78/mzaf_14906937719391678592.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 816725,
+  "hit": true
+ },
+ {
+  "id": 1442899721,
+  "title": "Bad Things",
+  "artist": "Camila Cabello",
+  "credit": "mgk & Camila Cabello",
+  "artists": [
+   "mgk",
+   "Camila Cabello"
+  ],
+  "year": 2016,
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c1/0c/aa/c10caa4a-262c-ab72-4ab2-10f93545590f/17UMGIM89198.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/bad-things/1442899494?i=1442899721&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/f8/bb/36f8bb9f-04f2-76ac-4820-74e23ec7b4d2/mzaf_16134850737324775557.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 0,
+  "hit": true
+ },
+ {
+  "id": 1419758422,
+  "title": "Beautiful",
+  "artist": "Camila Cabello",
+  "credit": "Bazzi feat. Camila Cabello",
+  "artists": [
+   "Bazzi",
+   "Camila Cabello"
+  ],
+  "year": 2016,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9c/a1/54/9ca1544e-7de5-2f42-62b8-10fc6c082b27/075679864895.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/beautiful-feat-camila-cabello/1419758421?i=1419758422&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/4d/38/474d3805-b6f5-ddfc-1ec7-e8ed1cac36a3/mzaf_5401976791312976765.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 609887,
+  "hit": false
+ },
+ {
+  "id": 1321217035,
+  "title": "Real Friends",
+  "artist": "Camila Cabello",
+  "credit": "Camila Cabello",
+  "artists": [
+   "Camila Cabello"
+  ],
+  "year": 2017,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/85/28/70/85287029-19b9-cbe3-d1ab-300781875bf4/886446870298.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/real-friends/1321216767?i=1321217035&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a4/83/21/a48321aa-866d-436f-3528-0159c36591e4/mzaf_16747174184116652783.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 378596,
+  "hit": false
+ },
+ {
+  "id": 1487577579,
+  "title": "First Man",
+  "artist": "Camila Cabello",
+  "credit": "Camila Cabello",
+  "artists": [
+   "Camila Cabello"
+  ],
+  "year": 2019,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c5/d5/7e/c5d57e36-4270-8730-d009-5e82a71016f7/886448121220.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/first-man/1487577356?i=1487577579&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/58/16/fb/5816fb03-7bbe-5969-974c-cad0d87738fe/mzaf_6077136905760941876.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 464552,
+  "hit": false
+ },
+ {
+  "id": 1487577492,
+  "title": "Living Proof",
+  "artist": "Camila Cabello",
+  "credit": "Camila Cabello",
+  "artists": [
+   "Camila Cabello"
+  ],
+  "year": 2019,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c5/d5/7e/c5d57e36-4270-8730-d009-5e82a71016f7/886448121220.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/living-proof/1487577356?i=1487577492&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/6c/dd/856cdde4-b1b5-21d7-3e48-b021f6952312/mzaf_8296541274300983641.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 395010,
+  "hit": false
+ },
+ {
+  "id": 1737886288,
+  "title": "I Luv It",
+  "artist": "Camila Cabello",
+  "credit": "Camila Cabello & Playboi Carti",
+  "artists": [
+   "Camila Cabello",
+   "Playboi Carti"
+  ],
+  "year": 2024,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/68/f3/2c68f317-9c29-fbdc-2cd0-934733293cc1/24UMGIM31101.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/i-luv-it/1737886285?i=1737886288&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cc/d6/cc/ccd6ccbb-a919-e02a-49fd-04296976d7e4/mzaf_13113961051247491293.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 553263,
+  "hit": false
+ },
+ {
+  "id": 1482838030,
+  "title": "Easy",
+  "artist": "Camila Cabello",
+  "credit": "Camila Cabello",
+  "artists": [
+   "Camila Cabello"
+  ],
+  "year": 2019,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/33/a5/3b/33a53bd7-4370-dff0-08bb-c2472ddfbfff/886448051824.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/easy/1482838019?i=1482838030&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d8/3c/df/d83cdfd8-593d-b8ec-317f-ea4b0b3c7e81/mzaf_4272576456887737710.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 462879,
+  "hit": false
+ },
+ {
+  "id": 1464549675,
+  "title": "South of the Border",
+  "artist": "Camila Cabello",
+  "credit": "Ed Sheeran feat. Camila Cabello & Cardi B",
+  "artists": [
+   "Ed Sheeran",
+   "Camila Cabello",
+   "Cardi B"
+  ],
+  "year": 2019,
+  "genre": "Pop",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ba/e2/2a/bae22a5e-c878-da64-0ecc-4a3584a1a139/190295411411.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/south-of-the-border-feat-camila-cabello-cardi-b/1464549183?i=1464549675&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/5c/c8/185cc818-ce4e-8789-7b33-88bfd35de3af/mzaf_16453604079127258361.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 683055,
+  "hit": true
  },
  {
   "id": 157465470,
@@ -12157,8 +12810,8 @@ window.SONGS = [
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f1/7f/7a/f17f7a98-1e96-b29d-2916-df7fcf63f34e/13UAAIM69533.rgb.jpg/300x300bb.jpg",
   "url": "https://music.apple.com/us/album/professional/1422667786?i=1422667802&uo=4",
   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/bc/3b/2abc3b4e-08e7-b724-ada3-8c07a42fe3af/mzaf_4232615497002808726.plus.aac.p.m4a",
-  "rank": 0,
-  "hit": true,
+  "rank": 489071,
+  "hit": false,
   "explicitness": "notExplicit",
   "tags": [
    "akul"
