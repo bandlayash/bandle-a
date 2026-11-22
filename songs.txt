@@ -1,6 +1,7 @@
 # One song per line:  Artist - Title
 # The artist name is what the on/off chips on the start screen use.
-# Add "| 2016" at the end to fix a release year Apple gets wrong.
+# Add "| 2016" at the end to fix a release year Apple gets wrong, or "| Rap" to fix a genre
+# (Rap, R&B, Pop, House/EDM or Rock) when Apple files a song under its album's genre.
 # Tags put a song in a special mode: #freak (Freak genre), #akul (secret Akul mode).
 # An artist whose songs are all tagged gets no chip; they only appear in those modes.
 # After editing, run:  python3 build_songs.py
@@ -16,7 +17,7 @@ Drake - Passionfruit
 Drake - Nonstop
 Drake - Toosie Slide
 Drake - Rich Flex
-Drake - Jimmy Cooks
+Drake - Jimmy Cooks | Rap
 Drake - Best I Ever Had
 Drake - Take Care
 Drake - Headlines
@@ -57,9 +58,9 @@ Taylor Swift - Wildest Dreams
 Taylor Swift - Anti-Hero
 Taylor Swift - Cruel Summer
 Taylor Swift - Lover
-Taylor Swift - cardigan
-Taylor Swift - willow
-Taylor Swift - august
+Taylor Swift - cardigan | Pop
+Taylor Swift - willow | Pop
+Taylor Swift - august | Pop
 Taylor Swift - We Are Never Ever Getting Back Together
 Taylor Swift - I Knew You Were Trouble
 Taylor Swift - 22
@@ -421,7 +422,7 @@ Destroy Lonely - if looks could kill
 Destroy Lonely - NOSTYLIST
 Destroy Lonely - VTMNTSCOAT
 Destroy Lonely - JETLGGD
-Destroy Lonely - Bane
+Destroy Lonely - Bane | Rap
 Destroy Lonely - blitz
 Destroy Lonely - how u feel?
 Destroy Lonely - Turn Up Ya Nose

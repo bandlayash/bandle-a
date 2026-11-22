@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Turn songs.txt ("Artist - Title" per line, optional "| year" and "#tags") into songs.js.
+"""Turn songs.txt ("Artist - Title" per line, optional "| year", "| Genre" and "#tags") into songs.js.
 
 Looks the songs up in Apple's public iTunes Search API (one request per artist,
 plus one per song it couldn't find that way) and keeps each track's id, year,
@@ -18,8 +18,11 @@ HERE = Path(__file__).parent
 SRC, OUT, PAGE = HERE / "songs.txt", HERE / "songs.js", HERE / "index.html"
 DELAY = 3.2  # Apple allows roughly 20 searches a minute
 BAD = re.compile(r"karaoke|tribute|\blive\b|remix|re-?recorded|instrumental|cover|"
-                 r"made famous|acoustic|demo|\bedit\b|mix\)|version\)|sped up|slowed|a cappella",
+                 r"made famous|acoustic|demo|(?<!radio )\bedit\b|mix\)|mix\]|version\)|version\]|sped up|slowed|a cappella|"
+                 r"\bdub\b|extended|club mix|\brmx\b|bootleg|rework|workout",
                  re.I)
+# Albums that hold remixes, live sets or re-recordings rather than the original release.
+BAD_ALBUM = re.compile(r"remix|karaoke|tribute|\blive\b|workout|fitness|cardio|lullab|instrumental|made famous", re.I)
 
 
 # A song counts as a hit if its Deezer rank (0 to 1,000,000) is at least HIT_RANK, or it is in the top
@@ -43,6 +46,16 @@ def genre_of(apple_genre):
 def norm(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
     return re.sub(r"[^a-z0-9]", "", s.replace("&", "and"))
+
+
+def compilation(r):
+    """True for a various-artists compilation (a "best of 2010s" album, not the artist's own release)."""
+    return (r.get("collectionArtistName") or "").lower() in ("various artists", "verschiedene interpreten")
+
+
+def preference(r):
+    """Sort key, best first: uncensored, the artist's own release, the album version over a radio edit."""
+    return (r.get("trackExplicitness") == "cleaned", compilation(r), "radio edit" in r.get("trackName", "").lower())
 
 
 def core(title):
@@ -148,9 +161,10 @@ def apple_lookup(ids, **params):
 
 
 def refresh_explicit(found):
-    """Apple's search API now returns only clean edits, so swap each one for the explicit recording:
-    first among the artist's songs, then on the explicit version of the same album."""
-    apple = [s for s in found.values() if s.get("source") != "deezer" and s.get("explicitness") in (None, "cleaned")]
+    """Apple's search API now returns only clean edits, and sometimes only compilation copies. Swap each
+    clean edit for the explicit recording, and each compilation copy for the artist's own release:
+    first among the artist's songs, then on the matching album."""
+    apple = [s for s in found.values() if s.get("source") != "deezer"]
     info = {}
     for i in range(0, len(apple), 150):
         for r in apple_lookup([s["id"] for s in apple[i:i + 150]]):
@@ -162,14 +176,22 @@ def refresh_explicit(found):
         if not r:
             continue
         s["explicitness"] = r.get("trackExplicitness")
-        if s["explicitness"] != "cleaned":
+        clean, comp = s["explicitness"] == "cleaned", compilation(r)
+        if not clean and not comp:
             continue
         want, aid = norm(core(r["trackName"])), r["artistId"]
 
         def match(tracks):
-            return next((t for t in tracks if t.get("wrapperType") == "track" and t.get("previewUrl")
-                         and t.get("trackExplicitness") == "explicit" and norm(core(t["trackName"])) == want
-                         and not (BAD.search(t["trackName"]) and not BAD.search(r["trackName"]))), None)
+            ok = [t for t in tracks if t.get("wrapperType") == "track" and t.get("previewUrl")
+                  and norm(core(t["trackName"])) == want and t.get("trackExplicitness") != "cleaned"
+                  and not (BAD.search(t["trackName"]) and not BAD.search(r["trackName"]))
+                  and not BAD_ALBUM.search(t.get("collectionName", ""))]
+            if clean:  # a clean edit must become the explicit recording
+                ok = [t for t in ok if t.get("trackExplicitness") == "explicit"]
+            if comp:   # a compilation copy is only worth swapping for the artist's own release
+                ok = [t for t in ok if not compilation(t)]
+            ok.sort(key=lambda t: (compilation(t), t.get("trackExplicitness") != "explicit"))
+            return ok[0] if ok else None
 
         if aid not in songs_of:
             songs_of[aid] = apple_lookup([aid], entity="song", limit=200)
@@ -179,17 +201,19 @@ def refresh_explicit(found):
                 albums_of[aid] = [c for c in apple_lookup([aid], entity="album", limit=200)
                                   if c.get("wrapperType") == "collection" and c.get("collectionExplicitness") == "explicit"]
             album = norm(core(r.get("collectionName", "")))
-            ids = [c["collectionId"] for c in albums_of[aid] if norm(core(c["collectionName"])) == album]
+            ids = [c["collectionId"] for c in albums_of[aid] if norm(core(c["collectionName"])) == album] if not comp else []
             if ids:
                 t = match(apple_lookup(ids[:10], entity="song", limit=200))
         if t:
             s.update(id=t["trackId"], preview=t["previewUrl"], url=t.get("trackViewUrl", s["url"]),
                      art=t.get("artworkUrl100", "").replace("100x100", "300x300") or s["art"],
-                     explicitness="explicit")
+                     explicitness=t.get("trackExplicitness"))
+            if comp:
+                s["genre"] = genre_of(t.get("primaryGenreName"))  # the compilation's genre may not be the song's
             swapped += 1
-        else:
+        elif clean:
             still_clean.append(f"{s['artist']} - {s['title']}")
-    print(f"Explicit versions: swapped {swapped} clean edits; {len(still_clean)} have no explicit version on Apple")
+    print(f"Explicit/original versions: swapped {swapped}; {len(still_clean)} clean edits have no explicit version on Apple")
     for name in still_clean:
         print("   clean only:", name)
 
@@ -219,7 +243,8 @@ def deezer_find(artist, title):
     hits = [r for r in results
             if r.get("preview") and norm(core(r.get("title", ""))) in (want_t, norm(title))
             and credited(want_a, r.get("artist", {}).get("name", ""), r.get("title", ""))
-            and not (BAD.search(r.get("title", "")) and not BAD.search(title))]
+            and not (BAD.search(r.get("title", "")) and not BAD.search(title))
+            and not BAD_ALBUM.search(r.get("album", {}).get("title", ""))]
     if not hits:
         return None
     best = max(hits, key=lambda r: (bool(r.get("explicit_lyrics")), r.get("rank", 0)))  # uncensored first
@@ -257,10 +282,10 @@ def pick(results, artist, title):
             continue
         if BAD.search(name) and not BAD.search(title):
             continue
-        if re.search(r"karaoke|tribute|\blive\b", r.get("collectionName", ""), re.I):
+        if BAD_ALBUM.search(r.get("collectionName", "")) and not BAD_ALBUM.search(title):
             continue
         hits.append(r)
-    hits.sort(key=lambda r: r.get("trackExplicitness") == "cleaned")  # stable: uncensored first
+    hits.sort(key=preference)
     if not hits:
         return None
     best = hits[0]
@@ -274,21 +299,25 @@ def pick(results, artist, title):
 
 
 def main():
-    wanted, years, tags = [], {}, {}
+    wanted, years, tags, genres = [], {}, {}, {}
+    genre_names = {label for _, label in GENRES}
     for line in SRC.read_text(encoding="utf-8").splitlines():
         line = line.strip()
         if line and not line.startswith("#") and " - " in line:
             line_tags = re.findall(r"\s#(\w+)", line)
             line = re.sub(r"\s#\w+", "", line)
-            line, _, year = line.partition("|")
+            line, *extras = line.split("|")
             artist, title = line.split(" - ", 1)
             key = (artist.strip(), title.strip())
             if key not in tags:
                 wanted.append(key)
                 tags[key] = set()
             tags[key].update(line_tags)
-            if year.strip():
-                years[key] = int(year)
+            for extra in (x.strip() for x in extras):  # "| 2016" fixes the year, "| Rap" fixes the genre
+                if extra.isdigit():
+                    years[key] = int(extra)
+                elif extra in genre_names:
+                    genres[key] = extra
 
     found = {}
     if OUT.exists():
@@ -325,7 +354,8 @@ def main():
                 continue
             if song and song["id"] not in seen:
                 seen.add(song["id"])
-                out = {**song, "year": years.get(key, song["year"]), "hit": is_hit(song, ranks_by_artist)}
+                out = {**song, "year": years.get(key, song["year"]), "genre": genres.get(key, song.get("genre", "Pop")),
+                       "hit": is_hit(song, ranks_by_artist)}
                 out.pop("tags", None)
                 if tags[key]:
                     out["tags"] = sorted(tags[key])

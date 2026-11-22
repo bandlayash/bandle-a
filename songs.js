@@ -203,7 +203,7 @@ window.SONGS = [
    "Drake",
    "21 Savage"
   ],
-  "genre": "House/EDM",
+  "genre": "Rap",
   "rank": 720516,
   "hit": true,
   "explicitness": "explicit"
@@ -480,21 +480,21 @@ window.SONGS = [
   ]
  },
  {
-  "id": 1440845641,
+  "id": 1440826577,
   "title": "Earned It",
   "artist": "The Weeknd",
   "credit": "The Weeknd",
   "year": 2014,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/fd/7a/13/fd7a1394-5ce1-6da6-93ad-977533762a1f/15UMGIM00463.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/earned-it/1440845197?i=1440845641&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/04/13/7a/04137aba-99fa-6331-81d5-d69097ab97be/mzaf_3869073502048666760.plus.aac.p.m4a",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/cd/1a/40cd1a65-7948-eb96-74c6-1c4b3497456c/15UMGIM36513.rgb.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/earned-it-fifty-shades-of-grey/1440826239?i=1440826577&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bd/39/99/bd399910-ad8a-6041-b9ae-f9da81aa0a16/mzaf_441883562521846976.plus.aac.p.m4a",
   "artists": [
    "The Weeknd"
   ],
-  "genre": "Pop",
+  "genre": "R&B",
   "rank": 865300,
   "hit": true,
-  "explicitness": "notExplicit",
+  "explicitness": "explicit",
   "tags": [
    "akul",
    "freak"
@@ -901,7 +901,7 @@ window.SONGS = [
   "artists": [
    "Taylor Swift"
   ],
-  "genre": "Rock",
+  "genre": "Pop",
   "rank": 817566,
   "hit": true,
   "explicitness": "notExplicit"
@@ -918,7 +918,7 @@ window.SONGS = [
   "artists": [
    "Taylor Swift"
   ],
-  "genre": "Rock",
+  "genre": "Pop",
   "rank": 670872,
   "hit": true,
   "explicitness": "notExplicit"
@@ -935,7 +935,7 @@ window.SONGS = [
   "artists": [
    "Taylor Swift"
   ],
-  "genre": "Rock",
+  "genre": "Pop",
   "rank": 740231,
   "hit": true,
   "explicitness": "notExplicit"
@@ -1217,21 +1217,23 @@ window.SONGS = [
   "explicitness": "notExplicit"
  },
  {
-  "id": 1444900365,
+  "id": "dz13529559",
+  "source": "deezer",
+  "dz": 13529559,
   "title": "S&M",
   "artist": "Rihanna",
   "credit": "Rihanna",
-  "year": 2011,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/92/a3/b3/92a3b3d9-eac8-27a5-3657-faa4d6386caf/00602527641133.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/s-m-joe-bermudez-chico-dub/1444900041?i=1444900365&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2e/e2/24/2ee22469-c3ae-a9d0-bc02-6fea22a340ea/mzaf_7010960517401174984.plus.aac.p.m4a",
   "artists": [
    "Rihanna"
   ],
-  "genre": "House/EDM",
+  "year": 2011,
+  "genre": "Pop",
   "rank": 949369,
+  "art": "https://cdn-images.dzcdn.net/images/cover/3a12c64bb52a167944783878ffe41f02/500x500-000000-80-0-0.jpg",
+  "url": "https://www.deezer.com/track/13529559",
+  "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/1/e/0/21e9019453ca68928cbbbddcffb082d3.mp3?hdnea=exp=1795337124~acl=/api/1/1/2/1/e/0/21e9019453ca68928cbbbddcffb082d3.mp3*~data=user_id=0,application_id=42~hmac=c27951e393364c806c9c9cd54678a832969588810172f021dea4a10b23e88873",
+  "explicitness": "explicit",
   "hit": true,
-  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
@@ -2463,21 +2465,21 @@ window.SONGS = [
   "explicitness": "explicit"
  },
  {
-  "id": 598318605,
+  "id": 1713469225,
   "title": "Feel So Close",
   "artist": "Calvin Harris",
   "credit": "Calvin Harris",
-  "year": 2011,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/07/71/8b/07718b36-082e-dbb9-b214-801735aa7767/886443854642.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/feel-so-close-nero-dub/598318596?i=598318605&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c2/30/65/c23065fd-6ee1-39e1-45c6-fe862b3ff741/mzaf_2464382855696747083.plus.aac.p.m4a",
   "artists": [
    "Calvin Harris"
   ],
+  "year": 2011,
   "genre": "House/EDM",
-  "rank": 433010,
-  "hit": false,
-  "explicitness": "notExplicit"
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ab/af/22/abaf2296-ed4d-6da2-c24d-503cfdfa4c1f/0617465356858.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/feel-so-close-radio-edit/1713469222?i=1713469225&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/dd/64/98dd6479-1897-c0de-00a8-083853b68650/mzaf_4134237101880966720.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 478314,
+  "hit": false
  },
  {
   "id": 922876189,
@@ -2677,22 +2679,22 @@ window.SONGS = [
   "explicitness": "notExplicit"
  },
  {
-  "id": 598317507,
+  "id": 1713469224,
   "title": "Bounce",
   "artist": "Calvin Harris",
   "credit": "Calvin Harris feat. Kelis",
-  "year": 2011,
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/65/ee/9165eeb2-1e3a-2622-4dd3-1a795afa584b/886443854826.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/bounce-feat-kelis-extended-mix/598317500?i=598317507&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/78/ee/b6/78eeb6e5-d1cc-95ab-a01e-6ae4c4a3118c/mzaf_2697582261391801979.plus.aac.p.m4a",
   "artists": [
    "Calvin Harris",
    "Kelis"
   ],
+  "year": 2011,
   "genre": "House/EDM",
-  "rank": 171044,
-  "hit": false,
-  "explicitness": "notExplicit"
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ab/af/22/abaf2296-ed4d-6da2-c24d-503cfdfa4c1f/0617465356858.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/bounce-feat-kelis-radio-edit/1713469222?i=1713469224&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/fa/5e/f5fa5e0b-1d5d-e1cf-72be-a1110f4c521c/mzaf_8473840440089978855.plus.aac.p.m4a",
+  "explicitness": "notExplicit",
+  "rank": 149400,
+  "hit": false
  },
  {
   "id": 1673798699,
@@ -6513,21 +6515,21 @@ window.SONGS = [
   "explicitness": "explicit"
  },
  {
-  "id": 1440818980,
+  "id": 1440819203,
   "title": "Swimming Pools (Drank)",
   "artist": "Kendrick Lamar",
   "credit": "Kendrick Lamar",
   "artists": [
    "Kendrick Lamar"
   ],
-  "year": 2012,
+  "year": 2014,
   "genre": "Rap",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ca/5b/c0/ca5bc0b3-d81d-cc6c-0d19-54b9eedb6dbd/12UMGIM52990.rgb.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/swimming-pools-drank-extended-version/1440818890?i=1440818980&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/26/e1/6026e138-6318-9c9a-94b4-d64856d97ffb/mzaf_10545076008461274924.plus.aac.p.m4a",
-  "rank": 824975,
-  "hit": true,
-  "explicitness": "explicit"
+  "url": "https://music.apple.com/us/album/swimming-pools-drank-bonus-track/1440818890?i=1440819203&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/f3/f8/5df3f890-c571-b48e-e2e9-a5f096e0447e/mzaf_3653306925859059747.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 881479,
+  "hit": true
  },
  {
   "id": 1440818969,
@@ -6966,7 +6968,7 @@ window.SONGS = [
    "Destroy Lonely"
   ],
   "year": 2019,
-  "genre": "Pop",
+  "genre": "Rap",
   "rank": 474088,
   "art": "https://cdn-images.dzcdn.net/images/cover/6d3377c5762f195c3f3c7613a5d205e4/500x500-000000-80-0-0.jpg",
   "url": "https://www.deezer.com/track/722822682",
@@ -8441,7 +8443,7 @@ window.SONGS = [
   "explicitness": "explicit"
  },
  {
-  "id": 1689239206,
+  "id": 1692268134,
   "title": "Barbie World",
   "artist": "Nicki Minaj",
   "credit": "Nicki Minaj & Ice Spice feat. Aqua",
@@ -8451,13 +8453,13 @@ window.SONGS = [
    "Aqua"
   ],
   "year": 2023,
-  "genre": "Pop",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c0/54/97/c05497aa-c19f-bf4f-de29-71edf30fbefb/075679688767.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/barbie-world-with-aqua/1689238301?i=1689239206&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/5d/13/195d1394-c91a-27cd-63a2-c783361eb975/mzaf_11304170247462285205.plus.aac.p.m4a",
+  "genre": "Rap",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ee/7d/83/ee7d83c6-df89-ddf3-6db0-6e7278f384d1/075679679475.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/barbie-world-with-aqua-from-barbie-the-album/1692268040?i=1692268134&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/84/e2/20/84e220bf-c780-e08e-44e9-cc3389dec30a/mzaf_5974635968191362413.plus.aac.p.m4a",
   "rank": 561408,
   "hit": false,
-  "explicitness": "notExplicit"
+  "explicitness": "explicit"
  },
  {
   "id": 1031354882,
@@ -12698,7 +12700,7 @@ window.SONGS = [
   ]
  },
  {
-  "id": 1526798944,
+  "id": 63490852,
   "title": "Grind With Me",
   "artist": "Pretty Ricky",
   "credit": "Pretty Ricky",
@@ -12706,13 +12708,13 @@ window.SONGS = [
    "Pretty Ricky"
   ],
   "year": 2005,
-  "genre": "Rap",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/13/eb/5e/13eb5ebb-7517-1ea5-b28e-edaa04f2d169/5059460040625.jpg/300x300bb.jpg",
-  "url": "https://music.apple.com/us/album/grind-with-me/1526798798?i=1526798944&uo=4",
-  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/bc/d9/02/bcd90224-4353-d0d8-b321-5259904cb1ae/mzaf_3498862297526096709.plus.aac.p.m4a",
-  "rank": 562182,
+  "genre": "R&B",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/df/3e/5d/df3e5dab-875a-853c-3294-13d2ff615845/s06.sdmfvwrr.jpg/300x300bb.jpg",
+  "url": "https://music.apple.com/us/album/grind-with-me/63490904?i=63490852&uo=4",
+  "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/0c/3b/980c3b43-cb4b-3522-a970-39e068e1e1be/mzaf_9685024024609498528.plus.aac.p.m4a",
+  "explicitness": "explicit",
+  "rank": 569573,
   "hit": true,
-  "explicitness": "notExplicit",
   "tags": [
    "freak"
   ]
