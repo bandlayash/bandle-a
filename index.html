@@ -127,6 +127,8 @@
   }
 
   * { box-sizing: border-box; }
+  html { touch-action: manipulation; -webkit-text-size-adjust: 100%; }  /* no double-tap zoom on buttons */
+  button, .chip, #suggest li { -webkit-tap-highlight-color: transparent; }
   body {
     margin: 0; min-height: 100vh; background: var(--bgimg), var(--bg); background-attachment: fixed; color: var(--text);
     font: 1rem/1.45 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
@@ -173,7 +175,7 @@
   .opt h2 button { font: inherit; text-transform: none; letter-spacing: 0; text-decoration: underline; text-underline-offset: 3px; padding: 0; }
   .opt h2 .push { margin-left: auto; }
   .chips { display: flex; flex-wrap: wrap; gap: .5rem; }
-  .searchbox { width: min(22rem, 100%); padding: .625rem .875rem; margin-bottom: .75rem; border-radius: .625rem; border: 1px solid var(--line); background: var(--panel); color: var(--text); font: inherit; font-size: .9375rem; }
+  .searchbox { width: min(22rem, 100%); padding: .625rem .875rem; margin-bottom: .75rem; border-radius: .625rem; border: 1px solid var(--line); background: var(--panel); color: var(--text); font: inherit; font-size: max(16px, .9375rem); }  /* under 16px, iPhones zoom the page on focus */
   .searchbox::placeholder { color: var(--dim); }
   .chip { padding: .5rem .9375rem; border-radius: 999px; border: 1px solid var(--line); font-size: 1rem; color: var(--dim); }
   .chip small { font: .75rem var(--mono); margin-left: .4375rem; opacity: .6; }
@@ -207,6 +209,11 @@
   .range input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; background: none; pointer-events: none; -webkit-appearance: none; appearance: none; }
   .range input::-webkit-slider-thumb { -webkit-appearance: none; pointer-events: auto; width: 1.375rem; height: 1.375rem; border-radius: 50%; background: var(--text); border: 3px solid var(--bg); cursor: grab; }
   .range input::-moz-range-thumb { pointer-events: auto; width: 1.125rem; height: 1.125rem; border-radius: 50%; background: var(--text); border: 3px solid var(--bg); cursor: grab; }
+  @media (pointer: coarse) {  /* finger-sized handles */
+    .range { height: 2.75rem; }
+    .range input::-webkit-slider-thumb { width: 1.875rem; height: 1.875rem; }
+    .range input::-moz-range-thumb { width: 1.625rem; height: 1.625rem; }
+  }
   .range input::-webkit-slider-runnable-track { background: none; }
   .range input::-moz-range-track { background: none; }
   .yearlabel { color: var(--text); text-transform: none; letter-spacing: 0; }
@@ -476,7 +483,7 @@
     </div>
     <p class="status heardline" id="heardLine" hidden><span id="heardNote"></span> <button class="linkbtn" id="resetHeard"></button></p>
     <p class="status" id="engineNote"></p>
-    <p class="status" id="gpuNote" hidden>This browser has no WebGPU, so splitting each song will be slow. A current Chrome, Edge or Safari works best.</p>
+    <p class="status" id="gpuNote" hidden>This device is splitting songs on its CPU (no usable GPU here), so each song takes longer to get ready. A recent Chrome, Edge or Safari on a computer is fastest.</p>
 
     <div class="secret">
       <button class="secretbtn" id="secretBtn" title="Secret options" aria-label="Secret options" aria-expanded="false">⋯</button>
@@ -642,10 +649,11 @@ const audio = () => ctx ??= new AudioContext({ sampleRate: 44100 });
 
 function engine() {
   return engineReady ??= new Promise((resolve, reject) => {
-    worker = new Worker('worker.js?v=2', { type: 'module' });
+    worker = new Worker('worker.js?v=3', { type: 'module' });
     worker.onmessage = ({ data: m }) => {
       const job = jobs.get(m.id);
       if (m.type === 'status') setStatus(m.text);
+      else if (m.type === 'backend') $('gpuNote').hidden = m.backend !== 'wasm';  // CPU mode: warn that it's slower
       else if (m.type === 'ready') { setStatus('Ready.'); resolve(); }
       else if (m.type === 'fatal') reject(new Error(m.message));
       else if (m.type === 'progress') job?.progress(m.p);
@@ -726,9 +734,13 @@ function stopAudio() {
 // audio clock with the page clock, so this moves smoothly every frame and already allows for output
 // delay (large on Bluetooth). Older browsers fall back to currentTime minus the reported latency.
 function heardTime() {
+  const fallback = ctx.currentTime - (ctx.outputLatency || ctx.baseLatency || 0);
   const ts = ctx.getOutputTimestamp?.();
-  if (ts && ts.performanceTime > 0) return ts.contextTime + (performance.now() - ts.performanceTime) / 1000;
-  return ctx.currentTime - (ctx.outputLatency || ctx.baseLatency || 0);
+  if (ts && ts.performanceTime > 0) {
+    const t = ts.contextTime + (performance.now() - ts.performanceTime) / 1000;
+    if (Math.abs(t - fallback) < 0.5) return t;  // trust it only when it agrees with the audio clock
+  }
+  return fallback;
 }
 function position() {
   if (!player.track) return 0;
@@ -868,13 +880,18 @@ function startRun() {
   if (!songs.length) return;
   audio().resume();
   run = { mode: mode(), songs, idx: 0, score: 0, results: [], pool: pool() };  // pool: what the guess box searches
-  // Split the songs one after another in the background so later ones are ready when you get there.
-  const mine = run;
-  let chain = Promise.resolve();
-  run.prep = songs.map((_, i) => chain = chain.catch(() => {}).then(() => mine === run ? prepareSlot(mine, i) : null));
-  run.prep.forEach(p => p.catch(() => {}));
+  run.prep = [];
   show('game'); $('hud').hidden = false; applyLook();
   renderRoster(); loadSong();
+}
+
+// Each split song holds ~40 MB of audio, so only the current song and the next one are prepared
+// at a time (phones reload the page if it holds much more). They're split one after the other.
+function ensurePrepared(r, i) {
+  if (i >= r.songs.length || r.prep[i]) return;
+  const before = (i > 0 && r.prep[i - 1]) || Promise.resolve();
+  r.prep[i] = before.catch(() => {}).then(() => r === run ? prepareSlot(r, i) : null);
+  r.prep[i].catch(() => {});
 }
 
 async function prepareSlot(r, i) {
@@ -896,6 +913,7 @@ async function loadSong() {
   if (run.idx > 0) setStatus('Getting the next song ready…');
   renderHud(); renderLanes(); renderTransport(); renderWrong(); drawHead();
   let track;
+  ensurePrepared(run, run.idx); ensurePrepared(run, run.idx + 1);
   try { track = await run.prep[run.idx]; }
   catch (err) { if (mine === run) setStatus(`Couldn't load a song: ${err.message}. Check your connection and reload.`, true); return; }
   if (mine !== run || !track) return;
@@ -905,7 +923,8 @@ async function loadSong() {
   player.track = track; player.offset = 0;
   $('busy').hidden = true;
   renderLanes(); renderTransport();
-  $('guess').value = ''; $('guess').focus();
+  $('guess').value = '';
+  if (matchMedia('(pointer: fine)').matches) $('guess').focus();  // on touch screens this would pop the keyboard up
   play(0);
 }
 
@@ -1078,7 +1097,7 @@ function renderStats() {
     el('td', { className: 'num', textContent: fmt(r.score) }))));
 }
 // One shared tooltip for anything on the stats page with a data-tip
-$('stats').addEventListener('pointermove', e => {
+function showTip(e) {
   const target = e.target.closest('[data-tip]');
   $('tip').hidden = !target;
   if (!target) return;
@@ -1086,7 +1105,9 @@ $('stats').addEventListener('pointermove', e => {
   const w = $('tip').offsetWidth;
   $('tip').style.left = Math.min(innerWidth - w - 8, e.clientX + 12) + 'px';
   $('tip').style.top = (e.clientY + 16) + 'px';
-});
+}
+$('stats').addEventListener('pointermove', showTip);
+$('stats').addEventListener('pointerdown', showTip);  // touch screens have no hover: tap a mark to see it
 $('stats').addEventListener('pointerleave', () => { $('tip').hidden = true; });
 
 /* ---------- confetti for a correct guess (emoji confetti in Akul and Freak modes) ---------- */
@@ -1238,13 +1259,15 @@ function updateSuggest() {
     const li = el('li', {}, cover(s), el('div', { className: 'songtext' }, s.title + ' ',
       el('span', { textContent: `${s.credit || s.artist} · ${s.year}` })));
     li.setAttribute('aria-selected', i === cursor);
-    li.onmousedown = e => { e.preventDefault(); choose(s); };
+    li.onmousedown = e => e.preventDefault();  // keep focus (and the keyboard) in the guess box
+    li.onclick = () => choose(s);              // a tap, not the start of a scroll
     return li;
   }));
 }
 function choose(song) { $('guess').value = ''; closeSuggest(); guess(song); }
 $('guess').addEventListener('input', updateSuggest);
-$('guess').addEventListener('blur', closeSuggest);
+// Close the results on a tap elsewhere, not on blur: on phones, hiding the keyboard to see the list blurs the box.
+document.addEventListener('pointerdown', e => { if (!e.target.closest('.field')) closeSuggest(); });
 $('guess').addEventListener('keydown', e => {
   if (e.key === 'Escape') return closeSuggest();
   if (!matches.length) return;
@@ -1379,7 +1402,7 @@ addEventListener('resize', () => round && renderLanes());
 function boot() {
   $('gate').hidden = true; $('app').hidden = false;
   renderStart();
-  $('gpuNote').hidden = !!navigator.gpu;
+  try { if (navigator.audioSession) navigator.audioSession.type = 'playback'; } catch {}  // iPhone: play even with the silent switch on
   if (!SONGS.length) setStatus('songs.js is missing or empty — run: python3 build_songs.py', true);
   else engine().catch(err => setStatus(`Couldn't load the separation model: ${err.message}`, true));  // warm up while you pick options
 }

@@ -18,7 +18,7 @@ There is no backend and no audio in this repository.
 2. The page streams that preview from Apple and splits it into drums, bass, instruments and vocals in a background worker (`worker.js`), using the [Demucs](https://github.com/facebookresearch/demucs) model through [demucs-web](https://github.com/timcsy/demucs-web) and [ONNX Runtime Web](https://onnxruntime.ai/). Running it off the main thread keeps the page and the playhead smooth while upcoming songs are prepared.
 3. The model (about 180 MB) is downloaded from Hugging Face on the first visit and cached by the browser.
 
-Splitting a song takes a few seconds with WebGPU (current Chrome, Edge or Safari). Without WebGPU it still works, but slowly.
+Splitting a song takes a few seconds with WebGPU (current Chrome, Edge or Safari). Without WebGPU, or on a phone whose GPU can't hold the model, it falls back to the CPU: it still works, but each song takes longer, and the start screen says so. To stay within phone memory, the game only prepares the current song and the next one, and if a phone resets its GPU (for example after switching apps) the model is rebuilt and the song retried.
 
 ## Run it locally
 
